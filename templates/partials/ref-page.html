@@ -1,0 +1,133 @@
+<div class="ref-page">
+  <div class="eyebrow eyebrow--ref">Quick Reference — Bookmark Card</div>
+  <h2>Rules at a Glance</h2>
+
+  <!-- UNIT BOOKMARK CARDS -->
+  <div class="bookmark-wrap">
+
+    <div class="bm-card">
+      <div class="bm-card-title">Infantry</div>
+      <span class="bm-unit-icon">🪖</span>
+      <div class="bm-count">1 token</div>
+      <div class="bm-restrict">
+        <div class="bm-row"><div class="bm-dot dot-r"></div>Cannot pass own Infantry</div>
+        <div class="bm-row"><div class="bm-dot dot-r"></div>Cannot pass own Artillery</div>
+        <div class="bm-row"><div class="bm-dot dot-g"></div>Can pass own Airborne</div>
+        <div class="bm-row"><div class="bm-dot dot-g"></div>Can pass own Bases</div>
+        <div class="bm-row"><div class="bm-dot dot-r"></div>Cannot pass enemy units</div>
+        <div class="bm-label">Biomes</div>
+        <div class="bm-row"><div class="bm-dot dot-water"></div>✗ Water alone</div>
+        <div class="bm-row"><div class="bm-dot dot-desert"></div>✗ Desert alone</div>
+      </div>
+    </div>
+
+    <div class="bm-card">
+      <div class="bm-card-title">Artillery</div>
+      <span class="bm-unit-icon">🎯</span>
+      <div class="bm-count">2 tokens</div>
+      <div class="bm-restrict">
+        <div class="bm-row"><div class="bm-dot dot-g"></div>Can jump own/enemy infantry</div>
+        <div class="bm-row"><div class="bm-dot dot-g"></div>Can jump own/enemy artillery</div>
+        <div class="bm-row"><div class="bm-dot dot-g"></div>Can pass own Airborne</div>
+        <div class="bm-row"><div class="bm-dot dot-g"></div>Can pass own Bases</div>
+        <div class="bm-row"><div class="bm-dot dot-r"></div>✗ Enemy Airborne/Base</div>
+        <div class="bm-label">Biomes</div>
+        <div class="bm-row"><div class="bm-dot dot-water"></div>✗ Water alone</div>
+        <div class="bm-row"><div class="bm-dot dot-forest"></div>? Cannot attack from</div>
+      </div>
+    </div>
+
+    <div class="bm-card">
+      <div class="bm-card-title">Airborne</div>
+      <span class="bm-unit-icon">✈️</span>
+      <div class="bm-count">3 tokens</div>
+      <div class="bm-restrict">
+        <div class="bm-row"><div class="bm-dot dot-g"></div>Can pass own infantry</div>
+        <div class="bm-row"><div class="bm-dot dot-g"></div>Can pass own artillery</div>
+        <div class="bm-row"><div class="bm-dot dot-g"></div>Can pass own/enemy Airborne</div>
+        <div class="bm-row"><div class="bm-dot dot-g"></div>Can pass own/enemy Bases</div>
+        <div class="bm-row"><div class="bm-dot dot-r"></div>✗ Enemy infantry/artillery</div>
+        <div class="bm-label">Biomes</div>
+        <div class="bm-row"><div class="bm-dot dot-mountain"></div>✗ Mountain alone</div>
+        <div class="bm-row"><div class="bm-dot dot-mountain"></div>✗ Cannot pass w/o Base</div>
+      </div>
+    </div>
+
+    <div class="bm-card">
+      <div class="bm-card-title">Nuke</div>
+      <span class="bm-unit-icon">☢️</span>
+      <div class="bm-count">1 token + isotope</div>
+      <div class="bm-restrict">
+        <div class="bm-row"><div class="bm-dot dot-g"></div>Can jump own/enemy infantry</div>
+        <div class="bm-row"><div class="bm-dot dot-g"></div>Can jump own artillery</div>
+        <div class="bm-row"><div class="bm-dot dot-g"></div>Can redirect via own Airborne</div>
+        <div class="bm-row"><div class="bm-dot dot-g"></div>Can redirect via own Bases</div>
+        <div class="bm-row"><div class="bm-dot dot-r"></div>✗ Enemy artillery/airborne/base</div>
+        <div class="bm-label">Biomes</div>
+        <div class="bm-row"><div class="bm-dot dot-water"></div>? Cannot target empty</div>
+      </div>
+    </div>
+
+    <div class="bm-card">
+      <div class="bm-card-title">Bases</div>
+      <span class="bm-unit-icon">🏰</span>
+      <div class="bm-count">4–9 tokens</div>
+      <div class="bm-restrict">
+        <div class="bm-row"><div class="bm-dot dot-grey"></div>Does not move</div>
+        <div class="bm-row"><div class="bm-dot dot-grey"></div>Max 9 units</div>
+        <div class="bm-row"><div class="bm-dot dot-grey"></div>+1 strength to passing platoons</div>
+        <div class="bm-row"><div class="bm-dot dot-grey"></div>Convert 1 unit → isotope when you add units</div>
+        <div class="bm-label">Meltdown</div>
+        <div class="bm-row"><div class="bm-dot dot-r"></div>Returning token to full Base → Biohazard</div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- BIOME CHIPS -->
+  <div class="biome-key">
+    <div class="biome-key-title">Biome Key</div>
+    <div class="biome-ref-row">
+      <span class="biome-chip chip-fields">Fields — No restrictions</span>
+      <span class="biome-chip chip-forest">Forest — Artillery can't attack</span>
+      <span class="biome-chip chip-mountain">Mountain — Airborne needs Base</span>
+      <span class="biome-chip chip-desert">Desert — Infantry dies alone</span>
+      <span class="biome-chip chip-water">Water — Infantry &amp; Artillery die alone</span>
+      <span class="biome-chip chip-hazard">Biohazard — Nothing may rest here</span>
+      <span class="biome-chip chip-city">City — Base for movement only</span>
+    </div>
+  </div>
+
+  <!-- REF GRID -->
+  <div class="ref-grid">
+    <div class="ref-card">
+      <div class="ref-card-title">Turn Structure</div>
+      <div class="ref-rule"><span class="ref-dot">◆</span>Phase 1: Return 1–3 to owner's regions (max 1 per region)</div>
+      <div class="ref-rule"><span class="ref-dot">◆</span>Phase 2: 1 move per hostage returned (optional)</div>
+      <div class="ref-rule"><span class="ref-dot">◆</span>Max 3 units moved total per turn</div>
+      <div class="ref-rule"><span class="ref-dot">◆</span>Same unit can't move twice (except slingshot)</div>
+      <div class="ref-rule"><span class="ref-dot">◆</span>Phase 3: terrain destruction at end of full turn</div>
+      <div class="ref-rule"><span class="ref-dot">◆</span>No hostages OR no units = eliminated</div>
+    </div>
+    <div class="ref-card">
+      <div class="ref-card-title">Combat Strength</div>
+      <div class="ref-rule"><span class="ref-dot">◆</span>Attacker needs strictly MORE than defender</div>
+      <div class="ref-rule"><span class="ref-dot">◆</span>Attacker: +1 per unit adjacent to target hex</div>
+      <div class="ref-rule"><span class="ref-dot">◆</span>Attacker: +1 per Base passed through en route</div>
+      <div class="ref-rule"><span class="ref-dot">◆</span>Defender: +1 per adjacent Base only (not plain units)</div>
+      <div class="ref-rule"><span class="ref-dot">◆</span>Capture: sacrifice 1 own unit per 1 captured</div>
+      <div class="ref-rule"><span class="ref-dot">◆</span>Attacker chooses which enemy units to take</div>
+    </div>
+    <div class="ref-card">
+      <div class="ref-card-title">Victory &amp; Nukes</div>
+      <div class="ref-rule"><span class="ref-dot">◆</span>Destroy an opponent's city</div>
+      <div class="ref-rule"><span class="ref-dot">◆</span>Base on opponent's city (4+ units)</div>
+      <div class="ref-rule"><span class="ref-dot">◆</span>Last player with hostages + units</div>
+      <div class="ref-rule"><span class="ref-dot">◆</span>Nuke: target + 6 surrounding units destroyed immediately</div>
+      <div class="ref-rule"><span class="ref-dot">◆</span><strong>Meltdown:</strong> 9-unit overflow — target→Biohazard, surrounding units destroyed</div>
+      <div class="ref-rule"><span class="ref-dot">◆</span>Win is immediate — no further turns</div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════ APPENDIX A -->

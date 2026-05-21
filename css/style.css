@@ -21,6 +21,9 @@ body{background:#080602;font-family:'Crimson Pro',Georgia,serif;color:var(--ink)
 .doc-header{background:var(--teal);background-image:repeating-linear-gradient(90deg,transparent,transparent 6px,rgba(255,255,255,.022) 6px,rgba(255,255,255,.022) 7px);border-bottom:3px solid var(--gold);padding:0 52px;height:52px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;}
 .hdr-brand{display:flex;align-items:center;height:100%;}
 .hdr-brand img{height:28px;width:auto;display:block;}
+.hdr-links{display:flex;gap:10px;align-items:center;}
+.hdr-link{font-family:'Oswald',sans-serif;font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);text-decoration:none;padding:4px 10px;border:1px solid rgba(201,168,76,.3);border-radius:2px;transition:border-color .2s,color .2s;}
+.hdr-link:hover{border-color:var(--gold);color:var(--cream);}
 .hdr-meta{font-family:'Special Elite',serif;font-size:12px;color:rgba(232,213,160,.7);letter-spacing:.14em;}
 .doc-footer{background:var(--teal);background-image:repeating-linear-gradient(90deg,transparent,transparent 6px,rgba(255,255,255,.022) 6px,rgba(255,255,255,.022) 7px);border-top:3px solid var(--gold);padding:0 52px;height:52px;display:flex;align-items:center;justify-content:space-between;}
 .ftr-copy{font-family:'Special Elite',serif;font-size:12px;color:rgba(232,213,160,.72);letter-spacing:.06em;}

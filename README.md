@@ -10,9 +10,9 @@ The complete rulebook for **NUKES** by [Moddable Games](https://moddable.games) 
 
 | | |
 |---|---|
-| **Players** | 2–9 |
+| **Players** | 2–3 |
 | **Duration** | 45–90 min |
-| **Version** | 0.9.2 |
+| **Version** | 0.9.3 |
 
 This repository hosts the HTML rulebook, styled for web reading and print-ready PDF generation. It's deployed via GitHub Pages.
 
@@ -21,34 +21,59 @@ This repository hosts the HTML rulebook, styled for web reading and print-ready 
 ## Project Structure
 
 ```
-index.html          Main rulebook (GitHub Pages entry point)
-css/style.css       Extracted stylesheet
-diagrams/           Standalone SVG diagram source files
-logos/              Base64-encoded logo assets
-.nojekyll           Disables Jekyll processing on GitHub Pages
+content/
+  rulebook.md           Canonical rules source (edit this)
+templates/
+  shell.html            HTML shell (header, cover, footer)
+  partials/             Visual components (unit cards, ref page, etc.)
+diagrams/
+  svg/                  SVG diagram source files (8 diagrams)
+css/
+  style.css             Stylesheet
+js/
+  build.mjs             Markdown → HTML build script
+  pdf.mjs               PDF generation (Puppeteer)
+logos/
+  moddable-white.png    Header brand logo
+  nukes-logo.jpg        Cover artwork
+index.html              BUILD OUTPUT (do not edit directly)
+nukes-rulebook.pdf      BUILD OUTPUT (generated PDF)
 ```
 
 ---
 
-## Local Development
+## Build
 
-Serve from any local web server. With MAMP:
-
-```
-http://localhost/MODDABLE/nukes-rulebook/
-```
-
-Or use any static server:
+Requires Node.js 18+.
 
 ```bash
-npx serve .
+npm install --ignore-scripts
+npm run build          # Generates index.html from content/rulebook.md
+npm run pdf            # Generates nukes-rulebook.pdf
 ```
+
+The build reads `content/rulebook.md`, resolves includes and SVG references, renders markdown to HTML, and injects it into the shell template.
+
+---
+
+## Editing the Rules
+
+Edit `content/rulebook.md` — this is the single source of truth for all rules text. The file uses:
+
+- Standard markdown for paragraphs, headings, lists, tables
+- `{nowrap|text}` for non-breaking spans
+- `{warn|text}` for warning emphasis
+- `{{include:filename.html}}` to include visual HTML partials
+- `{{svg:filename.svg "caption"}}` to include SVG diagrams
+- Raw HTML blocks for complex visual layouts (boxes, highlights)
+
+After editing, run `npm run build` to regenerate the HTML.
 
 ---
 
 ## Diagrams
 
-Six interactive SVG diagrams illustrate core mechanics:
+Eight SVG diagrams illustrate core mechanics:
 
 - **Infantry** — Flood fill movement + blocking
 - **Artillery** — Jump mechanics (4 scenarios) + pivot at friendly Base
@@ -59,14 +84,11 @@ Six interactive SVG diagrams illustrate core mechanics:
 
 ## PDF Generation
 
-The stylesheet includes print CSS with page-break rules. To generate a PDF:
+```bash
+npm run pdf
+```
 
-1. Open `index.html` in Chrome
-2. Print (Cmd+P) → Save as PDF
-3. Enable "Background graphics"
-4. Set margins to "None"
-
-For automated generation, use Puppeteer or a headless Chrome script.
+Uses Puppeteer with local Chrome to render the built HTML. The PDF link is accessible from the web header.
 
 ---
 
@@ -74,7 +96,8 @@ For automated generation, use Puppeteer or a headless Chrome script.
 
 | Date | Change |
 |------|--------|
-| 2026-05-21 | Extract all inline styles to CSS classes; add changelog |
+| 2026-05-21 | Add markdown source + build system; extract images from base64; PDF generation |
+| 2026-05-21 | Extract all inline styles to CSS classes |
 | 2026-05-20 | Restructure for GitHub Pages deployment |
 | 2026-05-20 | Initial commit — full HTML rulebook with diagrams |
 

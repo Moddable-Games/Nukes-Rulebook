@@ -1,0 +1,16 @@
+{
+  "name": "nukes-rulebook",
+  "version": "0.9.3",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node js/build.mjs",
+    "pdf": "node js/pdf.mjs"
+  },
+  "devDependencies": {
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^14.1.0",
+    "markdown-it-container": "^4.0.0",
+    "puppeteer": "^24.0.0"
+  }
+}
