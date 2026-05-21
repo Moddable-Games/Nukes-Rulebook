@@ -70,6 +70,16 @@ For automated generation, use Puppeteer or a headless Chrome script.
 
 ---
 
+## Changelog
+
+| Date | Change |
+|------|--------|
+| 2026-05-21 | Extract all inline styles to CSS classes; add changelog |
+| 2026-05-20 | Restructure for GitHub Pages deployment |
+| 2026-05-20 | Initial commit — full HTML rulebook with diagrams |
+
+---
+
 ## Licence
 
 All content and artwork are copyright Moddable Games. All rights reserved.

@@ -41,8 +41,8 @@
 
   <div class="highlight">
     <div class="box-title">★ Read This First — The Two Core Ideas</div>
-    <p><strong>1. Units are fluid.</strong> Tokens have no fixed type. The number of tokens in a region determines what they are: 1 = Infantry, 2 = Artillery, 3 = Airborne, 4+ = Base. This changes constantly as tokens move, and it governs movement, combat, and terrain <span style="white-space:nowrap">safety.</span></p>
-    <p style="margin-top:10px"><strong>2. Hostages are your engine.</strong> You hold your opponents' tokens. Each turn you must return 1–3 of them to their owner's forces on the board — this earns you moves, but also reinforces your enemy. Your hostage supply is finite. When it runs out, you <span style="white-space:nowrap">lose.</span></p>
+    <p><strong>1. Units are fluid.</strong> Tokens have no fixed type. The number of tokens in a region determines what they are: 1 = Infantry, 2 = Artillery, 3 = Airborne, 4+ = Base. This changes constantly as tokens move, and it governs movement, combat, and terrain <span class="nowrap">safety.</span></p>
+    <p class="mt-md"><strong>2. Hostages are your engine.</strong> You hold your opponents' tokens. Each turn you must return 1–3 of them to their owner's forces on the board — this earns you moves, but also reinforces your enemy. Your hostage supply is finite. When it runs out, you <span class="nowrap">lose.</span></p>
   </div>
 
   <h3>The Core Loop</h3>
@@ -51,7 +51,7 @@
     <li><strong>Move your platoons.</strong> Infantry chains through same-biome terrain. Artillery fires in straight lines over occupied regions. Airborne drops exactly two regions away and can slingshot through friendly Bases.</li>
     <li><strong>Attack</strong> by moving into an enemy region — but only if you have strictly greater strength than the defender.</li>
     <li><strong>Capture enemy units</strong> as hostages instead of destroying them, sacrificing your own units to do so.</li>
-    <li><strong>Build Bases</strong> (4+ units in one region) to convert units into isotopes and <span style="white-space:nowrap">unlock nuclear strikes.</span></li>
+    <li><strong>Build Bases</strong> (4+ units in one region) to convert units into isotopes and <span class="nowrap">unlock nuclear strikes.</span></li>
     <li><strong>Win</strong> by destroying or occupying an opponent's city — or outlasting everyone else.</li>
   </ul>
 </div>
@@ -71,7 +71,7 @@
   </table>
 
   <h3>Tokens — What They Represent</h3>
-  <p>There are no separate pieces for different unit types. Token count and location <span style="white-space:nowrap">determine everything.</span></p>
+  <p>There are no separate pieces for different unit types. Token count and location <span class="nowrap">determine everything.</span></p>
   <table class="t">
     <thead><tr><th>Token State</th><th>Represents</th></tr></thead>
     <tbody>
@@ -105,9 +105,9 @@
   <h3>Building the Board</h3>
   <p>The board uses 37 of the 44 tiles and can be built three ways:</p>
   <ul class="rules">
-    <li><strong>Symmetrical:</strong> A pre-agreed mirrored layout. Visit moddable.games/tool/nukes <span style="white-space:nowrap">for templates.</span></li>
+    <li><strong>Symmetrical:</strong> A pre-agreed mirrored layout. Visit moddable.games/tool/nukes <span class="nowrap">for templates.</span></li>
     <li><strong>Pre-defined:</strong> All players agree on a specific arrangement before play begins.</li>
-    <li><strong>Drafted:</strong> Randomly choose a starting player who picks the central region. Players then alternate placing tiles adjacent to their city, the central region, or any <span style="white-space:nowrap">already-placed tile.</span></li>
+    <li><strong>Drafted:</strong> Randomly choose a starting player who picks the central region. Players then alternate placing tiles adjacent to their city, the central region, or any <span class="nowrap">already-placed tile.</span></li>
   </ul>
   <div class="two-col">
     <div>
@@ -137,7 +137,7 @@
           <tr><td>Cities</td><td>1</td><td>3</td></tr>
         </tbody>
       </table>
-      <p style="font-size:12.5px;font-style:italic;color:var(--gold);margin-top:6px;">★ In 3-player games the central region must not be a City.</p>
+      <p class="table-note">★ In 3-player games the central region must not be a City.</p>
     </div>
   </div>
   <h3>Starting Positions</h3>
@@ -154,14 +154,14 @@
 <div class="section pb">
   <div class="eyebrow">Winning the Game</div>
   <h2>Victory Conditions</h2>
-  <p>The game ends <strong>immediately</strong> the moment any condition below is met. No further <span style="white-space:nowrap">turns are taken.</span></p>
+  <p>The game ends <strong>immediately</strong> the moment any condition below is met. No further <span class="nowrap">turns are taken.</span></p>
   <ul class="rules">
     <li><strong>Destroy an opponent's city</strong> via a Nuke strike or a Meltdown on their city hex.</li>
-    <li><strong>Establish a Base on an opponent's city</strong> — move 4 or more of your units onto their <span style="white-space:nowrap">city tile.</span></li>
-    <li><strong>Outlast all opponents</strong> — be the last player with hostages to return and units on <span style="white-space:nowrap">the board.</span></li>
+    <li><strong>Establish a Base on an opponent's city</strong> — move 4 or more of your units onto their <span class="nowrap">city tile.</span></li>
+    <li><strong>Outlast all opponents</strong> — be the last player with hostages to return and units on <span class="nowrap">the board.</span></li>
   </ul>
   <h3>Elimination</h3>
-  <p>A player is eliminated when <strong>either</strong> of the following <span style="white-space:nowrap">occurs independently:</span></p>
+  <p>A player is eliminated when <strong>either</strong> of the following <span class="nowrap">occurs independently:</span></p>
   <ul class="rules">
     <li><em class="warn">Hostage Attrition:</em> You have no hostages to return at the start of your turn. Your city is immediately destroyed and all your units removed from the game.</li>
     <li><em class="warn">Total Annihilation:</em> You have no units left on the board at any point. All your tokens everywhere — on the board and held as hostages by others — are immediately removed from the game.</li>
@@ -179,21 +179,21 @@
   <p>Turns proceed clockwise. Each turn has three phases, always in this order.</p>
   <div class="turn-flow">
     <div class="tp">
-      <span class="tp-phase" style="color:rgba(201,168,76,.6)">Phase 1</span>
-      <span class="tp-name" style="color:white">Return Hostages</span>
-      <span class="tp-desc" style="color:rgba(245,240,232,.58)">Return 1–3 to their owner's regions</span>
+      <span class="tp-phase">Phase 1</span>
+      <span class="tp-name">Return Hostages</span>
+      <span class="tp-desc">Return 1–3 to their owner's regions</span>
     </div>
     <div class="tp-mid"><span class="tp-arrow">→</span></div>
     <div class="tp">
       <span class="tp-phase">Phase 2</span>
       <span class="tp-name">Move Units</span>
-      <span class="tp-desc" style="color:var(--ink-l)">One move per hostage returned</span>
+      <span class="tp-desc">One move per hostage returned</span>
     </div>
     <div class="tp-mid"><span class="tp-arrow">→</span></div>
     <div class="tp">
       <span class="tp-phase">Phase 3</span>
       <span class="tp-name">Resolution</span>
-      <span class="tp-desc" style="color:var(--ink-l)">Terrain destruction checked</span>
+      <span class="tp-desc">Terrain destruction checked</span>
     </div>
   </div>
 
@@ -205,10 +205,10 @@
   <ul class="rules">
     <li>You <strong>must</strong> return between 1 and 3 hostage tokens each turn — at least 1 is mandatory.</li>
     <li>Each token goes to a region where <strong>that token's owner already has units present</strong>. You cannot return a token to an empty region or to one of your own regions.</li>
-    <li>The returned token <strong>physically joins that region</strong>, increasing the unit count. A 2-token Artillery may become 3-token Airborne. A 3-token Airborne may become a 4-token Base — with all <span style="white-space:nowrap">consequences that follow.</span></li>
+    <li>The returned token <strong>physically joins that region</strong>, increasing the unit count. A 2-token Artillery may become 3-token Airborne. A 3-token Airborne may become a 4-token Base — with all <span class="nowrap">consequences that follow.</span></li>
     <li>You may return <strong>no more than 1 token per region</strong> per turn.</li>
     <li>The number of tokens returned equals the number of <strong>moves earned</strong> this turn.</li>
-    <li><em class="warn">If you have no hostages to return</em>, your city is immediately destroyed and you <span style="white-space:nowrap">are eliminated.</span></li>
+    <li><em class="warn">If you have no hostages to return</em>, your city is immediately destroyed and you <span class="nowrap">are eliminated.</span></li>
   </ul>
 
   <h3>Phase 2 — Move Units</h3>
@@ -217,11 +217,11 @@
     <li>Moves are <strong>optional</strong>. You may use fewer than you earned. Only return as many hostages as moves you actually need — every returned token costs you.</li>
     <li>You may move a <strong>maximum of 3 units in total</strong> per turn. Valid combinations: 1 Airborne (3 units), 1 Artillery + 1 Infantry, or up to 3 Infantry.</li>
     <li>Each move is: moving a platoon into any empty region, into a region containing friendly units, or attacking an enemy-occupied region.</li>
-    <li>The <strong>same unit(s) cannot move more than once</strong> per turn — except within <span style="white-space:nowrap">an Airborne Slingshot.</span></li>
+    <li>The <strong>same unit(s) cannot move more than once</strong> per turn — except within <span class="nowrap">an Airborne Slingshot.</span></li>
   </ul>
 
   <h3>Phase 3 — End-of-Turn Resolution</h3>
-  <p>After all moves and combat are resolved, any units resting in restricted terrain they cannot safely occupy are destroyed. Only a unit's <strong>final resting position</strong> matters — a token may transit through a restricted terrain region during a move and end safely <span style="white-space:nowrap">elsewhere with no penalty.</span></p>
+  <p>After all moves and combat are resolved, any units resting in restricted terrain they cannot safely occupy are destroyed. Only a unit's <strong>final resting position</strong> matters — a token may transit through a restricted terrain region during a move and end safely <span class="nowrap">elsewhere with no penalty.</span></p>
   <div class="box teal">
     <div class="box-title">✦ Immediate vs End-of-Turn Destruction</div>
     <p>Nuke blasts and Meltdowns destroy units <strong>immediately</strong> when triggered — not at end of turn. Everything else (a platoon stranded in terrain it cannot safely occupy) is resolved during Phase 3 only.</p>
@@ -232,35 +232,35 @@
 <div class="section pb">
   <div class="eyebrow">Your Forces</div>
   <h2>Units &amp; Platoons</h2>
-  <p>Platoon type is determined solely by the <strong>current token count</strong> in a region. This fluidity is fundamental — tokens become different unit types as they <span style="white-space:nowrap">join or leave regions.</span></p>
+  <p>Platoon type is determined solely by the <strong>current token count</strong> in a region. This fluidity is fundamental — tokens become different unit types as they <span class="nowrap">join or leave regions.</span></p>
 
   <div class="box teal">
     <div class="box-title">✦ The Fluid Platoon Principle</div>
-    <p>If 1 infantry token moves into a region containing 2 artillery tokens, those 3 tokens are now Airborne — with all of Airborne's permissions and restrictions. At end of turn, a region with 3 tokens in water is Airborne (safe). Two tokens in water is Artillery (destroyed). Always ask: <strong>how many tokens are here, and <span style="white-space:nowrap">what does that make them?</span></strong></p>
+    <p>If 1 infantry token moves into a region containing 2 artillery tokens, those 3 tokens are now Airborne — with all of Airborne's permissions and restrictions. At end of turn, a region with 3 tokens in water is Airborne (safe). Two tokens in water is Artillery (destroyed). Always ask: <strong>how many tokens are here, and <span class="nowrap">what does that make them?</span></strong></p>
   </div>
 
   <div class="unit-grid">
     <div class="unit-card">
-      <div class="uc-head" style="background:var(--teal)"><div class="uc-icon">🪖</div><span class="uc-name">Infantry</span><span class="uc-size">1 TOKEN</span></div>
+      <div class="uc-head uc-head--infantry"><div class="uc-icon">🪖</div><span class="uc-name">Infantry</span><span class="uc-size">1 TOKEN</span></div>
       <div class="uc-body"><p>Chains freely through same-biome terrain. Blocked by all units — including your own. Cannot safely rest in water or desert.</p></div>
     </div>
     <div class="unit-card">
-      <div class="uc-head" style="background:#456030"><div class="uc-icon">🎯</div><span class="uc-name">Artillery</span><span class="uc-size">2 TOKENS</span></div>
+      <div class="uc-head uc-head--artillery"><div class="uc-icon">🎯</div><span class="uc-name">Artillery</span><span class="uc-size">2 TOKENS</span></div>
       <div class="uc-body"><p>Jumps in straight lines over occupied regions. Multiple hops and pivots possible. Cannot safely rest in water. Cannot attack from a forest.</p></div>
     </div>
     <div class="unit-card">
-      <div class="uc-head" style="background:#384070"><div class="uc-icon">✈️</div><span class="uc-name">Airborne</span><span class="uc-size">3 TOKENS</span></div>
+      <div class="uc-head uc-head--airborne"><div class="uc-icon">✈️</div><span class="uc-name">Airborne</span><span class="uc-size">3 TOKENS</span></div>
       <div class="uc-body"><p>Must move exactly two regions. Cannot land adjacent. Slingshots through friendly Bases for extended range. Cannot safely rest alone in mountains.</p></div>
     </div>
     <div class="unit-card">
-      <div class="uc-head" style="background:var(--ink)"><div class="uc-icon">☢️</div><span class="uc-name">Nuke</span><span class="uc-size">1 TOKEN + ISOTOPE</span></div>
+      <div class="uc-head uc-head--nuke"><div class="uc-icon">☢️</div><span class="uc-name">Nuke</span><span class="uc-size">1 TOKEN + ISOTOPE</span></div>
       <div class="uc-body"><p>Launched from a Base. Destroys target (Biohazard) and all units in target + 6 surrounding regions immediately. Must jump over at least one region.</p></div>
     </div>
   </div>
 
-  <div class="unit-card" style="margin:4px 0 18px">
-    <div class="uc-head" style="background:var(--gold)"><div class="uc-icon">🏰</div><span class="uc-name">Base</span><span class="uc-size">4–9 TOKENS · DOES NOT MOVE</span></div>
-    <div class="uc-body" style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
+  <div class="unit-card unit-card--base">
+    <div class="uc-head uc-head--base"><div class="uc-icon">🏰</div><span class="uc-name">Base</span><span class="uc-size">4–9 TOKENS · DOES NOT MOVE</span></div>
+    <div class="uc-body uc-body--grid">
       <p>Forms immediately when a 4th token joins a region. Provides support bonuses to passing platoons and enables isotope production.</p>
       <p>Maximum 9 units. Each time <em>you</em> add units to your own Base, convert 1 unit to an isotope (once per event). Provides +1 combat strength to platoons passing through or over it en route to an attack.</p>
     </div>
@@ -304,7 +304,7 @@
 <line x1="13" y1="187" x2="25" y2="199" stroke="#c03030" stroke-width="2.2" stroke-linecap="round"/><line x1="25" y1="187" x2="13" y2="199" stroke="#c03030" stroke-width="2.2" stroke-linecap="round"/>
 <text x="34" y="197" font-size="9" font-family="serif" fill="#3a3020">Not reachable</text>
 </svg>
-      <p class="diagram-caption">Infantry reaches every connected field hex in one move — no distance limit. Adjacent mountains are also reachable as a <span style="white-space:nowrap">final step into a different biome.</span> The mountain with a red mark has no adjacent field and <span style="white-space:nowrap">cannot be reached.</span></p>
+      <p class="diagram-caption">Infantry reaches every connected field hex in one move — no distance limit. Adjacent mountains are also reachable as a <span class="nowrap">final step into a different biome.</span> The mountain with a red mark has no adjacent field and <span class="nowrap">cannot be reached.</span></p>
     </div>
     <div class="diagram-box">
       <div class="diagram-title">Can Enter, Cannot Pass Through</div>
@@ -359,8 +359,8 @@
   <ul class="rules">
     <li><strong>Same-biome chaining:</strong> Infantry may travel through any number of connected regions sharing their starting biome in a single move — no distance limit. At the end they may optionally step into one adjacent region of a different biome.</li>
     <li><strong>Blocked by ALL units, including friendly ones:</strong> Infantry cannot pass through any region containing any other units — enemy or friendly. Your own Artillery blocks your own Infantry just as firmly as an enemy would. Only your own Airborne and Bases may be passed through freely.</li>
-    <li><strong>Restricted terrain:</strong> A region ending the turn with 1 token (Infantry) in water or desert is destroyed at Phase 3 <span style="white-space:nowrap">resolution.</span> Infantry cannot transit through water or desert unless your own Airborne or a Base is already stationed in that specific region.</li>
-    <li><strong>Combat bonus:</strong> Each friendly Base infantry passes <em>through</em> en route to an attack <span style="white-space:nowrap">adds +1 to combat strength.</span> The starting Base <span style="white-space:nowrap">does not count.</span></li>
+    <li><strong>Restricted terrain:</strong> A region ending the turn with 1 token (Infantry) in water or desert is destroyed at Phase 3 <span class="nowrap">resolution.</span> Infantry cannot transit through water or desert unless your own Airborne or a Base is already stationed in that specific region.</li>
+    <li><strong>Combat bonus:</strong> Each friendly Base infantry passes <em>through</em> en route to an attack <span class="nowrap">adds +1 to combat strength.</span> The starting Base <span class="nowrap">does not count.</span></li>
   </ul>
 
   <!-- ── ARTILLERY DETAIL + DIAGRAM -->
@@ -490,13 +490,13 @@
   </div>
 
   <ul class="rules">
-    <li><strong>Straight-line jumps:</strong> Artillery moves by jumping to the directly opposing region across a hex axis. Intermediate regions must contain units at the moment of the jump — units placed there earlier in the same <span style="white-space:nowrap">turn count.</span></li>
+    <li><strong>Straight-line jumps:</strong> Artillery moves by jumping to the directly opposing region across a hex axis. Intermediate regions must contain units at the moment of the jump — units placed there earlier in the same <span class="nowrap">turn count.</span></li>
     <li><strong>Multiple jumps:</strong> Artillery can chain multiple jumps in one move, using each occupied region as a stepping stone.</li>
-    <li><strong>Direction changes (pivots):</strong> When artillery jumps over your own Airborne or a Base, it may change to any new hex direction and <span style="white-space:nowrap">continue from there.</span> From the pivot point, artillery may: land on the pivot Base or Airborne itself; land on any adjacent empty hex; land on any adjacent friendly region (tokens merge via fluid rules); or jump over any occupied adjacent hex to land beyond it. Multiple pivots are permitted in one move.</li>
+    <li><strong>Direction changes (pivots):</strong> When artillery jumps over your own Airborne or a Base, it may change to any new hex direction and <span class="nowrap">continue from there.</span> From the pivot point, artillery may: land on the pivot Base or Airborne itself; land on any adjacent empty hex; land on any adjacent friendly region (tokens merge via fluid rules); or jump over any occupied adjacent hex to land beyond it. Multiple pivots are permitted in one move.</li>
     <li><strong>Enemy blockers:</strong> Artillery cannot jump over enemy Airborne or enemy Bases. It can jump over enemy Infantry and enemy Artillery.</li>
     <li><strong>Forest:</strong> Artillery starting in a forest cannot attack that turn. It may still move to any unoccupied region or join a friendly platoon.</li>
     <li><strong>Water:</strong> A region ending with 2 tokens alone in water is destroyed at Phase 3. Cannot pass through water without your Airborne or Base already in that region.</li>
-    <li><strong>Combat bonus:</strong> Each friendly Base passed over en route adds +1. The starting Base <span style="white-space:nowrap">does not count.</span></li>
+    <li><strong>Combat bonus:</strong> Each friendly Base passed over en route adds +1. The starting Base <span class="nowrap">does not count.</span></li>
   </ul>
 
   <!-- ── AIRBORNE DETAIL + DIAGRAM -->
@@ -665,11 +665,11 @@
   </div>
 
   <ul class="rules">
-    <li><strong>Exactly two regions:</strong> Airborne moves in two steps, each to an adjacent region. The two steps can go in any direction — there is no requirement to move in a straight line. The only restriction is that the final landing region cannot be directly adjacent to the starting region. Any region that is two steps away via any path, and not adjacent to the start, is a <span style="white-space:nowrap">valid landing spot.</span></li>
+    <li><strong>Exactly two regions:</strong> Airborne moves in two steps, each to an adjacent region. The two steps can go in any direction — there is no requirement to move in a straight line. The only restriction is that the final landing region cannot be directly adjacent to the starting region. Any region that is two steps away via any path, and not adjacent to the start, is a <span class="nowrap">valid landing spot.</span></li>
     <li><strong>Mountains:</strong> Airborne cannot pass through a mountain region unless one of your own Bases is already present there. Even with Base support, airborne cannot safely end as 1 token alone in a mountain.</li>
     <li><strong>Enemy blockers:</strong> Airborne cannot pass over regions containing enemy Infantry or enemy Artillery. It can pass over enemy Airborne and enemy Bases freely.</li>
-    <li><strong>Slingshot:</strong> If Airborne lands on a region containing your own Airborne or a Base, it may immediately launch again. Declare the entire chain at once. Each intermediate Airborne or Base may only serve as a launch point once per chain. Every leg must obey the "exactly 2, not adjacent" rule. The entire chain counts as only 3 <span style="white-space:nowrap">units toward the turn's maximum.</span></li>
-    <li><strong>Combat bonus:</strong> Each friendly Base slingshot over en route <span style="white-space:nowrap">adds +1 to combat strength.</span></li>
+    <li><strong>Slingshot:</strong> If Airborne lands on a region containing your own Airborne or a Base, it may immediately launch again. Declare the entire chain at once. Each intermediate Airborne or Base may only serve as a launch point once per chain. Every leg must obey the "exactly 2, not adjacent" rule. The entire chain counts as only 3 <span class="nowrap">units toward the turn's maximum.</span></li>
+    <li><strong>Combat bonus:</strong> Each friendly Base slingshot over en route <span class="nowrap">adds +1 to combat strength.</span></li>
   </ul>
 
   <!-- ── NUKE DETAIL + DIAGRAM -->
@@ -811,12 +811,12 @@
   <ul class="rules">
     <li><strong>Requires a Base:</strong> A nuke can only be launched from a region containing one of your Bases. The Base remains after launch.</li>
     <li><strong>Must jump at least once:</strong> A nuke must cross over at least one occupied intermediate region. It cannot fire into an adjacent hex.</li>
-    <li><strong>Isotopes:</strong> Before firing, place at least 1 isotope from your supply into the target region. You may place multiple — each adds +1 to nuke strength beyond the <span style="white-space:nowrap">base of 2.</span></li>
+    <li><strong>Isotopes:</strong> Before firing, place at least 1 isotope from your supply into the target region. You may place multiple — each adds +1 to nuke strength beyond the <span class="nowrap">base of 2.</span></li>
     <li><strong>Strength:</strong> Starts at 2 (nuke token + 1 isotope minimum). Add +1 per additional isotope placed in the target. Add +1 per friendly Base passed over en route.</li>
     <li><strong>Movement:</strong> Same jump rules as artillery. Direction changes at your own Airborne or Bases. Can jump over enemy Infantry only — cannot jump over enemy Artillery, Airborne, or Bases. Biohazards are treated as empty and cannot be jumped.</li>
     <li><strong>Legal targets:</strong> Any region except an empty water region — including empty regions, biohazards, and your own units.</li>
-    <li><strong>Enemy targets:</strong> Your nuke strength must strictly exceed the defender's strength to target an enemy-occupied region. <span style="white-space:nowrap">enemy-occupied region.</span></li>
-    <li><strong>Blast effect (immediate):</strong> Target region → Biohazard permanently. All units on the target region and all units in the 6 surrounding regions are <span style="white-space:nowrap">destroyed immediately</span> — including your own. The surrounding regions do not change biome.</li>
+    <li><strong>Enemy targets:</strong> Your nuke strength must strictly exceed the defender's strength to target an enemy-occupied region. <span class="nowrap">enemy-occupied region.</span></li>
+    <li><strong>Blast effect (immediate):</strong> Target region → Biohazard permanently. All units on the target region and all units in the 6 surrounding regions are <span class="nowrap">destroyed immediately</span> — including your own. The surrounding regions do not change biome.</li>
     <li><strong>No hostage capture.</strong> A nuke only destroys.</li>
   </ul>
 
@@ -825,15 +825,15 @@
     <li>A Base forms <strong>immediately</strong> when a 4th token joins a region — mid-turn during Phase 2.</li>
     <li><strong>Maximum 9 units.</strong> Voluntarily moving your own platoon into a full Base is illegal. If an opponent returns a hostage to your full Base, the Meltdown rule applies.</li>
     <li><strong>Isotope conversion:</strong> Each time <em>you</em> add units to your own Base, you may immediately convert 1 unit into an isotope. Triggers once per event — two separate moves adding to bases in one turn means two conversion opportunities. Does not trigger when an opponent returns a token to your Base.</li>
-    <li>Bases provide <strong>+1 combat strength</strong> to your platoons passing through or over them en route to combat. Units starting their move <em>from within</em> a Base do not <span style="white-space:nowrap">receive this bonus.</span></li>
-    <li>A Base cannot move, but <strong>any number of units may leave</strong> — including all of them, leaving the <span style="white-space:nowrap">region empty.</span></li>
+    <li>Bases provide <strong>+1 combat strength</strong> to your platoons passing through or over them en route to combat. Units starting their move <em>from within</em> a Base do not <span class="nowrap">receive this bonus.</span></li>
+    <li>A Base cannot move, but <strong>any number of units may leave</strong> — including all of them, leaving the <span class="nowrap">region empty.</span></li>
   </ul>
 
   <h3>Cities — Full Rules</h3>
   <ul class="rules">
     <li>Cities act as Bases <strong>for movement purposes only</strong> regardless of unit count — Infantry can pass through freely, Artillery and Nukes can change direction when passing over, and Airborne can slingshot from them.</li>
     <li>With <strong>fewer than 4 units</strong>: no combat adjacency bonus.</li>
-    <li>With <strong>4 or more units</strong>: a real Base is present, providing all normal <span style="white-space:nowrap">Base combat bonuses.</span></li>
+    <li>With <strong>4 or more units</strong>: a real Base is present, providing all normal <span class="nowrap">Base combat bonuses.</span></li>
     <li>The pass-through combat bonus (+1 for platoons moving through or over) does not apply to units beginning their move from within that city.</li>
   </ul>
 </div>
@@ -846,16 +846,16 @@
 
   <div class="meltdown-box">
     <div class="box-title">☢ Meltdown Effect — Immediate</div>
-    <p><strong>Target hex:</strong> Converted to Biohazard immediately. All units on the target hex are <span style="white-space:nowrap">destroyed immediately.</span></p>
-    <p style="margin-top:8px"><strong>Surrounding hexes:</strong> Completely unaffected — units in the 6 surrounding regions are not destroyed and those hexes do not change biome.</p>
-    <p style="margin-top:8px">This is the key distinction from a Nuke, which destroys units in all <span style="white-space:nowrap">surrounding hexes too.</span></p>
+    <p><strong>Target hex:</strong> Converted to Biohazard immediately. All units on the target hex are <span class="nowrap">destroyed immediately.</span></p>
+    <p class="mt-sm"><strong>Surrounding hexes:</strong> Completely unaffected — units in the 6 surrounding regions are not destroyed and those hexes do not change biome.</p>
+    <p class="mt-sm">This is the key distinction from a Nuke, which destroys units in all <span class="nowrap">surrounding hexes too.</span></p>
   </div>
 
   <ul class="rules">
     <li>Triggered during <strong>Phase 1</strong> (Return Hostages), not during Phase 2.</li>
     <li>The destruction is <strong>immediate</strong> — not delayed to Phase 3.</li>
     <li>The return that triggers a Meltdown still counts as one of your 1–3 returns — you still <strong>earn a move</strong> from it.</li>
-    <li>All units on the target hex are <span style="white-space:nowrap">destroyed immediately.</span></li>
+    <li>All units on the target hex are <span class="nowrap">destroyed immediately.</span></li>
   </ul>
 </div>
 
@@ -871,7 +871,7 @@
       <div class="sb-title">Attacker's Strength</div>
       <div class="sb-row"><span class="sb-op">◆</span><span>Number of tokens in the attacking platoon</span></div>
       <hr class="sb-hr">
-      <div class="sb-row"><span class="sb-op">+</span><span>1 per adjacent region (to the <em style="color:var(--gold-l)">target hex</em>) containing any of your units</span></div>
+      <div class="sb-row"><span class="sb-op">+</span><span>1 per adjacent region (to the <em>target hex</em>) containing any of your units</span></div>
       <div class="sb-row"><span class="sb-op">+</span><span>1 per friendly Base passed through or over en route</span></div>
       <div class="sb-row"><span class="sb-op">+</span><span>1 per isotope placed in the target (Nukes only)</span></div>
       <p class="sb-note">The origin region counts toward the surrounding bonus if it is adjacent to the target and still has units in it after the platoon departed.</p>
@@ -880,8 +880,8 @@
       <div class="sb-title">Defender's Strength</div>
       <div class="sb-row"><span class="sb-op">◆</span><span>Number of tokens in the defending region</span></div>
       <hr class="sb-hr">
-      <div class="sb-row"><span class="sb-op">+</span><span>1 per adjacent region containing the defender's <em style="color:var(--gold-l)">Bases</em> specifically</span></div>
-      <p class="sb-note">Plain units in adjacent regions do not give the defender a bonus — only Bases do. This asymmetry is intentional — it rewards <span style="white-space:nowrap">building Bases near contested territory.</span></p>
+      <div class="sb-row"><span class="sb-op">+</span><span>1 per adjacent region containing the defender's <em>Bases</em> specifically</span></div>
+      <p class="sb-note">Plain units in adjacent regions do not give the defender a bonus — only Bases do. This asymmetry is intentional — it rewards <span class="nowrap">building Bases near contested territory.</span></p>
     </div>
   </div>
 
@@ -891,10 +891,10 @@
   </ul>
 
   <h3>Capturing Hostages</h3>
-  <p>Instead of destroying enemy units, you may capture them as hostages — adding to your supply and extending your opponent's time in the game (while <span style="white-space:nowrap">extending your own).</span></p>
+  <p>Instead of destroying enemy units, you may capture them as hostages — adding to your supply and extending your opponent's time in the game (while <span class="nowrap">extending your own).</span></p>
   <ul class="rules">
     <li>For each point of <strong>excess strength</strong> (beyond what was needed to win), you may capture one of the defender's units instead of destroying it.</li>
-    <li>To capture one enemy unit, you must <strong>sacrifice one of your own units</strong> — from the attacking platoon or from an adjacent region that contributed <span style="white-space:nowrap">support strength.</span></li>
+    <li>To capture one enemy unit, you must <strong>sacrifice one of your own units</strong> — from the attacking platoon or from an adjacent region that contributed <span class="nowrap">support strength.</span></li>
     <li>The <strong>attacker chooses</strong> which specific enemy units to capture versus destroy.</li>
     <li>You may capture from 0 up to your total excess strength — entirely your choice.</li>
   </ul>
@@ -909,12 +909,12 @@
 <div class="section pb">
   <div class="eyebrow">The Battlefield</div>
   <h2>Biomes</h2>
-  <p>Each region belongs to one of seven biome types. Terrain restrictions apply based on the <strong><span style="white-space:nowrap">platoon type the tokens become</span></strong> — not how they arrived. A region with 3 tokens in water is Airborne, which has no water restriction — always evaluate the <span style="white-space:nowrap">token count.</span></p>
+  <p>Each region belongs to one of seven biome types. Terrain restrictions apply based on the <strong><span class="nowrap">platoon type the tokens become</span></strong> — not how they arrived. A region with 3 tokens in water is Airborne, which has no water restriction — always evaluate the <span class="nowrap">token count.</span></p>
 
   <div class="biome-grid">
     <div class="biome fields"><div class="biome-name">Fields</div><p>No restrictions for any platoon type. Completely open — safe to move through and end turns in freely.</p></div>
     <div class="biome forest"><div class="biome-name">Forests</div><p>Artillery starting its move here cannot attack this turn. It may still move to any unoccupied region or join a friendly platoon.</p></div>
-    <div class="biome mountain"><div class="biome-name">Mountains</div><p>Airborne cannot pass through unless a friendly Base is present. A region ending the turn with 1 token (Infantry) here is destroyed at <span style="white-space:nowrap">end-of-turn resolution.</span></p></div>
+    <div class="biome mountain"><div class="biome-name">Mountains</div><p>Airborne cannot pass through unless a friendly Base is present. A region ending the turn with 1 token (Infantry) here is destroyed at <span class="nowrap">end-of-turn resolution.</span></p></div>
     <div class="biome desert"><div class="biome-name">Desert</div><p>A region ending the turn with 1 token (Infantry) here is destroyed at Phase 3 resolution. Cannot transit through without your Airborne or Base already stationed in that region.</p></div>
     <div class="biome water"><div class="biome-name">Water</div><p>A region ending the turn with 1 token (Infantry) or 2 tokens (Artillery) here is destroyed at Phase 3 resolution. Cannot transit through without support. Nukes cannot target empty water.</p></div>
     <div class="biome hazard"><div class="biome-name">Biohazard</div><p>Created by a Nuke or Meltdown. No unit may end its turn here. Only Airborne may pass through or over. Treated as empty for artillery and nuke jumps.</p></div>
@@ -934,7 +934,7 @@
 
   <div class="box teal">
     <div class="box-title">✦ "Needs Support to Pass" — What This Means</div>
-    <p>A platoon can transit through a restricted terrain region only if <strong>your own Airborne or a Base is already stationed there</strong>. The restriction still applies — but their presence guarantees the total token count will be high enough at end of turn to avoid destruction. The biome remains restricted; the support unit <span style="white-space:nowrap">simply ensures a safe count.</span></p>
+    <p>A platoon can transit through a restricted terrain region only if <strong>your own Airborne or a Base is already stationed there</strong>. The restriction still applies — but their presence guarantees the total token count will be high enough at end of turn to avoid destruction. The biome remains restricted; the support unit <span class="nowrap">simply ensures a safe count.</span></p>
   </div>
 </div>
 
@@ -942,7 +942,7 @@
 
 <!-- ══════════════════════════════ REFERENCE / BOOKMARK PAGE -->
 <div class="ref-page">
-  <div class="eyebrow" style="color:rgba(201,168,76,.45)">Quick Reference — Bookmark Card</div>
+  <div class="eyebrow eyebrow--ref">Quick Reference — Bookmark Card</div>
   <h2>Rules at a Glance</h2>
 
   <!-- UNIT BOOKMARK CARDS -->
@@ -958,9 +958,9 @@
         <div class="bm-row"><div class="bm-dot dot-g"></div>Can pass own Airborne</div>
         <div class="bm-row"><div class="bm-dot dot-g"></div>Can pass own Bases</div>
         <div class="bm-row"><div class="bm-dot dot-r"></div>Cannot pass enemy units</div>
-        <div style="margin-top:6px;font-size:9px;color:rgba(245,240,232,.5)">Biomes</div>
-        <div class="bm-row"><div class="bm-dot" style="background:#86bade"></div>✗ Water alone</div>
-        <div class="bm-row"><div class="bm-dot" style="background:#e0c878"></div>✗ Desert alone</div>
+        <div class="bm-label">Biomes</div>
+        <div class="bm-row"><div class="bm-dot dot-water"></div>✗ Water alone</div>
+        <div class="bm-row"><div class="bm-dot dot-desert"></div>✗ Desert alone</div>
       </div>
     </div>
 
@@ -974,9 +974,9 @@
         <div class="bm-row"><div class="bm-dot dot-g"></div>Can pass own Airborne</div>
         <div class="bm-row"><div class="bm-dot dot-g"></div>Can pass own Bases</div>
         <div class="bm-row"><div class="bm-dot dot-r"></div>✗ Enemy Airborne/Base</div>
-        <div style="margin-top:6px;font-size:9px;color:rgba(245,240,232,.5)">Biomes</div>
-        <div class="bm-row"><div class="bm-dot" style="background:#86bade"></div>✗ Water alone</div>
-        <div class="bm-row"><div class="bm-dot" style="background:#82b47a"></div>? Cannot attack from</div>
+        <div class="bm-label">Biomes</div>
+        <div class="bm-row"><div class="bm-dot dot-water"></div>✗ Water alone</div>
+        <div class="bm-row"><div class="bm-dot dot-forest"></div>? Cannot attack from</div>
       </div>
     </div>
 
@@ -990,9 +990,9 @@
         <div class="bm-row"><div class="bm-dot dot-g"></div>Can pass own/enemy Airborne</div>
         <div class="bm-row"><div class="bm-dot dot-g"></div>Can pass own/enemy Bases</div>
         <div class="bm-row"><div class="bm-dot dot-r"></div>✗ Enemy infantry/artillery</div>
-        <div style="margin-top:6px;font-size:9px;color:rgba(245,240,232,.5)">Biomes</div>
-        <div class="bm-row"><div class="bm-dot" style="background:#bcb4aa"></div>✗ Mountain alone</div>
-        <div class="bm-row"><div class="bm-dot" style="background:#bcb4aa"></div>✗ Cannot pass w/o Base</div>
+        <div class="bm-label">Biomes</div>
+        <div class="bm-row"><div class="bm-dot dot-mountain"></div>✗ Mountain alone</div>
+        <div class="bm-row"><div class="bm-dot dot-mountain"></div>✗ Cannot pass w/o Base</div>
       </div>
     </div>
 
@@ -1006,8 +1006,8 @@
         <div class="bm-row"><div class="bm-dot dot-g"></div>Can redirect via own Airborne</div>
         <div class="bm-row"><div class="bm-dot dot-g"></div>Can redirect via own Bases</div>
         <div class="bm-row"><div class="bm-dot dot-r"></div>✗ Enemy artillery/airborne/base</div>
-        <div style="margin-top:6px;font-size:9px;color:rgba(245,240,232,.5)">Biomes</div>
-        <div class="bm-row"><div class="bm-dot" style="background:#86bade"></div>? Cannot target empty</div>
+        <div class="bm-label">Biomes</div>
+        <div class="bm-row"><div class="bm-dot dot-water"></div>? Cannot target empty</div>
       </div>
     </div>
 
@@ -1020,7 +1020,7 @@
         <div class="bm-row"><div class="bm-dot dot-grey"></div>Max 9 units</div>
         <div class="bm-row"><div class="bm-dot dot-grey"></div>+1 strength to passing platoons</div>
         <div class="bm-row"><div class="bm-dot dot-grey"></div>Convert 1 unit → isotope when you add units</div>
-        <div style="margin-top:6px;font-size:9px;color:rgba(245,240,232,.5)">Meltdown</div>
+        <div class="bm-label">Meltdown</div>
         <div class="bm-row"><div class="bm-dot dot-r"></div>Returning token to full Base → Biohazard</div>
       </div>
     </div>
@@ -1028,8 +1028,8 @@
   </div>
 
   <!-- BIOME CHIPS -->
-  <div style="margin-bottom:20px">
-    <div style="font-family:'Cinzel',serif;font-size:8.5px;color:var(--gold-l);letter-spacing:.14em;text-transform:uppercase;margin-bottom:10px;">Biome Key</div>
+  <div class="biome-key">
+    <div class="biome-key-title">Biome Key</div>
     <div class="biome-ref-row">
       <span class="biome-chip chip-fields">Fields — No restrictions</span>
       <span class="biome-chip chip-forest">Forest — Artillery can't attack</span>
@@ -1067,7 +1067,7 @@
       <div class="ref-rule"><span class="ref-dot">◆</span>Base on opponent's city (4+ units)</div>
       <div class="ref-rule"><span class="ref-dot">◆</span>Last player with hostages + units</div>
       <div class="ref-rule"><span class="ref-dot">◆</span>Nuke: target + 6 surrounding units destroyed immediately</div>
-      <div class="ref-rule"><span class="ref-dot">◆</span><strong style="color:var(--gold)">Meltdown:</strong> 9-unit overflow — target→Biohazard, surrounding units destroyed</div>
+      <div class="ref-rule"><span class="ref-dot">◆</span><strong>Meltdown:</strong> 9-unit overflow — target→Biohazard, surrounding units destroyed</div>
       <div class="ref-rule"><span class="ref-dot">◆</span>Win is immediate — no further turns</div>
     </div>
   </div>
@@ -1106,7 +1106,7 @@
 
   <div class="clar-item">
     <div class="clar-q">How many direction changes can artillery or a nuke make in one move?</div>
-    <div class="clar-a"><strong>As many as it passes over friendly Airborne or Bases.</strong> Each friendly Airborne or Base it passes over may pivot it to any new hex direction. There is <span style="white-space:nowrap">no limit per move.</span></div>
+    <div class="clar-a"><strong>As many as it passes over friendly Airborne or Bases.</strong> Each friendly Airborne or Base it passes over may pivot it to any new hex direction. There is <span class="nowrap">no limit per move.</span></div>
   </div>
 
   <div class="clar-item">
@@ -1116,12 +1116,12 @@
 
   <div class="clar-item">
     <div class="clar-q">How does the Airborne Slingshot work — and can Airborne return to its starting region?</div>
-    <div class="clar-a">Declare the entire slingshot chain at once. Each intermediate Airborne unit or Base may only serve as a launch point <em>once</em> per chain — this prevents a Base being used repeatedly, but does not prevent the airborne from landing back at its starting region if it arrives there via a legal final 2-region leg. Every leg must obey the "exactly 2, not adjacent" rule. The entire chain counts as only 3 <span style="white-space:nowrap">units toward the turn's maximum.</span></div>
+    <div class="clar-a">Declare the entire slingshot chain at once. Each intermediate Airborne unit or Base may only serve as a launch point <em>once</em> per chain — this prevents a Base being used repeatedly, but does not prevent the airborne from landing back at its starting region if it arrives there via a legal final 2-region leg. Every leg must obey the "exactly 2, not adjacent" rule. The entire chain counts as only 3 <span class="nowrap">units toward the turn's maximum.</span></div>
   </div>
 
   <div class="clar-item">
     <div class="clar-q">When does terrain destruction trigger, and why does it matter?</div>
-    <div class="clar-a"><strong>At the very end of the turn</strong> — Phase 3 — once all moves and combat are resolved. <span style="white-space:nowrap">Only the final resting position matters.</span> A token may transit through restricted terrain regions mid-move and end safely elsewhere — it will not be destroyed. The key question is always: what is the token count in this region at end of turn, and is that platoon type permitted here? Nuke blasts and Meltdowns are the exception: those are immediate.</div>
+    <div class="clar-a"><strong>At the very end of the turn</strong> — Phase 3 — once all moves and combat are resolved. <span class="nowrap">Only the final resting position matters.</span> A token may transit through restricted terrain regions mid-move and end safely elsewhere — it will not be destroyed. The key question is always: what is the token count in this region at end of turn, and is that platoon type permitted here? Nuke blasts and Meltdowns are the exception: those are immediate.</div>
   </div>
 
   <div class="clar-item">
