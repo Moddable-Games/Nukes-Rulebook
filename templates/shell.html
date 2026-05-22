@@ -16,18 +16,19 @@
 <link rel="icon" type="image/png" sizes="32x32" href="logos/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="logos/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="logos/apple-touch-icon.png">
-<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=Special+Elite&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/fonts.css">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<a href="#main-content" class="skip-link">Skip to content</a>
 <div class="page">
 
 <!-- HEADER -->
-<div class="doc-header">
+<header class="doc-header" role="banner">
   <div class="hdr-brand"><img src="logos/moddable-white.png" alt="Moddable Games"></div>
   <div class="hdr-links"><a href="content/rulebook.md" class="hdr-link">Markdown</a><a href="pdf/nukes-rulebook-v{{version}}.pdf" class="hdr-link">PDF</a></div>
   <span class="hdr-meta">Official Rulebook · v{{version}}</span>
-</div>
+</header>
 
 <!-- COVER -->
 <div class="cover">
@@ -44,16 +45,22 @@
   <p class="cover-pub">Published by Moddable Games · v{{version}} · First published January 2012</p>
 </div>
 
-<nav class="toc" id="toc"></nav>
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
 
-<div class="content">
+<main id="main-content" class="content">
 
 {{CONTENT}}
+</main>
+
+{{include:ref-page.html}}
+
+{{include:appendix.html}}
+
 <!-- FOOTER -->
-<div class="doc-footer">
+<footer class="doc-footer" role="contentinfo">
   <span class="ftr-copy">v{{version}} · Published by Moddable Games · © 2012–2026 All Rights Reserved</span>
   <span class="ftr-copy">moddable.games/tool/nukes</span>
-</div>
+</footer>
 
 </div><!-- /page -->
 <script src="js/toc.js"></script>

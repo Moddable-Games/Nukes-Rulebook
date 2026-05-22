@@ -1,0 +1,64 @@
+/* Self-hosted Google Fonts - woff2 format */
+
+/* Crimson Pro - Regular 400 */
+@font-face {
+  font-family: 'Crimson Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/crimson-pro-400.woff2) format('woff2');
+}
+
+/* Crimson Pro - SemiBold 600 */
+@font-face {
+  font-family: 'Crimson Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/crimson-pro-600.woff2) format('woff2');
+}
+
+/* Crimson Pro - Italic 400 */
+@font-face {
+  font-family: 'Crimson Pro';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/crimson-pro-400-italic.woff2) format('woff2');
+}
+
+/* Oswald - Regular 400 */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/oswald-400.woff2) format('woff2');
+}
+
+/* Oswald - SemiBold 600 */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/oswald-600.woff2) format('woff2');
+}
+
+/* Oswald - Bold 700 */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/oswald-700.woff2) format('woff2');
+}
+
+/* Special Elite - Regular 400 */
+@font-face {
+  font-family: 'Special Elite';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/special-elite-400.woff2) format('woff2');
+}

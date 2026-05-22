@@ -82,6 +82,7 @@ rendered = addRulesClass(rendered);
 rendered = addTableClass(rendered);
 
 let output = template.replace('{{CONTENT}}', rendered);
+output = processIncludes(output);
 
 if (meta.version) {
   output = output.replace(/\{\{version\}\}/g, meta.version);

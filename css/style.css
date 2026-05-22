@@ -15,6 +15,8 @@
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
 html{scroll-behavior:smooth;}
+.skip-link{position:absolute;top:-100%;left:0;background:var(--teal);color:var(--gold);padding:8px 16px;z-index:200;font-size:14px;text-decoration:none;}
+.skip-link:focus{top:0;}
 body{background:#080602;font-family:'Crimson Pro',Georgia,serif;color:var(--ink);font-size:18px;line-height:1.75;}
 .page{max-width:900px;margin:0 auto;background:var(--cream);background-image:repeating-linear-gradient(-45deg,transparent,transparent 4px,rgba(160,130,80,.022) 4px,rgba(160,130,80,.022) 5px),url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='.032'/%3E%3C/svg%3E");box-shadow:0 0 80px rgba(0,0,0,.8);}
 
@@ -40,6 +42,7 @@ body{background:#080602;font-family:'Crimson Pro',Georgia,serif;color:var(--ink)
   .toc li{margin-bottom:8px;}
   .toc a{color:rgba(242,236,224,.5);text-decoration:none;transition:color .2s;}
   .toc a:hover{color:var(--gold);}
+  .toc a.active{color:var(--gold);}
 }
 
 /* Cover */
@@ -184,7 +187,7 @@ strong{color:var(--ink);font-weight:600;}
 .diagram-caption{font-size:14px;color:var(--ink-l);font-style:italic;margin-top:12px;line-height:1.58;text-align:left;}
 
 /* Reference page */
-.ref-page{margin:40px -52px 0;background:var(--teal);background-image:repeating-linear-gradient(90deg,transparent,transparent 6px,rgba(255,255,255,.018) 6px,rgba(255,255,255,.018) 7px);padding:44px 52px 56px;border-top:3px solid var(--gold);}
+.ref-page{margin:0;background:var(--teal);background-image:repeating-linear-gradient(90deg,transparent,transparent 6px,rgba(255,255,255,.018) 6px,rgba(255,255,255,.018) 7px);padding:44px 52px 56px;border-top:3px solid var(--gold);}
 .ref-page h2{color:var(--gold);border-bottom-color:rgba(201,168,76,.2);}
 .ref-page h2::after{background:rgba(201,168,76,.5);}
 .bookmark-wrap{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-bottom:28px;}
@@ -192,8 +195,8 @@ strong{color:var(--ink);font-weight:600;}
 .bm-card-title{font-family:'Oswald',sans-serif;font-size:9px;font-weight:600;color:var(--gold);letter-spacing:.16em;text-transform:uppercase;margin-bottom:10px;padding-bottom:7px;border-bottom:1px solid rgba(201,168,76,.16);text-align:center;}
 .bm-unit-icon{font-size:20px;text-align:center;margin-bottom:6px;display:block;}
 .bm-count{font-family:'Oswald',sans-serif;font-size:10px;color:rgba(242,236,224,.6);text-align:center;margin-bottom:8px;letter-spacing:.06em;}
-.bm-restrict{display:flex;flex-direction:column;gap:4px;flex:1;}
-.bm-biomes{margin-top:auto;display:flex;flex-direction:column;gap:4px;}
+.bm-restrict{display:flex;flex-direction:column;gap:4px;}
+.bm-biomes{margin-top:auto;display:flex;flex-direction:column;gap:4px;min-height:62px;}
 .bm-row{display:flex;align-items:center;gap:6px;font-size:10.5px;color:rgba(242,236,224,.72);}
 .bm-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;}
 .dot-g{background:#4aaa40;}.dot-o{background:#d09030;}.dot-r{background:#c03030;}.dot-grey{background:#707070;}
@@ -210,7 +213,7 @@ strong{color:var(--ink);font-weight:600;}
 .ref-new{color:rgba(180,120,255,.85);font-style:italic;}
 
 /* Appendix */
-.appendix{margin:0 -52px;background:var(--cream-d);padding:44px 52px 56px;border-top:2px solid var(--cream-dd);}
+.appendix{margin:0;background:var(--cream-d);padding:44px 52px 56px;border-top:2px solid var(--cream-dd);}
 .appendix h2{color:var(--teal);}
 .appendix>p{font-size:15px;color:var(--ink-l);font-style:italic;margin-bottom:28px;}
 .clar-item{margin-bottom:22px;padding-bottom:22px;border-bottom:1px solid var(--cream-dd);}
@@ -263,6 +266,61 @@ strong{color:var(--ink);font-weight:600;}
 
 /* Eyebrow — ref page variant */
 .eyebrow--ref{color:rgba(201,168,76,.45);}
+
+/* Mobile / tablet responsive */
+@media (max-width: 768px) {
+  body { font-size: 16px; }
+  .doc-header { padding: 0 20px; height: 48px; }
+  .hdr-brand img { height: 22px; }
+  .hdr-meta { display: none; }
+  .content { padding: 0 20px; }
+  .cover { padding: 40px 24px 36px; }
+  .cover-icon { width: 220px; height: 220px; }
+  .cover-stats { width: 100%; max-width: 320px; }
+  .cs-num { font-size: 28px; }
+  .cover-sub { font-size: 11px; letter-spacing: .3em; }
+  .cover-tagline { font-size: 15px; }
+  .cover-pub { font-size: 11px; }
+  h2 { font-size: 26px; }
+  h3 { font-size: 13px; }
+  p { font-size: 16px; }
+  .unit-grid { grid-template-columns: 1fr; }
+  .diagrams-grid { grid-template-columns: 1fr; }
+  .biome-grid { grid-template-columns: 1fr 1fr; }
+  .biome-grid .biome:last-child { grid-column: auto; }
+  .two-col { grid-template-columns: 1fr; }
+  .strength-grid { grid-template-columns: 1fr; }
+  .turn-flow { flex-direction: column; }
+  .tp-mid { padding: 8px 0; justify-content: center; }
+  .tp-arrow { transform: rotate(90deg); }
+  .ref-page { padding: 32px 28px 40px; }
+  .bookmark-wrap { grid-template-columns: 1fr; }
+  .bm-card { text-align: center; align-items: center; }
+  .bm-restrict, .bm-biomes { align-items: center; }
+  .bm-row { justify-content: center; }
+  .ref-grid { grid-template-columns: 1fr; }
+  .ref-card { text-align: center; }
+  .ref-rule { justify-content: center; }
+  .biome-ref-row { justify-content: center; }
+  .appendix { padding: 32px 28px 40px; }
+  .doc-footer { padding: 0 28px; justify-content: center; }
+  .uc-body--grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 480px) {
+  .doc-header { padding: 0 14px; }
+  .hdr-links { gap: 6px; }
+  .hdr-link { padding: 3px 7px; font-size: 9px; }
+  .content { padding: 0 14px; }
+  .cover { padding: 32px 16px 28px; }
+  .cover-icon { width: 180px; height: 180px; }
+  .cover::before, .cover::after { display: none; }
+  h2 { font-size: 22px; letter-spacing: .04em; }
+  .biome-grid { grid-template-columns: 1fr; }
+  .ref-page { padding: 24px 20px 32px; }
+  .appendix { padding: 24px 20px 32px; }
+  .doc-footer { padding: 14px 20px; flex-direction: column; height: auto; gap: 4px; text-align: center; }
+}
 
 @media print {
   @page {

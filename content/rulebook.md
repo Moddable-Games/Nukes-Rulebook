@@ -379,8 +379,3 @@ A platoon can transit through a restricted terrain region only if **your own Air
 </div>
 </div>
 
-</div><!-- /content -->
-
-{{include:ref-page.html}}
-
-{{include:appendix.html}}

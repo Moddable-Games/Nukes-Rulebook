@@ -29,11 +29,15 @@ templates/
 diagrams/
   svg/                  SVG diagram source files (8 diagrams)
 css/
+  fonts.css             @font-face declarations (self-hosted)
   style.css             Stylesheet (includes @media print for PDF)
+fonts/
+  *.woff2               Self-hosted web fonts (Crimson Pro, Oswald, Special Elite)
 js/
   build.mjs             Markdown → HTML build script
   pdf.mjs               PDF generation (Puppeteer, versioned output)
   pdf-paginate.mjs      Manual pagination engine (DOM measurement)
+  toc.js                Table of contents sidebar with scroll tracking
 logos/
   moddable-white.png    Header brand logo
   nukes-logo.jpg        Cover artwork
@@ -98,6 +102,7 @@ Uses Puppeteer with local Chrome. Renders each section (cover, content, ref-page
 
 | Date | Change |
 |------|--------|
+| 2026-05-22 | Self-host Google Fonts; add responsive mobile breakpoints (768px/480px); ARIA landmarks and skip-to-content; TOC scroll highlighting; ref card label alignment fix |
 | 2026-05-22 | Overhaul PDF pagination: manual JS page-break engine, smart section grouping, 20-page A3 booklet format; ref card biome alignment; designer note filler; print date on back cover |
 | 2026-05-21 | Fix unclosed div in unit cards; overhaul print CSS for professional PDF output; versioned PDF output to pdf/ folder |
 | 2026-05-21 | Add markdown source + build system; extract images from base64; PDF generation |
