@@ -11,9 +11,19 @@ The official rulebook system for all games published by [Moddable Games](https:/
 | Game | Version | Players | Status |
 |------|---------|---------|--------|
 | **Nukes** | 0.9.3 | 2–3 | Live |
-| **Dungeon Chess** | 0.1.0 | 2–4 | Alpha |
 | **Mongo** | 0.8.2 | 3–6 | Playtest |
 | **Endless Skies** | 1.3.0 | 1–4 | In Development |
+
+---
+
+## Mods
+
+| Mod | Base Game | Version | Players | Status |
+|-----|-----------|---------|---------|--------|
+| **Dungeon Chess** | Chess | 0.1.0 | 2–4 | Alpha |
+| **Talisman: Hexed** | Talisman 4e | 1.0.0 | 2–6 | Live |
+| **Hyper Imperium** | Twilight Imperium 4e | 2.0.1 | 3–6 | Live |
+| **Econopoly** | Monopoly | 0.9.0 | 2–6 | Live |
 
 ---
 
@@ -22,9 +32,12 @@ The official rulebook system for all games published by [Moddable Games](https:/
 ```
 games/
   nukes/                 Full rulebook (live)
-  dungeon-chess/         Full rulebook (alpha)
   mongo/                 Placeholder (content pending playtest)
   endless-skies/         Placeholder (content in development)
+  dungeon-chess/         Full rulebook (alpha) — mod of Chess
+  talisman-hexed/        Full rulebook (live) — mod of Talisman 4e
+  hyper-imperium/        Full rulebook (live) — mod of TI4
+  econopoly/             Full rulebook (live) — mod of Monopoly
 shared/
   css/                   Design tokens, base styles, components
   fonts/                 Self-hosted WOFF2 web fonts
