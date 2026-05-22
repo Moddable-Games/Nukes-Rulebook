@@ -27,6 +27,10 @@ Nukes is a 2–3 player strategy game played on a board of hexagonal regions. Yo
 - **Build Bases** (4+ units in one region) to convert units into isotopes and {nowrap|unlock nuclear strikes.}
 - **Win** by destroying or occupying an opponent's city — or outlasting everyone else.
 
+<div class="designer-note">
+<p>Nukes was designed around a single question: <em>what if every aggressive move also strengthened your opponent?</em> The hostage mechanic creates this tension — you need to return tokens to move, but every return reinforces the enemy. The game rewards players who find the tipping point between building momentum and over-extending.</p>
+</div>
+
 </div>
 
 <div class="section">
@@ -305,9 +309,8 @@ If 1 infantry token moves into a region containing 2 artillery tokens, those 3 t
 </div>
 
 <div class="section">
-<div class="eyebrow">Advanced Mechanic</div>
 
-## Meltdown
+### Meltdown
 
 A Meltdown occurs when a hostage token is returned to a region already at its maximum capacity of 9 units. This is a legal and intentional offensive tactic.
 

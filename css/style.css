@@ -119,8 +119,12 @@ strong{color:var(--ink);font-weight:600;}
 .uc-body{padding:13px 16px;background:rgba(255,255,255,.55);}
 .uc-body p{font-size:15px;line-height:1.58;margin:0;}
 
+/* Designer note — PDF only */
+.designer-note{display:none;}
+
 /* Biomes */
 .biome-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:14px 0 22px;}
+.biome-grid .biome:last-child{grid-column:1 / -1;}
 .biome{border-radius:3px;padding:14px 15px;border:1px solid var(--cream-dd);}
 .biome.fields{background:#eaf4e0;border-color:#b0d494;}
 .biome.forest{background:#d4ecd2;border-color:#82b47a;}
@@ -172,11 +176,12 @@ strong{color:var(--ink);font-weight:600;}
 .ref-page h2{color:var(--gold);border-bottom-color:rgba(201,168,76,.2);}
 .ref-page h2::after{background:rgba(201,168,76,.5);}
 .bookmark-wrap{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-bottom:28px;}
-.bm-card{background:rgba(255,255,255,.055);border:1px solid rgba(201,168,76,.18);border-radius:3px;padding:13px 11px;}
+.bm-card{background:rgba(255,255,255,.055);border:1px solid rgba(201,168,76,.18);border-radius:3px;padding:13px 11px;display:flex;flex-direction:column;}
 .bm-card-title{font-family:'Oswald',sans-serif;font-size:9px;font-weight:600;color:var(--gold);letter-spacing:.16em;text-transform:uppercase;margin-bottom:10px;padding-bottom:7px;border-bottom:1px solid rgba(201,168,76,.16);text-align:center;}
 .bm-unit-icon{font-size:20px;text-align:center;margin-bottom:6px;display:block;}
 .bm-count{font-family:'Oswald',sans-serif;font-size:10px;color:rgba(242,236,224,.6);text-align:center;margin-bottom:8px;letter-spacing:.06em;}
-.bm-restrict{display:flex;flex-direction:column;gap:4px;}
+.bm-restrict{display:flex;flex-direction:column;gap:4px;flex:1;}
+.bm-biomes{margin-top:auto;display:flex;flex-direction:column;gap:4px;}
 .bm-row{display:flex;align-items:center;gap:6px;font-size:10.5px;color:rgba(242,236,224,.72);}
 .bm-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;}
 .dot-g{background:#4aaa40;}.dot-o{background:#d09030;}.dot-r{background:#c03030;}.dot-grey{background:#707070;}
@@ -229,7 +234,7 @@ strong{color:var(--ink);font-weight:600;}
 .mt-md{margin-top:10px;}
 
 /* Bookmark card sub-labels */
-.bm-label{margin-top:6px;font-size:9px;color:rgba(245,240,232,.5);}
+.bm-label{margin-top:0;padding-top:8px;font-size:9px;color:rgba(245,240,232,.5);}
 
 /* Bookmark biome dots */
 .dot-water{background:#86bade;}
@@ -250,8 +255,14 @@ strong{color:var(--ink);font-weight:600;}
 @media print {
   @page {
     size: A4 portrait;
-    margin: 0;
   }
+
+  .designer-note{display:block;margin:60px auto 0;max-width:70%;text-align:center;padding:0;}
+  .designer-note::before{content:'';display:block;width:60%;height:1px;margin:0 auto 60px;background:linear-gradient(to right, transparent, var(--gold), transparent);opacity:0.6;}
+  .designer-note p{font-size:13.5px;line-height:1.8;color:var(--ink-l);font-style:italic;margin:0;opacity:0.7;position:relative;padding:0 20px;}
+  .designer-note p::before,.designer-note p::after{font-family:Georgia,serif;font-size:54px;color:var(--gold);opacity:0.5;position:absolute;line-height:1;}
+  .designer-note p::before{content:'\201C';top:-8px;left:-16px;}
+  .designer-note p::after{content:'\201D';bottom:-24px;right:-16px;}
 
   * {
     -webkit-print-color-adjust: exact !important;
@@ -271,7 +282,7 @@ strong{color:var(--ink);font-weight:600;}
     width: 100% !important;
     box-shadow: none !important;
     margin: 0 !important;
-    padding: 0 14mm !important;
+    padding: 0 !important;
     background: var(--cream) !important;
   }
 
@@ -285,19 +296,17 @@ strong{color:var(--ink);font-weight:600;}
     margin: 0 !important;
   }
 
-  /* Cover — full bleed, cancel out .page side padding */
+  /* Cover — rendered as its own PDF with dark html bg */
   .cover {
-    break-after: page !important;
-    page-break-after: always !important;
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
     justify-content: center !important;
-    padding: 40px !important;
+    padding: 0 !important;
     border-bottom: none !important;
-    margin: -14mm !important;
-    min-height: 100vh;
-    background: #0e0a06 !important;
+    margin: 0 !important;
+    min-height: calc(297mm - 40mm);
+    background: transparent !important;
   }
   .cover-icon { width: 280px !important; height: 280px !important; }
 
@@ -409,25 +418,23 @@ strong{color:var(--ink);font-weight:600;}
   /* Two col */
   .two-col { gap: 14px !important; margin: 10px 0 !important; }
 
-  /* Ref page — full bleed teal (negative margins bleed into Puppeteer margin area) */
+  /* Ref page — rendered as its own PDF with teal html bg */
   .ref-page {
-    break-before: page !important;
-    page-break-before: always !important;
-    margin: -14mm 0 0 !important;
-    padding: 28mm 14mm 14mm !important;
+    margin: 0 !important;
+    padding: 0 !important;
     border-top: none !important;
-    background: var(--teal) !important;
+    background: transparent !important;
     color: var(--cream) !important;
   }
   .ref-page h2 { font-size: 18px !important; }
-  .bookmark-wrap { gap: 6px !important; margin-bottom: 18px !important; }
-  .bm-card { padding: 8px 7px !important; }
+  .bookmark-wrap { gap: 4px !important; margin-bottom: 18px !important; }
+  .bm-card { padding: 8px 6px !important; }
   .bm-card-title { font-size: 8px !important; margin-bottom: 6px !important; padding-bottom: 4px !important; }
   .bm-unit-icon { font-size: 16px !important; margin-bottom: 3px !important; }
   .bm-count { font-size: 8px !important; margin-bottom: 5px !important; }
-  .bm-row { font-size: 9px !important; }
+  .bm-row { font-size: 9px !important; text-wrap: pretty; }
   .bm-dot { width: 6px !important; height: 6px !important; }
-  .bm-label { font-size: 8px !important; margin-top: 4px !important; }
+  .bm-label { font-size: 8px !important; margin-top: 0 !important; padding-top: 6px !important; }
   .ref-grid { gap: 8px !important; }
   .ref-card { padding: 10px 11px !important; }
   .ref-card-title { font-size: 8px !important; margin-bottom: 6px !important; padding-bottom: 4px !important; }
@@ -435,23 +442,21 @@ strong{color:var(--ink);font-weight:600;}
   .biome-ref-row { margin-top: 10px !important; }
   .biome-chip { font-size: 8px !important; padding: 2px 8px !important; }
 
-  /* Appendix — full bleed teal */
+  /* Appendix — rendered as its own PDF with teal html bg */
   .appendix {
-    break-before: page !important;
-    page-break-before: always !important;
-    margin: -14mm 0 0 !important;
-    padding: 28mm 14mm 14mm !important;
+    margin: 0 !important;
+    padding: 0 !important;
     border-top: none !important;
-    background: var(--teal) !important;
+    background: transparent !important;
     color: var(--cream) !important;
   }
   .appendix h2 { font-size: 18px !important; color: var(--cream) !important; }
   .appendix > p { font-size: 12px !important; margin-bottom: 16px !important; color: var(--cream) !important; }
   .appendix .clar-item { margin-bottom: 14px !important; padding-bottom: 14px !important; }
-  .appendix .clar-q { font-size: 11.5px !important; margin-bottom: 4px !important; color: var(--cream) !important; }
-  .appendix .clar-a { font-size: 12px !important; line-height: 1.5 !important; color: rgba(242,236,224,0.85) !important; }
-  .appendix .clar-a strong { color: var(--cream) !important; }
-  .appendix .clar-new { font-size: 7px !important; color: var(--gold) !important; border-color: var(--gold) !important; }
+  .appendix .clar-q { font-size: 11.5px !important; margin-bottom: 4px !important; color: var(--gold) !important; }
+  .appendix .clar-a { font-size: 12px !important; line-height: 1.5 !important; color: var(--cream) !important; }
+  .appendix .clar-a strong { color: #fff !important; }
+  .appendix .clar-new { font-size: 7px !important; color: #fff !important; background: var(--gold) !important; border-color: var(--gold) !important; }
   .appendix hr { border-color: rgba(242,236,224,0.2) !important; }
 
   /* Page-break control */
@@ -500,18 +505,16 @@ strong{color:var(--ink);font-weight:600;}
     page-break-inside: avoid !important;
   }
 
-  /* Back cover */
+  /* Back cover — rendered as its own PDF with dark html bg */
   .back-cover {
-    break-before: page !important;
-    page-break-before: always !important;
-    min-height: calc(100vh + 14mm);
+    min-height: calc(297mm - 40mm);
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
     justify-content: center !important;
-    background: var(--ink) !important;
-    margin: -14mm 0 0 !important;
-    padding: 40px !important;
+    background: transparent !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
   .back-cover-logo {
     width: 160px;
@@ -533,5 +536,12 @@ strong{color:var(--ink);font-weight:600;}
     font-size: 11px !important;
     color: rgba(255,255,255,0.4) !important;
     letter-spacing: 0.1em;
+  }
+  .back-cover-date {
+    font-family: var(--sans);
+    font-size: 10px !important;
+    color: rgba(255,255,255,0.3) !important;
+    letter-spacing: 0.05em;
+    margin-top: 8px;
   }
 }
