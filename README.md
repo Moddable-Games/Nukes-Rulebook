@@ -102,13 +102,9 @@ Uses Puppeteer with local Chrome. Renders each section (cover, content, ref-page
 
 | Date | Change |
 |------|--------|
-| 2026-05-22 | Self-host Google Fonts; add responsive mobile breakpoints (768px/480px); ARIA landmarks and skip-to-content; TOC scroll highlighting; ref card label alignment fix |
-| 2026-05-22 | Overhaul PDF pagination: manual JS page-break engine, smart section grouping, 20-page A3 booklet format; ref card biome alignment; designer note filler; print date on back cover |
-| 2026-05-21 | Fix unclosed div in unit cards; overhaul print CSS for professional PDF output; versioned PDF output to pdf/ folder |
-| 2026-05-21 | Add markdown source + build system; extract images from base64; PDF generation |
-| 2026-05-21 | Extract all inline styles to CSS classes |
-| 2026-05-20 | Restructure for GitHub Pages deployment |
-| 2026-05-20 | Initial commit — full HTML rulebook with diagrams |
+| 2026-05-22 | Overhaul PDF pagination (manual JS page-break engine, 20-page A3 booklet); self-host Google Fonts; responsive mobile breakpoints (768px/480px); ARIA landmarks and skip-to-content; TOC scroll highlighting; ref card label alignment; favicon and OG meta tags |
+| 2026-05-21 | Add markdown source + build system; extract images from base64; PDF generation; overhaul print CSS; versioned PDF output |
+| 2026-05-20 | Initial commit — full HTML rulebook with diagrams; restructure for GitHub Pages |
 
 ---
 
