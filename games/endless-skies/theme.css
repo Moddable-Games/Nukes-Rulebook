@@ -1,0 +1,158 @@
+/* Endless Skies Theme — Open Sky / Airy
+   Sky blues, cloud whites, warm sunset accents.
+   Light and breathable — the opposite of the dungeon aesthetic. */
+
+:root {
+  /* Core semantic overrides */
+  --accent: #e87040;
+  --accent-dark: #c45830;
+  --accent-light: #f09060;
+  --bg-primary: #f0f6fb;
+  --bg-dark: #1a3a5c;
+  --bg-darker: #0f2840;
+  --heading-color: #1a4a6a;
+  --text-primary: #1a2030;
+  --text-secondary: #4a6078;
+  --divider-color: #c8dae8;
+  --border-color: #a8c4d8;
+
+  /* Game-specific named colours */
+  --skies-sunset-orange: #e87040;
+  --skies-sunset-warm: #f09060;
+  --skies-sky-blue: #4a9fd4;
+  --skies-sky-light: #7abce8;
+  --skies-ocean-blue: #1a4a6a;
+  --skies-deep-sky: #1a3a5c;
+  --skies-cloud-white: #f8fbfe;
+  --skies-cloud-grey: #e4edf4;
+  --skies-horizon: #d4e4f0;
+  --skies-ink: #1a2030;
+
+  /* Section divider symbol */
+  --section-divider: "☁";
+}
+
+/* Section dividers */
+.section + .section::before {
+  content: var(--section-divider);
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1.5rem 0;
+  color: var(--skies-sky-blue);
+  opacity: 0.6;
+}
+
+/* Cover styling */
+.cover {
+  background: linear-gradient(
+    170deg,
+    var(--skies-deep-sky) 0%,
+    var(--skies-sky-blue) 50%,
+    var(--skies-sunset-orange) 100%
+  );
+}
+
+.cover-title {
+  color: var(--skies-cloud-white);
+  text-shadow: 0 2px 12px rgba(26, 58, 92, 0.4);
+}
+
+.cover-sub {
+  color: var(--skies-horizon);
+}
+
+.cover-tagline {
+  color: var(--skies-cloud-white);
+}
+
+.cover-rule {
+  background: var(--skies-sunset-orange);
+}
+
+.cover-stats .cs-num {
+  color: var(--skies-cloud-white);
+}
+
+.cover-stats .cs-lbl {
+  color: var(--skies-horizon);
+}
+
+.cover-pub {
+  color: var(--skies-horizon);
+}
+
+/* Header */
+.doc-header {
+  background: var(--skies-deep-sky);
+  border-bottom: 2px solid var(--skies-sky-blue);
+}
+
+/* Highlights and callout boxes */
+.highlight {
+  background: var(--skies-cloud-grey);
+  border-left: 4px solid var(--skies-sky-blue);
+}
+
+.highlight .box-title {
+  color: var(--skies-sunset-orange);
+}
+
+/* Designer notes */
+.designer-note {
+  border-left: 3px solid var(--skies-ocean-blue);
+  background: rgba(74, 159, 212, 0.04);
+}
+
+/* Eyebrow labels */
+.eyebrow {
+  color: var(--skies-sunset-orange);
+  letter-spacing: 0.08em;
+}
+
+/* Links */
+a {
+  color: var(--skies-sky-blue);
+}
+
+a:hover {
+  color: var(--skies-sunset-orange);
+}
+
+/* Table of contents */
+.toc {
+  border-right: 2px solid var(--skies-sky-blue);
+}
+
+.toc a.active {
+  color: var(--skies-sunset-orange);
+  border-left-color: var(--skies-sunset-orange);
+}
+
+/* Footer */
+.doc-footer {
+  background: var(--skies-deep-sky);
+  border-top: 2px solid var(--skies-sky-blue);
+  color: var(--skies-horizon);
+}
+
+/* Tables */
+table th {
+  background: var(--skies-ocean-blue);
+  color: var(--skies-cloud-white);
+}
+
+table td {
+  border-bottom-color: var(--divider-color);
+}
+
+/* Print overrides */
+@media print {
+  .cover {
+    background: var(--skies-ocean-blue);
+  }
+
+  .section + .section::before {
+    color: var(--skies-sky-blue);
+  }
+}

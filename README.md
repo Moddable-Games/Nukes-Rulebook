@@ -1,49 +1,57 @@
-# NUKES — Official Rulebook
+# Moddable Rules
 
-The complete rulebook for **NUKES** by [Moddable Games](https://moddable.games) — a tactical hex-based strategy game of nuclear brinkmanship for 2–3 players.
+The official rulebook system for all games published by [Moddable Games](https://moddable.games). Each game gets its own themed rulebook built from a shared design system.
 
-**[Read the Rulebook](https://moddable-games.github.io/Nukes-Rulebook/)**
+**[Browse Rulebooks](https://moddable-games.github.io/Nukes-Rulebook/)**
 
 ---
 
-## Overview
+## Games
 
-| | |
-|---|---|
-| **Players** | 2–3 |
-| **Duration** | 45+ min |
-| **Version** | 0.9.3 |
-
-This repository hosts the HTML rulebook, styled for web reading and print-ready PDF generation. It's deployed via GitHub Pages.
+| Game | Version | Players | Status |
+|------|---------|---------|--------|
+| **Nukes** | 0.9.3 | 2–3 | Live |
+| **Dungeon Chess** | 0.1.0 | 2–4 | Alpha |
+| **Mongo** | 0.8.2 | 3–6 | Playtest |
+| **Endless Skies** | 1.3.0 | 1–4 | In Development |
 
 ---
 
 ## Project Structure
 
 ```
-content/
-  rulebook.md           Canonical rules source (edit this)
-templates/
-  shell.html            HTML shell (header, cover, footer)
-  partials/             Visual components (unit cards, ref page, etc.)
-diagrams/
-  svg/                  SVG diagram source files (8 diagrams)
-css/
-  fonts.css             @font-face declarations (self-hosted)
-  style.css             Stylesheet (includes @media print for PDF)
-fonts/
-  *.woff2               Self-hosted web fonts (Crimson Pro, Oswald, Special Elite)
+games/
+  nukes/                 Full rulebook (live)
+  dungeon-chess/         Full rulebook (alpha)
+  mongo/                 Placeholder (content pending playtest)
+  endless-skies/         Placeholder (content in development)
+shared/
+  css/                   Design tokens, base styles, components
+  fonts/                 Self-hosted WOFF2 web fonts
+  templates/             Shared fallback shell template
+  logos/                 Moddable brand assets
 js/
-  build.mjs             Markdown → HTML build script
-  pdf.mjs               PDF generation (Puppeteer, versioned output)
-  pdf-paginate.mjs      Manual pagination engine (DOM measurement)
-  toc.js                Table of contents sidebar with scroll tracking
-logos/
-  moddable-white.png    Header brand logo
-  nukes-logo.jpg        Cover artwork
-pdf/
-  nukes-rulebook-v*.pdf BUILD OUTPUT (versioned PDF)
-index.html              BUILD OUTPUT (do not edit directly)
+  build.mjs             Multi-game build system
+  pdf.mjs               PDF generation (Puppeteer)
+  pdf-paginate.mjs      Manual pagination engine
+  toc.js                Client-side TOC with scroll tracking
+css/
+  landing.css           Landing page styles
+dist/                   BUILD OUTPUT (all games)
+index.html             Landing page (game selector)
+```
+
+Each game directory contains:
+```
+games/{slug}/
+  content/rulebook.md    Canonical rules source
+  templates/
+    shell.html           Game-specific HTML shell
+    partials/            Visual components (unit cards, etc.)
+  diagrams/svg/          SVG illustrations
+  theme.css              Game colour palette and overrides
+  logos/                 Game-specific artwork
+  pdf/                   Generated PDFs
 ```
 
 ---
@@ -54,47 +62,48 @@ Requires Node.js 18+.
 
 ```bash
 npm install --ignore-scripts
-npm run build          # Generates index.html from content/rulebook.md
-npm run pdf            # Generates nukes-rulebook.pdf
+npm run build              # Build all games → dist/
+npm run build:game nukes   # Build one game
+npm run pdf                # Generate all PDFs
+npm run pdf:game nukes     # Generate PDF for one game
 ```
 
-The build reads `content/rulebook.md`, resolves includes and SVG references, renders markdown to HTML, and injects it into the shell template.
+The build reads each game's `content/rulebook.md`, resolves includes and SVGs, renders markdown to HTML, applies the game's theme, and outputs to `dist/{slug}/index.html`.
 
 ---
 
-## Editing the Rules
+## Adding a New Game
 
-Edit `content/rulebook.md` — this is the single source of truth for all rules text. The file uses:
-
-- Standard markdown for paragraphs, headings, lists, tables
-- `{nowrap|text}` for non-breaking spans
-- `{warn|text}` for warning emphasis
-- `{{include:filename.html}}` to include visual HTML partials
-- `{{svg:filename.svg "caption"}}` to include SVG diagrams
-- Raw HTML blocks for complex visual layouts (boxes, highlights)
-
-After editing, run `npm run build` to regenerate the HTML.
-
----
-
-## Diagrams
-
-Eight SVG diagrams illustrate core mechanics:
-
-- **Infantry** — Flood fill movement + blocking
-- **Artillery** — Jump mechanics (4 scenarios) + pivot at friendly Base
-- **Airborne** — Exactly-2-step rule + slingshot chains
-- **Nuke** — Valid targets + after-strike effects
+1. Create `games/{slug}/content/rulebook.md` with YAML frontmatter:
+   ```yaml
+   ---
+   title: "Game Name — Official Rulebook"
+   version: "0.1.0"
+   slug: "game-slug"
+   players: "2–4"
+   duration: "60 min"
+   age: "12+"
+   tagline: "One-line description"
+   ---
+   ```
+2. Create `games/{slug}/theme.css` (override CSS custom properties)
+3. Create `games/{slug}/templates/shell.html` (or rely on `shared/templates/shell.html`)
+4. Run `npm run build` — the system auto-discovers games with `content/rulebook.md`
 
 ---
 
-## PDF Generation
+## Design System
 
-```bash
-npm run pdf
-```
+The shared CSS uses semantic custom properties that each game's theme overrides:
 
-Uses Puppeteer with local Chrome. Renders each section (cover, content, ref-page, appendix, back-cover) as a separate PDF with full-bleed backgrounds, then merges with `pdfunite`. Multi-page sections use `pdf-paginate.mjs` for DOM-measurement-based pagination. Target: 20 pages (5× A3 booklet).
+| Variable | Purpose |
+|----------|---------|
+| `--accent` | Primary accent colour |
+| `--bg-primary` | Page background |
+| `--bg-dark` | Dark sections (header, ref page) |
+| `--heading-color` | H2 colour |
+| `--text-primary` | Body text |
+| `--divider-color` | Section borders |
 
 ---
 
@@ -102,9 +111,10 @@ Uses Puppeteer with local Chrome. Renders each section (cover, content, ref-page
 
 | Date | Change |
 |------|--------|
-| 2026-05-22 | Overhaul PDF pagination (manual JS page-break engine, 20-page A3 booklet); self-host Google Fonts; responsive mobile breakpoints (768px/480px); ARIA landmarks and skip-to-content; TOC scroll highlighting; ref card label alignment; favicon and OG meta tags |
-| 2026-05-21 | Add markdown source + build system; extract images from base64; PDF generation; overhaul print CSS; versioned PDF output |
-| 2026-05-20 | Initial commit — full HTML rulebook with diagrams; restructure for GitHub Pages |
+| 2026-05-22 | Restructure to multi-game system; add Dungeon Chess, Mongo, Endless Skies; shared design system; landing page; multi-game build |
+| 2026-05-22 | Overhaul PDF pagination; self-host fonts; responsive mobile; ARIA landmarks; TOC scroll highlighting |
+| 2026-05-21 | Add markdown source + build system; PDF generation; versioned output |
+| 2026-05-20 | Initial commit — Nukes HTML rulebook with diagrams |
 
 ---
 

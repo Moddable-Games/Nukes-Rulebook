@@ -1,0 +1,51 @@
+/* ==========================================================================
+   Design Tokens — shared across all games
+   Each game's theme.css overrides these semantic variables.
+   ========================================================================== */
+
+:root {
+  /* Typography stacks */
+  --serif:      'Crimson Pro', Georgia, serif;
+  --sans:       'Oswald', sans-serif;
+  --mono:       'Special Elite', serif;
+
+  /* Typography scale */
+  --fs-body:    18px;
+  --fs-body-sm: 16px;
+  --fs-h2:      34px;
+  --fs-h3:      15px;
+  --fs-h4:      12px;
+  --lh-body:    1.75;
+  --lh-tight:   1.1;
+  --lh-snug:    1.4;
+
+  /* Spacing */
+  --space-xs:   8px;
+  --space-sm:   14px;
+  --space-md:   22px;
+  --space-lg:   44px;
+  --space-xl:   52px;
+  --space-2xl:  56px;
+
+  /* Border radii */
+  --radius-sm:  2px;
+  --radius-md:  3px;
+
+  /* Semantic colors — overridden by each game theme */
+  --accent:         #c9a84c;
+  --accent-dark:    #8b6914;
+  --accent-light:   #e8d5a0;
+  --accent-trans:   rgba(201,168,76,.3);
+
+  --bg-primary:     #f2ece0;
+  --bg-dark:        #1c4a4a;
+  --bg-darker:      #0e0a06;
+  --bg-page-outer:  #080602;
+
+  --text-primary:   #1a1208;
+  --text-secondary: #362818;
+  --heading-color:  #1c4a4a;
+
+  --divider-color:  #cfc0a0;
+  --border-subtle:  #e4d8c0;
+}

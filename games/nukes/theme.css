@@ -1,0 +1,75 @@
+/* ==========================================================================
+   Nukes — Game Theme
+   Cold-war territory control. Teal, gold, and rust palette.
+   ========================================================================== */
+
+:root {
+  /* Semantic overrides */
+  --accent:         #c9a84c;
+  --accent-dark:    #8b6914;
+  --accent-light:   #e8d5a0;
+  --accent-trans:   rgba(201,168,76,.3);
+
+  --bg-primary:     #f2ece0;
+  --bg-dark:        #1c4a4a;
+  --bg-darker:      #0e0a06;
+  --bg-page-outer:  #080602;
+
+  --text-primary:   #1a1208;
+  --text-secondary: #362818;
+  --heading-color:  #1c4a4a;
+
+  --divider-color:  #cfc0a0;
+  --border-subtle:  #e4d8c0;
+
+  /* Game-specific named colours */
+  --cream:    #f2ece0;
+  --cream-d:  #e4d8c0;
+  --cream-dd: #cfc0a0;
+  --ink:      #1a1208;
+  --ink-l:    #362818;
+  --teal:     #1c4a4a;
+  --teal-l:   #2a6060;
+  --teal-ll:  #3a8080;
+  --gold:     #c9a84c;
+  --gold-d:   #8b6914;
+  --gold-p:   #e8d5a0;
+  --rust:     #a83818;
+  --purple-l: #7a3aaa;
+  --danger:   #a83818;
+  --purple:   #7a3aaa;
+}
+
+/* Section divider — radioactive symbol */
+.section+.section::before{content:'☢';display:block;text-align:center;font-size:13px;color:var(--gold-d);opacity:.35;margin:-10px 0 0;line-height:1;}
+
+/* Unit card head variants */
+.uc-head--infantry{background:var(--teal);}
+.uc-head--artillery{background:#456030;}
+.uc-head--airborne{background:#384070;}
+.uc-head--nuke{background:var(--ink);}
+.uc-head--base{background:var(--gold);}
+
+/* Biome colours */
+.biome.fields{background:#eaf4e0;border-color:#b0d494;}
+.biome.forest{background:#d4ecd2;border-color:#82b47a;}
+.biome.mountain{background:#eae6e0;border-color:#bcb4aa;}
+.biome.desert{background:#f8f0ce;border-color:#d8bc78;}
+.biome.water{background:#d8eaf8;border-color:#86bade;}
+.biome.hazard{background:#eddff5;border-color:#b07ece;}
+.biome.city{background:#fde8e8;border-color:#dc9898;}
+
+/* Biome chips */
+.chip-fields{background:#b4e090;}
+.chip-forest{background:#7aba70;}
+.chip-mountain{background:#bcb4aa;}
+.chip-desert{background:#e0c878;}
+.chip-water{background:#86bade;}
+.chip-hazard{background:#c090e0;color:white;}
+.chip-city{background:#e08888;}
+
+/* Bookmark biome dots */
+.dot-water{background:#86bade;}
+.dot-desert{background:#e0c878;}
+.dot-forest{background:#82b47a;}
+.dot-mountain{background:#bcb4aa;}

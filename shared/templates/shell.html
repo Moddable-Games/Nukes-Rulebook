@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{game_title}} — Official Rulebook {{version}}</title>
+<meta name="description" content="{{tagline}}">
+<meta property="og:title" content="{{game_title}} — Official Rulebook {{version}}">
+<meta property="og:description" content="{{tagline}}">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/png" sizes="32x32" href="../../shared/logos/favicon-32.png">
+<link rel="stylesheet" href="../../shared/css/fonts.css">
+<link rel="stylesheet" href="../../shared/css/tokens.css">
+<link rel="stylesheet" href="../../shared/css/base.css">
+<link rel="stylesheet" href="../../shared/css/components.css">
+<link rel="stylesheet" href="../../games/{{slug}}/theme.css">
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<!-- HEADER -->
+<header class="doc-header" role="banner">
+  <div class="hdr-brand">
+    <a href="../../index.html">
+      <img src="../../shared/logos/moddable-white.png" alt="Moddable Games">
+    </a>
+  </div>
+  <div class="hdr-links">
+    <a href="../../games/{{slug}}/content/rulebook.md" class="hdr-link">Markdown</a>
+    <a href="../../games/{{slug}}/pdf/{{slug}}-rulebook-{{version}}.pdf" class="hdr-link">PDF</a>
+  </div>
+  <span class="hdr-meta">Official Rulebook &middot; {{version}}</span>
+</header>
+
+<!-- COVER -->
+<div class="cover">
+  <div class="cover-title">{{game_title}}</div>
+  <div class="cover-sub">Official Rulebook</div>
+  <div class="cover-rule"></div>
+  <p class="cover-tagline">{{tagline}}</p>
+  <div class="cover-stats">
+    <div class="cover-stat">
+      <span class="cs-num">{{players}}</span>
+      <span class="cs-lbl">Players</span>
+    </div>
+    <div class="cover-stat">
+      <span class="cs-num">{{duration}}</span>
+      <span class="cs-lbl">Minutes</span>
+    </div>
+    <div class="cover-stat">
+      <span class="cs-num">{{age}}</span>
+      <span class="cs-lbl">Age</span>
+    </div>
+  </div>
+  <p class="cover-pub">Published by Moddable Games &middot; {{version}}</p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<!-- MAIN CONTENT -->
+<main id="main-content" class="content">
+
+{{CONTENT}}
+
+</main>
+
+<!-- FOOTER -->
+<footer class="doc-footer" role="contentinfo">
+  <p>{{game_title}} Rulebook {{version}} &mdash; Published by Moddable Games</p>
+</footer>
+
+</div>
+
+<script src="../../js/toc.js"></script>
+</body>
+</html>

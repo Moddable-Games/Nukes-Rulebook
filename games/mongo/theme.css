@@ -1,0 +1,158 @@
+/* Mongo Theme — Pulp Sci-Fi Adventure
+   Bold retro poster colours inspired by 1930s serial adventure.
+   Bright reds, golds, deep space purples, rocket silver. */
+
+:root {
+  /* Core semantic overrides */
+  --accent: #d42b2b;
+  --accent-dark: #a01e1e;
+  --accent-light: #f04848;
+  --bg-primary: #f5ede0;
+  --bg-dark: #2a1530;
+  --bg-darker: #1a0c1e;
+  --heading-color: #3a1050;
+  --text-primary: #1a0f20;
+  --text-secondary: #5c3a6e;
+  --divider-color: #d4c4a8;
+  --border-color: #c8b494;
+
+  /* Game-specific named colours */
+  --mongo-rocket-red: #d42b2b;
+  --mongo-imperial-gold: #e8b830;
+  --mongo-gold-dark: #c49a20;
+  --mongo-space-purple: #3a1050;
+  --mongo-deep-purple: #2a1530;
+  --mongo-parchment: #f5ede0;
+  --mongo-parchment-dark: #e8dcc8;
+  --mongo-rocket-silver: #b8c4d0;
+  --mongo-silver-light: #d4dce4;
+  --mongo-ink: #1a0f20;
+
+  /* Section divider symbol */
+  --section-divider: "⚡";
+}
+
+/* Section dividers */
+.section + .section::before {
+  content: var(--section-divider);
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1.5rem 0;
+  color: var(--mongo-imperial-gold);
+  opacity: 0.7;
+}
+
+/* Cover styling */
+.cover {
+  background: linear-gradient(
+    160deg,
+    var(--mongo-deep-purple) 0%,
+    var(--mongo-space-purple) 40%,
+    var(--mongo-rocket-red) 100%
+  );
+}
+
+.cover-title {
+  color: var(--mongo-imperial-gold);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.cover-sub {
+  color: var(--mongo-silver-light);
+}
+
+.cover-tagline {
+  color: var(--mongo-parchment);
+}
+
+.cover-rule {
+  background: var(--mongo-imperial-gold);
+}
+
+.cover-stats .cs-num {
+  color: var(--mongo-imperial-gold);
+}
+
+.cover-stats .cs-lbl {
+  color: var(--mongo-rocket-silver);
+}
+
+.cover-pub {
+  color: var(--mongo-rocket-silver);
+}
+
+/* Header */
+.doc-header {
+  background: var(--mongo-deep-purple);
+  border-bottom: 2px solid var(--mongo-imperial-gold);
+}
+
+/* Highlights and callout boxes */
+.highlight {
+  background: var(--mongo-parchment-dark);
+  border-left: 4px solid var(--mongo-imperial-gold);
+}
+
+.highlight .box-title {
+  color: var(--mongo-rocket-red);
+}
+
+/* Designer notes */
+.designer-note {
+  border-left: 3px solid var(--mongo-space-purple);
+  background: rgba(58, 16, 80, 0.04);
+}
+
+/* Eyebrow labels */
+.eyebrow {
+  color: var(--mongo-rocket-red);
+  letter-spacing: 0.08em;
+}
+
+/* Links */
+a {
+  color: var(--mongo-rocket-red);
+}
+
+a:hover {
+  color: var(--mongo-imperial-gold);
+}
+
+/* Table of contents */
+.toc {
+  border-right: 2px solid var(--mongo-imperial-gold);
+}
+
+.toc a.active {
+  color: var(--mongo-rocket-red);
+  border-left-color: var(--mongo-rocket-red);
+}
+
+/* Footer */
+.doc-footer {
+  background: var(--mongo-deep-purple);
+  border-top: 2px solid var(--mongo-imperial-gold);
+  color: var(--mongo-rocket-silver);
+}
+
+/* Tables */
+table th {
+  background: var(--mongo-space-purple);
+  color: var(--mongo-parchment);
+}
+
+table td {
+  border-bottom-color: var(--divider-color);
+}
+
+/* Print overrides */
+@media print {
+  .cover {
+    background: var(--mongo-space-purple);
+  }
+
+  .section + .section::before {
+    color: var(--mongo-imperial-gold);
+  }
+}

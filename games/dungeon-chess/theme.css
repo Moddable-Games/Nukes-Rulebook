@@ -1,0 +1,182 @@
+/* Dungeon Chess Theme — Dark Stone & Torchlight
+   Deep dungeon corridors lit by flickering torches.
+   Aged parchment, dark stone walls, gold firelight, ember glow. */
+
+:root {
+  /* Core semantic overrides */
+  --accent: #e8a838;
+  --accent-dark: #b07820;
+  --accent-light: #f0c060;
+  --bg-primary: #e8dcc8;
+  --bg-dark: #1a1a2e;
+  --bg-darker: #0d0d1a;
+  --heading-color: #1a1a2e;
+  --text-primary: #1a1208;
+  --text-secondary: #3a2a18;
+  --divider-color: #d4c4a8;
+  --border-color: #c8b898;
+
+  /* Game-specific named colours */
+  --dungeon-stone: #1a1a2e;
+  --dungeon-torch: #e8a838;
+  --dungeon-torch-dark: #b07820;
+  --dungeon-ember: #d4763a;
+  --dungeon-shadow: #0d0d1a;
+  --dungeon-parchment: #e8dcc8;
+  --dungeon-parchment-dark: #d4c4a8;
+  --dungeon-moss: #4a6a3a;
+  --dungeon-bone: #f0e8d8;
+  --dungeon-ink: #1a1208;
+
+  /* Section divider symbol */
+  --section-divider: "\2694";
+}
+
+/* Section dividers */
+.section + .section::before {
+  content: var(--section-divider);
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1.5rem 0;
+  color: var(--dungeon-torch);
+  opacity: 0.7;
+}
+
+/* Cover styling */
+.cover {
+  background: linear-gradient(
+    160deg,
+    var(--dungeon-shadow) 0%,
+    var(--dungeon-stone) 50%,
+    #2a1a10 100%
+  );
+}
+
+.cover-title {
+  color: var(--dungeon-torch);
+  text-shadow: 0 2px 12px rgba(232, 168, 56, 0.4), 0 4px 20px rgba(0, 0, 0, 0.6);
+}
+
+.cover-sub {
+  color: var(--dungeon-parchment);
+}
+
+.cover-tagline {
+  color: var(--dungeon-parchment-dark);
+}
+
+.cover-rule {
+  background: var(--dungeon-torch);
+}
+
+.cover-stats .cs-num {
+  color: var(--dungeon-torch);
+}
+
+.cover-stats .cs-lbl {
+  color: var(--dungeon-parchment-dark);
+}
+
+.cover-pub {
+  color: var(--dungeon-parchment-dark);
+}
+
+/* Header */
+.doc-header {
+  background: var(--dungeon-shadow);
+  border-bottom: 2px solid var(--dungeon-torch);
+}
+
+/* Highlights and callout boxes */
+.highlight {
+  background: var(--dungeon-bone);
+  border-left: 4px solid var(--dungeon-torch);
+}
+
+.highlight .box-title {
+  color: var(--dungeon-ember);
+}
+
+/* Designer notes */
+.designer-note {
+  border-left: 3px solid var(--dungeon-stone);
+  background: rgba(26, 26, 46, 0.04);
+}
+
+/* Eyebrow labels */
+.eyebrow {
+  color: var(--dungeon-ember);
+  letter-spacing: 0.08em;
+}
+
+.eyebrow-badge {
+  background: var(--dungeon-stone);
+  color: var(--dungeon-torch);
+  padding: 2px 10px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  border-radius: 2px;
+}
+
+.eyebrow-line {
+  flex: 1;
+  height: 1px;
+  background: var(--dungeon-parchment-dark);
+  margin-left: 12px;
+}
+
+/* Links */
+a {
+  color: var(--dungeon-ember);
+}
+
+a:hover {
+  color: var(--dungeon-torch);
+}
+
+/* Table of contents */
+.toc {
+  border-right: 2px solid var(--dungeon-torch);
+}
+
+.toc a.active {
+  color: var(--dungeon-torch);
+  border-left-color: var(--dungeon-torch);
+}
+
+/* Footer */
+.doc-footer {
+  background: var(--dungeon-shadow);
+  border-top: 2px solid var(--dungeon-torch);
+  color: var(--dungeon-parchment-dark);
+}
+
+/* Tables */
+table th {
+  background: var(--dungeon-stone);
+  color: var(--dungeon-parchment);
+}
+
+table td {
+  border-bottom-color: var(--divider-color);
+}
+
+/* Species colour accents for unit cards */
+.species-humans { --species-color: #c8c8d0; }
+.species-undead { --species-color: #5a4a6a; }
+.species-redskins { --species-color: #c83030; }
+.species-greenskins { --species-color: #3a8a3a; }
+
+/* Print overrides */
+@media print {
+  .cover {
+    background: var(--dungeon-stone);
+  }
+
+  .section + .section::before {
+    color: var(--dungeon-torch);
+  }
+}

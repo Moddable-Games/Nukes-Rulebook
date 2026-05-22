@@ -1,11 +1,13 @@
 {
-  "name": "nukes-rulebook",
+  "name": "moddable-rules",
   "version": "0.9.3",
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node js/build.mjs",
-    "pdf": "node js/pdf.mjs"
+    "build": "node js/build.mjs --all",
+    "build:game": "node js/build.mjs --game",
+    "pdf": "node js/pdf.mjs",
+    "pdf:game": "node js/pdf.mjs --game"
   },
   "devDependencies": {
     "gray-matter": "^4.0.3",

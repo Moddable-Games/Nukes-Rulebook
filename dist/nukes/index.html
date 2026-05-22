@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NUKES — Official Rulebook v0.9.3</title>
+<meta name="description" content="Complete rules for NUKES, a tactical hex-based strategy game of nuclear brinkmanship for 2–3 players.">
+<meta property="og:title" content="NUKES — Official Rulebook v0.9.3">
+<meta property="og:description" content="Complete rules for NUKES, a tactical hex-based strategy game of nuclear brinkmanship for 2–3 players.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="../../games/nukes/logos/nukes-logo.jpg">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="NUKES — Official Rulebook v0.9.3">
+<meta name="twitter:description" content="A tactical hex-based strategy game of nuclear brinkmanship for 2–3 players.">
+<meta name="twitter:image" content="../../games/nukes/logos/nukes-logo.jpg">
+<link rel="icon" type="image/png" sizes="32x32" href="../../games/nukes/logos/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../games/nukes/logos/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../../games/nukes/logos/apple-touch-icon.png">
+<link rel="stylesheet" href="../../shared/css/fonts.css">
+<link rel="stylesheet" href="../../shared/css/tokens.css">
+<link rel="stylesheet" href="../../shared/css/base.css">
+<link rel="stylesheet" href="../../shared/css/components.css">
+<link rel="stylesheet" href="../../games/nukes/theme.css">
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to content</a>
+<div class="page">
+
+<!-- HEADER -->
+<header class="doc-header" role="banner">
+  <div class="hdr-brand"><img src="../../shared/logos/moddable-white.png" alt="Moddable Games"></div>
+  <div class="hdr-links"><a href="../../games/nukes/content/rulebook.md" class="hdr-link">Markdown</a><a href="../../games/nukes/pdf/nukes-rulebook-v0.9.3.pdf" class="hdr-link">PDF</a></div>
+  <span class="hdr-meta">Official Rulebook · v0.9.3</span>
+</header>
+
+<!-- COVER -->
+<div class="cover">
+  <img class="cover-icon" src="../../games/nukes/logos/nukes-logo.jpg" alt="Nukes">
+  <div class="cover-title">NUKES</div>
+  <div class="cover-sub">Official Rulebook</div>
+  <div class="cover-rule"></div>
+  <p class="cover-tagline">A strategic hex-tile board game of territory, attrition, and nuclear brinkmanship</p>
+  <div class="cover-stats">
+    <div class="cover-stat"><span class="cs-num">2–3</span><span class="cs-lbl">Players</span></div>
+    <div class="cover-stat"><span class="cs-num">45+</span><span class="cs-lbl">Minutes</span></div>
+    <div class="cover-stat"><span class="cs-num">12+</span><span class="cs-lbl">Age</span></div>
+  </div>
+  <p class="cover-pub">Published by Moddable Games · v0.9.3 · First published January 2012</p>
+</div>
+
+<nav class="toc" id="toc" aria-label="Table of contents"></nav>
+
+<main id="main-content" class="content">
+
+<div class="section">
+<div class="eyebrow">Before You Begin</div>
+<h2>How to Play in 5 Minutes</h2>
+<p>Nukes is a 2–3 player strategy game played on a board of hexagonal regions. You command armies across varied terrain, build fortified bases, and threaten opponents with nuclear strikes — all while managing a precarious supply of hostages that is simultaneously your resource and your countdown timer.</p>
+<div class="highlight">
+<div class="box-title">★ Read This First — The Two Core Ideas</div>
+<p><strong>1. Units are fluid.</strong> Tokens have no fixed type. The number of tokens in a region determines what they are: 1 = Infantry, 2 = Artillery, 3 = Airborne, 4+ = Base. This changes constantly as tokens move, and it governs movement, combat, and terrain <span class="nowrap">safety.</span></p>
+<p><strong>2. Hostages are your engine.</strong> You hold your opponents’ tokens. Each turn you must return 1–3 of them to their owner’s forces on the board — this earns you moves, but also reinforces your enemy. Your hostage supply is finite. When it runs out, you <span class="nowrap">lose.</span></p>
+</div>
+<h3>The Core Loop</h3>
+<ul class="rules">
+<li><strong>Return 1–3 hostages</strong> to regions where their owner already has units — earning one move per token returned.</li>
+<li><strong>Move your platoons.</strong> Infantry chains through same-biome terrain. Artillery fires in straight lines over occupied regions. Airborne drops exactly two regions away and can slingshot through friendly Bases.</li>
+<li><strong>Attack</strong> by moving into an enemy region — but only if you have strictly greater strength than the defender.</li>
+<li><strong>Capture enemy units</strong> as hostages instead of destroying them, sacrificing your own units to do so.</li>
+<li><strong>Build Bases</strong> (4+ units in one region) to convert units into isotopes and <span class="nowrap">unlock nuclear strikes.</span></li>
+<li><strong>Win</strong> by destroying or occupying an opponent’s city — or outlasting everyone else.</li>
+</ul>
+<div class="designer-note">
+<p>Nukes was designed around a single question: <em>what if every aggressive move also strengthened your opponent?</em> The hostage mechanic creates this tension — you need to return tokens to move, but every return reinforces the enemy. The game rewards players who find the tipping point between building momentum and over-extending.</p>
+</div>
+</div>
+<div class="section">
+<div class="eyebrow">What's in the Box</div>
+<h2>Components</h2>
+<table class="t">
+<thead>
+<tr>
+<th>Item</th>
+<th>Qty</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Hex Tiles</strong></td>
+<td>44</td>
+<td>Each is a region. Biohazard printed on the reverse.</td>
+</tr>
+<tr>
+<td><strong>Tokens</strong></td>
+<td>75</td>
+<td>25 per player in 3 distinct colours.</td>
+</tr>
+<tr>
+<td><strong>Bookmark Reference Cards</strong></td>
+<td>3</td>
+<td>One per player — see the Quick Reference section of this rulebook.</td>
+</tr>
+<tr>
+<td><strong>Rulebook</strong></td>
+<td>1</td>
+<td>This document.</td>
+</tr>
+</tbody>
+</table>
+<h3>Tokens — What They Represent</h3>
+<p>There are no separate pieces for different unit types. Token count and location <span class="nowrap">determine everything.</span></p>
+<table class="t">
+<thead>
+<tr>
+<th>Token State</th>
+<th>Represents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>On the board — 1 token</strong></td>
+<td>Infantry</td>
+</tr>
+<tr>
+<td><strong>On the board — 2 tokens</strong></td>
+<td>Artillery</td>
+</tr>
+<tr>
+<td><strong>On the board — 3 tokens</strong></td>
+<td>Airborne</td>
+</tr>
+<tr>
+<td><strong>On the board — 4 to 9 tokens</strong></td>
+<td>Base (does not move)</td>
+</tr>
+<tr>
+<td><strong>Off the board, beside it</strong></td>
+<td>Isotopes — your nuke fuel reserve</td>
+</tr>
+<tr>
+<td><strong>Held by another player</strong></td>
+<td>Hostages — your tokens, in enemy hands</td>
+</tr>
+</tbody>
+</table>
+<h3>Hex Tiles by Biome</h3>
+<table class="t">
+<thead>
+<tr>
+<th>Biome</th>
+<th>Count</th>
+<th>Colour</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fields</td>
+<td>13</td>
+<td>Light green</td>
+</tr>
+<tr>
+<td>Forests</td>
+<td>9</td>
+<td>Dark green</td>
+</tr>
+<tr>
+<td>Mountains</td>
+<td>7</td>
+<td>Grey</td>
+</tr>
+<tr>
+<td>Water</td>
+<td>7</td>
+<td>Light blue</td>
+</tr>
+<tr>
+<td>Deserts</td>
+<td>5</td>
+<td>Yellow</td>
+</tr>
+<tr>
+<td>Cities</td>
+<td>3</td>
+<td>Light red</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section">
+<div class="eyebrow">Before the First Turn</div>
+<h2>Setting Up the Board</h2>
+<h3>Building the Board</h3>
+<p>The board uses 37 of the 44 tiles and can be built three ways:</p>
+<ul class="rules">
+<li><strong>Symmetrical:</strong> A pre-agreed mirrored layout. Visit moddable.games/tool/nukes <span class="nowrap">for templates.</span></li>
+<li><strong>Pre-defined:</strong> All players agree on a specific arrangement before play begins.</li>
+<li><strong>Drafted:</strong> Randomly choose a starting player who picks the central region. Players then alternate placing tiles adjacent to their city, the central region, or any <span class="nowrap">already-placed tile.</span></li>
+</ul>
+<div class="two-col">
+<div>
+<h4>2-Player Tile Counts</h4>
+<table class="t">
+<thead>
+<tr>
+<th>Biome</th>
+<th>Per Side</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fields</td>
+<td>5</td>
+<td>10 + centre</td>
+</tr>
+<tr>
+<td>Forests</td>
+<td>4</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Mountains</td>
+<td>3</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Water</td>
+<td>3</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Deserts</td>
+<td>2</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Cities</td>
+<td>1</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div>
+<h4>3-Player Tile Counts</h4>
+<table class="t">
+<thead>
+<tr>
+<th>Biome</th>
+<th>Per Side</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fields</td>
+<td>4</td>
+<td>12 + centre</td>
+</tr>
+<tr>
+<td>Forests</td>
+<td>2</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Mountains</td>
+<td>2</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Water</td>
+<td>2</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Deserts</td>
+<td>1</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Cities</td>
+<td>1</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<p class="table-note">★ In 3-player games the central region must not be a City.</p>
+</div>
+</div>
+<h3>Starting Positions</h3>
+<ul class="rules">
+<li>Place your <strong>City tile</strong> at the edge of the board, equally spaced from all other cities and the central region.</li>
+<li>Place <strong>4 of your tokens</strong> in your city as starting units.</li>
+<li>Place <strong>1 token</strong> beside the board as your starting <strong>isotope</strong>.</li>
+<li>In a <strong>2-player game:</strong> take all 20 of your opponent’s tokens as hostages.</li>
+<li>In a <strong>3-player game:</strong> take 10 tokens from each other player as hostages (20 total).</li>
+</ul>
+</div>
+<div class="section">
+<div class="eyebrow">Winning the Game</div>
+<h2>Victory Conditions</h2>
+<p>The game ends <strong>immediately</strong> the moment any condition below is met. No further <span class="nowrap">turns are taken.</span></p>
+<ul class="rules">
+<li><strong>Destroy an opponent’s city</strong> via a Nuke strike or a Meltdown on their city hex.</li>
+<li><strong>Establish a Base on an opponent’s city</strong> — move 4 or more of your units onto their <span class="nowrap">city tile.</span></li>
+<li><strong>Outlast all opponents</strong> — be the last player with hostages to return and units on <span class="nowrap">the board.</span></li>
+</ul>
+<h3>Elimination</h3>
+<p>A player is eliminated when <strong>either</strong> of the following <span class="nowrap">occurs independently:</span></p>
+<ul class="rules">
+<li><em class="warn">Hostage Attrition:</em> You have no hostages to return at the start of your turn. Your city is immediately destroyed and all your units removed from the game.</li>
+<li><em class="warn">Total Annihilation:</em> You have no units left on the board at any point. All your tokens everywhere — on the board and held as hostages by others — are immediately removed from the game.</li>
+</ul>
+<div class="box red">
+<div class="box-title">⚠ 3-Player Eliminations</div>
+<p>When a player is eliminated, any of their tokens held as hostages by surviving players are also removed from the game immediately. Surviving players lose that portion of their hostage supply. The two remaining players continue normally.</p>
+</div>
+</div>
+<div class="section">
+<div class="eyebrow">How Turns Work</div>
+<h2>Turn Structure</h2>
+<p>Turns proceed clockwise. Each turn has three phases, always in this order.</p>
+<div class="turn-flow">
+<div class="tp">
+<span class="tp-phase">Phase 1</span>
+<span class="tp-name">Return Hostages</span>
+<span class="tp-desc">Return 1–3 to their owner's regions</span>
+</div>
+<div class="tp-mid"><span class="tp-arrow">→</span></div>
+<div class="tp">
+<span class="tp-phase">Phase 2</span>
+<span class="tp-name">Move Units</span>
+<span class="tp-desc">One move per hostage returned</span>
+</div>
+<div class="tp-mid"><span class="tp-arrow">→</span></div>
+<div class="tp">
+<span class="tp-phase">Phase 3</span>
+<span class="tp-name">Resolution</span>
+<span class="tp-desc">Terrain destruction checked</span>
+</div>
+</div>
+<h3>Phase 1 — Return Hostages</h3>
+<div class="highlight">
+<div class="box-title">✦ Understanding the Hostage Mechanic</div>
+<p>You hold tokens belonging to your opponents. Like hostages in the real world, they are under your control until returned home. When you return them, each token goes to a region on the board where <strong>that token’s owner already has at least one unit</strong> — physically joining that region and potentially upgrading its platoon type. Returning tokens earns you moves, but directly strengthens your enemy’s forces.
+<strong>This tension is the engine of the game.</strong></p>
+</div>
+<ul class="rules">
+<li>You <strong>must</strong> return between 1 and 3 hostage tokens each turn — at least 1 is mandatory.</li>
+<li>Each token goes to a region where <strong>that token’s owner already has units present</strong>. You cannot return a token to an empty region or to one of your own regions.</li>
+<li>The returned token <strong>physically joins that region</strong>, increasing the unit count. A 2-token Artillery may become 3-token Airborne. A 3-token Airborne may become a 4-token Base — with all <span class="nowrap">consequences that follow.</span></li>
+<li>You may return <strong>no more than 1 token per region</strong> per turn.</li>
+<li>The number of tokens returned equals the number of <strong>moves earned</strong> this turn.</li>
+<li><em class="warn">If you have no hostages to return</em>, your city is immediately destroyed and you <span class="nowrap">are eliminated.</span></li>
+</ul>
+<h3>Phase 2 — Move Units</h3>
+<ul class="rules">
+<li>You earn <strong>one move per hostage returned</strong> — between 1 and 3 moves total.</li>
+<li>Moves are <strong>optional</strong>. You may use fewer than you earned. Only return as many hostages as moves you actually need — every returned token costs you.</li>
+<li>You may move a <strong>maximum of 3 units in total</strong> per turn. Valid combinations: 1 Airborne (3 units), 1 Artillery + 1 Infantry, or up to 3 Infantry.</li>
+<li>Each move is: moving a platoon into any empty region, into a region containing friendly units, or attacking an enemy-occupied region.</li>
+<li>The <strong>same unit(s) cannot move more than once</strong> per turn — except within <span class="nowrap">an Airborne Slingshot.</span></li>
+</ul>
+<h3>Phase 3 — End-of-Turn Resolution</h3>
+<p>After all moves and combat are resolved, any units resting in restricted terrain they cannot safely occupy are destroyed. Only a unit’s <strong>final resting position</strong> matters — a token may transit through a restricted terrain region during a move and end safely <span class="nowrap">elsewhere with no penalty.</span></p>
+<div class="box teal">
+<div class="box-title">✦ Immediate vs End-of-Turn Destruction</div>
+<p>Nuke blasts and Meltdowns destroy units <strong>immediately</strong> when triggered — not at end of turn. Everything else (a platoon stranded in terrain it cannot safely occupy) is resolved during Phase 3 only.</p>
+</div>
+</div>
+<div class="section">
+<div class="eyebrow">Your Forces</div>
+<h2>Units &amp; Platoons</h2>
+<p>Platoon type is determined solely by the <strong>current token count</strong> in a region. This fluidity is fundamental — tokens become different unit types as they <span class="nowrap">join or leave regions.</span></p>
+<div class="box teal">
+<div class="box-title">✦ The Fluid Platoon Principle</div>
+<p>If 1 infantry token moves into a region containing 2 artillery tokens, those 3 tokens are now Airborne — with all of Airborne’s permissions and restrictions. At end of turn, a region with 3 tokens in water is Airborne (safe). Two tokens in water is Artillery (destroyed). Always ask: <strong>how many tokens are here, and <span class="nowrap">what does that make them?</span></strong></p>
+</div>
+<div class="unit-grid">
+<div class="unit-card">
+<div class="uc-head uc-head--infantry"><div class="uc-icon">🪖</div><span class="uc-name">Infantry</span><span class="uc-size">1 TOKEN</span></div>
+<div class="uc-body"><p>Chains freely through same-biome terrain. Blocked by all units — including your own. Cannot safely rest in water or desert.</p></div>
+</div>
+<div class="unit-card">
+<div class="uc-head uc-head--artillery"><div class="uc-icon">🎯</div><span class="uc-name">Artillery</span><span class="uc-size">2 TOKENS</span></div>
+<div class="uc-body"><p>Jumps in straight lines over occupied regions. Multiple hops and pivots possible. Cannot safely rest in water. Cannot attack from a forest.</p></div>
+</div>
+<div class="unit-card">
+<div class="uc-head uc-head--airborne"><div class="uc-icon">✈️</div><span class="uc-name">Airborne</span><span class="uc-size">3 TOKENS</span></div>
+<div class="uc-body"><p>Must move exactly two regions. Cannot land adjacent. Slingshots through friendly Bases for extended range. Cannot safely rest alone in mountains.</p></div>
+</div>
+<div class="unit-card">
+<div class="uc-head uc-head--nuke"><div class="uc-icon">☢️</div><span class="uc-name">Nuke</span><span class="uc-size">1 TOKEN + ISOTOPE</span></div>
+<div class="uc-body"><p>Launched from a Base. Destroys target (Biohazard) and all units in target + 6 surrounding regions immediately. Must jump over at least one region.</p></div>
+</div>
+</div>
+<div class="unit-card unit-card--base">
+<div class="uc-head uc-head--base"><div class="uc-icon">🏰</div><span class="uc-name">Base</span><span class="uc-size">4–9 TOKENS · DOES NOT MOVE</span></div>
+<div class="uc-body uc-body--grid">
+<p>Forms immediately when a 4th token joins a region. Provides support bonuses to passing platoons and enables isotope production.</p>
+<p>Maximum 9 units. Each time <em>you</em> add units to your own Base, convert 1 unit to an isotope (once per event). Provides +1 combat strength to platoons passing through or over it en route to an attack.</p>
+</div>
+</div>
+<h3>Infantry — Movement &amp; Rules</h3>
+<div class="diagrams-grid">
+<div class="diagram-box">
+<div class="diagram-title">Same-Biome Flood Fill</div>
+      <svg viewBox="0 0 261 210" xmlns="http://www.w3.org/2000/svg">
+<polygon points="61.98,19.00 61.98,49.00 36.00,64.00 10.02,49.00 10.02,19.00 36.00,4.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="113.94,19.00 113.94,49.00 87.96,64.00 61.98,49.00 61.98,19.00 87.96,4.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="165.90,19.00 165.90,49.00 139.92,64.00 113.94,49.00 113.94,19.00 139.92,4.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="217.86,19.00 217.86,49.00 191.88,64.00 165.90,49.00 165.90,19.00 191.88,4.00" fill="#d8d4ce" stroke="#8c8478" stroke-width="1.5"/>
+<polygon points="87.96,64.00 87.96,94.00 61.98,109.00 36.00,94.00 36.00,64.00 61.98,49.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="139.92,64.00 139.92,94.00 113.94,109.00 87.96,94.00 87.96,64.00 113.94,49.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="191.88,64.00 191.88,94.00 165.90,109.00 139.92,94.00 139.92,64.00 165.90,49.00" fill="#d8d4ce" stroke="#8c8478" stroke-width="1.5"/>
+<polygon points="243.85,64.00 243.85,94.00 217.87,109.00 191.89,94.00 191.89,64.00 217.87,49.00" fill="#d8d4ce" stroke="#8c8478" stroke-width="1.5"/>
+<polygon points="61.98,109.00 61.98,139.00 36.00,154.00 10.02,139.00 10.02,109.00 36.00,94.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="113.94,109.00 113.94,139.00 87.96,154.00 61.98,139.00 61.98,109.00 87.96,94.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="165.90,109.00 165.90,139.00 139.92,154.00 113.94,139.00 113.94,109.00 139.92,94.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="217.86,109.00 217.86,139.00 191.88,154.00 165.90,139.00 165.90,109.00 191.88,94.00" fill="#d8d4ce" stroke="#8c8478" stroke-width="1.5"/>
+<polygon points="86.23,65.00 86.23,93.00 61.98,107.00 37.73,93.00 37.73,65.00 61.98,51.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="112.21,110.00 112.21,138.00 87.96,152.00 63.71,138.00 63.71,110.00 87.96,96.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="60.25,20.00 60.25,48.00 36.00,62.00 11.75,48.00 11.75,20.00 36.00,6.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="138.19,65.00 138.19,93.00 113.94,107.00 89.69,93.00 89.69,65.00 113.94,51.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="164.17,20.00 164.17,48.00 139.92,62.00 115.67,48.00 115.67,20.00 139.92,6.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="164.17,110.00 164.17,138.00 139.92,152.00 115.67,138.00 115.67,110.00 139.92,96.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="112.21,20.00 112.21,48.00 87.96,62.00 63.71,48.00 63.71,20.00 87.96,6.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="216.13,110.00 216.13,138.00 191.88,152.00 167.63,138.00 167.63,110.00 191.88,96.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="190.15,65.00 190.15,93.00 165.90,107.00 141.65,93.00 141.65,65.00 165.90,51.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="216.13,20.00 216.13,48.00 191.88,62.00 167.63,48.00 167.63,20.00 191.88,6.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<line x1="208.3" y1="69.4" x2="227.5" y2="88.6" stroke="#c03030" stroke-width="2.8" stroke-linecap="round"/><line x1="227.5" y1="69.4" x2="208.3" y2="88.6" stroke="#c03030" stroke-width="2.8" stroke-linecap="round"/>
+<polygon points="61.11,109.50 61.11,138.50 36.00,153.00 10.89,138.50 10.89,109.50 36.00,95.00" fill="none" stroke="#c9a84c" stroke-width="3"/>
+<circle cx="36.0" cy="124.0" r="7" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<line x1="8" y1="167" x2="253" y2="167" stroke="#c5a85a" stroke-width="0.75" opacity="0.5"/>
+<polygon points="26.8,172.5 26.8,181.5 19.0,186.0 11.2,181.5 11.2,172.5 19.0,168.0" fill="none" stroke="#2aaa10" stroke-width="2.2"/>
+<text x="34" y="181" font-size="9" font-family="serif" fill="#3a3020">Reachable this turn</text>
+<line x1="13" y1="187" x2="25" y2="199" stroke="#c03030" stroke-width="2.2" stroke-linecap="round"/><line x1="25" y1="187" x2="13" y2="199" stroke="#c03030" stroke-width="2.2" stroke-linecap="round"/>
+<text x="34" y="197" font-size="9" font-family="serif" fill="#3a3020">Not reachable</text>
+</svg>
+
+<p class="diagram-caption">Infantry reaches every connected field hex in one move — no distance limit. Adjacent mountains are also reachable as a final step into a different biome. The mountain with a red mark has no adjacent field and cannot be reached.</p>
+</div>
+<div class="diagram-box">
+<div class="diagram-title">Can Enter, Cannot Pass Through</div>
+      <svg viewBox="0 0 313 226" xmlns="http://www.w3.org/2000/svg">
+<polygon points="61.98,19.00 61.98,49.00 36.00,64.00 10.02,49.00 10.02,19.00 36.00,4.00" fill="#d8d4ce" stroke="#8c8478" stroke-width="1.5"/>
+<polygon points="113.94,19.00 113.94,49.00 87.96,64.00 61.98,49.00 61.98,19.00 87.96,4.00" fill="#d8d4ce" stroke="#8c8478" stroke-width="1.5"/>
+<polygon points="165.90,19.00 165.90,49.00 139.92,64.00 113.94,49.00 113.94,19.00 139.92,4.00" fill="#d8d4ce" stroke="#8c8478" stroke-width="1.5"/>
+<polygon points="217.86,19.00 217.86,49.00 191.88,64.00 165.90,49.00 165.90,19.00 191.88,4.00" fill="#d8d4ce" stroke="#8c8478" stroke-width="1.5"/>
+<polygon points="269.83,19.00 269.83,49.00 243.85,64.00 217.87,49.00 217.87,19.00 243.85,4.00" fill="#d8d4ce" stroke="#8c8478" stroke-width="1.5"/>
+<polygon points="87.96,64.00 87.96,94.00 61.98,109.00 36.00,94.00 36.00,64.00 61.98,49.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="139.92,64.00 139.92,94.00 113.94,109.00 87.96,94.00 87.96,64.00 113.94,49.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="191.88,64.00 191.88,94.00 165.90,109.00 139.92,94.00 139.92,64.00 165.90,49.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="243.85,64.00 243.85,94.00 217.87,109.00 191.89,94.00 191.89,64.00 217.87,49.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="295.81,64.00 295.81,94.00 269.83,109.00 243.85,94.00 243.85,64.00 269.83,49.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="61.98,109.00 61.98,139.00 36.00,154.00 10.02,139.00 10.02,109.00 36.00,94.00" fill="#d8d4ce" stroke="#8c8478" stroke-width="1.5"/>
+<polygon points="113.94,109.00 113.94,139.00 87.96,154.00 61.98,139.00 61.98,109.00 87.96,94.00" fill="#d8d4ce" stroke="#8c8478" stroke-width="1.5"/>
+<polygon points="165.90,109.00 165.90,139.00 139.92,154.00 113.94,139.00 113.94,109.00 139.92,94.00" fill="#d8d4ce" stroke="#8c8478" stroke-width="1.5"/>
+<polygon points="217.86,109.00 217.86,139.00 191.88,154.00 165.90,139.00 165.90,109.00 191.88,94.00" fill="#d8d4ce" stroke="#8c8478" stroke-width="1.5"/>
+<polygon points="269.83,109.00 269.83,139.00 243.85,154.00 217.87,139.00 217.87,109.00 243.85,94.00" fill="#d8d4ce" stroke="#8c8478" stroke-width="1.5"/>
+<polygon points="138.19,65.00 138.19,93.00 113.94,107.00 89.69,93.00 89.69,65.00 113.94,51.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="190.15,65.00 190.15,93.00 165.90,107.00 141.65,93.00 141.65,65.00 165.90,51.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="112.21,110.00 112.21,138.00 87.96,152.00 63.71,138.00 63.71,110.00 87.96,96.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="60.25,20.00 60.25,48.00 36.00,62.00 11.75,48.00 11.75,20.00 36.00,6.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="164.17,20.00 164.17,48.00 139.92,62.00 115.67,48.00 115.67,20.00 139.92,6.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="60.25,110.00 60.25,138.00 36.00,152.00 11.75,138.00 11.75,110.00 36.00,96.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="164.17,110.00 164.17,138.00 139.92,152.00 115.67,138.00 115.67,110.00 139.92,96.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="112.21,20.00 112.21,48.00 87.96,62.00 63.71,48.00 63.71,20.00 87.96,6.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<line x1="208.3" y1="69.4" x2="227.5" y2="88.6" stroke="#c03030" stroke-width="2.8" stroke-linecap="round"/><line x1="227.5" y1="69.4" x2="208.3" y2="88.6" stroke="#c03030" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="260.2" y1="69.4" x2="279.4" y2="88.6" stroke="#c03030" stroke-width="2.8" stroke-linecap="round"/><line x1="279.4" y1="69.4" x2="260.2" y2="88.6" stroke="#c03030" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="182.3" y1="114.4" x2="201.5" y2="133.6" stroke="#c03030" stroke-width="2.8" stroke-linecap="round"/><line x1="201.5" y1="114.4" x2="182.3" y2="133.6" stroke="#c03030" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="234.2" y1="24.4" x2="253.4" y2="43.6" stroke="#c03030" stroke-width="2.8" stroke-linecap="round"/><line x1="253.4" y1="24.4" x2="234.2" y2="43.6" stroke="#c03030" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="234.2" y1="114.4" x2="253.4" y2="133.6" stroke="#c03030" stroke-width="2.8" stroke-linecap="round"/><line x1="253.4" y1="114.4" x2="234.2" y2="133.6" stroke="#c03030" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="182.3" y1="24.4" x2="201.5" y2="43.6" stroke="#c03030" stroke-width="2.8" stroke-linecap="round"/><line x1="201.5" y1="24.4" x2="182.3" y2="43.6" stroke="#c03030" stroke-width="2.8" stroke-linecap="round"/>
+<polygon points="87.09,64.50 87.09,93.50 61.98,108.00 36.87,93.50 36.87,64.50 61.98,50.00" fill="none" stroke="#c9a84c" stroke-width="3"/>
+<circle cx="62.0" cy="79.0" r="7" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="158.9" cy="79.0" r="7" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="172.9" cy="79.0" r="7" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<defs><marker id="ma1" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 Z" fill="#2aaa10"/></marker></defs><line x1="76.0" y1="79.0" x2="99.9" y2="79.0" stroke="#2aaa10" stroke-width="1.8" marker-end="url(#ma1)"/>
+<defs><marker id="ma2" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 Z" fill="#2aaa10"/></marker></defs><line x1="127.9" y1="79.0" x2="151.9" y2="79.0" stroke="#2aaa10" stroke-width="1.8" stroke-dasharray="4,3" marker-end="url(#ma2)"/>
+<line x1="8" y1="167" x2="305" y2="167" stroke="#c5a85a" stroke-width="0.75" opacity="0.5"/>
+<polygon points="26.8,172.5 26.8,181.5 19.0,186.0 11.2,181.5 11.2,172.5 19.0,168.0" fill="none" stroke="#2aaa10" stroke-width="2.2"/>
+<text x="34" y="181" font-size="9" font-family="serif" fill="#3a3020">Reachable — incl. into own Artillery</text>
+<defs><marker id="mleg998" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2aaa10"/></marker></defs><line x1="9" y1="193" x2="27" y2="193" stroke="#2aaa10" stroke-width="1.8" stroke-dasharray="4,3" marker-end="url(#mleg998)"/>
+<text x="34" y="197" font-size="9" font-family="serif" fill="#3a3020">Can enter here; cannot continue beyond</text>
+<line x1="13" y1="203" x2="25" y2="215" stroke="#c03030" stroke-width="2.2" stroke-linecap="round"/><line x1="25" y1="203" x2="13" y2="215" stroke="#c03030" stroke-width="2.2" stroke-linecap="round"/>
+<text x="34" y="213" font-size="9" font-family="serif" fill="#3a3020">Not reachable</text>
+</svg>
+
+<p class="diagram-caption">Infantry can move into a friendly Artillery region (tokens merge). It cannot move through it. Mountains seal the corridor — the fields beyond the Artillery are unreachable. Six adjacent mountains are reachable as a final step.</p>
+</div>
+</div>
+<ul class="rules">
+<li><strong>Same-biome chaining:</strong> Infantry may travel through any number of connected regions sharing their starting biome in a single move — no distance limit. At the end they may optionally step into one adjacent region of a different biome.</li>
+<li><strong>Blocked by ALL units, including friendly ones:</strong> Infantry cannot pass through any region containing any other units — enemy or friendly. Your own Artillery blocks your own Infantry just as firmly as an enemy would. Only your own Airborne and Bases may be passed through freely.</li>
+<li><strong>Restricted terrain:</strong> A region ending the turn with 1 token (Infantry) in water or desert is destroyed at Phase 3 <span class="nowrap">resolution.</span> Infantry cannot transit through water or desert unless your own Airborne or a Base is already stationed in that specific region.</li>
+<li><strong>Combat bonus:</strong> Each friendly Base infantry passes <em>through</em> en route to an attack <span class="nowrap">adds +1 to combat strength.</span> The starting Base <span class="nowrap">does not count.</span></li>
+</ul>
+<h3>Artillery — Movement &amp; Rules</h3>
+<div class="diagrams-grid">
+<div class="diagram-box">
+<div class="diagram-title">Jump Mechanics</div>
+      <svg viewBox="0 0 319 300" xmlns="http://www.w3.org/2000/svg">
+<polygon points="61.98,19.00 61.98,49.00 36.00,64.00 10.02,49.00 10.02,19.00 36.00,4.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="113.94,19.00 113.94,49.00 87.96,64.00 61.98,49.00 61.98,19.00 87.96,4.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="165.90,19.00 165.90,49.00 139.92,64.00 113.94,49.00 113.94,19.00 139.92,4.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="217.86,19.00 217.86,49.00 191.88,64.00 165.90,49.00 165.90,19.00 191.88,4.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="269.83,19.00 269.83,49.00 243.85,64.00 217.87,49.00 217.87,19.00 243.85,4.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="87.96,64.00 87.96,94.00 61.98,109.00 36.00,94.00 36.00,64.00 61.98,49.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="139.92,64.00 139.92,94.00 113.94,109.00 87.96,94.00 87.96,64.00 113.94,49.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="191.88,64.00 191.88,94.00 165.90,109.00 139.92,94.00 139.92,64.00 165.90,49.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="243.85,64.00 243.85,94.00 217.87,109.00 191.89,94.00 191.89,64.00 217.87,49.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="295.81,64.00 295.81,94.00 269.83,109.00 243.85,94.00 243.85,64.00 269.83,49.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="61.98,109.00 61.98,139.00 36.00,154.00 10.02,139.00 10.02,109.00 36.00,94.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="113.94,109.00 113.94,139.00 87.96,154.00 61.98,139.00 61.98,109.00 87.96,94.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="165.90,109.00 165.90,139.00 139.92,154.00 113.94,139.00 113.94,109.00 139.92,94.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="217.86,109.00 217.86,139.00 191.88,154.00 165.90,139.00 165.90,109.00 191.88,94.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="269.83,109.00 269.83,139.00 243.85,154.00 217.87,139.00 217.87,109.00 243.85,94.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="87.96,154.00 87.96,184.00 61.98,199.00 36.00,184.00 36.00,154.00 61.98,139.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="139.92,154.00 139.92,184.00 113.94,199.00 87.96,184.00 87.96,154.00 113.94,139.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="191.88,154.00 191.88,184.00 165.90,199.00 139.92,184.00 139.92,154.00 165.90,139.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="243.85,154.00 243.85,184.00 217.87,199.00 191.89,184.00 191.89,154.00 217.87,139.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="295.81,154.00 295.81,184.00 269.83,199.00 243.85,184.00 243.85,154.00 269.83,139.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="61.98,199.00 61.98,229.00 36.00,244.00 10.02,229.00 10.02,199.00 36.00,184.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="113.94,199.00 113.94,229.00 87.96,244.00 61.98,229.00 61.98,199.00 87.96,184.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="165.90,199.00 165.90,229.00 139.92,244.00 113.94,229.00 113.94,199.00 139.92,184.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="217.86,199.00 217.86,229.00 191.88,244.00 165.90,229.00 165.90,199.00 191.88,184.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="269.83,199.00 269.83,229.00 243.85,244.00 217.87,229.00 217.87,199.00 243.85,184.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="165.03,109.50 165.03,138.50 139.92,153.00 114.81,138.50 114.81,109.50 139.92,95.00" fill="none" stroke="#c9a84c" stroke-width="3"/>
+<circle cx="132.9" cy="124.0" r="7" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="146.9" cy="124.0" r="7" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="113.9" cy="79.0" r="7" fill="#8b1c1c" stroke="white" stroke-width="1.5"/>
+<polygon points="112.21,20.00 112.21,48.00 87.96,62.00 63.71,48.00 63.71,20.00 87.96,6.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<defs><marker id="ma10" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 Z" fill="#2aaa10"/></marker></defs><path d="M 131.9 112.0 Q 131.9 69.0 98.0 46.0" stroke="#2aaa10" stroke-width="2.0" fill="none" marker-end="url(#ma10)"/>
+<line x1="234.2" y1="114.4" x2="253.4" y2="133.6" stroke="#c03030" stroke-width="2.8" stroke-linecap="round"/><line x1="253.4" y1="114.4" x2="234.2" y2="133.6" stroke="#c03030" stroke-width="2.8" stroke-linecap="round"/>
+<defs><marker id="ma11" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 Z" fill="#c03030"/></marker></defs><path d="M 153.9 124.0 Q 191.9 98.0 229.8 124.0" stroke="#c03030" stroke-width="2.0" fill="none" stroke-dasharray="4,3" marker-end="url(#ma11)"/>
+<circle cx="158.9" cy="174.0" r="7" fill="#8b1c1c" stroke="white" stroke-width="1.5"/>
+<circle cx="172.9" cy="174.0" r="7" fill="#8b1c1c" stroke="white" stroke-width="1.5"/>
+<circle cx="165.9" cy="163.0" r="7" fill="#8b1c1c" stroke="white" stroke-width="1.5"/>
+<line x1="182.3" y1="204.4" x2="201.5" y2="223.6" stroke="#c03030" stroke-width="2.8" stroke-linecap="round"/><line x1="201.5" y1="204.4" x2="182.3" y2="223.6" stroke="#c03030" stroke-width="2.8" stroke-linecap="round"/>
+<defs><marker id="ma12" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 Z" fill="#c03030"/></marker></defs><path d="M 147.9 136.0 Q 147.9 179.0 181.9 202.0" stroke="#c03030" stroke-width="2.0" fill="none" stroke-dasharray="4,3" marker-end="url(#ma12)"/>
+<circle cx="81.0" cy="129.0" r="7" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="95.0" cy="129.0" r="7" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="88.0" cy="118.0" r="7" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<polygon points="60.25,110.00 60.25,138.00 36.00,152.00 11.75,138.00 11.75,110.00 36.00,96.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<defs><marker id="ma13" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 Z" fill="#2aaa10"/></marker></defs><path d="M 125.9 124.0 Q 88.0 98.0 50.0 124.0" stroke="#2aaa10" stroke-width="2.0" fill="none" marker-end="url(#ma13)"/>
+<line x1="8" y1="257" x2="311" y2="257" stroke="#c5a85a" stroke-width="0.75" opacity="0.5"/>
+<polygon points="26.8,262.5 26.8,271.5 19.0,276.0 11.2,271.5 11.2,262.5 19.0,258.0" fill="none" stroke="#2aaa10" stroke-width="2.2"/>
+<text x="34" y="271" font-size="9" font-family="serif" fill="#3a3020">Valid landing</text>
+<line x1="13" y1="277" x2="25" y2="289" stroke="#c03030" stroke-width="2.2" stroke-linecap="round"/><line x1="25" y1="277" x2="13" y2="289" stroke="#c03030" stroke-width="2.2" stroke-linecap="round"/>
+<text x="34" y="287" font-size="9" font-family="serif" fill="#3a3020">Cannot land</text>
+</svg>
+
+<p class="diagram-caption">Four jump attempts from the same position. Enemy Infantry and own Airborne are valid stepping stones. An empty intermediate prevents any jump. Enemy Airborne blocks the jump despite the hex being occupied.</p>
+</div>
+<div class="diagram-box">
+<div class="diagram-title">Pivot at a Friendly Base</div>
+      <svg viewBox="0 0 423 284" xmlns="http://www.w3.org/2000/svg">
+<polygon points="61.98,19.00 61.98,49.00 36.00,64.00 10.02,49.00 10.02,19.00 36.00,4.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="113.94,19.00 113.94,49.00 87.96,64.00 61.98,49.00 61.98,19.00 87.96,4.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="165.90,19.00 165.90,49.00 139.92,64.00 113.94,49.00 113.94,19.00 139.92,4.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="217.86,19.00 217.86,49.00 191.88,64.00 165.90,49.00 165.90,19.00 191.88,4.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="269.83,19.00 269.83,49.00 243.85,64.00 217.87,49.00 217.87,19.00 243.85,4.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="321.79,19.00 321.79,49.00 295.81,64.00 269.83,49.00 269.83,19.00 295.81,4.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="373.75,19.00 373.75,49.00 347.77,64.00 321.79,49.00 321.79,19.00 347.77,4.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="87.96,64.00 87.96,94.00 61.98,109.00 36.00,94.00 36.00,64.00 61.98,49.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="139.92,64.00 139.92,94.00 113.94,109.00 87.96,94.00 87.96,64.00 113.94,49.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="191.88,64.00 191.88,94.00 165.90,109.00 139.92,94.00 139.92,64.00 165.90,49.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="243.85,64.00 243.85,94.00 217.87,109.00 191.89,94.00 191.89,64.00 217.87,49.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="295.81,64.00 295.81,94.00 269.83,109.00 243.85,94.00 243.85,64.00 269.83,49.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="347.77,64.00 347.77,94.00 321.79,109.00 295.81,94.00 295.81,64.00 321.79,49.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="399.73,64.00 399.73,94.00 373.75,109.00 347.77,94.00 347.77,64.00 373.75,49.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="61.98,109.00 61.98,139.00 36.00,154.00 10.02,139.00 10.02,109.00 36.00,94.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="113.94,109.00 113.94,139.00 87.96,154.00 61.98,139.00 61.98,109.00 87.96,94.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="165.90,109.00 165.90,139.00 139.92,154.00 113.94,139.00 113.94,109.00 139.92,94.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="217.86,109.00 217.86,139.00 191.88,154.00 165.90,139.00 165.90,109.00 191.88,94.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="269.83,109.00 269.83,139.00 243.85,154.00 217.87,139.00 217.87,109.00 243.85,94.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="321.79,109.00 321.79,139.00 295.81,154.00 269.83,139.00 269.83,109.00 295.81,94.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="373.75,109.00 373.75,139.00 347.77,154.00 321.79,139.00 321.79,109.00 347.77,94.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="87.96,154.00 87.96,184.00 61.98,199.00 36.00,184.00 36.00,154.00 61.98,139.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="139.92,154.00 139.92,184.00 113.94,199.00 87.96,184.00 87.96,154.00 113.94,139.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="191.88,154.00 191.88,184.00 165.90,199.00 139.92,184.00 139.92,154.00 165.90,139.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="243.85,154.00 243.85,184.00 217.87,199.00 191.89,184.00 191.89,154.00 217.87,139.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="295.81,154.00 295.81,184.00 269.83,199.00 243.85,184.00 243.85,154.00 269.83,139.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="347.77,154.00 347.77,184.00 321.79,199.00 295.81,184.00 295.81,154.00 321.79,139.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="399.73,154.00 399.73,184.00 373.75,199.00 347.77,184.00 347.77,154.00 373.75,139.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="61.98,199.00 61.98,229.00 36.00,244.00 10.02,229.00 10.02,199.00 36.00,184.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="113.94,199.00 113.94,229.00 87.96,244.00 61.98,229.00 61.98,199.00 87.96,184.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="165.90,199.00 165.90,229.00 139.92,244.00 113.94,229.00 113.94,199.00 139.92,184.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="217.86,199.00 217.86,229.00 191.88,244.00 165.90,229.00 165.90,199.00 191.88,184.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="269.83,199.00 269.83,229.00 243.85,244.00 217.87,229.00 217.87,199.00 243.85,184.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="321.79,199.00 321.79,229.00 295.81,244.00 269.83,229.00 269.83,199.00 295.81,184.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="373.75,199.00 373.75,229.00 347.77,244.00 321.79,229.00 321.79,199.00 347.77,184.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="113.07,109.50 113.07,138.50 87.96,153.00 62.85,138.50 62.85,109.50 87.96,95.00" fill="none" stroke="#c9a84c" stroke-width="3"/>
+<circle cx="81.0" cy="124.0" r="7" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="95.0" cy="124.0" r="7" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="139.9" cy="124.0" r="7" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<defs><marker id="ma50" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 Z" fill="#2aaa10"/></marker></defs><line x1="102.0" y1="124.0" x2="125.9" y2="124.0" stroke="#2aaa10" stroke-width="2.0" marker-end="url(#ma50)"/>
+<defs><marker id="ma51" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 Z" fill="#2aaa10"/></marker></defs><line x1="153.9" y1="124.0" x2="177.9" y2="124.0" stroke="#2aaa10" stroke-width="2.0" marker-end="url(#ma51)"/>
+<polygon points="216.99,109.50 216.99,138.50 191.88,153.00 166.77,138.50 166.77,109.50 191.88,95.00" fill="none" stroke="#c9a84c" stroke-width="3"/>
+<circle cx="184.9" cy="119.0" r="7" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="198.9" cy="119.0" r="7" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="184.9" cy="129.0" r="7" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="198.9" cy="129.0" r="7" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<text x="191.9" y="167.0" text-anchor="middle" font-size="8" font-family="serif" fill="#c9a84c" font-style="italic">pivot</text>
+<circle cx="217.9" cy="79.0" r="7" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="243.8" cy="124.0" r="7" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<polygon points="190.15,65.00 190.15,93.00 165.90,107.00 141.65,93.00 141.65,65.00 165.90,51.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="242.12,65.00 242.12,93.00 217.87,107.00 193.62,93.00 193.62,65.00 217.87,51.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="268.10,110.00 268.10,138.00 243.85,152.00 219.60,138.00 219.60,110.00 243.85,96.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="190.15,155.00 190.15,183.00 165.90,197.00 141.65,183.00 141.65,155.00 165.90,141.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="242.12,155.00 242.12,183.00 217.87,197.00 193.62,183.00 193.62,155.00 217.87,141.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="216.13,110.00 216.13,138.00 191.88,152.00 167.63,138.00 167.63,110.00 191.88,96.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="268.10,20.00 268.10,48.00 243.85,62.00 219.60,48.00 219.60,20.00 243.85,6.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="320.06,110.00 320.06,138.00 295.81,152.00 271.56,138.00 271.56,110.00 295.81,96.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<line x1="8" y1="257" x2="415" y2="257" stroke="#c5a85a" stroke-width="0.75" opacity="0.5"/>
+<polygon points="26.8,262.5 26.8,271.5 19.0,276.0 11.2,271.5 11.2,262.5 19.0,258.0" fill="none" stroke="#2aaa10" stroke-width="2.2"/>
+<text x="34" y="271" font-size="9" font-family="serif" fill="#3a3020">All 8 reachable destinations — including the Base itself and 2 beyond the infantry</text>
+</svg>
+
+<p class="diagram-caption">Artillery arrives at the friendly Base (gold border). From the Base it can reach 8 destinations: the Base itself, 5 adjacent hexes (excluding where it came from), and 2 hexes beyond the friendly infantry via continued jumps.</p>
+</div>
+</div>
+<ul class="rules">
+<li><strong>Straight-line jumps:</strong> Artillery moves by jumping to the directly opposing region across a hex axis. Intermediate regions must contain units at the moment of the jump — units placed there earlier in the same <span class="nowrap">turn count.</span></li>
+<li><strong>Multiple jumps:</strong> Artillery can chain multiple jumps in one move, using each occupied region as a stepping stone.</li>
+<li><strong>Direction changes (pivots):</strong> When artillery jumps over your own Airborne or a Base, it may change to any new hex direction and <span class="nowrap">continue from there.</span> From the pivot point, artillery may: land on the pivot Base or Airborne itself; land on any adjacent empty hex; land on any adjacent friendly region (tokens merge via fluid rules); or jump over any occupied adjacent hex to land beyond it. Multiple pivots are permitted in one move.</li>
+<li><strong>Enemy blockers:</strong> Artillery cannot jump over enemy Airborne or enemy Bases. It can jump over enemy Infantry and enemy Artillery.</li>
+<li><strong>Forest:</strong> Artillery starting in a forest cannot attack that turn. It may still move to any unoccupied region or join a friendly platoon.</li>
+<li><strong>Water:</strong> A region ending with 2 tokens alone in water is destroyed at Phase 3. Cannot pass through water without your Airborne or Base already in that region.</li>
+<li><strong>Combat bonus:</strong> Each friendly Base passed over en route adds +1. The starting Base <span class="nowrap">does not count.</span></li>
+</ul>
+<h3>Airborne — Movement &amp; Rules</h3>
+<div class="diagrams-grid">
+<div class="diagram-box">
+<div class="diagram-title">Exactly 2 Steps, Not Adjacent</div>
+      <svg viewBox="0 0 302 302" xmlns="http://www.w3.org/2000/svg">
+<polygon points="60.25,20.00 60.25,48.00 36.00,62.00 11.75,48.00 11.75,20.00 36.00,6.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="108.75,20.00 108.75,48.00 84.50,62.00 60.25,48.00 60.25,20.00 84.50,6.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="157.24,20.00 157.24,48.00 132.99,62.00 108.74,48.00 108.74,20.00 132.99,6.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="205.74,20.00 205.74,48.00 181.49,62.00 157.24,48.00 157.24,20.00 181.49,6.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="254.24,20.00 254.24,48.00 229.99,62.00 205.74,48.00 205.74,20.00 229.99,6.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="84.50,62.00 84.50,90.00 60.25,104.00 36.00,90.00 36.00,62.00 60.25,48.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="133.00,62.00 133.00,90.00 108.75,104.00 84.50,90.00 84.50,62.00 108.75,48.00" fill="#d8d4ce" stroke="#8c8478" stroke-width="1.5"/>
+<polygon points="181.49,62.00 181.49,90.00 157.24,104.00 132.99,90.00 132.99,62.00 157.24,48.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="229.99,62.00 229.99,90.00 205.74,104.00 181.49,90.00 181.49,62.00 205.74,48.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="278.49,62.00 278.49,90.00 254.24,104.00 229.99,90.00 229.99,62.00 254.24,48.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="60.25,104.00 60.25,132.00 36.00,146.00 11.75,132.00 11.75,104.00 36.00,90.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="108.75,104.00 108.75,132.00 84.50,146.00 60.25,132.00 60.25,104.00 84.50,90.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="157.24,104.00 157.24,132.00 132.99,146.00 108.74,132.00 108.74,104.00 132.99,90.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="205.74,104.00 205.74,132.00 181.49,146.00 157.24,132.00 157.24,104.00 181.49,90.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="254.24,104.00 254.24,132.00 229.99,146.00 205.74,132.00 205.74,104.00 229.99,90.00" fill="#d8d4ce" stroke="#8c8478" stroke-width="1.5"/>
+<polygon points="84.50,146.00 84.50,174.00 60.25,188.00 36.00,174.00 36.00,146.00 60.25,132.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="133.00,146.00 133.00,174.00 108.75,188.00 84.50,174.00 84.50,146.00 108.75,132.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="181.49,146.00 181.49,174.00 157.24,188.00 132.99,174.00 132.99,146.00 157.24,132.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="229.99,146.00 229.99,174.00 205.74,188.00 181.49,174.00 181.49,146.00 205.74,132.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="278.49,146.00 278.49,174.00 254.24,188.00 229.99,174.00 229.99,146.00 254.24,132.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="60.25,188.00 60.25,216.00 36.00,230.00 11.75,216.00 11.75,188.00 36.00,174.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="108.75,188.00 108.75,216.00 84.50,230.00 60.25,216.00 60.25,188.00 84.50,174.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="157.24,188.00 157.24,216.00 132.99,230.00 108.74,216.00 108.74,188.00 132.99,174.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="205.74,188.00 205.74,216.00 181.49,230.00 157.24,216.00 157.24,188.00 181.49,174.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="254.24,188.00 254.24,216.00 229.99,230.00 205.74,216.00 205.74,188.00 229.99,174.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="82.77,63.00 82.77,89.00 60.25,102.00 37.73,89.00 37.73,63.00 60.25,50.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="155.51,189.00 155.51,215.00 132.99,228.00 110.47,215.00 110.47,189.00 132.99,176.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="204.01,189.00 204.01,215.00 181.49,228.00 158.97,215.00 158.97,189.00 181.49,176.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="228.26,63.00 228.26,89.00 205.74,102.00 183.22,89.00 183.22,63.00 205.74,50.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="82.77,147.00 82.77,173.00 60.25,186.00 37.73,173.00 37.73,147.00 60.25,134.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="155.51,21.00 155.51,47.00 132.99,60.00 110.47,47.00 110.47,21.00 132.99,8.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="107.02,189.00 107.02,215.00 84.50,228.00 61.98,215.00 61.98,189.00 84.50,176.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="204.01,21.00 204.01,47.00 181.49,60.00 158.97,47.00 158.97,21.00 181.49,8.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="58.52,105.00 58.52,131.00 36.00,144.00 13.48,131.00 13.48,105.00 36.00,92.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="228.26,147.00 228.26,173.00 205.74,186.00 183.22,173.00 183.22,147.00 205.74,134.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<line x1="221.6" y1="193.6" x2="238.4" y2="210.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/><line x1="238.4" y1="193.6" x2="221.6" y2="210.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="221.6" y1="25.6" x2="238.4" y2="42.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/><line x1="238.4" y1="25.6" x2="221.6" y2="42.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="76.1" y1="109.6" x2="92.9" y2="126.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/><line x1="92.9" y1="109.6" x2="76.1" y2="126.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="27.6" y1="193.6" x2="44.4" y2="210.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/><line x1="44.4" y1="193.6" x2="27.6" y2="210.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="148.8" y1="67.6" x2="165.6" y2="84.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/><line x1="165.6" y1="67.6" x2="148.8" y2="84.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="245.8" y1="151.6" x2="262.6" y2="168.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/><line x1="262.6" y1="151.6" x2="245.8" y2="168.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="245.8" y1="67.6" x2="262.6" y2="84.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/><line x1="262.6" y1="67.6" x2="245.8" y2="84.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="27.6" y1="25.6" x2="44.4" y2="42.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/><line x1="44.4" y1="25.6" x2="27.6" y2="42.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="100.3" y1="67.6" x2="117.2" y2="84.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/><line x1="117.2" y1="67.6" x2="100.3" y2="84.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="221.6" y1="109.6" x2="238.4" y2="126.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/><line x1="238.4" y1="109.6" x2="221.6" y2="126.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="148.8" y1="151.6" x2="165.6" y2="168.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/><line x1="165.6" y1="151.6" x2="148.8" y2="168.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="76.1" y1="25.6" x2="92.9" y2="42.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/><line x1="92.9" y1="25.6" x2="76.1" y2="42.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="173.1" y1="109.6" x2="189.9" y2="126.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/><line x1="189.9" y1="109.6" x2="173.1" y2="126.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="100.3" y1="151.6" x2="117.2" y2="168.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/><line x1="117.2" y1="151.6" x2="100.3" y2="168.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/>
+<polygon points="156.37,104.50 156.37,131.50 132.99,145.00 109.61,131.50 109.61,104.50 132.99,91.00" fill="none" stroke="#c9a84c" stroke-width="3"/>
+<circle cx="127.0" cy="122.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="139.0" cy="122.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="133.0" cy="113.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<line x1="8" y1="243" x2="294" y2="243" stroke="#c5a85a" stroke-width="0.75" opacity="0.5"/>
+<polygon points="26.8,248.5 26.8,257.5 19.0,262.0 11.2,257.5 11.2,248.5 19.0,244.0" fill="none" stroke="#2aaa10" stroke-width="2.2"/>
+<text x="34" y="257" font-size="9" font-family="serif" fill="#3a3020">Valid landing — exactly 2 steps away (any direction)</text>
+<line x1="13" y1="263" x2="25" y2="275" stroke="#c03030" stroke-width="2.2" stroke-linecap="round"/><line x1="25" y1="263" x2="13" y2="275" stroke="#c03030" stroke-width="2.2" stroke-linecap="round"/>
+<text x="34" y="273" font-size="9" font-family="serif" fill="#3a3020">Cannot land — adjacent, out of range, or mountain</text>
+</svg>
+
+<p class="diagram-caption">Airborne lands exactly 2 steps away in any direction — the path need not be straight. Adjacent hexes cannot be landed on. Mountains without a friendly Base cannot be passed through or landed in.</p>
+</div>
+<div class="diagram-box">
+<div class="diagram-title">Slingshot Chain</div>
+      <svg viewBox="0 0 399 286" xmlns="http://www.w3.org/2000/svg">
+<polygon points="60.25,20.00 60.25,48.00 36.00,62.00 11.75,48.00 11.75,20.00 36.00,6.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="108.75,20.00 108.75,48.00 84.50,62.00 60.25,48.00 60.25,20.00 84.50,6.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="157.24,20.00 157.24,48.00 132.99,62.00 108.74,48.00 108.74,20.00 132.99,6.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="205.74,20.00 205.74,48.00 181.49,62.00 157.24,48.00 157.24,20.00 181.49,6.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="254.24,20.00 254.24,48.00 229.99,62.00 205.74,48.00 205.74,20.00 229.99,6.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="302.74,20.00 302.74,48.00 278.49,62.00 254.24,48.00 254.24,20.00 278.49,6.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="351.23,20.00 351.23,48.00 326.98,62.00 302.73,48.00 302.73,20.00 326.98,6.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="84.50,62.00 84.50,90.00 60.25,104.00 36.00,90.00 36.00,62.00 60.25,48.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="133.00,62.00 133.00,90.00 108.75,104.00 84.50,90.00 84.50,62.00 108.75,48.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="181.49,62.00 181.49,90.00 157.24,104.00 132.99,90.00 132.99,62.00 157.24,48.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="229.99,62.00 229.99,90.00 205.74,104.00 181.49,90.00 181.49,62.00 205.74,48.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="278.49,62.00 278.49,90.00 254.24,104.00 229.99,90.00 229.99,62.00 254.24,48.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="326.99,62.00 326.99,90.00 302.74,104.00 278.49,90.00 278.49,62.00 302.74,48.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="375.48,62.00 375.48,90.00 351.23,104.00 326.98,90.00 326.98,62.00 351.23,48.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="60.25,104.00 60.25,132.00 36.00,146.00 11.75,132.00 11.75,104.00 36.00,90.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="108.75,104.00 108.75,132.00 84.50,146.00 60.25,132.00 60.25,104.00 84.50,90.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="157.24,104.00 157.24,132.00 132.99,146.00 108.74,132.00 108.74,104.00 132.99,90.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="205.74,104.00 205.74,132.00 181.49,146.00 157.24,132.00 157.24,104.00 181.49,90.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="254.24,104.00 254.24,132.00 229.99,146.00 205.74,132.00 205.74,104.00 229.99,90.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="302.74,104.00 302.74,132.00 278.49,146.00 254.24,132.00 254.24,104.00 278.49,90.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="351.23,104.00 351.23,132.00 326.98,146.00 302.73,132.00 302.73,104.00 326.98,90.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="84.50,146.00 84.50,174.00 60.25,188.00 36.00,174.00 36.00,146.00 60.25,132.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="133.00,146.00 133.00,174.00 108.75,188.00 84.50,174.00 84.50,146.00 108.75,132.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="181.49,146.00 181.49,174.00 157.24,188.00 132.99,174.00 132.99,146.00 157.24,132.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="229.99,146.00 229.99,174.00 205.74,188.00 181.49,174.00 181.49,146.00 205.74,132.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="278.49,146.00 278.49,174.00 254.24,188.00 229.99,174.00 229.99,146.00 254.24,132.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="326.99,146.00 326.99,174.00 302.74,188.00 278.49,174.00 278.49,146.00 302.74,132.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="375.48,146.00 375.48,174.00 351.23,188.00 326.98,174.00 326.98,146.00 351.23,132.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="60.25,188.00 60.25,216.00 36.00,230.00 11.75,216.00 11.75,188.00 36.00,174.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="108.75,188.00 108.75,216.00 84.50,230.00 60.25,216.00 60.25,188.00 84.50,174.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="157.24,188.00 157.24,216.00 132.99,230.00 108.74,216.00 108.74,188.00 132.99,174.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="205.74,188.00 205.74,216.00 181.49,230.00 157.24,216.00 157.24,188.00 181.49,174.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="254.24,188.00 254.24,216.00 229.99,230.00 205.74,216.00 205.74,188.00 229.99,174.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="302.74,188.00 302.74,216.00 278.49,230.00 254.24,216.00 254.24,188.00 278.49,174.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="351.23,188.00 351.23,216.00 326.98,230.00 302.73,216.00 302.73,188.00 326.98,174.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="155.51,189.00 155.51,215.00 132.99,228.00 110.47,215.00 110.47,189.00 132.99,176.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="252.51,21.00 252.51,47.00 229.99,60.00 207.47,47.00 207.47,21.00 229.99,8.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="58.52,189.00 58.52,215.00 36.00,228.00 13.48,215.00 13.48,189.00 36.00,176.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="179.76,63.00 179.76,89.00 157.24,102.00 134.72,89.00 134.72,63.00 157.24,50.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="107.02,105.00 107.02,131.00 84.50,144.00 61.98,131.00 61.98,105.00 84.50,92.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="204.01,189.00 204.01,215.00 181.49,228.00 158.97,215.00 158.97,189.00 181.49,176.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="276.76,147.00 276.76,173.00 254.24,186.00 231.72,173.00 231.72,147.00 254.24,134.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="228.26,63.00 228.26,89.00 205.74,102.00 183.22,89.00 183.22,63.00 205.74,50.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="373.75,63.00 373.75,89.00 351.23,102.00 328.71,89.00 328.71,63.00 351.23,50.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="301.01,189.00 301.01,215.00 278.49,228.00 255.97,215.00 255.97,189.00 278.49,176.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="349.50,189.00 349.50,215.00 326.98,228.00 304.46,215.00 304.46,189.00 326.98,176.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="107.02,21.00 107.02,47.00 84.50,60.00 61.98,47.00 61.98,21.00 84.50,8.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="131.27,147.00 131.27,173.00 108.75,186.00 86.23,173.00 86.23,147.00 108.75,134.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="276.76,63.00 276.76,89.00 254.24,102.00 231.72,89.00 231.72,63.00 254.24,50.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="252.51,189.00 252.51,215.00 229.99,228.00 207.47,215.00 207.47,189.00 229.99,176.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="58.52,21.00 58.52,47.00 36.00,60.00 13.48,47.00 13.48,21.00 36.00,8.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="131.27,63.00 131.27,89.00 108.75,102.00 86.23,89.00 86.23,63.00 108.75,50.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="155.51,21.00 155.51,47.00 132.99,60.00 110.47,47.00 110.47,21.00 132.99,8.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="107.02,189.00 107.02,215.00 84.50,228.00 61.98,215.00 61.98,189.00 84.50,176.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="204.01,21.00 204.01,47.00 181.49,60.00 158.97,47.00 158.97,21.00 181.49,8.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="179.76,147.00 179.76,173.00 157.24,186.00 134.72,173.00 134.72,147.00 157.24,134.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="228.26,147.00 228.26,173.00 205.74,186.00 183.22,173.00 183.22,147.00 205.74,134.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="301.01,21.00 301.01,47.00 278.49,60.00 255.97,47.00 255.97,21.00 278.49,8.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="349.50,21.00 349.50,47.00 326.98,60.00 304.46,47.00 304.46,21.00 326.98,8.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="373.75,147.00 373.75,173.00 351.23,186.00 328.71,173.00 328.71,147.00 351.23,134.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<line x1="51.9" y1="67.6" x2="68.7" y2="84.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/><line x1="68.7" y1="67.6" x2="51.9" y2="84.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="318.6" y1="109.6" x2="335.4" y2="126.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/><line x1="335.4" y1="109.6" x2="318.6" y2="126.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="51.9" y1="151.6" x2="68.7" y2="168.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/><line x1="68.7" y1="151.6" x2="51.9" y2="168.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="294.3" y1="67.6" x2="311.1" y2="84.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/><line x1="311.1" y1="67.6" x2="294.3" y2="84.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="221.6" y1="109.6" x2="238.4" y2="126.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/><line x1="238.4" y1="109.6" x2="221.6" y2="126.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="27.6" y1="109.6" x2="44.4" y2="126.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/><line x1="44.4" y1="109.6" x2="27.6" y2="126.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="124.6" y1="109.6" x2="141.4" y2="126.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/><line x1="141.4" y1="109.6" x2="124.6" y2="126.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/>
+<line x1="294.3" y1="151.6" x2="311.1" y2="168.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/><line x1="311.1" y1="151.6" x2="294.3" y2="168.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/>
+<polygon points="107.88,104.50 107.88,131.50 84.50,145.00 61.12,131.50 61.12,104.50 84.50,91.00" fill="none" stroke="#c9a84c" stroke-width="3"/>
+<circle cx="78.5" cy="122.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="90.5" cy="122.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="84.5" cy="113.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<polygon points="204.01,105.00 204.01,131.00 181.49,144.00 158.97,131.00 158.97,105.00 181.49,92.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="204.87,104.50 204.87,131.50 181.49,145.00 158.11,131.50 158.11,104.50 181.49,91.00" fill="none" stroke="#c9a84c" stroke-width="3"/>
+<circle cx="175.5" cy="114.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="187.5" cy="114.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="175.5" cy="122.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="187.5" cy="122.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<polygon points="301.01,105.00 301.01,131.00 278.49,144.00 255.97,131.00 255.97,105.00 278.49,92.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="301.87,104.50 301.87,131.50 278.49,145.00 255.11,131.50 255.11,104.50 278.49,91.00" fill="none" stroke="#c9a84c" stroke-width="3"/>
+<circle cx="272.5" cy="114.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="284.5" cy="114.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="272.5" cy="122.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="284.5" cy="122.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<line x1="8" y1="243" x2="391" y2="243" stroke="#c5a85a" stroke-width="0.75" opacity="0.5"/>
+<polygon points="26.8,248.5 26.8,257.5 19.0,262.0 11.2,257.5 11.2,248.5 19.0,244.0" fill="none" stroke="#2aaa10" stroke-width="2.2"/>
+<text x="34" y="257" font-size="9" font-family="serif" fill="#3a3020">Valid destination — including both Bases</text>
+<polygon points="26.8,264.5 26.8,273.5 19.0,278.0 11.2,273.5 11.2,264.5 19.0,260.0" fill="none" stroke="#c9a84c" stroke-width="2.5"/>
+<text x="34" y="273" font-size="9" font-family="serif" fill="#3a3020">Friendly Base — slingshot launch point (once per chain)</text>
+</svg>
+
+<p class="diagram-caption">All valid destinations shown across the full slingshot chain — from start directly, or via either Base as a launch point. Each Base may only serve as a launch point once per chain.</p>
+</div>
+</div>
+<ul class="rules">
+<li><strong>Exactly two regions:</strong> Airborne moves in two steps, each to an adjacent region. The two steps can go in any direction — there is no requirement to move in a straight line. The only restriction is that the final landing region cannot be directly adjacent to the starting region. Any region that is two steps away via any path, and not adjacent to the start, is a <span class="nowrap">valid landing spot.</span></li>
+<li><strong>Mountains:</strong> Airborne cannot pass through a mountain region unless one of your own Bases is already present there. Even with Base support, airborne cannot safely end as 1 token alone in a mountain.</li>
+<li><strong>Enemy blockers:</strong> Airborne cannot pass over regions containing enemy Infantry or enemy Artillery. It can pass over enemy Airborne and enemy Bases freely.</li>
+<li><strong>Slingshot:</strong> If Airborne lands on a region containing your own Airborne or a Base, it may immediately launch again. Declare the entire chain at once. Each intermediate Airborne or Base may only serve as a launch point once per chain. Every leg must obey the “exactly 2, not adjacent” rule. The entire chain counts as only 3 <span class="nowrap">units toward the turn's maximum.</span></li>
+<li><strong>Combat bonus:</strong> Each friendly Base slingshot over en route <span class="nowrap">adds +1 to combat strength.</span></li>
+</ul>
+<h3>Nukes — Movement &amp; Rules</h3>
+<div class="diagrams-grid">
+<div class="diagram-box">
+<div class="diagram-title">Valid Targets</div>
+      <svg viewBox="0 0 399 286" xmlns="http://www.w3.org/2000/svg">
+<polygon points="60.25,20.00 60.25,48.00 36.00,62.00 11.75,48.00 11.75,20.00 36.00,6.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="108.75,20.00 108.75,48.00 84.50,62.00 60.25,48.00 60.25,20.00 84.50,6.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="157.24,20.00 157.24,48.00 132.99,62.00 108.74,48.00 108.74,20.00 132.99,6.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="205.74,20.00 205.74,48.00 181.49,62.00 157.24,48.00 157.24,20.00 181.49,6.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="254.24,20.00 254.24,48.00 229.99,62.00 205.74,48.00 205.74,20.00 229.99,6.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="302.74,20.00 302.74,48.00 278.49,62.00 254.24,48.00 254.24,20.00 278.49,6.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="351.23,20.00 351.23,48.00 326.98,62.00 302.73,48.00 302.73,20.00 326.98,6.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="84.50,62.00 84.50,90.00 60.25,104.00 36.00,90.00 36.00,62.00 60.25,48.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="133.00,62.00 133.00,90.00 108.75,104.00 84.50,90.00 84.50,62.00 108.75,48.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="181.49,62.00 181.49,90.00 157.24,104.00 132.99,90.00 132.99,62.00 157.24,48.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="229.99,62.00 229.99,90.00 205.74,104.00 181.49,90.00 181.49,62.00 205.74,48.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="278.49,62.00 278.49,90.00 254.24,104.00 229.99,90.00 229.99,62.00 254.24,48.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="326.99,62.00 326.99,90.00 302.74,104.00 278.49,90.00 278.49,62.00 302.74,48.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="375.48,62.00 375.48,90.00 351.23,104.00 326.98,90.00 326.98,62.00 351.23,48.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="60.25,104.00 60.25,132.00 36.00,146.00 11.75,132.00 11.75,104.00 36.00,90.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="108.75,104.00 108.75,132.00 84.50,146.00 60.25,132.00 60.25,104.00 84.50,90.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="157.24,104.00 157.24,132.00 132.99,146.00 108.74,132.00 108.74,104.00 132.99,90.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="205.74,104.00 205.74,132.00 181.49,146.00 157.24,132.00 157.24,104.00 181.49,90.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="254.24,104.00 254.24,132.00 229.99,146.00 205.74,132.00 205.74,104.00 229.99,90.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="302.74,104.00 302.74,132.00 278.49,146.00 254.24,132.00 254.24,104.00 278.49,90.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="351.23,104.00 351.23,132.00 326.98,146.00 302.73,132.00 302.73,104.00 326.98,90.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="84.50,146.00 84.50,174.00 60.25,188.00 36.00,174.00 36.00,146.00 60.25,132.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="133.00,146.00 133.00,174.00 108.75,188.00 84.50,174.00 84.50,146.00 108.75,132.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="181.49,146.00 181.49,174.00 157.24,188.00 132.99,174.00 132.99,146.00 157.24,132.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="229.99,146.00 229.99,174.00 205.74,188.00 181.49,174.00 181.49,146.00 205.74,132.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="278.49,146.00 278.49,174.00 254.24,188.00 229.99,174.00 229.99,146.00 254.24,132.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="326.99,146.00 326.99,174.00 302.74,188.00 278.49,174.00 278.49,146.00 302.74,132.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="375.48,146.00 375.48,174.00 351.23,188.00 326.98,174.00 326.98,146.00 351.23,132.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="60.25,188.00 60.25,216.00 36.00,230.00 11.75,216.00 11.75,188.00 36.00,174.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="108.75,188.00 108.75,216.00 84.50,230.00 60.25,216.00 60.25,188.00 84.50,174.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="157.24,188.00 157.24,216.00 132.99,230.00 108.74,216.00 108.74,188.00 132.99,174.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="205.74,188.00 205.74,216.00 181.49,230.00 157.24,216.00 157.24,188.00 181.49,174.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="254.24,188.00 254.24,216.00 229.99,230.00 205.74,216.00 205.74,188.00 229.99,174.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="302.74,188.00 302.74,216.00 278.49,230.00 254.24,216.00 254.24,188.00 278.49,174.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="351.23,188.00 351.23,216.00 326.98,230.00 302.73,216.00 302.73,188.00 326.98,174.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="252.51,189.00 252.51,215.00 229.99,228.00 207.47,215.00 207.47,189.00 229.99,176.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="204.01,105.00 204.01,131.00 181.49,144.00 158.97,131.00 158.97,105.00 181.49,92.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="252.51,21.00 252.51,47.00 229.99,60.00 207.47,47.00 207.47,21.00 229.99,8.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<polygon points="155.51,21.00 155.51,47.00 132.99,60.00 110.47,47.00 110.47,21.00 132.99,8.00" fill="none" stroke="#2aaa10" stroke-width="2.5"/>
+<line x1="270.1" y1="109.6" x2="286.9" y2="126.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/><line x1="286.9" y1="109.6" x2="270.1" y2="126.4" stroke="#c03030" stroke-width="2.5" stroke-linecap="round"/>
+<polygon points="107.88,104.50 107.88,131.50 84.50,145.00 61.12,131.50 61.12,104.50 84.50,91.00" fill="none" stroke="#c9a84c" stroke-width="3"/>
+<circle cx="78.5" cy="114.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="90.5" cy="114.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="78.5" cy="122.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="90.5" cy="122.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="133.0" cy="118.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="175.5" cy="122.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="187.5" cy="122.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="181.5" cy="113.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="157.2" cy="76.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="205.7" cy="76.0" r="6.5" fill="#8b1c1c" stroke="white" stroke-width="1.5"/>
+<circle cx="205.7" cy="160.0" r="6.5" fill="#8b1c1c" stroke="white" stroke-width="1.5"/>
+<circle cx="224.0" cy="122.0" r="6.5" fill="#8b1c1c" stroke="white" stroke-width="1.5"/>
+<circle cx="236.0" cy="122.0" r="6.5" fill="#8b1c1c" stroke="white" stroke-width="1.5"/>
+<circle cx="230.0" cy="113.0" r="6.5" fill="#8b1c1c" stroke="white" stroke-width="1.5"/>
+<circle cx="181.5" cy="34.0" r="6.5" fill="#8b1c1c" stroke="white" stroke-width="1.5"/>
+<circle cx="230.0" cy="34.0" r="6.5" fill="#8b1c1c" stroke="white" stroke-width="1.5"/>
+<circle cx="254.2" cy="76.0" r="6.5" fill="#8b1c1c" stroke="white" stroke-width="1.5"/>
+<circle cx="278.5" cy="34.0" r="6.5" fill="#8b1c1c" stroke="white" stroke-width="1.5"/>
+<circle cx="302.7" cy="76.0" r="6.5" fill="#8b1c1c" stroke="white" stroke-width="1.5"/>
+<line x1="8" y1="243" x2="391" y2="243" stroke="#c5a85a" stroke-width="0.75" opacity="0.5"/>
+<polygon points="26.8,248.5 26.8,257.5 19.0,262.0 11.2,257.5 11.2,248.5 19.0,244.0" fill="none" stroke="#2aaa10" stroke-width="2.2"/>
+<text x="34" y="257" font-size="9" font-family="serif" fill="#3a3020">Valid target</text>
+<line x1="13" y1="263" x2="25" y2="275" stroke="#c03030" stroke-width="2.2" stroke-linecap="round"/><line x1="25" y1="263" x2="13" y2="275" stroke="#c03030" stroke-width="2.2" stroke-linecap="round"/>
+<text x="34" y="273" font-size="9" font-family="serif" fill="#3a3020">Cannot target</text>
+</svg>
+
+<p class="diagram-caption">Nuke hops over the infantry, pivots at the Airborne, then hops again to reach targets. Enemy Airborne blocks one direction. The enemy cluster top-right is the strongest choice — destroying 5 units in one strike.</p>
+</div>
+<div class="diagram-box">
+<div class="diagram-title">After the Strike</div>
+      <svg viewBox="0 0 399 286" xmlns="http://www.w3.org/2000/svg">
+<polygon points="60.25,20.00 60.25,48.00 36.00,62.00 11.75,48.00 11.75,20.00 36.00,6.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="108.75,20.00 108.75,48.00 84.50,62.00 60.25,48.00 60.25,20.00 84.50,6.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="157.24,20.00 157.24,48.00 132.99,62.00 108.74,48.00 108.74,20.00 132.99,6.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="205.74,20.00 205.74,48.00 181.49,62.00 157.24,48.00 157.24,20.00 181.49,6.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="254.24,20.00 254.24,48.00 229.99,62.00 205.74,48.00 205.74,20.00 229.99,6.00" fill="#d8b8f0" stroke="#8840b8" stroke-width="1.5"/>
+<polygon points="302.74,20.00 302.74,48.00 278.49,62.00 254.24,48.00 254.24,20.00 278.49,6.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="351.23,20.00 351.23,48.00 326.98,62.00 302.73,48.00 302.73,20.00 326.98,6.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="84.50,62.00 84.50,90.00 60.25,104.00 36.00,90.00 36.00,62.00 60.25,48.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="133.00,62.00 133.00,90.00 108.75,104.00 84.50,90.00 84.50,62.00 108.75,48.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="181.49,62.00 181.49,90.00 157.24,104.00 132.99,90.00 132.99,62.00 157.24,48.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="229.99,62.00 229.99,90.00 205.74,104.00 181.49,90.00 181.49,62.00 205.74,48.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="278.49,62.00 278.49,90.00 254.24,104.00 229.99,90.00 229.99,62.00 254.24,48.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="326.99,62.00 326.99,90.00 302.74,104.00 278.49,90.00 278.49,62.00 302.74,48.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="375.48,62.00 375.48,90.00 351.23,104.00 326.98,90.00 326.98,62.00 351.23,48.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="60.25,104.00 60.25,132.00 36.00,146.00 11.75,132.00 11.75,104.00 36.00,90.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="108.75,104.00 108.75,132.00 84.50,146.00 60.25,132.00 60.25,104.00 84.50,90.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="157.24,104.00 157.24,132.00 132.99,146.00 108.74,132.00 108.74,104.00 132.99,90.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="205.74,104.00 205.74,132.00 181.49,146.00 157.24,132.00 157.24,104.00 181.49,90.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="254.24,104.00 254.24,132.00 229.99,146.00 205.74,132.00 205.74,104.00 229.99,90.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="302.74,104.00 302.74,132.00 278.49,146.00 254.24,132.00 254.24,104.00 278.49,90.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="351.23,104.00 351.23,132.00 326.98,146.00 302.73,132.00 302.73,104.00 326.98,90.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="84.50,146.00 84.50,174.00 60.25,188.00 36.00,174.00 36.00,146.00 60.25,132.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="133.00,146.00 133.00,174.00 108.75,188.00 84.50,174.00 84.50,146.00 108.75,132.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="181.49,146.00 181.49,174.00 157.24,188.00 132.99,174.00 132.99,146.00 157.24,132.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="229.99,146.00 229.99,174.00 205.74,188.00 181.49,174.00 181.49,146.00 205.74,132.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="278.49,146.00 278.49,174.00 254.24,188.00 229.99,174.00 229.99,146.00 254.24,132.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="326.99,146.00 326.99,174.00 302.74,188.00 278.49,174.00 278.49,146.00 302.74,132.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="375.48,146.00 375.48,174.00 351.23,188.00 326.98,174.00 326.98,146.00 351.23,132.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="60.25,188.00 60.25,216.00 36.00,230.00 11.75,216.00 11.75,188.00 36.00,174.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="108.75,188.00 108.75,216.00 84.50,230.00 60.25,216.00 60.25,188.00 84.50,174.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="157.24,188.00 157.24,216.00 132.99,230.00 108.74,216.00 108.74,188.00 132.99,174.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="205.74,188.00 205.74,216.00 181.49,230.00 157.24,216.00 157.24,188.00 181.49,174.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="254.24,188.00 254.24,216.00 229.99,230.00 205.74,216.00 205.74,188.00 229.99,174.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="302.74,188.00 302.74,216.00 278.49,230.00 254.24,216.00 254.24,188.00 278.49,174.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="351.23,188.00 351.23,216.00 326.98,230.00 302.73,216.00 302.73,188.00 326.98,174.00" fill="#c8e8a0" stroke="#6aaa3a" stroke-width="1.5"/>
+<polygon points="107.88,104.50 107.88,131.50 84.50,145.00 61.12,131.50 61.12,104.50 84.50,91.00" fill="none" stroke="#c9a84c" stroke-width="3"/>
+<circle cx="78.5" cy="114.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="90.5" cy="114.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="78.5" cy="122.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="90.5" cy="122.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="133.0" cy="118.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="175.5" cy="122.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="187.5" cy="122.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="181.5" cy="113.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="157.2" cy="76.0" r="6.5" fill="#1c4a4a" stroke="white" stroke-width="1.5"/>
+<circle cx="205.7" cy="160.0" r="6.5" fill="#8b1c1c" stroke="white" stroke-width="1.5"/>
+<circle cx="224.0" cy="122.0" r="6.5" fill="#8b1c1c" stroke="white" stroke-width="1.5"/>
+<circle cx="236.0" cy="122.0" r="6.5" fill="#8b1c1c" stroke="white" stroke-width="1.5"/>
+<circle cx="230.0" cy="113.0" r="6.5" fill="#8b1c1c" stroke="white" stroke-width="1.5"/>
+<circle cx="302.7" cy="76.0" r="6.5" fill="#8b1c1c" stroke="white" stroke-width="1.5"/>
+<line x1="8" y1="243" x2="391" y2="243" stroke="#c5a85a" stroke-width="0.75" opacity="0.5"/>
+<polygon points="26.8,251.5 26.8,260.5 19.0,265.0 11.2,260.5 11.2,251.5 19.0,247.0" fill="#d8b8f0" stroke="#8840b8" stroke-width="1.5"/>
+<text x="34" y="260" font-size="9" font-family="serif" fill="#3a3020">Target hex → Biohazard. Surrounding units destroyed, hexes unchanged.</text>
+</svg>
+
+<p class="diagram-caption">The target hex becomes Biohazard. All units in the target and its 6 surrounding hexes are destroyed — the surrounding hexes themselves remain unchanged. Five enemy units eliminated with no friendly casualties.</p>
+</div>
+</div>
+<ul class="rules">
+<li><strong>Requires a Base:</strong> A nuke can only be launched from a region containing one of your Bases. The Base remains after launch.</li>
+<li><strong>Must jump at least once:</strong> A nuke must cross over at least one occupied intermediate region. It cannot fire into an adjacent hex.</li>
+<li><strong>Isotopes:</strong> Before firing, place at least 1 isotope from your supply into the target region. You may place multiple — each adds +1 to nuke strength beyond the <span class="nowrap">base of 2.</span></li>
+<li><strong>Strength:</strong> Starts at 2 (nuke token + 1 isotope minimum). Add +1 per additional isotope placed in the target. Add +1 per friendly Base passed over en route.</li>
+<li><strong>Movement:</strong> Same jump rules as artillery. Direction changes at your own Airborne or Bases. Can jump over enemy Infantry only — cannot jump over enemy Artillery, Airborne, or Bases. Biohazards are treated as empty and cannot be jumped.</li>
+<li><strong>Legal targets:</strong> Any region except an empty water region — including empty regions, biohazards, and your own units.</li>
+<li><strong>Enemy targets:</strong> Your nuke strength must strictly exceed the defender’s strength to target an enemy-occupied region.</li>
+<li><strong>Blast effect (immediate):</strong> Target region → Biohazard permanently. All units on the target region and all units in the 6 surrounding regions are <span class="nowrap">destroyed immediately</span> — including your own. The surrounding regions do not change biome.</li>
+<li><strong>No hostage capture.</strong> A nuke only destroys.</li>
+</ul>
+<h3>Bases — Full Rules</h3>
+<ul class="rules">
+<li>A Base forms <strong>immediately</strong> when a 4th token joins a region — mid-turn during Phase 2.</li>
+<li><strong>Maximum 9 units.</strong> Voluntarily moving your own platoon into a full Base is illegal. If an opponent returns a hostage to your full Base, the Meltdown rule applies.</li>
+<li><strong>Isotope conversion:</strong> Each time <em>you</em> add units to your own Base, you may immediately convert 1 unit into an isotope. Triggers once per event — two separate moves adding to bases in one turn means two conversion opportunities. Does not trigger when an opponent returns a token to your Base.</li>
+<li>Bases provide <strong>+1 combat strength</strong> to your platoons passing through or over them en route to combat. Units starting their move <em>from within</em> a Base do not <span class="nowrap">receive this bonus.</span></li>
+<li>A Base cannot move, but <strong>any number of units may leave</strong> — including all of them, leaving the <span class="nowrap">region empty.</span></li>
+</ul>
+<h3>Cities — Full Rules</h3>
+<ul class="rules">
+<li>Cities act as Bases <strong>for movement purposes only</strong> regardless of unit count — Infantry can pass through freely, Artillery and Nukes can change direction when passing over, and Airborne can slingshot from them.</li>
+<li>With <strong>fewer than 4 units</strong>: no combat adjacency bonus.</li>
+<li>With <strong>4 or more units</strong>: a real Base is present, providing all normal <span class="nowrap">Base combat bonuses.</span></li>
+<li>The pass-through combat bonus (+1 for platoons moving through or over) does not apply to units beginning their move from within that city.</li>
+</ul>
+</div>
+<div class="section">
+<h3>Meltdown</h3>
+<p>A Meltdown occurs when a hostage token is returned to a region already at its maximum capacity of 9 units. This is a legal and intentional offensive tactic.</p>
+<div class="meltdown-box">
+<div class="box-title">☢ Meltdown Effect — Immediate</div>
+<p><strong>Target hex:</strong> Converted to Biohazard immediately. All units on the target hex are <span class="nowrap">destroyed immediately.</span></p>
+<p><strong>Surrounding hexes:</strong> Completely unaffected — units in the 6 surrounding regions are not destroyed and those hexes do not change biome.</p>
+<p>This is the key distinction from a Nuke, which destroys units in all <span class="nowrap">surrounding hexes too.</span></p>
+</div>
+<ul class="rules">
+<li>Triggered during <strong>Phase 1</strong> (Return Hostages), not during Phase 2.</li>
+<li>The destruction is <strong>immediate</strong> — not delayed to Phase 3.</li>
+<li>The return that triggers a Meltdown still counts as one of your 1–3 returns — you still <strong>earn a move</strong> from it.</li>
+<li>All units on the target hex are <span class="nowrap">destroyed immediately.</span></li>
+</ul>
+</div>
+<div class="section">
+<div class="eyebrow">Resolving Battles</div>
+<h2>Combat</h2>
+<p>A platoon may only move into an enemy-occupied region if it can win. You must have <strong>strictly greater strength</strong> than the defender — a tie is not sufficient to attack.</p>
+<h3>Calculating Strength</h3>
+<div class="strength-grid">
+<div class="strength-box">
+<div class="sb-title">Attacker's Strength</div>
+<div class="sb-row"><span class="sb-op">◆</span><span>Number of tokens in the attacking platoon</span></div>
+<hr class="sb-hr">
+<div class="sb-row"><span class="sb-op">+</span><span>1 per adjacent region (to the <em>target hex</em>) containing any of your units</span></div>
+<div class="sb-row"><span class="sb-op">+</span><span>1 per friendly Base passed through or over en route</span></div>
+<div class="sb-row"><span class="sb-op">+</span><span>1 per isotope placed in the target (Nukes only)</span></div>
+<p class="sb-note">The origin region counts toward the surrounding bonus if it is adjacent to the target and still has units in it after the platoon departed.</p>
+</div>
+<div class="strength-box">
+<div class="sb-title">Defender's Strength</div>
+<div class="sb-row"><span class="sb-op">◆</span><span>Number of tokens in the defending region</span></div>
+<hr class="sb-hr">
+<div class="sb-row"><span class="sb-op">+</span><span>1 per adjacent region containing the defender's <em>Bases</em> specifically</span></div>
+<p class="sb-note">Plain units in adjacent regions do not give the defender a bonus — only Bases do. This asymmetry is intentional — it rewards <span class="nowrap">building Bases near contested territory.</span></p>
+</div>
+</div>
+<ul class="rules">
+<li>The surrounding bonus for the attacker is calculated relative to the <strong>target region’s 6 adjacent hexes</strong>.</li>
+<li>If the attacker wins, all defending units in the target region are <strong>destroyed and removed from the game</strong> by default. The attacker occupies the region.</li>
+</ul>
+<h3>Capturing Hostages</h3>
+<p>Instead of destroying enemy units, you may capture them as hostages — adding to your supply and extending your opponent’s time in the game (while <span class="nowrap">extending your own).</span></p>
+<ul class="rules">
+<li>For each point of <strong>excess strength</strong> (beyond what was needed to win), you may capture one of the defender’s units instead of destroying it.</li>
+<li>To capture one enemy unit, you must <strong>sacrifice one of your own units</strong> — from the attacking platoon or from an adjacent region that contributed <span class="nowrap">support strength.</span></li>
+<li>The <strong>attacker chooses</strong> which specific enemy units to capture versus destroy.</li>
+<li>You may capture from 0 up to your total excess strength — entirely your choice.</li>
+</ul>
+<div class="box">
+<div class="box-title">✦ Example</div>
+<p>Attacker strength 5 vs defender strength 2 — 3 points of excess. The attacker may capture up to 3 of the defender’s units, sacrificing one of their own per capture. They choose to capture 2 (sacrificing 2 of their own) and destroy 1 — judging those hostages worth the losses.</p>
+</div>
+</div>
+<div class="section">
+<div class="eyebrow">The Battlefield</div>
+<h2>Biomes</h2>
+<p>Each region belongs to one of seven biome types. Terrain restrictions apply based on the <strong><span class="nowrap">platoon type the tokens become</span></strong> — not how they arrived. A region with 3 tokens in water is Airborne, which has no water restriction — always evaluate the <span class="nowrap">token count.</span></p>
+<div class="biome-grid">
+<div class="biome fields"><div class="biome-name">Fields</div><p>No restrictions for any platoon type. Completely open — safe to move through and end turns in freely.</p></div>
+<div class="biome forest"><div class="biome-name">Forests</div><p>Artillery starting its move here cannot attack this turn. It may still move to any unoccupied region or join a friendly platoon.</p></div>
+<div class="biome mountain"><div class="biome-name">Mountains</div><p>Airborne cannot pass through unless a friendly Base is present. A region ending the turn with 1 token (Infantry) here is destroyed at <span class="nowrap">end-of-turn resolution.</span></p></div>
+<div class="biome desert"><div class="biome-name">Desert</div><p>A region ending the turn with 1 token (Infantry) here is destroyed at Phase 3 resolution. Cannot transit through without your Airborne or Base already stationed in that region.</p></div>
+<div class="biome water"><div class="biome-name">Water</div><p>A region ending the turn with 1 token (Infantry) or 2 tokens (Artillery) here is destroyed at Phase 3 resolution. Cannot transit through without support. Nukes cannot target empty water.</p></div>
+<div class="biome hazard"><div class="biome-name">Biohazard</div><p>Created by a Nuke or Meltdown. No unit may end its turn here. Only Airborne may pass through or over. Treated as empty for artillery and nuke jumps.</p></div>
+<div class="biome city"><div class="biome-name">Cities</div><p>Starting positions. Act as Bases for movement regardless of unit count. With 4+ units, a real Base is present providing normal combat bonuses.</p></div>
+</div>
+<h3>Terrain Restriction Summary</h3>
+<table class="t">
+<thead><tr><th>Platoon (Token Count)</th><th>Water</th><th>Desert</th><th>Forest</th><th>Mountain</th></tr></thead>
+<tbody>
+<tr><td><strong>Infantry (1)</strong></td><td class="r">Destroyed alone; needs support to pass</td><td class="r">Destroyed alone; needs support to pass</td><td class="g">No restriction</td><td class="g">No restriction</td></tr>
+<tr><td><strong>Artillery (2)</strong></td><td class="r">Destroyed alone; needs support to pass</td><td class="g">No restriction</td><td class="n">Cannot attack from here; may still move</td><td class="g">No restriction</td></tr>
+<tr><td><strong>Airborne (3)</strong></td><td class="g">No restriction</td><td class="g">No restriction</td><td class="g">No restriction</td><td class="n">Cannot pass without Base; destroyed as 1 token alone</td></tr>
+<tr><td><strong>Nuke</strong></td><td class="r">Cannot target empty water</td><td class="g">No restriction</td><td class="g">No restriction</td><td class="g">No restriction</td></tr>
+</tbody>
+</table>
+<div class="box teal">
+<div class="box-title">✦ "Needs Support to Pass" — What This Means</div>
+<p>A platoon can transit through a restricted terrain region only if <strong>your own Airborne or a Base is already stationed there</strong>. The restriction still applies — but their presence guarantees the total token count will be high enough at end of turn to avoid destruction. The biome remains restricted; the support unit <span class="nowrap">simply ensures a safe count.</span></p>
+</div>
+</div>
+
+</main>
+
+<div class="ref-page">
+<div class="eyebrow eyebrow--ref">Quick Reference — Bookmark Card</div>
+<h2>Rules at a Glance</h2>
+
+<!-- UNIT BOOKMARK CARDS -->
+<div class="bookmark-wrap">
+
+<div class="bm-card">
+<div class="bm-card-title">Infantry</div>
+<span class="bm-unit-icon">🪖</span>
+<div class="bm-count">1 token</div>
+<div class="bm-restrict">
+<div class="bm-row"><div class="bm-dot dot-r"></div>Cannot pass own Infantry</div>
+<div class="bm-row"><div class="bm-dot dot-r"></div>Cannot pass own Artillery</div>
+<div class="bm-row"><div class="bm-dot dot-g"></div>Can pass own Airborne</div>
+<div class="bm-row"><div class="bm-dot dot-g"></div>Can pass own Bases</div>
+<div class="bm-row"><div class="bm-dot dot-r"></div>Cannot pass enemy units</div>
+</div>
+<div class="bm-biomes">
+<div class="bm-label">Biomes</div>
+<div class="bm-row"><div class="bm-dot dot-water"></div>✗ Water alone</div>
+<div class="bm-row"><div class="bm-dot dot-desert"></div>✗ Desert alone</div>
+</div>
+</div>
+
+<div class="bm-card">
+<div class="bm-card-title">Artillery</div>
+<span class="bm-unit-icon">🎯</span>
+<div class="bm-count">2 tokens</div>
+<div class="bm-restrict">
+<div class="bm-row"><div class="bm-dot dot-g"></div>Can jump own/enemy infantry</div>
+<div class="bm-row"><div class="bm-dot dot-g"></div>Can jump own/enemy artillery</div>
+<div class="bm-row"><div class="bm-dot dot-g"></div>Can pass own Airborne</div>
+<div class="bm-row"><div class="bm-dot dot-g"></div>Can pass own Bases</div>
+<div class="bm-row"><div class="bm-dot dot-r"></div>✗ Enemy Airborne/Base</div>
+</div>
+<div class="bm-biomes">
+<div class="bm-label">Biomes</div>
+<div class="bm-row"><div class="bm-dot dot-water"></div>✗ Water alone</div>
+<div class="bm-row"><div class="bm-dot dot-forest"></div>? Cannot attack from</div>
+</div>
+</div>
+
+<div class="bm-card">
+<div class="bm-card-title">Airborne</div>
+<span class="bm-unit-icon">✈️</span>
+<div class="bm-count">3 tokens</div>
+<div class="bm-restrict">
+<div class="bm-row"><div class="bm-dot dot-g"></div>Can pass own infantry</div>
+<div class="bm-row"><div class="bm-dot dot-g"></div>Can pass own artillery</div>
+<div class="bm-row"><div class="bm-dot dot-g"></div>Can pass own/enemy Airborne</div>
+<div class="bm-row"><div class="bm-dot dot-g"></div>Can pass own/enemy Bases</div>
+<div class="bm-row"><div class="bm-dot dot-r"></div>✗ Enemy infantry/artillery</div>
+</div>
+<div class="bm-biomes">
+<div class="bm-label">Biomes</div>
+<div class="bm-row"><div class="bm-dot dot-mountain"></div>✗ Mountain alone</div>
+<div class="bm-row"><div class="bm-dot dot-mountain"></div>✗ Cannot pass w/o Base</div>
+</div>
+</div>
+
+<div class="bm-card">
+<div class="bm-card-title">Nuke</div>
+<span class="bm-unit-icon">☢️</span>
+<div class="bm-count">1 token + isotope</div>
+<div class="bm-restrict">
+<div class="bm-row"><div class="bm-dot dot-g"></div>Can jump own/enemy infantry</div>
+<div class="bm-row"><div class="bm-dot dot-g"></div>Can jump own artillery</div>
+<div class="bm-row"><div class="bm-dot dot-g"></div>Can redirect via own Airborne</div>
+<div class="bm-row"><div class="bm-dot dot-g"></div>Can redirect via own Bases</div>
+<div class="bm-row"><div class="bm-dot dot-r"></div>✗ Enemy artillery/airborne/base</div>
+</div>
+<div class="bm-biomes">
+<div class="bm-label">Biomes</div>
+<div class="bm-row"><div class="bm-dot dot-water"></div>? Cannot target empty</div>
+</div>
+</div>
+
+<div class="bm-card">
+<div class="bm-card-title">Bases</div>
+<span class="bm-unit-icon">🏰</span>
+<div class="bm-count">4–9 tokens</div>
+<div class="bm-restrict">
+<div class="bm-row"><div class="bm-dot dot-grey"></div>Does not move</div>
+<div class="bm-row"><div class="bm-dot dot-grey"></div>Max 9 units</div>
+<div class="bm-row"><div class="bm-dot dot-grey"></div>+1 strength to passing platoons</div>
+<div class="bm-row"><div class="bm-dot dot-grey"></div>Convert 1 unit → isotope when you add units</div>
+</div>
+<div class="bm-biomes">
+<div class="bm-label">Meltdown</div>
+<div class="bm-row"><div class="bm-dot dot-r"></div>Returning token to full Base → Biohazard</div>
+</div>
+</div>
+
+</div>
+
+<!-- BIOME CHIPS -->
+<div class="biome-key">
+<div class="biome-key-title">Biome Key</div>
+<div class="biome-ref-row">
+<span class="biome-chip chip-fields">Fields — No restrictions</span>
+<span class="biome-chip chip-forest">Forest — Artillery can't attack</span>
+<span class="biome-chip chip-mountain">Mountain — Airborne needs Base</span>
+<span class="biome-chip chip-desert">Desert — Infantry dies alone</span>
+<span class="biome-chip chip-water">Water — Infantry &amp; Artillery die alone</span>
+<span class="biome-chip chip-hazard">Biohazard — Nothing may rest here</span>
+<span class="biome-chip chip-city">City — Base for movement only</span>
+</div>
+</div>
+
+<!-- REF GRID -->
+<div class="ref-grid">
+<div class="ref-card">
+<div class="ref-card-title">Turn Structure</div>
+<div class="ref-rule"><span class="ref-dot">◆</span>Phase 1: Return 1–3 to owner's regions (max 1 per region)</div>
+<div class="ref-rule"><span class="ref-dot">◆</span>Phase 2: 1 move per hostage returned (optional)</div>
+<div class="ref-rule"><span class="ref-dot">◆</span>Max 3 units moved total per turn</div>
+<div class="ref-rule"><span class="ref-dot">◆</span>Same unit can't move twice (except slingshot)</div>
+<div class="ref-rule"><span class="ref-dot">◆</span>Phase 3: terrain destruction at end of full turn</div>
+<div class="ref-rule"><span class="ref-dot">◆</span>No hostages OR no units = eliminated</div>
+</div>
+<div class="ref-card">
+<div class="ref-card-title">Combat Strength</div>
+<div class="ref-rule"><span class="ref-dot">◆</span>Attacker needs strictly MORE than defender</div>
+<div class="ref-rule"><span class="ref-dot">◆</span>Attacker: +1 per unit adjacent to target hex</div>
+<div class="ref-rule"><span class="ref-dot">◆</span>Attacker: +1 per Base passed through en route</div>
+<div class="ref-rule"><span class="ref-dot">◆</span>Defender: +1 per adjacent Base only (not plain units)</div>
+<div class="ref-rule"><span class="ref-dot">◆</span>Capture: sacrifice 1 own unit per 1 captured</div>
+<div class="ref-rule"><span class="ref-dot">◆</span>Attacker chooses which enemy units to take</div>
+</div>
+<div class="ref-card">
+<div class="ref-card-title">Victory &amp; Nukes</div>
+<div class="ref-rule"><span class="ref-dot">◆</span>Destroy an opponent's city</div>
+<div class="ref-rule"><span class="ref-dot">◆</span>Base on opponent's city (4+ units)</div>
+<div class="ref-rule"><span class="ref-dot">◆</span>Last player with hostages + units</div>
+<div class="ref-rule"><span class="ref-dot">◆</span>Nuke: target + 6 surrounding units destroyed immediately</div>
+<div class="ref-rule"><span class="ref-dot">◆</span><strong>Meltdown:</strong> 9-unit overflow — target→Biohazard, surrounding units destroyed</div>
+<div class="ref-rule"><span class="ref-dot">◆</span>Win is immediate — no further turns</div>
+</div>
+</div>
+</div>
+
+<!-- ══════════════════════════════ APPENDIX A -->
+
+
+<div class="appendix">
+<div class="eyebrow">Appendix A</div>
+<h2>Rules Clarifications</h2>
+<p>All clarifications below have been confirmed by the game's designer. Items marked <span class="clar-new">New</span> are rules not explicitly stated in previous versions of the rulebook.</p>
+
+<div class="clar-item">
+<div class="clar-q">How exactly does the hostage return mechanic work?</div>
+<div class="clar-a">When you return a hostage, you take one of your opponent's tokens and place it into a region on the board where <strong>that opponent already has at least one unit present</strong>. The token physically joins that region, increasing the unit count — potentially upgrading the platoon type (e.g. turning Artillery into Airborne, or forming a Base). You are not returning tokens to your own regions. You are reinforcing your enemy's forces on the board in exchange for earning a move. This tension — moves cost you enemy strength — is the engine of the game.</div>
+</div>
+
+<div class="clar-item">
+<div class="clar-q">Does returning a hostage token trigger Base formation and isotope conversion? <span class="clar-new">New</span></div>
+<div class="clar-a">If a returned token brings a region to 4+ units, a Base forms immediately. However, <strong>isotope conversion does not trigger</strong> — it only triggers when a player adds units to their own Base through their own movement on their own turn. The opponent whose Base was bolstered cannot convert an isotope at that moment.</div>
+</div>
+
+<div class="clar-item">
+<div class="clar-q">What is a Meltdown and is it intentional? <span class="clar-new">New</span></div>
+<div class="clar-a">A Meltdown occurs when a hostage token is returned to a region already at 9 units. The target region is immediately converted to Biohazard and all units on it are destroyed. The 6 surrounding regions are completely unaffected — this is the key distinction from a Nuke. A Meltdown is a <strong>legal and intentional offensive tactic</strong>: you may deliberately return a token to a full enemy Base to trigger this effect, earning a move in the process.</div>
+</div>
+
+<div class="clar-item">
+<div class="clar-q">Do infantry block friendly units as well as enemy units?</div>
+<div class="clar-a"><strong>Yes.</strong> Infantry cannot pass through any region containing any other units — including your own Infantry and Artillery. Only your own Airborne and Bases can be passed through freely. This means the positioning of your own platoons creates movement corridors and dead ends for your own Infantry.</div>
+</div>
+
+<div class="clar-item">
+<div class="clar-q">Can Airborne pass through mountains?</div>
+<div class="clar-a"><strong>Only with Base support.</strong> Airborne can pass through a mountain region if and only if one of your own Bases is already present in that mountain. Without a Base there, the mountain is completely impassable for Airborne.</div>
+</div>
+
+<div class="clar-item">
+<div class="clar-q">How many direction changes can artillery or a nuke make in one move?</div>
+<div class="clar-a"><strong>As many as it passes over friendly Airborne or Bases.</strong> Each friendly Airborne or Base it passes over may pivot it to any new hex direction. There is <span class="nowrap">no limit per move.</span></div>
+</div>
+
+<div class="clar-item">
+<div class="clar-q">Can a nuke fire into an adjacent hex?</div>
+<div class="clar-a"><strong>No.</strong> A nuke must jump over at least one occupied intermediate region. It cannot be fired into a hex directly adjacent to its launching Base.</div>
+</div>
+
+<div class="clar-item">
+<div class="clar-q">How does the Airborne Slingshot work — and can Airborne return to its starting region?</div>
+<div class="clar-a">Declare the entire slingshot chain at once. Each intermediate Airborne unit or Base may only serve as a launch point <em>once</em> per chain — this prevents a Base being used repeatedly, but does not prevent the airborne from landing back at its starting region if it arrives there via a legal final 2-region leg. Every leg must obey the "exactly 2, not adjacent" rule. The entire chain counts as only 3 <span class="nowrap">units toward the turn's maximum.</span></div>
+</div>
+
+<div class="clar-item">
+<div class="clar-q">When does terrain destruction trigger, and why does it matter?</div>
+<div class="clar-a"><strong>At the very end of the turn</strong> — Phase 3 — once all moves and combat are resolved. <span class="nowrap">Only the final resting position matters.</span> A token may transit through restricted terrain regions mid-move and end safely elsewhere — it will not be destroyed. The key question is always: what is the token count in this region at end of turn, and is that platoon type permitted here? Nuke blasts and Meltdowns are the exception: those are immediate.</div>
+</div>
+
+<div class="clar-item">
+<div class="clar-q">How do terrain restrictions interact with fluid platoons?</div>
+<div class="clar-a">Always evaluate the token count at end of turn, not unit origin. If an Infantry token joins a water region containing friendly Artillery tokens, those 3 tokens are now Airborne — which has no water restriction. The restriction disappears because the platoon type changed. A region with 2 tokens in water is Artillery (destroyed). A region with 3 tokens in water is Airborne (safe).</div>
+</div>
+
+<div class="clar-item">
+<div class="clar-q">Does the attacker's origin region count toward the surrounding bonus?</div>
+<div class="clar-a"><strong>Yes</strong>, if the origin region is adjacent to the target and still has units in it after the attacking platoon departed. The surrounding bonus is calculated based on the 6 hexes adjacent to the <em>target region</em>.</div>
+</div>
+
+<div class="clar-item">
+<div class="clar-q">Why do defenders only benefit from adjacent Bases — not plain units?</div>
+<div class="clar-a">This asymmetry is <strong>intentional design</strong>. Attackers gain +1 per any adjacent unit; defenders gain +1 per adjacent Base only. This makes Bases uniquely valuable for defence and rewards building Bases near contested territory rather than massing plain units. It also means offence is generally easier than defence — encouraging dynamic, aggressive play.</div>
+</div>
+
+<div class="clar-item">
+<div class="clar-q">Do cities provide combat strength bonuses? <span class="clar-new">New</span></div>
+<div class="clar-a">Cities with <strong>fewer than 4 units</strong> provide no combat adjacency bonus — movement only. Cities with <strong>4 or more units</strong> contain a real Base, which provides the normal +1 combat adjacency bonus. Cities also provide a pass-through combat bonus (+1) to platoons moving through or over them en route to an attack — but not to units starting their move from within that city.</div>
+</div>
+
+<div class="clar-item">
+<div class="clar-q">Can multiple isotopes be placed in a nuke target? <span class="clar-new">New</span></div>
+<div class="clar-a"><strong>Yes.</strong> You may place as many isotopes as you choose into the target region before firing. Each one adds +1 to the nuke's strength beyond the base of 2. All placed isotopes are consumed regardless of outcome.</div>
+</div>
+
+
+<div class="clar-item">
+<div class="clar-q">What can artillery land on after pivoting at a Base? <span class="clar-new">New</span></div>
+<div class="clar-a">After arriving at the pivot Base, artillery may land on: the <strong>Base itself</strong> (tokens merge); any of the <strong>5 adjacent hexes it did not arrive from</strong> (whether empty or containing friendly units — tokens merge via fluid rules); or <strong>further beyond</strong> any of those adjacent hexes that contain units, by jumping over them exactly as normal. How far artillery can reach in any direction depends entirely on what units are present around the Base — the pivot simply opens up all directions, and the standard jump rules apply from there.</div>
+</div>
+<div class="clar-item">
+<div class="clar-q">Are there two separate ways to be eliminated?</div>
+<div class="clar-a"><strong>Yes — two independent triggers.</strong> Hostage Attrition (no hostages to return at start of your turn) or Total Annihilation (no units on the board at any point). Either condition alone is sufficient. When eliminated, all your tokens everywhere are removed from the game immediately — including those held as hostages by others.</div>
+</div>
+</div>
+
+
+<!-- FOOTER -->
+<footer class="doc-footer" role="contentinfo">
+  <span class="ftr-copy">v0.9.3 · Published by Moddable Games · © 2012–2026 All Rights Reserved</span>
+  <span class="ftr-copy">moddable.games/tool/nukes</span>
+</footer>
+
+</div><!-- /page -->
+<script src="../../js/toc.js"></script>
+</body>
+</html>
