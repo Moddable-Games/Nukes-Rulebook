@@ -11,7 +11,7 @@ The complete rulebook for **NUKES** by [Moddable Games](https://moddable.games) 
 | | |
 |---|---|
 | **Players** | 2–3 |
-| **Duration** | 45–90 min |
+| **Duration** | 45+ min |
 | **Version** | 0.9.3 |
 
 This repository hosts the HTML rulebook, styled for web reading and print-ready PDF generation. It's deployed via GitHub Pages.
