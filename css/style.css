@@ -14,6 +14,7 @@
   --purple-l: #7a3aaa;
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
 body{background:#080602;font-family:'Crimson Pro',Georgia,serif;color:var(--ink);font-size:18px;line-height:1.75;}
 .page{max-width:900px;margin:0 auto;background:var(--cream);background-image:repeating-linear-gradient(-45deg,transparent,transparent 4px,rgba(160,130,80,.022) 4px,rgba(160,130,80,.022) 5px),url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='.032'/%3E%3C/svg%3E");box-shadow:0 0 80px rgba(0,0,0,.8);}
 
@@ -29,6 +30,17 @@ body{background:#080602;font-family:'Crimson Pro',Georgia,serif;color:var(--ink)
 .ftr-copy{font-family:'Special Elite',serif;font-size:12px;color:rgba(232,213,160,.72);letter-spacing:.06em;}
 .footer-badge{display:flex;align-items:center;height:100%;}
 .footer-badge img{height:36px;width:36px;object-fit:contain;display:block;}
+
+/* Table of Contents — sidebar on wide screens */
+.toc{display:none;}
+@media (min-width: 1280px) {
+  .toc{display:block;position:fixed;top:80px;left:calc(50% - 450px - 220px);width:180px;font-family:'Oswald',sans-serif;font-size:11px;letter-spacing:.02em;}
+  .toc-title{font-size:9px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-bottom:12px;}
+  .toc ul{list-style:none;padding:0;margin:0;}
+  .toc li{margin-bottom:8px;}
+  .toc a{color:rgba(242,236,224,.5);text-decoration:none;transition:color .2s;}
+  .toc a:hover{color:var(--gold);}
+}
 
 /* Cover */
 .cover{padding:56px 60px 52px;text-align:center;position:relative;overflow:hidden;border-bottom:3px double var(--cream-dd);background:#0e0a06;}
@@ -256,6 +268,8 @@ strong{color:var(--ink);font-weight:600;}
   @page {
     size: A4 portrait;
   }
+
+  .toc{display:none !important;}
 
   .designer-note{display:block;margin:60px auto 0;max-width:70%;text-align:center;padding:0;}
   .designer-note::before{content:'';display:block;width:60%;height:1px;margin:0 auto 60px;background:linear-gradient(to right, transparent, var(--gold), transparent);opacity:0.6;}

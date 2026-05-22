@@ -84,6 +84,7 @@ rendered = addTableClass(rendered);
 let output = template.replace('{{CONTENT}}', rendered);
 
 if (meta.version) {
+  output = output.replace(/\{\{version\}\}/g, meta.version);
   output = output.replace(/v0\.9\.\d+/g, `v${meta.version}`);
 }
 

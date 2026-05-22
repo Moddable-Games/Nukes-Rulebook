@@ -3,7 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NUKES — Official Rulebook v0.9.3</title>
+<title>NUKES — Official Rulebook v{{version}}</title>
+<meta name="description" content="Complete rules for NUKES, a tactical hex-based strategy game of nuclear brinkmanship for 2–3 players.">
+<meta property="og:title" content="NUKES — Official Rulebook v{{version}}">
+<meta property="og:description" content="Complete rules for NUKES, a tactical hex-based strategy game of nuclear brinkmanship for 2–3 players.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="logos/nukes-logo.jpg">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="NUKES — Official Rulebook v{{version}}">
+<meta name="twitter:description" content="A tactical hex-based strategy game of nuclear brinkmanship for 2–3 players.">
+<meta name="twitter:image" content="logos/nukes-logo.jpg">
+<link rel="icon" type="image/png" sizes="32x32" href="logos/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="logos/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="logos/apple-touch-icon.png">
 <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=Special+Elite&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
@@ -13,8 +25,8 @@
 <!-- HEADER -->
 <div class="doc-header">
   <div class="hdr-brand"><img src="logos/moddable-white.png" alt="Moddable Games"></div>
-  <div class="hdr-links"><a href="content/rulebook.md" class="hdr-link">Markdown</a><a href="pdf/nukes-rulebook-v0.9.3.pdf" class="hdr-link">PDF</a></div>
-  <span class="hdr-meta">Official Rulebook · v0.9.3</span>
+  <div class="hdr-links"><a href="content/rulebook.md" class="hdr-link">Markdown</a><a href="pdf/nukes-rulebook-v{{version}}.pdf" class="hdr-link">PDF</a></div>
+  <span class="hdr-meta">Official Rulebook · v{{version}}</span>
 </div>
 
 <!-- COVER -->
@@ -29,18 +41,21 @@
     <div class="cover-stat"><span class="cs-num">45+</span><span class="cs-lbl">Minutes</span></div>
     <div class="cover-stat"><span class="cs-num">12+</span><span class="cs-lbl">Age</span></div>
   </div>
-  <p class="cover-pub">Published by Moddable Games · v0.9.3 · First published January 2012</p>
+  <p class="cover-pub">Published by Moddable Games · v{{version}} · First published January 2012</p>
 </div>
+
+<nav class="toc" id="toc"></nav>
 
 <div class="content">
 
 {{CONTENT}}
 <!-- FOOTER -->
 <div class="doc-footer">
-  <span class="ftr-copy">v0.9.3 · Published by Moddable Games · © 2012–2026 All Rights Reserved</span>
+  <span class="ftr-copy">v{{version}} · Published by Moddable Games · © 2012–2026 All Rights Reserved</span>
   <span class="ftr-copy">moddable.games/tool/nukes</span>
 </div>
 
 </div><!-- /page -->
+<script src="js/toc.js"></script>
 </body>
 </html>
