@@ -1,6 +1,6 @@
 # NUKES — Official Rulebook
 
-The complete rulebook for **NUKES** by [Moddable Games](https://moddable.games) — a tactical hex-based strategy game of nuclear brinkmanship for 2-9 players.
+The complete rulebook for **NUKES** by [Moddable Games](https://moddable.games) — a tactical hex-based strategy game of nuclear brinkmanship for 2–3 players.
 
 **[Read the Rulebook](https://moddable-games.github.io/Nukes-Rulebook/)**
 
