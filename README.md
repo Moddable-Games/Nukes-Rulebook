@@ -122,12 +122,26 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 
 ## Changelog
 
-| Date | Change |
-|------|--------|
-| 2026-05-22 | Restructure to multi-game system; add Dungeon Chess, Mongo, Endless Skies; shared design system; landing page; multi-game build |
-| 2026-05-22 | Overhaul PDF pagination; self-host fonts; responsive mobile; ARIA landmarks; TOC scroll highlighting |
-| 2026-05-21 | Add markdown source + build system; PDF generation; versioned output |
-| 2026-05-20 | Initial commit — Nukes HTML rulebook with diagrams |
+#### 2026-05-22
+- Restructured to multi-game ruleset system (games/, shared/, dist/)
+- Added Dungeon Chess, Mongo, Endless Skies rulesets
+- Added Talisman: Hexed, Hyper Imperium, Econopoly mod rulesets
+- Shared design system: tokens, base, components CSS with per-game themes
+- Landing page auto-generated from frontmatter with filter pills (Games/Mods)
+- Multi-game build system with auto-discovery and template fallback chain
+- Category colours on landing cards (red = game, blue = mod, green = expansion)
+- Overhauled PDF pagination (manual JS page-break engine, 20-page A3 booklet)
+- Self-hosted Google Fonts, responsive mobile breakpoints (768px/480px)
+- ARIA landmarks, skip-to-content, TOC scroll highlighting
+
+#### 2026-05-21
+- Added markdown source + build system (markdown-it, gray-matter)
+- PDF generation with Puppeteer (versioned output)
+- Extracted images from base64, print CSS overhaul
+
+#### 2026-05-20
+- Initial commit — Nukes HTML rulebook with diagrams
+- Structured for GitHub Pages (static files, relative paths)
 
 ---
 
