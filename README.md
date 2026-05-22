@@ -33,6 +33,7 @@ css/
 js/
   build.mjs             Markdown → HTML build script
   pdf.mjs               PDF generation (Puppeteer, versioned output)
+  pdf-paginate.mjs      Manual pagination engine (DOM measurement)
 logos/
   moddable-white.png    Header brand logo
   nukes-logo.jpg        Cover artwork
@@ -89,7 +90,7 @@ Eight SVG diagrams illustrate core mechanics:
 npm run pdf
 ```
 
-Uses Puppeteer with local Chrome to render the built HTML. The PDF link is accessible from the web header.
+Uses Puppeteer with local Chrome. Renders each section (cover, content, ref-page, appendix, back-cover) as a separate PDF with full-bleed backgrounds, then merges with `pdfunite`. Multi-page sections use `pdf-paginate.mjs` for DOM-measurement-based pagination. Target: 20 pages (5× A3 booklet).
 
 ---
 
@@ -97,6 +98,7 @@ Uses Puppeteer with local Chrome to render the built HTML. The PDF link is acces
 
 | Date | Change |
 |------|--------|
+| 2026-05-22 | Overhaul PDF pagination: manual JS page-break engine, smart section grouping, 20-page A3 booklet format; ref card biome alignment; designer note filler; print date on back cover |
 | 2026-05-21 | Fix unclosed div in unit cards; overhaul print CSS for professional PDF output; versioned PDF output to pdf/ folder |
 | 2026-05-21 | Add markdown source + build system; extract images from base64; PDF generation |
 | 2026-05-21 | Extract all inline styles to CSS classes |
