@@ -248,11 +248,9 @@ strong{color:var(--ink);font-weight:600;}
 .eyebrow--ref{color:rgba(201,168,76,.45);}
 
 @media print {
-  .pb { break-before: page !important; page-break-before: always !important; }
-
   @page {
     size: A4 portrait;
-    margin: 12mm 0 12mm 0;
+    margin: 0;
   }
 
   * {
@@ -260,88 +258,280 @@ strong{color:var(--ink);font-weight:600;}
     print-color-adjust: exact !important;
   }
 
-  body {
-    background: none !important;
+  html, body {
+    background: var(--cream) !important;
+    font-size: 14px;
+    line-height: 1.55;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 
   .page {
-    max-width: 100% !important;
+    max-width: none !important;
+    width: 100% !important;
     box-shadow: none !important;
+    margin: 0 !important;
+    padding: 0 14mm !important;
+    background: var(--cream) !important;
+  }
+
+  .doc-header,
+  .doc-footer {
+    display: none !important;
+  }
+
+  .content {
+    padding: 0 !important;
     margin: 0 !important;
   }
 
-  /* Sticky header — reset for print */
-  .doc-header {
-    position: relative !important;
-    top: auto !important;
-  }
-
-  /* Cover: own page */
+  /* Cover — full bleed, cancel out .page side padding */
   .cover {
-    page-break-after: always;
-    break-after: page;
-    min-height: 80vh;
+    break-after: page !important;
+    page-break-after: always !important;
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
     justify-content: center !important;
+    padding: 40px !important;
+    border-bottom: none !important;
+    margin: -14mm !important;
+    min-height: 100vh;
+    background: #0e0a06 !important;
+  }
+  .cover-icon { width: 280px !important; height: 280px !important; }
+
+  /* Sections */
+  .section {
+    padding: 16px 0 8px !important;
+    break-inside: auto !important;
+  }
+  .section + .section {
+    border-top: none !important;
+  }
+  .section + .section::before {
+    display: none !important;
   }
 
-  /* These sections always start on a new page */
+  /* Selective page breaks — only major sections */
+  .pb {
+    break-before: page !important;
+    page-break-before: always !important;
+  }
+
+  /* Headings */
+  h2 {
+    font-size: 22px !important;
+    margin-bottom: 8px !important;
+    padding-bottom: 6px !important;
+  }
+  h3 {
+    font-size: 11.5px !important;
+    margin: 14px 0 6px !important;
+    padding: 5px 9px !important;
+  }
+
+  /* Body text */
+  p {
+    font-size: 12.5px !important;
+    line-height: 1.5 !important;
+    margin-bottom: 8px !important;
+  }
+  p:last-child { margin-bottom: 0 !important; }
+
+  /* Lists */
+  .rules { margin: 6px 0 12px !important; }
+  .rules li {
+    font-size: 12.5px !important;
+    line-height: 1.45 !important;
+    padding: 4px 0 4px 20px !important;
+  }
+  .rules li::before { font-size: 8px !important; left: 1px !important; }
+
+  /* Tables */
+  .t { margin: 6px 0 10px !important; font-size: 11.5px !important; }
+  .t th { padding: 4px 7px !important; font-size: 8px !important; }
+  .t td { padding: 4px 7px !important; font-size: 11px !important; line-height: 1.35 !important; }
+
+  /* Boxes */
+  .box, .highlight, .meltdown-box {
+    padding: 10px 14px !important;
+    margin: 10px 0 !important;
+  }
+  .box .box-title, .highlight .box-title, .meltdown-box .box-title {
+    font-size: 9px !important;
+    margin-bottom: 4px !important;
+  }
+  .box p, .highlight p, .meltdown-box p {
+    font-size: 12px !important;
+    line-height: 1.45 !important;
+  }
+
+  /* Unit cards */
+  .unit-grid { gap: 8px !important; margin: 10px 0 6px !important; }
+  .unit-card { border-radius: 2px !important; }
+  .uc-head { padding: 6px 10px !important; }
+  .uc-icon { width: 24px !important; height: 24px !important; font-size: 12px !important; }
+  .uc-name { font-size: 11px !important; }
+  .uc-size { font-size: 8px !important; }
+  .uc-body { padding: 7px 10px !important; }
+  .uc-body p { font-size: 11px !important; line-height: 1.4 !important; }
+  .unit-card--base { margin: 4px 0 10px !important; }
+
+  /* Diagrams */
+  .diagrams-grid { gap: 12px !important; margin: 10px 0 !important; }
+  .diagram-box { padding: 10px !important; }
+  .diagram-box svg { max-height: 200px !important; }
+  .diagram-title { font-size: 10px !important; margin-bottom: 6px !important; }
+  .diagram-caption { font-size: 10.5px !important; margin-top: 6px !important; line-height: 1.4 !important; }
+
+  /* Turn flow */
+  .turn-flow { margin: 10px 0 !important; }
+  .tp { padding: 10px 8px !important; }
+  .tp-phase { font-size: 8px !important; }
+  .tp-name { font-size: 12px !important; }
+  .tp-desc { font-size: 11px !important; }
+
+  /* Biome grid */
+  .biome-grid { gap: 5px !important; margin: 6px 0 8px !important; }
+  .biome { padding: 6px 8px !important; }
+  .biome-name { font-size: 9px !important; margin-bottom: 3px !important; }
+  .biome p { font-size: 10px !important; line-height: 1.35 !important; }
+
+  /* Strength grid */
+  .strength-grid { gap: 8px !important; margin: 8px 0 !important; }
+  .strength-box { padding: 12px 14px !important; }
+  .sb-title { font-size: 9px !important; margin-bottom: 10px !important; }
+  .sb-row { font-size: 12px !important; margin-bottom: 6px !important; }
+  .sb-note { font-size: 10.5px !important; }
+  .sb-hr { margin: 6px 0 !important; }
+
+  /* Two col */
+  .two-col { gap: 14px !important; margin: 10px 0 !important; }
+
+  /* Ref page — full bleed teal (negative margins bleed into Puppeteer margin area) */
   .ref-page {
-    page-break-before: always !important;
     break-before: page !important;
-  }
-  .appendix {
     page-break-before: always !important;
-    break-before: page !important;
+    margin: -14mm 0 0 !important;
+    padding: 28mm 14mm 14mm !important;
+    border-top: none !important;
+    background: var(--teal) !important;
+    color: var(--cream) !important;
   }
+  .ref-page h2 { font-size: 18px !important; }
+  .bookmark-wrap { gap: 6px !important; margin-bottom: 18px !important; }
+  .bm-card { padding: 8px 7px !important; }
+  .bm-card-title { font-size: 8px !important; margin-bottom: 6px !important; padding-bottom: 4px !important; }
+  .bm-unit-icon { font-size: 16px !important; margin-bottom: 3px !important; }
+  .bm-count { font-size: 8px !important; margin-bottom: 5px !important; }
+  .bm-row { font-size: 9px !important; }
+  .bm-dot { width: 6px !important; height: 6px !important; }
+  .bm-label { font-size: 8px !important; margin-top: 4px !important; }
+  .ref-grid { gap: 8px !important; }
+  .ref-card { padding: 10px 11px !important; }
+  .ref-card-title { font-size: 8px !important; margin-bottom: 6px !important; padding-bottom: 4px !important; }
+  .ref-rule { font-size: 10.5px !important; padding: 2px 0 !important; }
+  .biome-ref-row { margin-top: 10px !important; }
+  .biome-chip { font-size: 8px !important; padding: 2px 8px !important; }
 
-  /* Never break inside these */
+  /* Appendix — full bleed teal */
+  .appendix {
+    break-before: page !important;
+    page-break-before: always !important;
+    margin: -14mm 0 0 !important;
+    padding: 28mm 14mm 14mm !important;
+    border-top: none !important;
+    background: var(--teal) !important;
+    color: var(--cream) !important;
+  }
+  .appendix h2 { font-size: 18px !important; color: var(--cream) !important; }
+  .appendix > p { font-size: 12px !important; margin-bottom: 16px !important; color: var(--cream) !important; }
+  .appendix .clar-item { margin-bottom: 14px !important; padding-bottom: 14px !important; }
+  .appendix .clar-q { font-size: 11.5px !important; margin-bottom: 4px !important; color: var(--cream) !important; }
+  .appendix .clar-a { font-size: 12px !important; line-height: 1.5 !important; color: rgba(242,236,224,0.85) !important; }
+  .appendix .clar-a strong { color: var(--cream) !important; }
+  .appendix .clar-new { font-size: 7px !important; color: var(--gold) !important; border-color: var(--gold) !important; }
+  .appendix hr { border-color: rgba(242,236,224,0.2) !important; }
+
+  /* Page-break control */
   .diagram-box,
   .unit-card,
+  .unit-card--base,
   .highlight,
   .meltdown-box,
-  .strength-grid,
   .strength-box,
   .bm-card,
   .ref-card,
   .turn-flow,
   .biome,
-  .clar-item,
-  .two-col,
-  .cover-stats {
+  .cover-stats,
+  .box {
     break-inside: avoid !important;
     page-break-inside: avoid !important;
   }
 
-  /* Diagrams — avoid breaking, but allow if necessary */
   .diagrams-grid {
     break-inside: avoid !important;
     page-break-inside: avoid !important;
   }
 
-  /* Headings stay with content */
-  h2, h3 {
+  h2, h3, h4 {
     break-after: avoid !important;
     page-break-after: avoid !important;
   }
 
-  /* List items — avoid orphan items */
   li {
     break-inside: avoid !important;
     page-break-inside: avoid !important;
   }
 
-  /* Sections — allow breaks, but keep heading with first paragraph */
-  .section {
+  .eyebrow {
+    break-after: avoid !important;
+    page-break-after: avoid !important;
+  }
+
+  .two-col {
     break-inside: auto !important;
   }
 
-  /* Remove negative margins that cause print issues */
-  .ref-page, .appendix {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    padding: 40px 52px 56px !important;
+  .clar-item {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  /* Back cover */
+  .back-cover {
+    break-before: page !important;
+    page-break-before: always !important;
+    min-height: calc(100vh + 14mm);
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: var(--ink) !important;
+    margin: -14mm 0 0 !important;
+    padding: 40px !important;
+  }
+  .back-cover-logo {
+    width: 160px;
+    height: 160px;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-bottom: 24px;
+  }
+  .back-cover-version {
+    font-family: var(--sans);
+    font-size: 13px !important;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--gold) !important;
+    margin-bottom: 8px !important;
+  }
+  .back-cover-pub {
+    font-family: var(--sans);
+    font-size: 11px !important;
+    color: rgba(255,255,255,0.4) !important;
+    letter-spacing: 0.1em;
   }
 }

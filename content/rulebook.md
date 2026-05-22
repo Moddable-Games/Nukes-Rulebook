@@ -29,7 +29,7 @@ Nukes is a 2–3 player strategy game played on a board of hexagonal regions. Yo
 
 </div>
 
-<div class="section pb">
+<div class="section">
 <div class="eyebrow">What's in the Box</div>
 
 ## Components
@@ -67,7 +67,7 @@ There are no separate pieces for different unit types. Token count and location 
 
 </div>
 
-<div class="section pb">
+<div class="section">
 <div class="eyebrow">Before the First Turn</div>
 
 ## Setting Up the Board
@@ -122,7 +122,7 @@ The board uses 37 of the 44 tiles and can be built three ways:
 
 </div>
 
-<div class="section pb">
+<div class="section">
 <div class="eyebrow">Winning the Game</div>
 
 ## Victory Conditions
@@ -147,7 +147,7 @@ When a player is eliminated, any of their tokens held as hostages by surviving p
 </div>
 </div>
 
-<div class="section pb">
+<div class="section">
 <div class="eyebrow">How Turns Work</div>
 
 ## Turn Structure
@@ -191,7 +191,7 @@ Nuke blasts and Meltdowns destroy units **immediately** when triggered — not a
 </div>
 </div>
 
-<div class="section pb">
+<div class="section">
 <div class="eyebrow">Your Forces</div>
 
 ## Units & Platoons
@@ -304,7 +304,7 @@ If 1 infantry token moves into a region containing 2 artillery tokens, those 3 t
 
 </div>
 
-<div class="section pb">
+<div class="section">
 <div class="eyebrow">Advanced Mechanic</div>
 
 ## Meltdown
@@ -328,7 +328,7 @@ This is the key distinction from a Nuke, which destroys units in all {nowrap|sur
 
 </div>
 
-<div class="section pb">
+<div class="section">
 <div class="eyebrow">Resolving Battles</div>
 
 ## Combat
@@ -358,7 +358,7 @@ Attacker strength 5 vs defender strength 2 — 3 points of excess. The attacker 
 </div>
 </div>
 
-<div class="section pb">
+<div class="section">
 <div class="eyebrow">The Battlefield</div>
 
 ## Biomes

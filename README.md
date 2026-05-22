@@ -29,15 +29,16 @@ templates/
 diagrams/
   svg/                  SVG diagram source files (8 diagrams)
 css/
-  style.css             Stylesheet
+  style.css             Stylesheet (includes @media print for PDF)
 js/
   build.mjs             Markdown → HTML build script
-  pdf.mjs               PDF generation (Puppeteer)
+  pdf.mjs               PDF generation (Puppeteer, versioned output)
 logos/
   moddable-white.png    Header brand logo
   nukes-logo.jpg        Cover artwork
+pdf/
+  nukes-rulebook-v*.pdf BUILD OUTPUT (versioned PDF)
 index.html              BUILD OUTPUT (do not edit directly)
-nukes-rulebook.pdf      BUILD OUTPUT (generated PDF)
 ```
 
 ---
@@ -96,6 +97,7 @@ Uses Puppeteer with local Chrome to render the built HTML. The PDF link is acces
 
 | Date | Change |
 |------|--------|
+| 2026-05-21 | Fix unclosed div in unit cards; overhaul print CSS for professional PDF output; versioned PDF output to pdf/ folder |
 | 2026-05-21 | Add markdown source + build system; extract images from base64; PDF generation |
 | 2026-05-21 | Extract all inline styles to CSS classes |
 | 2026-05-20 | Restructure for GitHub Pages deployment |
