@@ -1,0 +1,39 @@
+/* ==========================================================================
+   Econopoly — Game Theme
+   Economic rebalance of Monopoly. Clean, financial, green/white.
+   ========================================================================== */
+
+:root {
+  /* Semantic overrides */
+  --accent:         #1a8a4a;
+  --accent-dark:    #0d6030;
+  --accent-light:   #40c080;
+  --accent-trans:   rgba(26,138,74,.3);
+
+  --bg-primary:     #f8faf8;
+  --bg-dark:        #1a3028;
+  --bg-darker:      #0d1a14;
+  --bg-page-outer:  #060e0a;
+
+  --text-primary:   #1a2020;
+  --text-secondary: #3a4a40;
+  --heading-color:  #1a3028;
+
+  --divider-color:  #c8d8c8;
+  --border-subtle:  #dae8da;
+
+  /* Game-specific named colours */
+  --money:      #1a8a4a;
+  --money-d:    #0d6030;
+  --ledger:     #f0f4f0;
+  --tax:        #c04040;
+  --gold:       #d4a020;
+  --danger:     #c04040;
+  --purple:     #6040a0;
+}
+
+/* Section divider — dollar sign */
+.section+.section::before{content:'$';display:block;text-align:center;font-size:14px;color:var(--money);opacity:.35;margin:-10px 0 0;line-height:1;font-family:var(--sans);font-weight:700;}
+
+/* Cover gradient */
+.cover{background:linear-gradient(160deg,var(--bg-darker) 0%,var(--bg-dark) 50%,#0a2018 100%);}

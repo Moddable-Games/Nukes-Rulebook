@@ -231,6 +231,101 @@ function buildGame(slug) {
   console.log(`  Built dist/${slug}/index.html`);
 }
 
+// --- Generate landing page from frontmatter ---
+function buildLanding() {
+  const allSlugs = readdirSync(GAMES_DIR, { withFileTypes: true })
+    .filter(d => d.isDirectory())
+    .map(d => d.name)
+    .filter(slug => existsSync(resolve(GAMES_DIR, slug, 'content/rulebook.md')));
+
+  const games = allSlugs.map(slug => {
+    const src = readFileSync(resolve(GAMES_DIR, slug, 'content/rulebook.md'), 'utf8');
+    const { data } = matter(src);
+    return { slug, ...data };
+  });
+
+  games.sort((a, b) => (b.updated || '').localeCompare(a.updated || ''));
+
+  const statusLabels = { live: 'Live', alpha: 'Alpha', playtest: 'Playtest', dev: 'In Dev' };
+  const statusClasses = { live: 'badge--live', alpha: 'badge--alpha', playtest: 'badge--playtest', dev: 'badge--dev' };
+
+  function logoPath(slug) {
+    const dir = resolve(GAMES_DIR, slug, 'logos');
+    if (!existsSync(dir)) return '';
+    const files = readdirSync(dir).filter(f => /\.(png|jpg|svg|webp)$/.test(f) && f !== '.gitkeep');
+    if (!files.length) return '';
+    const logo = files.find(f => /logo/i.test(f)) || files[0];
+    return `games/${slug}/logos/${logo}`;
+  }
+
+  const cards = games.map(g => {
+    const logo = logoPath(g.slug);
+    const logoImg = logo ? `<img class="card-logo" src="${logo}" alt="">` : '';
+    const metaType = g.type === 'mod' && g.base_game ? `<span class="card-base">Mod of ${g.base_game}</span>` : '';
+    const badge = statusLabels[g.status] || g.status || '';
+    const badgeClass = statusClasses[g.status] || 'badge--dev';
+    return `    <a href="dist/${g.slug}/index.html" class="game-card" data-type="${g.type || 'game'}">
+      ${logoImg}
+      <div class="card-body">
+        <div class="card-header">
+          <span class="card-title">${g.title ? g.title.replace(/\s*[—–-]\s*Official Rulebook$/i, '') : g.slug}</span>
+          <span class="card-version">v${g.version || '0.0.0'}</span>
+        </div>
+        ${metaType}
+        <div class="card-meta">
+          <span>${g.players || ''} players</span><span class="sep">/</span><span>${g.duration || ''}</span><span class="sep">/</span><span class="badge ${badgeClass}">${badge}</span>
+        </div>
+        <p class="card-desc">${g.tagline || ''}</p>
+      </div>
+    </a>`;
+  }).join('\n\n');
+
+  const html = `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moddable Rules — Game Rulebooks</title>
+<meta name="description" content="Official rulebooks for games published by Moddable Games.">
+<link rel="icon" type="image/png" sizes="32x32" href="shared/logos/favicon-32.png">
+<link rel="stylesheet" href="css/landing.css">
+</head>
+<body>
+
+<div class="landing">
+
+  <header class="landing-header">
+    <a href="https://moddable.games"><img class="landing-logo" src="shared/logos/moddable-white.png" alt="Moddable Games"></a>
+    <p class="landing-subtitle">Game Rulebooks</p>
+  </header>
+
+  <div class="filter-bar">
+    <button class="filter-pill filter-pill--all active" data-filter="all">All</button>
+    <button class="filter-pill filter-pill--game" data-filter="game">Games</button>
+    <button class="filter-pill filter-pill--mod" data-filter="mod">Mods</button>
+  </div>
+
+  <div class="game-grid">
+
+${cards}
+
+  </div>
+
+  <footer class="landing-footer">
+    <a href="https://moddable.games" class="landing-footer-link">Moddable Games</a> &middot; &copy; 2012&ndash;2026 All Rights Reserved
+  </footer>
+
+</div>
+
+<script src="js/landing.js"></script>
+</body>
+</html>
+`;
+
+  writeFileSync(resolve(ROOT, 'index.html'), html);
+  console.log('  Built index.html (landing page)');
+}
+
 // --- Main ---
 console.log(`Building ${gameSlugs.length} game(s): ${gameSlugs.join(', ')}`);
 
@@ -238,4 +333,5 @@ for (const slug of gameSlugs) {
   buildGame(slug);
 }
 
+buildLanding();
 console.log('Build complete.');

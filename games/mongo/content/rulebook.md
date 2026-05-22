@@ -5,7 +5,10 @@ slug: "mongo"
 players: "3–6"
 duration: "90 min"
 age: "14+"
-tagline: "Global conquest in the Flash Gordon universe — Risk meets Catan in a public-domain pulp sci-fi setting"
+tagline: "Global conquest in the Flash Gordon universe"
+type: "game"
+status: "playtest"
+updated: "2026-05-20"
 ---
 
 <div class="section">

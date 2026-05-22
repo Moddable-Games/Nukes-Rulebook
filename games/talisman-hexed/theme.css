@@ -1,0 +1,40 @@
+/* ==========================================================================
+   Talisman: Hexed — Game Theme
+   Mystical fantasy board game. Deep purples, enchanted golds, arcane mist.
+   ========================================================================== */
+
+:root {
+  /* Semantic overrides */
+  --accent:         #b8860b;
+  --accent-dark:    #8b6508;
+  --accent-light:   #daa520;
+  --accent-trans:   rgba(184,134,11,.3);
+
+  --bg-primary:     #f4f0e8;
+  --bg-dark:        #2d1b4e;
+  --bg-darker:      #1a0f30;
+  --bg-page-outer:  #0a0618;
+
+  --text-primary:   #1a1020;
+  --text-secondary: #3a2a4a;
+  --heading-color:  #2d1b4e;
+
+  --divider-color:  #d8cce8;
+  --border-subtle:  #e0d4f0;
+
+  /* Game-specific named colours */
+  --arcane:     #2d1b4e;
+  --arcane-l:   #4a3070;
+  --mystic:     #b8860b;
+  --mystic-l:   #daa520;
+  --mist:       #e8e0f4;
+  --crown:      #ffd700;
+  --danger:     #8b0000;
+  --purple:     #6a2c8a;
+}
+
+/* Section divider — hexagon */
+.section+.section::before{content:'⬡';display:block;text-align:center;font-size:15px;color:var(--mystic);opacity:.4;margin:-10px 0 0;line-height:1;}
+
+/* Cover gradient */
+.cover{background:linear-gradient(160deg,var(--bg-darker) 0%,var(--arcane) 50%,#1a1040 100%);}

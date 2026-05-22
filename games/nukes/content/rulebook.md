@@ -1,6 +1,14 @@
 ---
-title: "NUKES — Official Rulebook"
+title: "Nukes — Official Rulebook"
 version: "0.9.3"
+slug: "nukes"
+players: "2–3"
+duration: "45+ min"
+age: "12+"
+tagline: "Cold-war territory control on a hex map with nuclear brinkmanship"
+type: "game"
+status: "live"
+updated: "2026-05-22"
 ---
 
 <div class="section">

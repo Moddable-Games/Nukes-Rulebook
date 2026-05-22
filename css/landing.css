@@ -19,6 +19,10 @@
   --text-dim: #5a5650;
   --radius: 8px;
   --transition: 0.2s ease;
+
+  --color-game: #e04040;
+  --color-mod: #40a0e0;
+  --color-expansion: #40c060;
 }
 
 body {
@@ -40,7 +44,7 @@ body {
 /* Header */
 .landing-header {
   text-align: center;
-  margin-bottom: 56px;
+  margin-bottom: 36px;
 }
 
 .landing-logo {
@@ -51,43 +55,96 @@ body {
   opacity: 0.9;
 }
 
-.landing-title {
-  font-size: 1.5rem;
-  font-weight: 600;
-  letter-spacing: -0.02em;
-  margin-bottom: 8px;
-}
-
 .landing-subtitle {
   font-size: 0.9rem;
   color: var(--text-muted);
+}
+
+/* Filter Pills */
+.filter-bar {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+
+.filter-pill {
+  font-family: inherit;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 6px 16px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.filter-pill:hover {
+  border-color: #444;
+  color: var(--text);
+}
+
+.filter-pill.active {
+  color: #fff;
+  border-color: transparent;
+}
+
+.filter-pill--all.active {
+  background: #444;
+}
+
+.filter-pill--game.active {
+  background: var(--color-game);
+}
+
+.filter-pill--mod.active {
+  background: var(--color-mod);
+}
+
+.filter-pill--expansion.active {
+  background: var(--color-expansion);
 }
 
 /* Game Grid */
 .game-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: 16px;
+  min-width: 0;
 }
 
 /* Game Card */
 .game-card {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 16px;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 24px 24px 24px 28px;
+  padding: 18px 20px;
   text-decoration: none;
   color: var(--text);
   transition: background var(--transition), border-color var(--transition), transform var(--transition);
   border-left: 4px solid var(--border);
-  position: relative;
+  min-width: 0;
+  overflow: hidden;
 }
 
-.game-card--nukes { border-left-color: #c9a84c; }
-.game-card--dungeon-chess { border-left-color: #e8a838; }
-.game-card--mongo { border-left-color: #d42b2b; }
-.game-card--endless-skies { border-left-color: #e87040; }
+.game-card[data-type="game"] {
+  border-left-color: var(--color-game);
+}
+
+.game-card[data-type="mod"] {
+  border-left-color: var(--color-mod);
+}
+
+.game-card[data-type="expansion"] {
+  border-left-color: var(--color-expansion);
+}
 
 .game-card:hover {
   background: var(--surface-hover);
@@ -96,43 +153,60 @@ body {
 }
 
 .game-card:focus-visible {
-  outline: 2px solid #c9a84c;
+  outline: 2px solid var(--text-muted);
   outline-offset: 2px;
 }
 
-.game-card--nukes:focus-visible { outline-color: #c9a84c; }
-.game-card--dungeon-chess:focus-visible { outline-color: #e8a838; }
-.game-card--mongo:focus-visible { outline-color: #d42b2b; }
-.game-card--endless-skies:focus-visible { outline-color: #e87040; }
+.card-logo {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.card-body {
+  flex: 1;
+  min-width: 0;
+}
 
 /* Card header row */
 .card-header {
   display: flex;
   align-items: baseline;
-  gap: 10px;
-  margin-bottom: 6px;
+  gap: 8px;
+  margin-bottom: 4px;
 }
 
 .card-title {
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   font-weight: 600;
   letter-spacing: -0.01em;
 }
 
 .card-version {
-  font-size: 0.72rem;
+  font-size: 0.68rem;
   color: var(--text-dim);
   font-family: "SF Mono", "Fira Code", monospace;
+}
+
+/* Base game label */
+.card-base {
+  display: block;
+  font-size: 0.68rem;
+  color: var(--text-dim);
+  margin-bottom: 4px;
 }
 
 /* Meta row */
 .card-meta {
   display: flex;
   align-items: center;
-  gap: 12px;
-  margin-bottom: 12px;
-  font-size: 0.8rem;
+  gap: 8px;
+  margin-bottom: 8px;
+  font-size: 0.75rem;
   color: var(--text-muted);
+  flex-wrap: wrap;
 }
 
 .card-meta span {
@@ -146,11 +220,11 @@ body {
 /* Status badge */
 .badge {
   display: inline-block;
-  font-size: 0.65rem;
+  font-size: 0.6rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  padding: 2px 7px;
+  padding: 2px 6px;
   border-radius: 3px;
   line-height: 1.4;
 }
@@ -177,9 +251,9 @@ body {
 
 /* Description */
 .card-desc {
-  font-size: 0.82rem;
+  font-size: 0.78rem;
   color: var(--text-muted);
-  line-height: 1.5;
+  line-height: 1.45;
 }
 
 /* Footer */
@@ -192,6 +266,19 @@ body {
   color: var(--text-dim);
 }
 
+.landing-footer-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-dim);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+.landing-footer-link:hover {
+  color: var(--text-muted);
+}
+
 /* Responsive */
 @media (max-width: 640px) {
   .landing {
@@ -200,14 +287,14 @@ body {
 
   .game-grid {
     grid-template-columns: 1fr;
-    gap: 16px;
+    gap: 12px;
   }
 
   .landing-header {
-    margin-bottom: 36px;
+    margin-bottom: 28px;
   }
 
-  .landing-title {
-    font-size: 1.25rem;
+  .filter-bar {
+    margin-bottom: 24px;
   }
 }

@@ -13,80 +13,131 @@
 <div class="landing">
 
   <header class="landing-header">
-    <img class="landing-logo" src="shared/logos/moddable-white.png" alt="Moddable Games">
-    <h1 class="landing-title">Moddable Rules</h1>
+    <a href="https://moddable.games"><img class="landing-logo" src="shared/logos/moddable-white.png" alt="Moddable Games"></a>
     <p class="landing-subtitle">Game Rulebooks</p>
   </header>
 
+  <div class="filter-bar">
+    <button class="filter-pill filter-pill--all active" data-filter="all">All</button>
+    <button class="filter-pill filter-pill--game" data-filter="game">Games</button>
+    <button class="filter-pill filter-pill--mod" data-filter="mod">Mods</button>
+  </div>
+
   <div class="game-grid">
 
-    <a href="dist/nukes/index.html" class="game-card game-card--nukes">
-      <div class="card-header">
-        <span class="card-title">Nukes</span>
-        <span class="card-version">v0.9.3</span>
+    <a href="dist/dungeon-chess/index.html" class="game-card" data-type="mod">
+      <img class="card-logo" src="games/dungeon-chess/logos/dungeon-chess-logo.png" alt="">
+      <div class="card-body">
+        <div class="card-header">
+          <span class="card-title">Dungeon Chess</span>
+          <span class="card-version">v0.1.0</span>
+        </div>
+        <span class="card-base">Mod of Chess</span>
+        <div class="card-meta">
+          <span>2–4 players</span><span class="sep">/</span><span>30–120 min</span><span class="sep">/</span><span class="badge badge--alpha">Alpha</span>
+        </div>
+        <p class="card-desc">Asymmetric fantasy strategy on modular dungeon boards</p>
       </div>
-      <div class="card-meta">
-        <span>2-3 players</span>
-        <span class="sep">/</span>
-        <span>45+ min</span>
-        <span class="sep">/</span>
-        <span class="badge badge--live">Live</span>
-      </div>
-      <p class="card-desc">Cold-war territory control on a hex map with nuclear brinkmanship</p>
     </a>
 
-    <a href="dist/dungeon-chess/index.html" class="game-card game-card--dungeon-chess">
-      <div class="card-header">
-        <span class="card-title">Dungeon Chess</span>
-        <span class="card-version">v0.1.0</span>
+    <a href="dist/nukes/index.html" class="game-card" data-type="game">
+      <img class="card-logo" src="games/nukes/logos/nukes-logo.jpg" alt="">
+      <div class="card-body">
+        <div class="card-header">
+          <span class="card-title">Nukes</span>
+          <span class="card-version">v0.9.3</span>
+        </div>
+        
+        <div class="card-meta">
+          <span>2–3 players</span><span class="sep">/</span><span>45+ min</span><span class="sep">/</span><span class="badge badge--live">Live</span>
+        </div>
+        <p class="card-desc">Cold-war territory control on a hex map with nuclear brinkmanship</p>
       </div>
-      <div class="card-meta">
-        <span>2-4 players</span>
-        <span class="sep">/</span>
-        <span>30-120 min</span>
-        <span class="sep">/</span>
-        <span class="badge badge--alpha">Alpha</span>
-      </div>
-      <p class="card-desc">Asymmetric fantasy strategy on modular dungeon boards</p>
     </a>
 
-    <a href="dist/mongo/index.html" class="game-card game-card--mongo">
-      <div class="card-header">
-        <span class="card-title">Mongo</span>
-        <span class="card-version">v0.8.2</span>
+    <a href="dist/mongo/index.html" class="game-card" data-type="game">
+      <img class="card-logo" src="games/mongo/logos/mongo-logo.png" alt="">
+      <div class="card-body">
+        <div class="card-header">
+          <span class="card-title">Mongo</span>
+          <span class="card-version">v0.8.2</span>
+        </div>
+        
+        <div class="card-meta">
+          <span>3–6 players</span><span class="sep">/</span><span>90 min</span><span class="sep">/</span><span class="badge badge--playtest">Playtest</span>
+        </div>
+        <p class="card-desc">Global conquest in the Flash Gordon universe</p>
       </div>
-      <div class="card-meta">
-        <span>3-6 players</span>
-        <span class="sep">/</span>
-        <span>90 min</span>
-        <span class="sep">/</span>
-        <span class="badge badge--playtest">Playtest</span>
-      </div>
-      <p class="card-desc">Global conquest in the Flash Gordon universe</p>
     </a>
 
-    <a href="dist/endless-skies/index.html" class="game-card game-card--endless-skies">
-      <div class="card-header">
-        <span class="card-title">Endless Skies</span>
-        <span class="card-version">v1.3.0</span>
+    <a href="dist/endless-skies/index.html" class="game-card" data-type="game">
+      <img class="card-logo" src="games/endless-skies/logos/endless-skies-logo.png" alt="">
+      <div class="card-body">
+        <div class="card-header">
+          <span class="card-title">Endless Skies</span>
+          <span class="card-version">v1.3.0</span>
+        </div>
+        
+        <div class="card-meta">
+          <span>1–4 players</span><span class="sep">/</span><span>60 min</span><span class="sep">/</span><span class="badge badge--dev">In Dev</span>
+        </div>
+        <p class="card-desc">Cooperative survival in procedurally generated skies</p>
       </div>
-      <div class="card-meta">
-        <span>1-4 players</span>
-        <span class="sep">/</span>
-        <span>60 min</span>
-        <span class="sep">/</span>
-        <span class="badge badge--dev">In Dev</span>
+    </a>
+
+    <a href="dist/hyper-imperium/index.html" class="game-card" data-type="mod">
+      <img class="card-logo" src="games/hyper-imperium/logos/hyper-imperium-logo.png" alt="">
+      <div class="card-body">
+        <div class="card-header">
+          <span class="card-title">Hyper Imperium</span>
+          <span class="card-version">v2.0.1</span>
+        </div>
+        <span class="card-base">Mod of Twilight Imperium 4e</span>
+        <div class="card-meta">
+          <span>3–6 players</span><span class="sep">/</span><span>4–6 hr</span><span class="sep">/</span><span class="badge badge--live">Live</span>
+        </div>
+        <p class="card-desc">A faster, more political Twilight Imperium</p>
       </div>
-      <p class="card-desc">Cooperative survival in procedurally generated skies</p>
+    </a>
+
+    <a href="dist/econopoly/index.html" class="game-card" data-type="mod">
+      <img class="card-logo" src="games/econopoly/logos/econopoly-logo.png" alt="">
+      <div class="card-body">
+        <div class="card-header">
+          <span class="card-title">Econopoly</span>
+          <span class="card-version">v0.9.0</span>
+        </div>
+        <span class="card-base">Mod of Monopoly</span>
+        <div class="card-meta">
+          <span>2–6 players</span><span class="sep">/</span><span>60 min</span><span class="sep">/</span><span class="badge badge--live">Live</span>
+        </div>
+        <p class="card-desc">Monopoly with a working economy</p>
+      </div>
+    </a>
+
+    <a href="dist/talisman-hexed/index.html" class="game-card" data-type="mod">
+      <img class="card-logo" src="games/talisman-hexed/logos/talisman-hexed-logo.png" alt="">
+      <div class="card-body">
+        <div class="card-header">
+          <span class="card-title">Talisman: Hexed</span>
+          <span class="card-version">v1.0.0</span>
+        </div>
+        <span class="card-base">Mod of Talisman 4e</span>
+        <div class="card-meta">
+          <span>2–6 players</span><span class="sep">/</span><span>90 min</span><span class="sep">/</span><span class="badge badge--live">Live</span>
+        </div>
+        <p class="card-desc">Open-world hex tiles for Talisman — a new map every session</p>
+      </div>
     </a>
 
   </div>
 
   <footer class="landing-footer">
-    Moddable Games
+    <a href="https://moddable.games" class="landing-footer-link">Moddable Games</a> &middot; &copy; 2012&ndash;2026 All Rights Reserved
   </footer>
 
 </div>
 
+<script src="js/landing.js"></script>
 </body>
 </html>

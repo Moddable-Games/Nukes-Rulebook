@@ -5,7 +5,10 @@ slug: "endless-skies"
 players: "1–4"
 duration: "60 min"
 age: "10+"
-tagline: "Cooperative survival in procedurally generated skies — tile-laying meets resource management"
+tagline: "Cooperative survival in procedurally generated skies"
+type: "game"
+status: "dev"
+updated: "2026-05-18"
 ---
 
 <div class="section">

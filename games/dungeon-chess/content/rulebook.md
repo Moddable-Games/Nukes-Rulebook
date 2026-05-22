@@ -6,6 +6,10 @@ players: "2–4"
 duration: "30–120 min"
 age: "12+"
 tagline: "Asymmetric fantasy strategy on modular dungeon boards"
+type: "mod"
+base_game: "Chess"
+status: "alpha"
+updated: "2026-05-22"
 ---
 
 <div class="section"><div class="eyebrow"><span class="eyebrow-badge">Section 1</span><span class="eyebrow-line"></span></div>

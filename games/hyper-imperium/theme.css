@@ -1,0 +1,40 @@
+/* ==========================================================================
+   Hyper Imperium — Game Theme
+   Epic space opera rebalance. Deep space, starlight, galactic blue/gold.
+   ========================================================================== */
+
+:root {
+  /* Semantic overrides */
+  --accent:         #4a90d9;
+  --accent-dark:    #2a5a99;
+  --accent-light:   #7ab8f0;
+  --accent-trans:   rgba(74,144,217,.3);
+
+  --bg-primary:     #f0f4fa;
+  --bg-dark:        #0a1628;
+  --bg-darker:      #050c18;
+  --bg-page-outer:  #020610;
+
+  --text-primary:   #0a1020;
+  --text-secondary: #2a3a50;
+  --heading-color:  #0a1628;
+
+  --divider-color:  #c0d0e8;
+  --border-subtle:  #d8e4f4;
+
+  /* Game-specific named colours */
+  --void:       #0a1628;
+  --void-l:     #162840;
+  --stellar:    #4a90d9;
+  --stellar-l:  #7ab8f0;
+  --nebula:     #6a40b0;
+  --sol:        #f0c030;
+  --danger:     #d04040;
+  --purple:     #6a40b0;
+}
+
+/* Section divider — star */
+.section+.section::before{content:'✦';display:block;text-align:center;font-size:13px;color:var(--stellar);opacity:.45;margin:-10px 0 0;line-height:1;}
+
+/* Cover gradient */
+.cover{background:linear-gradient(160deg,#020610 0%,var(--void) 40%,#0a2040 100%);}
