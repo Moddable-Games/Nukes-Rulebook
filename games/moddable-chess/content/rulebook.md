@@ -1,5 +1,5 @@
 ---
-title: "Moddable Chess — Complete Variant Library"
+title: "Moddable Chess — Official Rulebook"
 version: "0.1.0"
 slug: "moddable-chess"
 players: "2–6"
