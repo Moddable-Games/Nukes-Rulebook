@@ -1,0 +1,32 @@
+/* ==========================================================================
+   Moddable Chess — Platform Theme
+   Engine blue. Clean, technical, systematic.
+   ========================================================================== */
+
+:root {
+  --accent:         #1a6dc4;
+  --accent-dark:    #0c4f8d;
+  --accent-light:   #6fb5ff;
+  --accent-trans:   rgba(26,109,196,.3);
+
+  --bg-primary:     #f0f4fa;
+  --bg-dark:        #0a1628;
+  --bg-darker:      #050c18;
+  --bg-page-outer:  #020610;
+
+  --text-primary:   #0a1020;
+  --text-secondary: #2a3a50;
+  --heading-color:  #0a1628;
+
+  --divider-color:  #c0d0e8;
+  --border-subtle:  #d8e4f4;
+
+  --danger:   #d04040;
+  --purple:   #6a40b0;
+}
+
+/* Section divider — chess piece */
+.section+.section::before{content:'♞';display:block;text-align:center;font-size:15px;color:var(--accent);opacity:.35;margin:-10px 0 0;line-height:1;}
+
+/* Cover */
+.cover{background:linear-gradient(160deg,#020610 0%,#0a1628 40%,#0c2e5a 100%);}
