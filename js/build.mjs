@@ -297,7 +297,7 @@ function buildLanding() {
 <div class="landing">
 
   <header class="landing-header">
-    <a href="https://moddable.games"><img class="landing-logo" src="shared/logos/moddable-white.png" alt="Moddable Games"></a>
+    <a href="https://moddable.games" target="_blank" rel="noopener"><img class="landing-logo" src="shared/logos/moddable-white.png" alt="Moddable Games"></a>
     <p class="landing-subtitle">Game Rulebooks</p>
   </header>
 
@@ -314,7 +314,7 @@ ${cards}
   </div>
 
   <footer class="landing-footer">
-    <a href="https://moddable.games" class="landing-footer-link">Moddable Games</a> &middot; &copy; 2012&ndash;2026 All Rights Reserved
+    <a href="https://moddable.games" target="_blank" rel="noopener" class="landing-footer-link">Moddable Games</a> &middot; &copy; 2012&ndash;2026 All Rights Reserved
   </footer>
 
 </div>
