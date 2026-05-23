@@ -9,6 +9,7 @@ tagline: "Cooperative survival in procedurally generated skies"
 type: "game"
 status: "dev"
 updated: "2026-05-18"
+published: false
 ---
 
 <div class="section">

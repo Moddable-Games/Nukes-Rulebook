@@ -244,7 +244,9 @@ function buildLanding() {
     return { slug, ...data };
   });
 
-  games.sort((a, b) => (b.updated || '').localeCompare(a.updated || ''));
+  const isProduction = process.env.NODE_ENV === 'production' || process.env.CI === 'true';
+  const visible = isProduction ? games.filter(g => g.published !== false) : games;
+  visible.sort((a, b) => (b.updated || '').localeCompare(a.updated || ''));
 
   const statusLabels = { live: 'Live', alpha: 'Alpha', playtest: 'Playtest', dev: 'In Dev' };
   const statusClasses = { live: 'badge--live', alpha: 'badge--alpha', playtest: 'badge--playtest', dev: 'badge--dev' };
@@ -258,7 +260,7 @@ function buildLanding() {
     return `games/${slug}/logos/${logo}`;
   }
 
-  const cards = games.map(g => {
+  const cards = visible.map(g => {
     const logo = logoPath(g.slug);
     const logoImg = logo ? `<img class="card-logo" src="${logo}" alt="">` : '';
     const metaType = g.type === 'mod' && g.base_game ? `<span class="card-base">Mod of ${g.base_game}</span>` : '';
@@ -287,7 +289,7 @@ function buildLanding() {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Moddable Rules — Game Rulebooks</title>
 <meta name="description" content="Official rulebooks for games published by Moddable Games.">
-<link rel="icon" type="image/png" sizes="32x32" href="shared/logos/favicon-32.png">
+<link rel="icon" type="image/svg+xml" href="shared/logos/favicon.svg">
 <link rel="stylesheet" href="css/landing.css">
 </head>
 <body>

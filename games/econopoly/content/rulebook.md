@@ -10,6 +10,7 @@ type: "mod"
 base_game: "Monopoly"
 status: "live"
 updated: "2026-05-10"
+published: false
 ---
 
 <div class="section"><div class="eyebrow"><span class="eyebrow-badge">Section 1</span><span class="eyebrow-line"></span></div>
