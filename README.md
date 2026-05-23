@@ -122,6 +122,16 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 
 ## Changelog
 
+#### 2026-05-23
+- Added Moddable Chess combined variant library (12 variants: Regular, XiangQi, Capablanca, Hexagonal, Alice, Fog of War, 4-Player, Courier, Omega, Grand, 3-Board, 4-Board)
+- GitHub Actions CI: auto-builds and deploys to Pages on push
+- Live at rules.moddable.games (custom domain configured)
+- RGB cube SVG favicon
+- Published/unpublished filtering (only Nukes + Dungeon Chess visible in production)
+- Cross-project sync script (npm run sync → moddable-website/data/games-sync.json)
+- External links open in new tab (target="_blank")
+- Integrated rulebook links into moddable-website game pages
+
 #### 2026-05-22
 - Restructured to multi-game ruleset system (games/, shared/, dist/)
 - Added Dungeon Chess, Mongo, Endless Skies rulesets
