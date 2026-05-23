@@ -2,7 +2,7 @@
 
 The official rulebook system for all games published by [Moddable Games](https://moddable.games). Each game gets its own themed rulebook built from a shared design system.
 
-**[Browse Rulebooks](https://moddable-games.github.io/Nukes-Rulebook/)**
+**[Browse Rulebooks](https://rules.moddable.games)**
 
 ---
 
