@@ -1,7 +1,82 @@
 /* Variant Sub-Page Overrides
-   Spacing, prev/next pager, footer separation
+   Cover header, spacing, prev/next pager
    ========================================================================== */
 
+/* Variant cover — compact hero block */
+.variant-cover {
+  background: var(--bg-dark);
+  background-image: repeating-linear-gradient(90deg, transparent, transparent 6px, rgba(255,255,255,.018) 6px, rgba(255,255,255,.018) 7px);
+  border-bottom: 3px solid var(--accent);
+  padding: 36px var(--space-xl) 32px;
+  text-align: center;
+}
+
+.variant-cover-inner {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.variant-cover-label {
+  display: block;
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--accent);
+  opacity: 0.7;
+  margin-bottom: 12px;
+}
+
+.variant-cover-title {
+  font-family: var(--sans);
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin: 0 0 18px;
+  line-height: 1.2;
+}
+
+.variant-cover-stats {
+  display: inline-flex;
+  gap: 0;
+  border: 1.5px solid var(--accent-trans);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+
+.variant-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 24px;
+  border-right: 1.5px solid var(--accent-trans);
+}
+
+.variant-stat:last-child {
+  border-right: none;
+}
+
+.variant-stat-val {
+  font-family: var(--sans);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--accent-light, var(--accent));
+  line-height: 1;
+}
+
+.variant-stat-lbl {
+  font-family: var(--sans);
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.45);
+  margin-top: 4px;
+}
+
+/* Content section spacing */
 .content .section {
   padding: var(--space-xl) 0;
 }
@@ -79,6 +154,22 @@
 }
 
 @media (max-width: 600px) {
+  .variant-cover {
+    padding: 28px 16px 24px;
+  }
+
+  .variant-cover-title {
+    font-size: 24px;
+  }
+
+  .variant-stat {
+    padding: 8px 16px;
+  }
+
+  .variant-stat-val {
+    font-size: 16px;
+  }
+
   .variant-pager {
     flex-wrap: wrap;
     justify-content: center;
