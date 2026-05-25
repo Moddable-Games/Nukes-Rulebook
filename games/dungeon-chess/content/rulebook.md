@@ -17,10 +17,10 @@ published: true
 
 ## What Is Dungeon Chess?
 
-Dungeon Chess is an asymmetric strategy game built on a chess engine. Four fantasy species — each with unique abilities — battle on modular dungeon maps with terrain hazards. Players draft armies from a shared XP budget, then fight to capture the enemy King.
+Dungeon Chess is an asymmetric strategy game built on a chess engine. Four fantasy factions — each with unique abilities — battle on modular dungeon maps with terrain hazards. Players draft armies from a shared XP budget, then fight to capture the enemy King.
 
 **Core differences from standard chess:**
-- **Asymmetric armies** — each species has unique unit abilities, not just reskinned pieces
+- **Asymmetric armies** — each faction has unique unit abilities, not just reskinned pieces
 - **XP drafting** — build your army from a budget, choosing quantity vs quality
 - **King capture wins** — no checkmate; you must actually take the King
 - **Terrain** — water blocks movement; voids create chokepoints; gaps affect diagonal slides
@@ -29,11 +29,11 @@ Dungeon Chess is an asymmetric strategy game built on a chess engine. Four fanta
 
 </div>
 
-<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Species</span><span class="eyebrow-line"></span></div>
+<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Factions</span><span class="eyebrow-line"></span></div>
 
-## The Four Species
+## The Four Factions
 
-Each species has 6 unit types corresponding to chess roles (Pawn, Castle, Knight, Bishop, Queen, King). Every species plays differently.
+Each faction has 6 unit types corresponding to chess roles (Pawn, Castle, Knight, Bishop, Queen, King). Every faction plays differently.
 
 ### Human — Balanced & Reliable
 
@@ -61,7 +61,7 @@ All units, organised by chess role. XP cost shown in brackets.
 
 ### Pawns
 
-| Unit | Species | Cost | Movement | Attack | Special |
+| Unit | Faction | Cost | Movement | Attack | Special |
 |------|---------|------|----------|--------|---------|
 | Hero | Human | 2 XP | 1 square, any direction (8-way) | Diagonal only (1 square) | — |
 | Skeleton | Undead | 1 XP | 1 square, any direction (8-way) | Diagonal only (1 square) | **Fragile:** any adjacent enemy can capture it (auto-capture) |
@@ -72,7 +72,7 @@ All Pawns cannot step on water. Kobold and Goblin can also slide along rook line
 
 ### Castles
 
-| Unit | Species | Cost | Movement | Attack | Special |
+| Unit | Faction | Cost | Movement | Attack | Special |
 |------|---------|------|----------|--------|---------|
 | Stronghold | Human | 10 XP | 1 square orthogonally | Adjacent + Rook slide | — |
 | Tomb | Undead | 12 XP | 1 square orthogonally | Adjacent + Rook slide | **Phase fire:** rook-slide attacks pass through one friendly piece |
@@ -83,7 +83,7 @@ Stronghold is reliable baseline artillery. Tomb can use allies as screens for ex
 
 ### Knights
 
-| Unit | Species | Cost | Movement | Attack | Special |
+| Unit | Faction | Cost | Movement | Attack | Special |
 |------|---------|------|----------|--------|---------|
 | Knight | Human | 12 XP | L-shaped jump (2+1) | Same as movement | — |
 | Reaper | Undead | 15 XP | L-shaped jump (2+1) | Same as movement | **Water-walk:** can land on water squares |
@@ -94,7 +94,7 @@ All Knights leap over pieces and terrain. Human Knight is cheap and reliable. Re
 
 ### Bishops
 
-| Unit | Species | Cost | Movement | Attack | Special |
+| Unit | Faction | Cost | Movement | Attack | Special |
 |------|---------|------|----------|--------|---------|
 | Archer | Human | 18 XP | Diagonal slide | Diagonal slide (through 1 piece) | **Piercing:** can attack through one intervening piece |
 | Wraith | Undead | 15 XP | Diagonal slide | Diagonal slide | **Phase:** slides pass through friendly pieces (stops only at enemies/voids) |
@@ -105,7 +105,7 @@ Archer is premium — piercing attacks make it a diagonal cannon. Wraith phases 
 
 ### Queens
 
-| Unit | Species | Cost | Movement | Attack | Special |
+| Unit | Faction | Cost | Movement | Attack | Special |
 |------|---------|------|----------|--------|---------|
 | Wizard | Human | 20 XP | Rook lines (orthogonal slide) | Diagonal + Rook lines | Split: moves as Rook, attacks in all directions |
 | Vampire | Undead | 20 XP | Bishop lines (diagonal slide) | Rook + Diagonal lines | Split: moves as Bishop, attacks in all directions |
@@ -116,7 +116,7 @@ Wizard and Vampire have asymmetric threat zones. Demonics is expensive but its d
 
 ### Kings
 
-| Unit | Species | Cost | Movement | Attack | Bonus |
+| Unit | Faction | Cost | Movement | Attack | Bonus |
 |------|---------|------|----------|--------|-------|
 | Princess | Human | 15 XP | King step (1 sq, 8-way) + Bishop slide | King step only | Mobile: slides diagonally for repositioning (no capture via slide) |
 | Warlock | Undead | 20 XP | King step (1 sq, 8-way) | King step + Bishop slide attack | Ranged: attacks at distance via diagonal slide |
@@ -195,7 +195,7 @@ Before each battle, players build their army from an XP budget.
 ## Battle Rules
 
 ### Setup
-1. Choose your species
+1. Choose your faction
 2. Draft your army (75 XP)
 3. Choose turn order: You First, AI First, or Random
 4. Deploy units in your spawn zone (bottom rows of the map)
