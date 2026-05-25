@@ -266,7 +266,7 @@ function buildVariants(slug) {
       (_, file, caption) => {
         const svgPath = resolve(gameDir, 'diagrams/svg', file);
         if (!existsSync(svgPath)) return `<!-- missing: ${file} -->`;
-        const svg = readFileSync(svgPath, 'utf8');
+        const svg = readFileSync(svgPath, 'utf8').replace(/\n\s*\n/g, '\n');
         return caption ? `${svg}\n<p class="diagram-caption">${caption}</p>` : svg;
       }
     );

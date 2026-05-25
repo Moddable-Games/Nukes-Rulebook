@@ -47,619 +47,414 @@
 
 <main id="main-content" class="content">
 
-<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Section 1</span><span class="eyebrow-line"></span></div>
-<h2>Overview</h2>
-<p>Dungeon Chess is an asymmetric turn-based strategy game for 2–4 players. Each player commands one of four fantasy species — Humans, Undead, Redskins, or Greenskins — across modular dungeon boards built from interlocking tiles. No two armies play the same way.</p>
-<p>You draft your warband from a budget of 75 XP, choosing from six unit types unique to your species. Deploy onto the board, manoeuvre through corridors and chambers, and hunt down the enemy King. The first player to capture an opponent’s King wins.</p>
-<div class="highlight">
-<div class="box-title">Core Principles</div>
-<p><strong>1. Asymmetry.</strong> Each species has the same six unit roles but different costs, abilities, and tactical identities. Humans are balanced generalists; Undead exploit movement tricks; Redskins bring devastating firepower; Greenskins overwhelm with brute force.</p>
-<p><strong>2. Draft tension.</strong> With only 75 XP and 24 possible units to choose from, no two warbands are alike. Every point spent is a tactical commitment.</p>
-<p><strong>3. Dungeon terrain.</strong> Corridors create chokepoints. Gaps block movement. Water restricts certain units. The board itself is a weapon.</p>
+<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Overview</span><span class="eyebrow-line"></span></div>
+<h2>What Is Dungeon Chess?</h2>
+<p>Dungeon Chess is an asymmetric strategy game built on a chess engine. Four fantasy species — each with unique abilities — battle on modular dungeon maps with terrain hazards. Players draft armies from a shared XP budget, then fight to capture the enemy King.</p>
+<p><strong>Core differences from standard chess:</strong></p>
+<ul class="rules">
+<li><strong>Asymmetric armies</strong> — each species has unique unit abilities, not just reskinned pieces</li>
+<li><strong>XP drafting</strong> — build your army from a budget, choosing quantity vs quality</li>
+<li><strong>King capture wins</strong> — no checkmate; you must actually take the King</li>
+<li><strong>Terrain</strong> — water blocks movement; voids create chokepoints; gaps affect diagonal slides</li>
+<li><strong>Cannon attacks</strong> — some units attack at range using the XiangQi screen mechanic</li>
+<li><strong>Split move/attack</strong> — some units move in one pattern but attack in another</li>
+</ul>
 </div>
+<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Species</span><span class="eyebrow-line"></span></div>
+<h2>The Four Species</h2>
+<p>Each species has 6 unit types corresponding to chess roles (Pawn, Castle, Knight, Bishop, Queen, King). Every species plays differently.</p>
+<h3>Human — Balanced &amp; Versatile</h3>
+<p>Heroes, knights and archers. The Human army is well-rounded with no major weaknesses. The Archer can attack across gaps; the Wizard splits its movement and attack directions.</p>
+<h3>Undead — Masters of Movement</h3>
+<p>Skeletons and vampires. The Undead exploit gaps in the terrain — the Wraith moves through voids that stop other species. The Vampire inverts the Wizard’s pattern.</p>
+<h3>Redskin — Cannon Power</h3>
+<p>Kobolds and iron golems. Redskin units use cannon attacks — ranged strikes that require a screen piece between attacker and target. Expensive pawns but devastating firepower.</p>
+<h3>Greenskin — Brute Force</h3>
+<p>Goblins, ogres and trolls. Like Redskins, Greenskins have cannon-equipped Pawns and Castles. Their King (Warlord) can strike like a Knight.</p>
 </div>
-<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Section 2</span><span class="eyebrow-line"></span></div>
-<h2>Species</h2>
-<p>Four species compete for dominance in the dungeon. Each shares the same six unit roles but brings a distinct tactical identity to the battlefield.</p>
+<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Units</span><span class="eyebrow-line"></span></div>
+<h2>Unit Roster</h2>
+<p>All units, organised by chess role. XP cost shown in brackets.</p>
+<h3>Pawns</h3>
 <table class="t">
 <thead>
 <tr>
+<th>Unit</th>
 <th>Species</th>
-<th>Colour</th>
-<th>Playstyle</th>
-<th>Strengths</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Humans</strong></td>
-<td>White</td>
-<td>Balanced</td>
-<td>Well-rounded stats, no weaknesses, adaptable to any board state</td>
-</tr>
-<tr>
-<td><strong>Undead</strong></td>
-<td>Black</td>
-<td>Movement tricks</td>
-<td>Phasing through units, resurrection, positional manipulation</td>
-</tr>
-<tr>
-<td><strong>Redskins</strong></td>
-<td>Red</td>
-<td>Firepower</td>
-<td>Devastating ranged attacks, area denial, high burst damage</td>
-</tr>
-<tr>
-<td><strong>Greenskins</strong></td>
-<td>Green</td>
-<td>Brute force</td>
-<td>Cheap powerful units, high HP, overwhelm through numbers</td>
-</tr>
-</tbody>
-</table>
-<div class="designer-note">
-<p>Species were designed around a rock-paper-scissors dynamic that doesn't create hard counters. Greenskins outnumber Humans but struggle against Redskin firepower. Redskins dominate open corridors but can't pin down phasing Undead. Undead outmanoeuvre Greenskins in tight spaces but crumble against Human versatility.</p>
-</div>
-</div>
-<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Section 3</span><span class="eyebrow-line"></span></div>
-<h2>Units</h2>
-<p>Each species fields six unit types. While unit roles are shared across species, their XP costs and special abilities differ — reflecting each faction’s tactical identity.</p>
-<h3>Humans (White)</h3>
-<table class="t">
-<thead>
-<tr>
-<th>Unit</th>
-<th>Type</th>
 <th>Cost</th>
 <th>Movement</th>
-<th>Special Ability</th>
+<th>Attack</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Man-at-Arms</strong></td>
-<td>Pawn</td>
+<td>Hero</td>
+<td>Human</td>
+<td>2 XP</td>
+<td>1 square, any direction (8-way)</td>
+<td>Diagonal only (1 square)</td>
+</tr>
+<tr>
+<td>Skeleton</td>
+<td>Undead</td>
+<td>2 XP</td>
+<td>1 square, any direction (8-way)</td>
+<td>Diagonal only (1 square)</td>
+</tr>
+<tr>
+<td>Kobold</td>
+<td>Redskin</td>
 <td>5 XP</td>
-<td>Step</td>
-<td>Shield Wall — +1 defence when adjacent to another Man-at-Arms</td>
+<td>1 square, any direction (8-way)</td>
+<td>Diagonal (1 sq) + Cannon along rook lines</td>
 </tr>
 <tr>
-<td><strong>Watchtower</strong></td>
-<td>Castle</td>
+<td>Goblin</td>
+<td>Greenskin</td>
+<td>5 XP</td>
+<td>1 square, any direction (8-way)</td>
+<td>Diagonal (1 sq) + Cannon along rook lines</td>
+</tr>
+</tbody>
+</table>
+<p>All Pawns cannot step on water.</p>
+<h3>Castles</h3>
+<table class="t">
+<thead>
+<tr>
+<th>Unit</th>
+<th>Species</th>
+<th>Cost</th>
+<th>Movement</th>
+<th>Attack</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Stronghold</td>
+<td>Human</td>
+<td>10 XP</td>
+<td>1 square orthogonally</td>
+<td>Rook slide (unlimited range, blocked by pieces)</td>
+</tr>
+<tr>
+<td>Tomb</td>
+<td>Undead</td>
+<td>10 XP</td>
+<td>1 square orthogonally</td>
+<td>Rook slide (unlimited range, blocked by pieces)</td>
+</tr>
+<tr>
+<td>Iron Golem</td>
+<td>Redskin</td>
 <td>15 XP</td>
-<td>Slide</td>
-<td>Fortify — cannot be displaced by Cannon movement</td>
+<td>1 square orthogonally</td>
+<td>Cannon along rook lines (requires screen)</td>
 </tr>
 <tr>
-<td><strong>Cavalier</strong></td>
+<td>Ogre</td>
+<td>Greenskin</td>
+<td>15 XP</td>
+<td>1 square orthogonally</td>
+<td>Cannon along rook lines (requires screen)</td>
+</tr>
+</tbody>
+</table>
+<p>All Castles cannot step on water. Castles move only 1 square but attack at range — they are artillery, not melee.</p>
+<h3>Knights</h3>
+<table class="t">
+<thead>
+<tr>
+<th>Unit</th>
+<th>Species</th>
+<th>Cost</th>
+<th>Movement</th>
+<th>Attack</th>
+</tr>
+</thead>
+<tbody>
+<tr>
 <td>Knight</td>
-<td>12 XP</td>
-<td>Jump</td>
-<td>Charge — first attack each game deals double damage</td>
+<td>Human</td>
+<td>15 XP</td>
+<td>L-shaped jump (2+1)</td>
+<td>Same as movement</td>
 </tr>
 <tr>
-<td><strong>Chaplain</strong></td>
-<td>Bishop</td>
-<td>10 XP</td>
-<td>Slide</td>
-<td>Heal — restore one captured friendly Pawn to an adjacent space</td>
+<td>Reaper</td>
+<td>Undead</td>
+<td>15 XP</td>
+<td>L-shaped jump (2+1)</td>
+<td>Same as movement</td>
 </tr>
 <tr>
-<td><strong>Empress</strong></td>
-<td>Queen</td>
+<td>Salamander</td>
+<td>Redskin</td>
+<td>15 XP</td>
+<td>L-shaped jump (2+1)</td>
+<td>Same as movement</td>
+</tr>
+<tr>
+<td>Orc</td>
+<td>Greenskin</td>
+<td>15 XP</td>
+<td>L-shaped jump (2+1)</td>
+<td>Same as movement</td>
+</tr>
+</tbody>
+</table>
+<p>Knights leap over all pieces and terrain. Cannot land on water.</p>
+<h3>Bishops</h3>
+<table class="t">
+<thead>
+<tr>
+<th>Unit</th>
+<th>Species</th>
+<th>Cost</th>
+<th>Movement</th>
+<th>Attack</th>
+<th>Special</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Archer</td>
+<td>Human</td>
+<td>15 XP</td>
+<td>Diagonal slide</td>
+<td>Diagonal slide</td>
+<td>Can ATTACK across gaps; cannot MOVE across gaps</td>
+</tr>
+<tr>
+<td>Wraith</td>
+<td>Undead</td>
+<td>15 XP</td>
+<td>Diagonal slide</td>
+<td>Diagonal slide</td>
+<td>Can MOVE across gaps; cannot ATTACK across gaps</td>
+</tr>
+<tr>
+<td>Fire Elemental</td>
+<td>Redskin</td>
+<td>15 XP</td>
+<td>Diagonal slide</td>
+<td>Diagonal slide</td>
+<td>Water blocks slide entirely (move and attack)</td>
+</tr>
+<tr>
+<td>Troll</td>
+<td>Greenskin</td>
+<td>15 XP</td>
+<td>Diagonal slide</td>
+<td>Diagonal slide</td>
+<td>Water blocks slide entirely (move and attack)</td>
+</tr>
+</tbody>
+</table>
+<p>Bishops are where species diverge most. The Archer/Wraith pair are mirror images — one crosses gaps to attack, the other to reposition. Fire Elemental and Troll are stopped cold by water.</p>
+<h3>Queens</h3>
+<table class="t">
+<thead>
+<tr>
+<th>Unit</th>
+<th>Species</th>
+<th>Cost</th>
+<th>Movement</th>
+<th>Attack</th>
+<th>Special</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wizard</td>
+<td>Human</td>
 <td>20 XP</td>
-<td>Slide</td>
-<td>Inspire — adjacent friendly units gain +1 movement range</td>
+<td>Rook lines (orthogonal slide)</td>
+<td>Diagonal slide + Rook lines</td>
+<td>Moves as Rook, attacks as Bishop and Rook</td>
 </tr>
 <tr>
-<td><strong>High King</strong></td>
-<td>King</td>
-<td>8 XP</td>
-<td>Step</td>
-<td>Rally — once per game, all friendly units within 2 spaces gain an extra action</td>
+<td>Vampire</td>
+<td>Undead</td>
+<td>20 XP</td>
+<td>Bishop lines (diagonal slide)</td>
+<td>Rook lines + Diagonal slide</td>
+<td>Moves as Bishop, attacks as Rook and Bishop</td>
+</tr>
+<tr>
+<td>Demonics</td>
+<td>Redskin</td>
+<td>20 XP</td>
+<td>Full queen (all 8 directions)</td>
+<td>Full queen (all 8 directions)</td>
+<td>Water blocks slide</td>
+</tr>
+<tr>
+<td>Shaman</td>
+<td>Greenskin</td>
+<td>20 XP</td>
+<td>Full queen (all 8 directions)</td>
+<td>Full queen (all 8 directions)</td>
+<td>Water blocks slide</td>
 </tr>
 </tbody>
 </table>
-<h3>Undead (Black)</h3>
+<p>The Wizard and Vampire are the most complex units. Each moves in one pattern but attacks in another, creating asymmetric threat zones.</p>
+<h3>Kings</h3>
 <table class="t">
 <thead>
 <tr>
 <th>Unit</th>
-<th>Type</th>
+<th>Species</th>
 <th>Cost</th>
 <th>Movement</th>
-<th>Special Ability</th>
+<th>Attack</th>
+<th>Bonus</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Skeleton</strong></td>
-<td>Pawn</td>
-<td>4 XP</td>
-<td>Step</td>
-<td>Reassemble — returns to play after 2 turns if not captured by King</td>
+<td>Princess</td>
+<td>Human</td>
+<td>15 XP</td>
+<td>King step (1 sq, 8-way) + Bishop slide</td>
+<td>King step only</td>
+<td>Slides diagonally for repositioning (no capture via slide)</td>
 </tr>
 <tr>
-<td><strong>Crypt</strong></td>
-<td>Castle</td>
-<td>14 XP</td>
-<td>Slide</td>
-<td>Phase — can slide through one occupied square per move</td>
+<td>Warlock</td>
+<td>Undead</td>
+<td>20 XP</td>
+<td>King step (1 sq, 8-way)</td>
+<td>King step + Bishop slide attack</td>
+<td>Attacks at range via diagonal slide</td>
 </tr>
 <tr>
-<td><strong>Wraith</strong></td>
-<td>Knight</td>
-<td>13 XP</td>
-<td>Jump</td>
-<td>Incorporeal — ignores Gaps when jumping</td>
+<td>Red Dragon</td>
+<td>Redskin</td>
+<td>20 XP</td>
+<td>King step (1 sq, 8-way)</td>
+<td>King step + Knight jump attack</td>
+<td>Strikes via L-shaped leap</td>
 </tr>
 <tr>
-<td><strong>Necromancer</strong></td>
-<td>Bishop</td>
-<td>12 XP</td>
-<td>Slide</td>
-<td>Raise Dead — convert one adjacent captured enemy Pawn to a friendly Skeleton</td>
-</tr>
-<tr>
-<td><strong>Lich Queen</strong></td>
-<td>Queen</td>
-<td>18 XP</td>
-<td>Slide</td>
-<td>Soul Drain — capturing a unit restores one friendly captured Pawn</td>
-</tr>
-<tr>
-<td><strong>Death King</strong></td>
-<td>King</td>
-<td>7 XP</td>
-<td>Step</td>
-<td>Undying — survives first capture attempt (once per game)</td>
+<td>Warlord</td>
+<td>Greenskin</td>
+<td>15 XP</td>
+<td>King step (1 sq, 8-way)</td>
+<td>King step + Knight jump attack</td>
+<td>Strikes via L-shaped leap</td>
 </tr>
 </tbody>
 </table>
-<h3>Redskins (Red)</h3>
-<table class="t">
-<thead>
-<tr>
-<th>Unit</th>
-<th>Type</th>
-<th>Cost</th>
-<th>Movement</th>
-<th>Special Ability</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Firebrand</strong></td>
-<td>Pawn</td>
-<td>6 XP</td>
-<td>Step</td>
-<td>Ignite — leaves a fire token on vacated square (blocks for 1 turn)</td>
-</tr>
-<tr>
-<td><strong>Furnace</strong></td>
-<td>Castle</td>
-<td>16 XP</td>
-<td>Slide</td>
-<td>Bombardment — can attack one target within range 3 without moving</td>
-</tr>
-<tr>
-<td><strong>Salamander</strong></td>
-<td>Knight</td>
-<td>14 XP</td>
-<td>Jump</td>
-<td>Fireproof — immune to fire tokens and Cannon knockback</td>
-</tr>
-<tr>
-<td><strong>Pyromancer</strong></td>
-<td>Bishop</td>
-<td>11 XP</td>
-<td>Slide</td>
-<td>Fireball — Cannon-type attack up to range 2, does not move the attacker</td>
-</tr>
-<tr>
-<td><strong>Inferno Queen</strong></td>
-<td>Queen</td>
-<td>22 XP</td>
-<td>Slide</td>
-<td>Blaze Trail — every square moved through becomes a fire token for 1 turn</td>
-</tr>
-<tr>
-<td><strong>Ember King</strong></td>
-<td>King</td>
-<td>9 XP</td>
-<td>Step</td>
-<td>Heat Shield — adjacent fire tokens grant +1 defence</td>
-</tr>
-</tbody>
-</table>
-<h3>Greenskins (Green)</h3>
-<table class="t">
-<thead>
-<tr>
-<th>Unit</th>
-<th>Type</th>
-<th>Cost</th>
-<th>Movement</th>
-<th>Special Ability</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Goblin</strong></td>
-<td>Pawn</td>
-<td>3 XP</td>
-<td>Step</td>
-<td>Swarm — up to 3 Goblins may occupy the same square</td>
-</tr>
-<tr>
-<td><strong>Troll Fort</strong></td>
-<td>Castle</td>
-<td>13 XP</td>
-<td>Slide</td>
-<td>Regenerate — if damaged but not captured, restores to full next turn</td>
-</tr>
-<tr>
-<td><strong>Warg Rider</strong></td>
-<td>Knight</td>
-<td>11 XP</td>
-<td>Jump</td>
-<td>Pounce — may jump a second time if first jump captures a Pawn</td>
-</tr>
-<tr>
-<td><strong>Shaman</strong></td>
-<td>Bishop</td>
-<td>10 XP</td>
-<td>Slide</td>
-<td>War Cry — push all adjacent enemy Pawns one square away</td>
-</tr>
-<tr>
-<td><strong>Warboss</strong></td>
-<td>Queen</td>
-<td>18 XP</td>
-<td>Slide</td>
-<td>Rampage — may attack twice per turn but cannot Slide more than 3 squares</td>
-</tr>
-<tr>
-<td><strong>Great Chief</strong></td>
-<td>King</td>
-<td>6 XP</td>
-<td>Step</td>
-<td>Thick Hide — requires two attacks in one turn to capture</td>
-</tr>
-</tbody>
-</table>
-<div class="unit-grid species-humans">
-<h3 class="unit-grid-title">Humans (White)</h3>
-<div class="unit-card">
-<div class="uc-head uc-head--human"><span class="uc-name">Man-at-Arms</span><span class="uc-size">PAWN · 5 XP</span></div>
-<div class="uc-body"><p><strong>Step</strong> — Shield Wall: +1 defence when adjacent to another Man-at-Arms.</p></div>
+<p>Every King has a unique bonus ability. The Princess has extra mobility; the Warlock and Dragons have ranged attacks. Kings are royal — lose yours and you lose the game.</p>
 </div>
-<div class="unit-card">
-<div class="uc-head uc-head--human"><span class="uc-name">Watchtower</span><span class="uc-size">CASTLE · 15 XP</span></div>
-<div class="uc-body"><p><strong>Slide</strong> — Fortify: cannot be displaced by Cannon movement.</p></div>
-</div>
-<div class="unit-card">
-<div class="uc-head uc-head--human"><span class="uc-name">Cavalier</span><span class="uc-size">KNIGHT · 12 XP</span></div>
-<div class="uc-body"><p><strong>Jump</strong> — Charge: first attack each game deals double damage.</p></div>
-</div>
-<div class="unit-card">
-<div class="uc-head uc-head--human"><span class="uc-name">Chaplain</span><span class="uc-size">BISHOP · 10 XP</span></div>
-<div class="uc-body"><p><strong>Slide</strong> — Heal: restore one captured friendly Pawn to an adjacent space.</p></div>
-</div>
-<div class="unit-card">
-<div class="uc-head uc-head--human"><span class="uc-name">Empress</span><span class="uc-size">QUEEN · 20 XP</span></div>
-<div class="uc-body"><p><strong>Slide</strong> — Inspire: adjacent friendly units gain +1 movement range.</p></div>
-</div>
-<div class="unit-card">
-<div class="uc-head uc-head--human"><span class="uc-name">High King</span><span class="uc-size">KING · 8 XP</span></div>
-<div class="uc-body"><p><strong>Step</strong> — Rally: once per game, all friendly units within 2 spaces gain an extra action.</p></div>
-</div>
-</div>
-<div class="unit-grid species-undead">
-<h3 class="unit-grid-title">Undead (Black)</h3>
-<div class="unit-card">
-<div class="uc-head uc-head--undead"><span class="uc-name">Skeleton</span><span class="uc-size">PAWN · 4 XP</span></div>
-<div class="uc-body"><p><strong>Step</strong> — Reassemble: returns to play after 2 turns if not captured by King.</p></div>
-</div>
-<div class="unit-card">
-<div class="uc-head uc-head--undead"><span class="uc-name">Crypt</span><span class="uc-size">CASTLE · 14 XP</span></div>
-<div class="uc-body"><p><strong>Slide</strong> — Phase: can slide through one occupied square per move.</p></div>
-</div>
-<div class="unit-card">
-<div class="uc-head uc-head--undead"><span class="uc-name">Wraith</span><span class="uc-size">KNIGHT · 13 XP</span></div>
-<div class="uc-body"><p><strong>Jump</strong> — Incorporeal: ignores Gaps when jumping.</p></div>
-</div>
-<div class="unit-card">
-<div class="uc-head uc-head--undead"><span class="uc-name">Necromancer</span><span class="uc-size">BISHOP · 12 XP</span></div>
-<div class="uc-body"><p><strong>Slide</strong> — Raise Dead: convert one adjacent captured enemy Pawn to a friendly Skeleton.</p></div>
-</div>
-<div class="unit-card">
-<div class="uc-head uc-head--undead"><span class="uc-name">Lich Queen</span><span class="uc-size">QUEEN · 18 XP</span></div>
-<div class="uc-body"><p><strong>Slide</strong> — Soul Drain: capturing a unit restores one friendly captured Pawn.</p></div>
-</div>
-<div class="unit-card">
-<div class="uc-head uc-head--undead"><span class="uc-name">Death King</span><span class="uc-size">KING · 7 XP</span></div>
-<div class="uc-body"><p><strong>Step</strong> — Undying: survives first capture attempt (once per game).</p></div>
-</div>
-</div>
-<div class="unit-grid species-redskins">
-<h3 class="unit-grid-title">Redskins (Red)</h3>
-<div class="unit-card">
-<div class="uc-head uc-head--redskin"><span class="uc-name">Firebrand</span><span class="uc-size">PAWN · 6 XP</span></div>
-<div class="uc-body"><p><strong>Step</strong> — Ignite: leaves a fire token on vacated square (blocks for 1 turn).</p></div>
-</div>
-<div class="unit-card">
-<div class="uc-head uc-head--redskin"><span class="uc-name">Furnace</span><span class="uc-size">CASTLE · 16 XP</span></div>
-<div class="uc-body"><p><strong>Slide</strong> — Bombardment: can attack one target within range 3 without moving.</p></div>
-</div>
-<div class="unit-card">
-<div class="uc-head uc-head--redskin"><span class="uc-name">Salamander</span><span class="uc-size">KNIGHT · 14 XP</span></div>
-<div class="uc-body"><p><strong>Jump</strong> — Fireproof: immune to fire tokens and Cannon knockback.</p></div>
-</div>
-<div class="unit-card">
-<div class="uc-head uc-head--redskin"><span class="uc-name">Pyromancer</span><span class="uc-size">BISHOP · 11 XP</span></div>
-<div class="uc-body"><p><strong>Slide</strong> — Fireball: Cannon-type attack up to range 2, does not move the attacker.</p></div>
-</div>
-<div class="unit-card">
-<div class="uc-head uc-head--redskin"><span class="uc-name">Inferno Queen</span><span class="uc-size">QUEEN · 22 XP</span></div>
-<div class="uc-body"><p><strong>Slide</strong> — Blaze Trail: every square moved through becomes a fire token for 1 turn.</p></div>
-</div>
-<div class="unit-card">
-<div class="uc-head uc-head--redskin"><span class="uc-name">Ember King</span><span class="uc-size">KING · 9 XP</span></div>
-<div class="uc-body"><p><strong>Step</strong> — Heat Shield: adjacent fire tokens grant +1 defence.</p></div>
-</div>
-</div>
-<div class="unit-grid species-greenskins">
-<h3 class="unit-grid-title">Greenskins (Green)</h3>
-<div class="unit-card">
-<div class="uc-head uc-head--greenskin"><span class="uc-name">Goblin</span><span class="uc-size">PAWN · 3 XP</span></div>
-<div class="uc-body"><p><strong>Step</strong> — Swarm: up to 3 Goblins may occupy the same square.</p></div>
-</div>
-<div class="unit-card">
-<div class="uc-head uc-head--greenskin"><span class="uc-name">Troll Fort</span><span class="uc-size">CASTLE · 13 XP</span></div>
-<div class="uc-body"><p><strong>Slide</strong> — Regenerate: if damaged but not captured, restores to full next turn.</p></div>
-</div>
-<div class="unit-card">
-<div class="uc-head uc-head--greenskin"><span class="uc-name">Warg Rider</span><span class="uc-size">KNIGHT · 11 XP</span></div>
-<div class="uc-body"><p><strong>Jump</strong> — Pounce: may jump a second time if first jump captures a Pawn.</p></div>
-</div>
-<div class="unit-card">
-<div class="uc-head uc-head--greenskin"><span class="uc-name">Shaman</span><span class="uc-size">BISHOP · 10 XP</span></div>
-<div class="uc-body"><p><strong>Slide</strong> — War Cry: push all adjacent enemy Pawns one square away.</p></div>
-</div>
-<div class="unit-card">
-<div class="uc-head uc-head--greenskin"><span class="uc-name">Warboss</span><span class="uc-size">QUEEN · 18 XP</span></div>
-<div class="uc-body"><p><strong>Slide</strong> — Rampage: may attack twice per turn but cannot Slide more than 3 squares.</p></div>
-</div>
-<div class="unit-card">
-<div class="uc-head uc-head--greenskin"><span class="uc-name">Great Chief</span><span class="uc-size">KING · 6 XP</span></div>
-<div class="uc-body"><p><strong>Step</strong> — Thick Hide: requires two attacks in one turn to capture.</p></div>
-</div>
-</div>
-</div>
-<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Section 4</span><span class="eyebrow-line"></span></div>
-<h2>Movement Rules</h2>
-<p>All units move according to one of four movement types. The dungeon board’s corridors, gaps, and water features create tactical constraints that reward careful positioning.</p>
-<h3>Step</h3>
-<p>The unit moves exactly <strong>one square</strong> in any orthogonal or diagonal direction. Step units are slow but predictable — they never overextend and can navigate tight corridors without restriction.</p>
+<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Cannon</span><span class="eyebrow-line"></span></div>
+<h2>The Cannon Mechanic</h2>
+<p>Kobolds, Goblins, Iron Golems, and Ogres have cannon attacks — a ranged capture mechanic borrowed from XiangQi (Chinese Chess).</p>
+<p><strong>How it works:</strong></p>
 <ul class="rules">
-<li>Kings and Pawns use Step movement.</li>
-<li>Step units can move into any adjacent unoccupied square or one occupied by an enemy (to attack).</li>
+<li>The cannon attacks along rook lines (straight orthogonal).</li>
+<li>It must pass over exactly ONE piece (the “screen”) between itself and the target.</li>
+<li>The screen can be friendly or enemy — it just needs to exist.</li>
+<li>Without a screen piece in the line, the cannon cannot capture.</li>
+<li>Water squares are skipped (not treated as blockers for cannon lines).</li>
+<li>The attacking unit does NOT move to the target square — the target is simply removed.</li>
 </ul>
-<h3>Slide</h3>
-<p>The unit moves <strong>any number of squares</strong> in a straight line (orthogonal or diagonal) until blocked by another unit, a wall, or the board edge. Slide units dominate long corridors but are vulnerable in cramped spaces.</p>
-<ul class="rules">
-<li>Castles, Bishops, and Queens use Slide movement.</li>
-<li>A Sliding unit must stop immediately before any occupied square (unless a special ability overrides this).</li>
-<li>Slide cannot change direction mid-move.</li>
-</ul>
-<h3>Jump</h3>
-<p>The unit moves in an <strong>L-shape</strong>: two squares in one direction plus one square perpendicular (like a chess knight). Jump units bypass obstacles between origin and destination.</p>
-<ul class="rules">
-<li>Knights use Jump movement.</li>
-<li>Jumping ignores intervening units and terrain — only the destination square matters.</li>
-<li>A Jump unit cannot land on a friendly-occupied square.</li>
-</ul>
-<h3>Cannon</h3>
-<p>A special ranged attack where the unit does <strong>not move</strong> but affects a target at range. Cannon attacks travel in straight lines and may require clear line-of-sight depending on the unit’s species abilities.</p>
-<ul class="rules">
-<li>Certain Redskin units (Furnace, Pyromancer) have Cannon as an attack option.</li>
-<li>Cannon attacks do not displace the attacker — the unit stays in place.</li>
-<li>Standard Cannon range is 2–3 squares in a straight line.</li>
-</ul>
-<h3>Gaps</h3>
-<p>Gaps are impassable squares on the board — holes in the dungeon floor, collapsed ceilings, or bottomless pits.</p>
-<ul class="rules">
-<li>No unit may enter or pass through a Gap square by Step or Slide.</li>
-<li>Jump movement may cross over Gaps (the unit flies over them).</li>
-<li>Gaps block line-of-sight for Cannon attacks.</li>
-<li>Some Undead abilities (Wraith: Incorporeal) ignore Gap restrictions.</li>
-</ul>
+<p><strong>Example:</strong> A Kobold on a1 wants to capture an enemy on a5. There must be exactly one piece on a2, a3, or a4 (the screen). If the line is empty or has two pieces between them, the cannon cannot fire.</p>
+</div>
+<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Terrain</span><span class="eyebrow-line"></span></div>
+<h2>Terrain</h2>
+<p>Dungeon maps use three terrain types:</p>
+<h3>Floor (Normal)</h3>
+<p>Standard passable squares. No restrictions.</p>
 <h3>Water</h3>
-<p>Water squares represent flooded chambers, underground rivers, or submerged passages.</p>
 <ul class="rules">
-<li><strong>Pawns cannot enter Water</strong> under any circumstances.</li>
-<li>Knights, Bishops, Queens, Castles, and Kings may enter Water but <strong>end their turn immediately</strong> upon doing so (no further actions that turn).</li>
-<li>Certain species abilities modify Water interaction (e.g., Salamander: Fireproof grants Water immunity).</li>
+<li>Most units CANNOT step onto water squares.</li>
+<li>Knights cannot land on water (but can leap over it).</li>
+<li>Water blocks diagonal slides for Fire Elemental, Troll, Demonics, and Shaman.</li>
+<li>Cannon lines skip over water (water is transparent to ranged attacks).</li>
+<li>Placed as 4×4 blocks in the centre of maps.</li>
+</ul>
+<h3>Void</h3>
+<ul class="rules">
+<li>Off-board squares. Cannot be entered by any unit.</li>
+<li>Creates the dungeon’s corridors and chokepoints.</li>
+<li>“Gaps” in diagonal lines (where a void interrupts a slide) interact differently per species:
+<ul class="rules">
+<li><strong>Archer:</strong> Can attack ACROSS a gap (diagonal capture crosses one void) but cannot move across it.</li>
+<li><strong>Wraith:</strong> Can MOVE across a gap but cannot attack across it.</li>
+<li>All other diagonal sliders are stopped by gaps.</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Drafting</span><span class="eyebrow-line"></span></div>
+<h2>Army Drafting</h2>
+<p>Before each battle, players build their army from an XP budget.</p>
+<p><strong>Budget:</strong> 75 XP</p>
+<p><strong>Constraints:</strong></p>
+<ul class="rules">
+<li>Must include exactly 1 King</li>
+<li>Must include at least 1 Pawn</li>
+<li>No maximum team size — as many units as budget allows</li>
+<li>Duplicates are allowed (e.g. 3 Knights is legal)</li>
+</ul>
+<p><strong>Strategy notes:</strong></p>
+<ul class="rules">
+<li>Human/Undead Pawns cost 2 XP — you can field a swarm (up to ~27 Pawns + King)</li>
+<li>Redskin/Greenskin Pawns cost 5 XP — fewer Pawns but each has cannon attacks</li>
+<li>A balanced Human army: Princess (15) + Wizard (20) + Knight (15) + Archer (15) + 5 Heroes (10) = 75 XP</li>
+<li>A Pawn rush: Princess (15) + 30 Heroes (60) = 75 XP</li>
+</ul>
+</div>
+<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Battle</span><span class="eyebrow-line"></span></div>
+<h2>Battle Rules</h2>
+<h3>Setup</h3>
+<ol>
+<li>Choose your species</li>
+<li>Draft your army (75 XP)</li>
+<li>Choose turn order: You First, AI First, or Random</li>
+<li>Deploy units in your spawn zone (bottom rows of the map)</li>
+</ol>
+<h3>Turn Order</h3>
+<ul class="rules">
+<li>2-player: alternating turns</li>
+<li>4-player: cyclic (Player → AI 1 → AI 2 → AI 3)</li>
+<li>Each turn: move one unit OR attack with one unit</li>
 </ul>
 <h3>Check</h3>
-<p>When a unit threatens the enemy King (could capture it next turn), that King is in <strong>Check</strong>.</p>
 <ul class="rules">
-<li>A player whose King is in Check <strong>must</strong> resolve the Check on their next turn — by moving the King, blocking the threat, or capturing the threatening unit.</li>
-<li>If Check cannot be resolved, the King is captured and that player is eliminated.</li>
-<li>Unlike standard chess, there is no stalemate — if you cannot move, you lose.</li>
-<li>Multiple units can place a King in Check simultaneously.</li>
+<li>A King is in check if an enemy unit could capture it on the next move.</li>
+<li>You CANNOT make a move that leaves your own King in check.</li>
+<li>You MUST resolve check on your turn (move King, block, or capture the attacker).</li>
+<li>There is no checkmate — the game only ends on actual King capture.</li>
 </ul>
+<h3>Win Condition</h3>
+<p><strong>Capture the enemy King.</strong> The game ends immediately when a King is taken. In 4-player games, eliminated players’ remaining pieces are removed; the last King standing wins.</p>
+<h3>Undo</h3>
+<p>Players may undo their last move (reverting both their move and the AI’s response).</p>
 </div>
-<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Section 5</span><span class="eyebrow-line"></span></div>
-<h2>Drafting</h2>
-<p>Before the game begins, each player assembles their warband by spending a budget of <strong>75 XP</strong> on units from their species roster. Drafting is simultaneous — all players build their armies in secret, then reveal before deployment.</p>
-<h3>Constraints</h3>
-<ul class="rules">
-<li><strong>Budget:</strong> Exactly 75 XP. You may not overspend, and unspent XP is wasted.</li>
-<li><strong>Mandatory units:</strong> Every warband must contain exactly <strong>1 King</strong> and at least <strong>1 Pawn</strong>.</li>
-<li><strong>No duplicates beyond Pawns:</strong> You may draft multiple Pawns, but only one of each other unit type.</li>
-<li><strong>Species-locked:</strong> You may only draft units from your chosen species.</li>
-</ul>
-<h3>Draft Strategy</h3>
-<div class="highlight">
-<div class="box-title">Draft Tips</div>
-<p><strong>Go wide or go tall.</strong> Flooding the board with cheap Pawns gives you presence but limited power. Investing in expensive Queens and Castles gives raw strength but leaves your King exposed with fewer bodies to shield it.</p>
-<p><strong>Mind the King tax.</strong> Your King costs between 6–9 XP depending on species and must be included. This constrains your remaining budget differently for each faction — Greenskins get 69 XP for their army, while Redskins only get 66 XP.</p>
-<p><strong>Counter-draft the map.</strong> On water-heavy boards, Pawn-heavy armies suffer. On open maps with long corridors, Slide-heavy builds dominate. Consider the map before finalising your roster.</p>
-</div>
-</div>
-<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Section 6</span><span class="eyebrow-line"></span></div>
-<h2>Deployment</h2>
-<p>After drafting, players place their units onto the board in their designated spawn zones. Deployment is sequential — the player who chose their species last deploys first.</p>
-<h3>Spawn Zones</h3>
-<p>Each map defines spawn zones for each player — typically 2–3 rows of squares at the player’s board edge. All drafted units must be placed within the spawn zone before play begins.</p>
-<h3>Placement Rules</h3>
-<ul class="rules">
-<li><strong>One unit per square.</strong> No square may hold more than one unit at deployment (Goblin Swarm does not apply during deployment).</li>
-<li><strong>King placement is secret.</strong> Place your King face-down. It is only revealed when an enemy unit first threatens its square. Once revealed, it remains face-up for the rest of the game.</li>
-<li><strong>No Water spawns.</strong> Units cannot be deployed onto Water squares even if they are within the spawn zone.</li>
-<li><strong>All units must deploy.</strong> Every drafted unit must be placed. You cannot hold reserves.</li>
-</ul>
-<h3>Turn Order</h3>
-<p>After all players have deployed, determine first-player by species colour priority: White (Humans) first, then Black (Undead), Red (Redskins), Green (Greenskins). Play proceeds clockwise from the first player.</p>
-<p>On your turn, you activate <strong>one unit</strong> — it may move and/or attack according to its movement type and special abilities.</p>
-</div>
-<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Section 7</span><span class="eyebrow-line"></span></div>
+<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Maps</span><span class="eyebrow-line"></span></div>
 <h2>Maps</h2>
-<p>Dungeon Chess ships with three modular board configurations. Each creates a different tactical landscape, favouring different species and army compositions.</p>
-<h3>Compact Skirmish (10x10)</h3>
-<p>A tight, claustrophobic dungeon designed for <strong>2 players</strong>. Short corridors, frequent chokepoints, and limited flanking routes create intense close-quarters combat. Games are fast and aggressive — expect 30–45 minutes.</p>
+<h3>Map 1: Compact Skirmish (2-player)</h3>
+<p>A 10×10 open arena with a 4×4 water block in the centre (rows 3–6, columns 3–6). Spawn zones are the top 2 rows (AI) and bottom 2 rows (Player). Fast, tactical games with water forcing units around the middle.</p>
+<h3>Map 2: Two Player Dungeon (2-player)</h3>
+<p>A 20×8 cross-shaped dungeon. Three chambers connected by narrow 2-wide corridors:</p>
 <ul class="rules">
-<li><strong>Grid:</strong> 10 columns x 10 rows (100 squares)</li>
-<li><strong>Spawn zones:</strong> 2 rows per player (top and bottom edges)</li>
-<li><strong>Gaps:</strong> 8–12 scattered centrally</li>
-<li><strong>Water:</strong> 4–6 squares forming a central channel</li>
-<li><strong>Best for:</strong> Learning the game, quick matches, aggressive playstyles</li>
+<li><strong>Top chamber:</strong> 8×3 (AI spawn)</li>
+<li><strong>Centre chamber:</strong> 8×8 with 4×4 water in the middle</li>
+<li><strong>Bottom chamber:</strong> 8×3 (Player spawn)</li>
+<li><strong>Corridors:</strong> 2 squares wide, connecting chambers vertically</li>
 </ul>
-<h3>Two Player Dungeon (20x8)</h3>
-<p>A long, narrow corridor complex designed for <strong>2 players</strong> who want a deeper strategic experience. The elongated shape creates a no-man’s-land in the centre, rewarding patient manoeuvring and ranged superiority. Games run 45–75 minutes.</p>
+<p>Chokepoints force careful army composition. Knights and units that leap are valuable for crossing constraints.</p>
+<h3>Map 3: Four Player Dungeon (4-player)</h3>
+<p>A 20×20 symmetric cross. Four spawn chambers at the cardinal edges, connected by narrow corridors to a central 8×8 arena with 4×4 water. Each arm has its own connector passage.</p>
 <ul class="rules">
-<li><strong>Grid:</strong> 20 columns x 8 rows (160 squares)</li>
-<li><strong>Spawn zones:</strong> 3 columns per player (left and right edges)</li>
-<li><strong>Gaps:</strong> 12–16 forming maze-like barriers</li>
-<li><strong>Water:</strong> 8–10 squares creating lateral channels</li>
-<li><strong>Best for:</strong> Competitive two-player, strategic depth, positional play</li>
+<li><strong>Centre:</strong> rows 6–13, cols 6–13 (with water at rows 8–11, cols 8–11)</li>
+<li><strong>Spawn zones:</strong> 3-row sections at the end of each arm</li>
 </ul>
-<h3>Four Player Dungeon (20x20)</h3>
-<p>The grand dungeon — a sprawling labyrinth designed for the full <strong>4-player</strong> experience. Multiple paths, wide chambers, and complex Gap formations create a dynamic battlefield where alliances shift and flanks appear unexpectedly. Games run 60–120 minutes.</p>
-<ul class="rules">
-<li><strong>Grid:</strong> 20 columns x 20 rows (400 squares)</li>
-<li><strong>Spawn zones:</strong> 3 rows/columns per player (one per board edge)</li>
-<li><strong>Gaps:</strong> 30–40 forming chambers and corridors</li>
-<li><strong>Water:</strong> 16–20 squares forming rivers and pools</li>
-<li><strong>Best for:</strong> Full multiplayer, diplomacy, epic battles, varied strategies</li>
-</ul>
-</div>
-<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Section 8</span><span class="eyebrow-line"></span></div>
-<h2>Winning</h2>
-<p>The game ends immediately when a King is captured.</p>
-<h3>Victory Conditions</h3>
-<ul class="rules">
-<li><strong>King Capture:</strong> Move one of your units onto the enemy King’s square. That player is eliminated. In a 2-player game, the capturing player wins. In 3–4 player games, play continues until only one King remains.</li>
-<li><strong>Resignation:</strong> A player may resign at any time. Their units are removed from the board immediately.</li>
-<li><strong>Timeout (optional):</strong> If using a turn clock, a player who exceeds their time limit forfeits their King.</li>
-</ul>
-<h3>Multiplayer Elimination</h3>
-<p>In games with 3–4 players, when a player is eliminated:</p>
-<ul class="rules">
-<li>All their remaining units are removed from the board.</li>
-<li>Play continues with the remaining players. Turn order is unchanged (skip eliminated players).</li>
-<li>The player who captured the King gains no additional benefit — the reward is removing a threat.</li>
-</ul>
-<div class="designer-note">
-<p>King capture (rather than checkmate) was chosen deliberately. It keeps games decisive, shortens the endgame, and prevents draws. The hidden King at deployment adds a deduction layer — you must figure out which unit is the King before you can target it.</p>
-</div>
-</div>
-<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Section 9</span><span class="eyebrow-line"></span></div>
-<h2>Glossary</h2>
-<table class="t">
-<thead>
-<tr>
-<th>Term</th>
-<th>Definition</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Asymmetric</strong></td>
-<td>Each player’s faction has different units, costs, and abilities</td>
-</tr>
-<tr>
-<td><strong>Cannon</strong></td>
-<td>A ranged attack where the unit does not move</td>
-</tr>
-<tr>
-<td><strong>Capture</strong></td>
-<td>Moving onto an enemy-occupied square, removing that unit from play</td>
-</tr>
-<tr>
-<td><strong>Check</strong></td>
-<td>A state where the King could be captured on the next turn</td>
-</tr>
-<tr>
-<td><strong>Deploy</strong></td>
-<td>Placing units onto the board at the start of the game</td>
-</tr>
-<tr>
-<td><strong>Draft</strong></td>
-<td>Selecting your warband from available units within a budget</td>
-</tr>
-<tr>
-<td><strong>Gap</strong></td>
-<td>An impassable square that blocks Step, Slide, and line-of-sight</td>
-</tr>
-<tr>
-<td><strong>Jump</strong></td>
-<td>L-shaped movement that bypasses intervening terrain and units</td>
-</tr>
-<tr>
-<td><strong>King</strong></td>
-<td>The critical unit — its capture eliminates a player</td>
-</tr>
-<tr>
-<td><strong>Modular board</strong></td>
-<td>A board assembled from configurable tiles before each game</td>
-</tr>
-<tr>
-<td><strong>Pawn</strong></td>
-<td>The basic infantry unit; cheap, Step-movement only</td>
-</tr>
-<tr>
-<td><strong>Slide</strong></td>
-<td>Movement in a straight line for any distance until blocked</td>
-</tr>
-<tr>
-<td><strong>Spawn zone</strong></td>
-<td>The designated area where a player deploys their units</td>
-</tr>
-<tr>
-<td><strong>Species</strong></td>
-<td>One of the four playable factions (Human, Undead, Redskin, Greenskin)</td>
-</tr>
-<tr>
-<td><strong>Step</strong></td>
-<td>Movement of exactly one square in any direction</td>
-</tr>
-<tr>
-<td><strong>Warband</strong></td>
-<td>The complete set of units a player drafts for a game</td>
-</tr>
-<tr>
-<td><strong>Water</strong></td>
-<td>Terrain that Pawns cannot enter and other units enter at cost</td>
-</tr>
-<tr>
-<td><strong>XP</strong></td>
-<td>Experience Points — the currency used during drafting</td>
-</tr>
-</tbody>
-</table>
+<p>The largest and most complex map. Multi-front warfare, temporary alliances, and last-player-standing dynamics.</p>
 </div>
 
 </main>
