@@ -261,7 +261,17 @@ function buildVariants(slug) {
   for (let i = 0; i < variants.length; i++) {
     const { meta, content, slug: variantSlug } = variants[i];
 
-    let rendered = md.render(content);
+    const withSvgs = content.replace(
+      /\{\{svg:([^\s"]+)\s*"([^"]*)"\}\}/g,
+      (_, file, caption) => {
+        const svgPath = resolve(gameDir, 'diagrams/svg', file);
+        if (!existsSync(svgPath)) return `<!-- missing: ${file} -->`;
+        const svg = readFileSync(svgPath, 'utf8');
+        return caption ? `${svg}\n<p class="diagram-caption">${caption}</p>` : svg;
+      }
+    );
+
+    let rendered = md.render(withSvgs);
     rendered = rendered.replace(/<ul>\n/g, '<ul class="rules">\n');
     rendered = rendered.replace(/<table>/g, '<table class="t">');
 

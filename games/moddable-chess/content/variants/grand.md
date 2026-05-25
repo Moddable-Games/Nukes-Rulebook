@@ -13,6 +13,8 @@ A 10×10 variant that adds the Archbishop and Chancellor without changing any ex
 
 **Board:** 10×10 (100 squares).
 
+{{svg:grand-board.svg "Grand Chess — starting position (10×10)"}}
+
 **Pieces (per side):** 1 King, 1 Queen, 1 Archbishop, 1 Chancellor, 2 Rooks, 2 Bishops, 2 Knights, 10 Pawns.
 - **Archbishop** (♗+♞) — Bishop + Knight compound.
 - **Chancellor** (♖+♞) — Rook + Knight compound.

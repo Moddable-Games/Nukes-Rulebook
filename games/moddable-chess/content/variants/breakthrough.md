@@ -13,6 +13,8 @@ Pawns only. First to reach the far rank wins. A minimalist abstract strategy gam
 
 **Board:** 7×7 grid (49 squares).
 
+{{svg:breakthrough-board.svg "Breakthrough — starting position (7×7)"}}
+
 **Pieces:** Each player starts with 14 pawns filling their first two ranks.
 
 **Movement:**

@@ -1,46 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Grand Chess — Moddable Chess</title>
-<meta name="description" content="Complete rules for Grand Chess in Moddable Chess.">
-<link rel="stylesheet" href="../../../../shared/css/fonts.css">
-<link rel="stylesheet" href="../../../../shared/css/tokens.css">
-<link rel="stylesheet" href="../../../../shared/css/base.css">
-<link rel="stylesheet" href="../../../../shared/css/components.css">
-<link rel="stylesheet" href="../../../../games/moddable-chess/theme.css">
-<link rel="stylesheet" href="../../../../shared/css/variant-page.css">
-</head>
-<body>
-<a href="#main-content" class="skip-link">Skip to content</a>
-<div class="page">
-
-<header class="doc-header" role="banner">
-  <div class="hdr-brand"><a href="../../../../index.html"><img src="../../../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
-  <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Variants</a><a href="../../../../index.html" class="hdr-link">All Rules</a></div>
-  <span class="hdr-meta">Grand Chess · Moddable Chess</span>
-</header>
-
-<div class="variant-cover">
-  <div class="variant-cover-inner">
-    <span class="variant-cover-label">Moddable Chess · Variant 18 of 20</span>
-    <h1 class="variant-cover-title">Grand Chess</h1>
-    <div class="variant-cover-stats">
-      <span class="variant-stat"><span class="variant-stat-val">10×10</span><span class="variant-stat-lbl">Board</span></span>
-      <span class="variant-stat"><span class="variant-stat-val">2</span><span class="variant-stat-lbl">Players</span></span>
-    </div>
-  </div>
-</div>
-
-<main id="main-content" class="content">
-<div class="section">
-
-<h2>Grand Chess</h2>
-<p>A 10×10 variant that adds the Archbishop and Chancellor without changing any existing piece rules. Considered one of the cleanest large-board variants — no special rules, just a bigger stage.</p>
-<p><strong>Board:</strong> 10×10 (100 squares).</p>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 460" width="440" height="460">
   <title>Grand Chess Starting Position - 10x10 Board</title>
+
   <!-- Board squares -->
   <g id="board">
     <!-- Rank 10 (row 0 from top) -->
@@ -154,6 +114,7 @@
     <rect x="360" y="380" width="40" height="40" fill="#b58863"/>
     <rect x="400" y="380" width="40" height="40" fill="#e8d4a8"/>
   </g>
+
   <!-- Pieces -->
   <g font-family="sans-serif" font-size="14" text-anchor="middle" dominant-baseline="central">
     <!-- Black pieces - Rank 10 (back rank): R N B Q C K A B N R -->
@@ -167,43 +128,44 @@
     <text x="340" y="40" fill="#f0f0f0">B</text>
     <text x="380" y="40" fill="#f0f0f0">N</text>
     <text x="420" y="40" fill="#f0f0f0">R</text>
-<pre><code>&lt;!-- Black pawns - Rank 8 --&gt;
-&lt;text x=&quot;60&quot; y=&quot;120&quot; fill=&quot;#f0f0f0&quot;&gt;P&lt;/text&gt;
-&lt;text x=&quot;100&quot; y=&quot;120&quot; fill=&quot;#f0f0f0&quot;&gt;P&lt;/text&gt;
-&lt;text x=&quot;140&quot; y=&quot;120&quot; fill=&quot;#f0f0f0&quot;&gt;P&lt;/text&gt;
-&lt;text x=&quot;180&quot; y=&quot;120&quot; fill=&quot;#f0f0f0&quot;&gt;P&lt;/text&gt;
-&lt;text x=&quot;220&quot; y=&quot;120&quot; fill=&quot;#f0f0f0&quot;&gt;P&lt;/text&gt;
-&lt;text x=&quot;260&quot; y=&quot;120&quot; fill=&quot;#f0f0f0&quot;&gt;P&lt;/text&gt;
-&lt;text x=&quot;300&quot; y=&quot;120&quot; fill=&quot;#f0f0f0&quot;&gt;P&lt;/text&gt;
-&lt;text x=&quot;340&quot; y=&quot;120&quot; fill=&quot;#f0f0f0&quot;&gt;P&lt;/text&gt;
-&lt;text x=&quot;380&quot; y=&quot;120&quot; fill=&quot;#f0f0f0&quot;&gt;P&lt;/text&gt;
-&lt;text x=&quot;420&quot; y=&quot;120&quot; fill=&quot;#f0f0f0&quot;&gt;P&lt;/text&gt;
 
-&lt;!-- White pawns - Rank 3 --&gt;
-&lt;text x=&quot;60&quot; y=&quot;320&quot; fill=&quot;#222&quot;&gt;P&lt;/text&gt;
-&lt;text x=&quot;100&quot; y=&quot;320&quot; fill=&quot;#222&quot;&gt;P&lt;/text&gt;
-&lt;text x=&quot;140&quot; y=&quot;320&quot; fill=&quot;#222&quot;&gt;P&lt;/text&gt;
-&lt;text x=&quot;180&quot; y=&quot;320&quot; fill=&quot;#222&quot;&gt;P&lt;/text&gt;
-&lt;text x=&quot;220&quot; y=&quot;320&quot; fill=&quot;#222&quot;&gt;P&lt;/text&gt;
-&lt;text x=&quot;260&quot; y=&quot;320&quot; fill=&quot;#222&quot;&gt;P&lt;/text&gt;
-&lt;text x=&quot;300&quot; y=&quot;320&quot; fill=&quot;#222&quot;&gt;P&lt;/text&gt;
-&lt;text x=&quot;340&quot; y=&quot;320&quot; fill=&quot;#222&quot;&gt;P&lt;/text&gt;
-&lt;text x=&quot;380&quot; y=&quot;320&quot; fill=&quot;#222&quot;&gt;P&lt;/text&gt;
-&lt;text x=&quot;420&quot; y=&quot;320&quot; fill=&quot;#222&quot;&gt;P&lt;/text&gt;
+    <!-- Black pawns - Rank 8 -->
+    <text x="60" y="120" fill="#f0f0f0">P</text>
+    <text x="100" y="120" fill="#f0f0f0">P</text>
+    <text x="140" y="120" fill="#f0f0f0">P</text>
+    <text x="180" y="120" fill="#f0f0f0">P</text>
+    <text x="220" y="120" fill="#f0f0f0">P</text>
+    <text x="260" y="120" fill="#f0f0f0">P</text>
+    <text x="300" y="120" fill="#f0f0f0">P</text>
+    <text x="340" y="120" fill="#f0f0f0">P</text>
+    <text x="380" y="120" fill="#f0f0f0">P</text>
+    <text x="420" y="120" fill="#f0f0f0">P</text>
 
-&lt;!-- White pieces - Rank 1 (back rank): R N B Q C K A B N R --&gt;
-&lt;text x=&quot;60&quot; y=&quot;400&quot; fill=&quot;#222&quot;&gt;R&lt;/text&gt;
-&lt;text x=&quot;100&quot; y=&quot;400&quot; fill=&quot;#222&quot;&gt;N&lt;/text&gt;
-&lt;text x=&quot;140&quot; y=&quot;400&quot; fill=&quot;#222&quot;&gt;B&lt;/text&gt;
-&lt;text x=&quot;180&quot; y=&quot;400&quot; fill=&quot;#222&quot;&gt;Q&lt;/text&gt;
-&lt;text x=&quot;220&quot; y=&quot;400&quot; fill=&quot;#222&quot;&gt;C&lt;/text&gt;
-&lt;text x=&quot;260&quot; y=&quot;400&quot; fill=&quot;#222&quot;&gt;K&lt;/text&gt;
-&lt;text x=&quot;300&quot; y=&quot;400&quot; fill=&quot;#222&quot;&gt;A&lt;/text&gt;
-&lt;text x=&quot;340&quot; y=&quot;400&quot; fill=&quot;#222&quot;&gt;B&lt;/text&gt;
-&lt;text x=&quot;380&quot; y=&quot;400&quot; fill=&quot;#222&quot;&gt;N&lt;/text&gt;
-&lt;text x=&quot;420&quot; y=&quot;400&quot; fill=&quot;#222&quot;&gt;R&lt;/text&gt;
-</code></pre>
+    <!-- White pawns - Rank 3 -->
+    <text x="60" y="320" fill="#222">P</text>
+    <text x="100" y="320" fill="#222">P</text>
+    <text x="140" y="320" fill="#222">P</text>
+    <text x="180" y="320" fill="#222">P</text>
+    <text x="220" y="320" fill="#222">P</text>
+    <text x="260" y="320" fill="#222">P</text>
+    <text x="300" y="320" fill="#222">P</text>
+    <text x="340" y="320" fill="#222">P</text>
+    <text x="380" y="320" fill="#222">P</text>
+    <text x="420" y="320" fill="#222">P</text>
+
+    <!-- White pieces - Rank 1 (back rank): R N B Q C K A B N R -->
+    <text x="60" y="400" fill="#222">R</text>
+    <text x="100" y="400" fill="#222">N</text>
+    <text x="140" y="400" fill="#222">B</text>
+    <text x="180" y="400" fill="#222">Q</text>
+    <text x="220" y="400" fill="#222">C</text>
+    <text x="260" y="400" fill="#222">K</text>
+    <text x="300" y="400" fill="#222">A</text>
+    <text x="340" y="400" fill="#222">B</text>
+    <text x="380" y="400" fill="#222">N</text>
+    <text x="420" y="400" fill="#222">R</text>
   </g>
+
   <!-- File labels -->
   <g font-family="sans-serif" font-size="11" text-anchor="middle" fill="#555">
     <text x="60" y="435">a</text>
@@ -217,6 +179,7 @@
     <text x="380" y="435">i</text>
     <text x="420" y="435">j</text>
   </g>
+
   <!-- Rank labels -->
   <g font-family="sans-serif" font-size="11" text-anchor="middle" fill="#555">
     <text x="20" y="44">10</text>
@@ -231,35 +194,3 @@
     <text x="20" y="404">1</text>
   </g>
 </svg>
-<p class="diagram-caption">Grand Chess — starting position (10×10)</p>
-<p><strong>Pieces (per side):</strong> 1 King, 1 Queen, 1 Archbishop, 1 Chancellor, 2 Rooks, 2 Bishops, 2 Knights, 10 Pawns.</p>
-<ul class="rules">
-<li><strong>Archbishop</strong> (♗+♞) — Bishop + Knight compound.</li>
-<li><strong>Chancellor</strong> (♖+♞) — Rook + Knight compound.</li>
-</ul>
-<p><strong>Setup:</strong> Pawns on rank 3. Back two ranks arranged: empty corners, pieces spread across ranks 1–2 with King and Queen central.</p>
-<p><strong>Key rules:</strong></p>
-<ul class="rules">
-<li><strong>No castling.</strong> The wider board makes it unnecessary.</li>
-<li><strong>Pawn promotion:</strong> Pawns reaching rank 8 or 9 MAY promote. Pawns reaching rank 10 MUST promote. Promotion to any captured piece only — you cannot promote if all pieces of that type are on the board.</li>
-<li><strong>En passant</strong> works normally.</li>
-</ul>
-<p><strong>Win condition:</strong> Checkmate.</p>
-<p><strong>Attribution:</strong> Christian Freeling, 1984. Public domain.</p>
-
-</div>
-</main>
-
-<nav class="variant-pager" aria-label="Variant navigation">
-  <a href="../capablanca/" class="variant-pager-prev">← Capablanca Chess</a>
-  <a href="../../index.html" class="variant-pager-hub">All Variants</a>
-  <a href="../courier/" class="variant-pager-next">Courier Chess →</a>
-</nav>
-
-<footer class="doc-footer" role="contentinfo">
-  <span class="ftr-copy">Moddable Chess v0.2.0 · Published by Moddable Games · © 2026 All Rights Reserved</span>
-</footer>
-
-</div>
-</body>
-</html>

@@ -13,6 +13,8 @@ Invented by World Champion José Raúl Capablanca in the 1920s to address what h
 
 **Board:** 10×8 (ten files, eight ranks).
 
+{{svg:capablanca-board.svg "Capablanca Chess — starting position (10×8)"}}
+
 **Pieces (per side):** Standard 16 pieces plus:
 - **Archbishop** (♗+♞) — combines Bishop and Knight movement. Placed between the Queen's Knight and Queen's Bishop.
 - **Chancellor** (♖+♞) — combines Rook and Knight movement. Placed between the King's Knight and King's Bishop.
