@@ -63,14 +63,14 @@
 <div class="section"><div class="eyebrow"><span class="eyebrow-badge">Species</span><span class="eyebrow-line"></span></div>
 <h2>The Four Species</h2>
 <p>Each species has 6 unit types corresponding to chess roles (Pawn, Castle, Knight, Bishop, Queen, King). Every species plays differently.</p>
-<h3>Human — Balanced &amp; Versatile</h3>
-<p>Heroes, knights and archers. The Human army is well-rounded with no major weaknesses. The Archer can attack across gaps; the Wizard splits its movement and attack directions.</p>
-<h3>Undead — Masters of Movement</h3>
-<p>Skeletons and vampires. The Undead exploit gaps in the terrain — the Wraith moves through voids that stop other species. The Vampire inverts the Wizard’s pattern.</p>
-<h3>Redskin — Cannon Power</h3>
-<p>Kobolds and iron golems. Redskin units use cannon attacks — ranged strikes that require a screen piece between attacker and target. Expensive pawns but devastating firepower.</p>
-<h3>Greenskin — Brute Force</h3>
-<p>Goblins, ogres and trolls. Like Redskins, Greenskins have cannon-equipped Pawns and Castles. Their King (Warlord) can strike like a Knight.</p>
+<h3>Human — Balanced &amp; Reliable</h3>
+<p>Heroes, knights and archers. No gimmicks, no weaknesses. Cheap Knight (12 XP), premium Archer that pierces through pieces, and a Wizard with asymmetric threat zones. The Princess is the most mobile King. You always know what you’re getting.</p>
+<h3>Undead — Phase &amp; Swarm</h3>
+<p>1 XP Skeletons let you field massive armies (up to 35 Pawns + King), but each dies to any adjacent touch. The Wraith phases through allies, the Reaper walks on water, the Tomb fires through friendly screens. Slippery, numerous, fragile.</p>
+<h3>Redskin — Explosive Firepower</h3>
+<p>Every unit hits hard but costs dearly. Cannon-equipped Pawns and Castles, a hit-and-run Salamander, and the Demonics — which explodes on death, taking adjacent enemies with it. Iron Golem is immune to enemy cannons. Fewer units, bigger impact per piece.</p>
+<h3>Greenskin — Attrition &amp; Disruption</h3>
+<p>Goblins and Orcs backed by disruptive abilities. The Ogre freezes adjacent enemy Pawns. The Troll survives its first death. The Shaman can immobilise a key target. The Orc has flexible movement. Designed to grind opponents down and control the tempo.</p>
 </div>
 <div class="section"><div class="eyebrow"><span class="eyebrow-badge">Units</span><span class="eyebrow-line"></span></div>
 <h2>Unit Roster</h2>
@@ -84,6 +84,7 @@
 <th>Cost</th>
 <th>Movement</th>
 <th>Attack</th>
+<th>Special</th>
 </tr>
 </thead>
 <tbody>
@@ -93,31 +94,35 @@
 <td>2 XP</td>
 <td>1 square, any direction (8-way)</td>
 <td>Diagonal only (1 square)</td>
+<td>—</td>
 </tr>
 <tr>
 <td>Skeleton</td>
 <td>Undead</td>
-<td>2 XP</td>
+<td>1 XP</td>
 <td>1 square, any direction (8-way)</td>
 <td>Diagonal only (1 square)</td>
+<td><strong>Fragile:</strong> any adjacent enemy can capture it (auto-capture)</td>
 </tr>
 <tr>
 <td>Kobold</td>
 <td>Redskin</td>
 <td>5 XP</td>
 <td>1 square (8-way) + rook slide (to screen)</td>
-<td>Diagonal (1 sq) + Cannon along rook lines</td>
+<td>Diagonal (1 sq) + Cannon</td>
+<td>—</td>
 </tr>
 <tr>
 <td>Goblin</td>
 <td>Greenskin</td>
 <td>5 XP</td>
 <td>1 square (8-way) + rook slide (to screen)</td>
-<td>Diagonal (1 sq) + Cannon along rook lines</td>
+<td>Diagonal (1 sq) + Cannon</td>
+<td>—</td>
 </tr>
 </tbody>
 </table>
-<p>All Pawns cannot step on water. Kobold and Goblin can also slide along rook lines up to the first piece they encounter (the screen), giving them extra mobility.</p>
+<p>All Pawns cannot step on water. Kobold and Goblin can also slide along rook lines up to the first piece they encounter (the screen), giving them extra mobility. Skeletons cost only 1 XP but are fragile — any enemy adjacent to a Skeleton can capture it regardless of that enemy’s normal attack pattern.</p>
 <h3>Castles</h3>
 <table class="t">
 <thead>
@@ -127,6 +132,7 @@
 <th>Cost</th>
 <th>Movement</th>
 <th>Attack</th>
+<th>Special</th>
 </tr>
 </thead>
 <tbody>
@@ -135,32 +141,36 @@
 <td>Human</td>
 <td>10 XP</td>
 <td>1 square orthogonally</td>
-<td>Adjacent (1 sq) + Rook slide (unlimited range)</td>
+<td>Adjacent + Rook slide</td>
+<td>—</td>
 </tr>
 <tr>
 <td>Tomb</td>
 <td>Undead</td>
-<td>10 XP</td>
+<td>12 XP</td>
 <td>1 square orthogonally</td>
-<td>Adjacent (1 sq) + Rook slide (unlimited range)</td>
+<td>Adjacent + Rook slide</td>
+<td><strong>Phase fire:</strong> rook-slide attacks pass through one friendly piece</td>
 </tr>
 <tr>
 <td>Iron Golem</td>
 <td>Redskin</td>
-<td>15 XP</td>
-<td>1 square ortho + rook slide (to screen)</td>
-<td>Adjacent (1 sq) + Cannon along rook lines</td>
+<td>18 XP</td>
+<td>1 sq ortho + rook slide (to screen)</td>
+<td>Adjacent + Cannon</td>
+<td><strong>Cannon-proof:</strong> cannot be targeted by cannon attacks</td>
 </tr>
 <tr>
 <td>Ogre</td>
 <td>Greenskin</td>
-<td>15 XP</td>
-<td>1 square ortho + rook slide (to screen)</td>
-<td>Adjacent (1 sq) + Cannon along rook lines</td>
+<td>14 XP</td>
+<td>1 sq ortho + rook slide (to screen)</td>
+<td>Adjacent + Cannon</td>
+<td><strong>Intimidate:</strong> adjacent enemy Pawns cannot attack</td>
 </tr>
 </tbody>
 </table>
-<p>All Castles cannot step on water. Stronghold/Tomb can capture at range via rook slide OR adjacent enemies directly. Iron Golem/Ogre can also slide along rook lines up to the first piece (the screen), and capture both adjacent enemies and distant enemies via cannon.</p>
+<p>Stronghold is reliable baseline artillery. Tomb can use allies as screens for extended range. Iron Golem is a fortress immune to enemy cannons. Ogre paralyses nearby enemy Pawns.</p>
 <h3>Knights</h3>
 <table class="t">
 <thead>
@@ -170,15 +180,17 @@
 <th>Cost</th>
 <th>Movement</th>
 <th>Attack</th>
+<th>Special</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Knight</td>
 <td>Human</td>
-<td>15 XP</td>
+<td>12 XP</td>
 <td>L-shaped jump (2+1)</td>
 <td>Same as movement</td>
+<td>—</td>
 </tr>
 <tr>
 <td>Reaper</td>
@@ -186,24 +198,27 @@
 <td>15 XP</td>
 <td>L-shaped jump (2+1)</td>
 <td>Same as movement</td>
+<td><strong>Water-walk:</strong> can land on water squares</td>
 </tr>
 <tr>
 <td>Salamander</td>
 <td>Redskin</td>
-<td>15 XP</td>
+<td>18 XP</td>
 <td>L-shaped jump (2+1)</td>
 <td>Same as movement</td>
+<td><strong>Hit-and-run:</strong> after capturing, may move 1 additional square in any direction</td>
 </tr>
 <tr>
 <td>Orc</td>
 <td>Greenskin</td>
-<td>15 XP</td>
-<td>L-shaped jump (2+1)</td>
+<td>14 XP</td>
+<td>L-shaped jump (2+1) OR 2 squares orthogonally</td>
 <td>Same as movement</td>
+<td><strong>Flexible:</strong> can also move 2 squares straight (orthogonal)</td>
 </tr>
 </tbody>
 </table>
-<p>Knights leap over all pieces and terrain. Cannot land on water.</p>
+<p>All Knights leap over pieces and terrain. Human Knight is cheap and reliable. Reaper ignores the primary terrain hazard. Salamander can reposition after striking. Orc has two movement modes for unpredictable positioning.</p>
 <h3>Bishops</h3>
 <table class="t">
 <thead>
@@ -220,10 +235,10 @@
 <tr>
 <td>Archer</td>
 <td>Human</td>
-<td>15 XP</td>
+<td>18 XP</td>
 <td>Diagonal slide</td>
 <td>Diagonal slide (through 1 piece)</td>
-<td>Can attack through one intervening piece</td>
+<td><strong>Piercing:</strong> can attack through one intervening piece</td>
 </tr>
 <tr>
 <td>Wraith</td>
@@ -231,27 +246,27 @@
 <td>15 XP</td>
 <td>Diagonal slide</td>
 <td>Diagonal slide</td>
-<td>Water transparent (slides through water)</td>
+<td><strong>Phase:</strong> slides pass through friendly pieces (stops only at enemies/voids)</td>
 </tr>
 <tr>
 <td>Fire Elem.</td>
 <td>Redskin</td>
-<td>15 XP</td>
+<td>12 XP</td>
 <td>Diagonal slide</td>
 <td>Diagonal slide</td>
-<td>Water blocks slide entirely (move and attack)</td>
+<td><strong>Water weakness:</strong> water blocks slide entirely</td>
 </tr>
 <tr>
 <td>Troll</td>
 <td>Greenskin</td>
-<td>15 XP</td>
+<td>16 XP</td>
 <td>Diagonal slide</td>
 <td>Diagonal slide</td>
-<td>Water blocks slide entirely (move and attack)</td>
+<td><strong>Thick-skinned:</strong> first capture is absorbed (pushed 1 sq backward); second capture kills</td>
 </tr>
 </tbody>
 </table>
-<p>The Archer can attack enemies even if one piece stands between them on the diagonal — like a diagonal cannon. The Wraith and Archer are both water-transparent (slides pass through water), while Fire Elem. and Troll are completely blocked by water.</p>
+<p>Archer is premium — piercing attacks make it a diagonal cannon. Wraith phases through allies for surprise angles. Fire Elem. is cheap but crippled on water maps. Troll survives one hit, making it a durable diagonal presence.</p>
 <h3>Queens</h3>
 <table class="t">
 <thead>
@@ -270,36 +285,36 @@
 <td>Human</td>
 <td>20 XP</td>
 <td>Rook lines (orthogonal slide)</td>
-<td>Diagonal slide + Rook lines</td>
-<td>Moves as Rook, attacks as Bishop and Rook</td>
+<td>Diagonal + Rook lines</td>
+<td>Split: moves as Rook, attacks in all directions</td>
 </tr>
 <tr>
 <td>Vampire</td>
 <td>Undead</td>
 <td>20 XP</td>
 <td>Bishop lines (diagonal slide)</td>
-<td>Rook lines + Diagonal slide</td>
-<td>Moves as Bishop, attacks as Rook and Bishop</td>
+<td>Rook + Diagonal lines</td>
+<td>Split: moves as Bishop, attacks in all directions</td>
 </tr>
 <tr>
 <td>Demonics</td>
 <td>Redskin</td>
-<td>20 XP</td>
+<td>22 XP</td>
 <td>Full queen (all 8 directions)</td>
-<td>Full queen (all 8 directions)</td>
-<td>Water blocks slide</td>
+<td>Full queen</td>
+<td><strong>Volatile:</strong> on death, explodes — destroys all adjacent enemy pieces</td>
 </tr>
 <tr>
 <td>Shaman</td>
 <td>Greenskin</td>
 <td>20 XP</td>
 <td>Full queen (all 8 directions)</td>
-<td>Full queen (all 8 directions)</td>
-<td>Water blocks slide</td>
+<td>Full queen</td>
+<td><strong>Hex:</strong> once per game, spend a turn to immobilise one visible enemy for 2 turns</td>
 </tr>
 </tbody>
 </table>
-<p>The Wizard and Vampire are the most complex units. Each moves in one pattern but attacks in another, creating asymmetric threat zones.</p>
+<p>Wizard and Vampire have asymmetric threat zones. Demonics is expensive but its death explosion can swing the game. Shaman’s one-time hex can neutralise a key enemy at a critical moment. Both Demonics and Shaman are water-blocked.</p>
 <h3>Kings</h3>
 <table class="t">
 <thead>
@@ -319,7 +334,7 @@
 <td>15 XP</td>
 <td>King step (1 sq, 8-way) + Bishop slide</td>
 <td>King step only</td>
-<td>Slides diagonally for repositioning (no capture via slide)</td>
+<td>Mobile: slides diagonally for repositioning (no capture via slide)</td>
 </tr>
 <tr>
 <td>Warlock</td>
@@ -327,7 +342,7 @@
 <td>20 XP</td>
 <td>King step (1 sq, 8-way)</td>
 <td>King step + Bishop slide attack</td>
-<td>Attacks at range via diagonal slide</td>
+<td>Ranged: attacks at distance via diagonal slide</td>
 </tr>
 <tr>
 <td>Red Dragon</td>
@@ -347,7 +362,7 @@
 </tr>
 </tbody>
 </table>
-<p>Every King has a unique bonus ability. The Princess has extra mobility; the Warlock and Dragons have ranged attacks. Kings are royal — lose yours and you lose the game.</p>
+<p>Every King has a unique bonus ability. Princess has extra mobility; Warlock and Red Dragon have ranged attacks. Kings are royal — lose yours and you lose the game.</p>
 </div>
 <div class="section"><div class="eyebrow"><span class="eyebrow-badge">Cannon</span><span class="eyebrow-line"></span></div>
 <h2>The Cannon Mechanic</h2>
@@ -396,10 +411,10 @@
 </ul>
 <p><strong>Strategy notes:</strong></p>
 <ul class="rules">
-<li>Human/Undead Pawns cost 2 XP — you can field a swarm (up to ~27 Pawns + King)</li>
-<li>Redskin/Greenskin Pawns cost 5 XP — fewer Pawns but each has cannon attacks</li>
-<li>A balanced Human army: Princess (15) + Wizard (20) + Knight (15) + Archer (15) + 5 Heroes (10) = 75 XP</li>
-<li>A Pawn rush: Princess (15) + 30 Heroes (60) = 75 XP</li>
+<li>Skeleton (1 XP) swarm: Warlock (20) + 55 Skeletons = 75 XP — fragile but overwhelming</li>
+<li>Human balanced: Princess (15) + Wizard (20) + Archer (18) + Knight (12) + 5 Heroes (10) = 75 XP</li>
+<li>Redskin elite: Red Dragon (20) + Demonics (22) + Iron Golem (18) + 3 Kobolds (15) = 75 XP</li>
+<li>Greenskin midrange: Warlord (15) + Shaman (20) + Troll (16) + Orc (14) + 2 Goblins (10) = 75 XP</li>
 </ul>
 </div>
 <div class="section"><div class="eyebrow"><span class="eyebrow-badge">Battle</span><span class="eyebrow-line"></span></div>
