@@ -105,19 +105,19 @@
 <td>Kobold</td>
 <td>Redskin</td>
 <td>5 XP</td>
-<td>1 square, any direction (8-way)</td>
+<td>1 square (8-way) + rook slide (to screen)</td>
 <td>Diagonal (1 sq) + Cannon along rook lines</td>
 </tr>
 <tr>
 <td>Goblin</td>
 <td>Greenskin</td>
 <td>5 XP</td>
-<td>1 square, any direction (8-way)</td>
+<td>1 square (8-way) + rook slide (to screen)</td>
 <td>Diagonal (1 sq) + Cannon along rook lines</td>
 </tr>
 </tbody>
 </table>
-<p>All Pawns cannot step on water.</p>
+<p>All Pawns cannot step on water. Kobold and Goblin can also slide along rook lines up to the first piece they encounter (the screen), giving them extra mobility.</p>
 <h3>Castles</h3>
 <table class="t">
 <thead>
@@ -135,32 +135,32 @@
 <td>Human</td>
 <td>10 XP</td>
 <td>1 square orthogonally</td>
-<td>Rook slide (unlimited range, blocked by pieces)</td>
+<td>Adjacent (1 sq) + Rook slide (unlimited range)</td>
 </tr>
 <tr>
 <td>Tomb</td>
 <td>Undead</td>
 <td>10 XP</td>
 <td>1 square orthogonally</td>
-<td>Rook slide (unlimited range, blocked by pieces)</td>
+<td>Adjacent (1 sq) + Rook slide (unlimited range)</td>
 </tr>
 <tr>
 <td>Iron Golem</td>
 <td>Redskin</td>
 <td>15 XP</td>
-<td>1 square orthogonally</td>
-<td>Cannon along rook lines (requires screen)</td>
+<td>1 square ortho + rook slide (to screen)</td>
+<td>Adjacent (1 sq) + Cannon along rook lines</td>
 </tr>
 <tr>
 <td>Ogre</td>
 <td>Greenskin</td>
 <td>15 XP</td>
-<td>1 square orthogonally</td>
-<td>Cannon along rook lines (requires screen)</td>
+<td>1 square ortho + rook slide (to screen)</td>
+<td>Adjacent (1 sq) + Cannon along rook lines</td>
 </tr>
 </tbody>
 </table>
-<p>All Castles cannot step on water. Castles move only 1 square but attack at range — they are artillery, not melee.</p>
+<p>All Castles cannot step on water. Stronghold/Tomb can capture at range via rook slide OR adjacent enemies directly. Iron Golem/Ogre can also slide along rook lines up to the first piece (the screen), and capture both adjacent enemies and distant enemies via cannon.</p>
 <h3>Knights</h3>
 <table class="t">
 <thead>
@@ -222,8 +222,8 @@
 <td>Human</td>
 <td>15 XP</td>
 <td>Diagonal slide</td>
-<td>Diagonal slide</td>
-<td>Can ATTACK across gaps; cannot MOVE across gaps</td>
+<td>Diagonal slide (through 1 piece)</td>
+<td>Can attack through one intervening piece</td>
 </tr>
 <tr>
 <td>Wraith</td>
@@ -231,10 +231,10 @@
 <td>15 XP</td>
 <td>Diagonal slide</td>
 <td>Diagonal slide</td>
-<td>Can MOVE across gaps; cannot ATTACK across gaps</td>
+<td>Water transparent (slides through water)</td>
 </tr>
 <tr>
-<td>Fire Elemental</td>
+<td>Fire Elem.</td>
 <td>Redskin</td>
 <td>15 XP</td>
 <td>Diagonal slide</td>
@@ -251,7 +251,7 @@
 </tr>
 </tbody>
 </table>
-<p>Bishops are where species diverge most. The Archer/Wraith pair are mirror images — one crosses gaps to attack, the other to reposition. Fire Elemental and Troll are stopped cold by water.</p>
+<p>The Archer can attack enemies even if one piece stands between them on the diagonal — like a diagonal cannon. The Wraith and Archer are both water-transparent (slides pass through water), while Fire Elem. and Troll are completely blocked by water.</p>
 <h3>Queens</h3>
 <table class="t">
 <thead>
@@ -359,7 +359,7 @@
 <li>The screen can be friendly or enemy — it just needs to exist.</li>
 <li>Without a screen piece in the line, the cannon cannot capture.</li>
 <li>Water squares are skipped (not treated as blockers for cannon lines).</li>
-<li>The attacking unit does NOT move to the target square — the target is simply removed.</li>
+<li>The capturing unit moves to the target’s square (standard capture).</li>
 </ul>
 <p><strong>Example:</strong> A Kobold on a1 wants to capture an enemy on a5. There must be exactly one piece on a2, a3, or a4 (the screen). If the line is empty or has two pieces between them, the cannon cannot fire.</p>
 </div>
@@ -380,13 +380,7 @@
 <ul class="rules">
 <li>Off-board squares. Cannot be entered by any unit.</li>
 <li>Creates the dungeon’s corridors and chokepoints.</li>
-<li>“Gaps” in diagonal lines (where a void interrupts a slide) interact differently per species:
-<ul class="rules">
-<li><strong>Archer:</strong> Can attack ACROSS a gap (diagonal capture crosses one void) but cannot move across it.</li>
-<li><strong>Wraith:</strong> Can MOVE across a gap but cannot attack across it.</li>
-<li>All other diagonal sliders are stopped by gaps.</li>
-</ul>
-</li>
+<li>All sliding pieces stop at void boundaries — voids block slides for every unit equally.</li>
 </ul>
 </div>
 <div class="section"><div class="eyebrow"><span class="eyebrow-badge">Drafting</span><span class="eyebrow-line"></span></div>

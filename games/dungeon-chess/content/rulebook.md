@@ -65,21 +65,21 @@ All units, organised by chess role. XP cost shown in brackets.
 |------|---------|------|----------|--------|
 | Hero | Human | 2 XP | 1 square, any direction (8-way) | Diagonal only (1 square) |
 | Skeleton | Undead | 2 XP | 1 square, any direction (8-way) | Diagonal only (1 square) |
-| Kobold | Redskin | 5 XP | 1 square, any direction (8-way) | Diagonal (1 sq) + Cannon along rook lines |
-| Goblin | Greenskin | 5 XP | 1 square, any direction (8-way) | Diagonal (1 sq) + Cannon along rook lines |
+| Kobold | Redskin | 5 XP | 1 square (8-way) + rook slide (to screen) | Diagonal (1 sq) + Cannon along rook lines |
+| Goblin | Greenskin | 5 XP | 1 square (8-way) + rook slide (to screen) | Diagonal (1 sq) + Cannon along rook lines |
 
-All Pawns cannot step on water.
+All Pawns cannot step on water. Kobold and Goblin can also slide along rook lines up to the first piece they encounter (the screen), giving them extra mobility.
 
 ### Castles
 
 | Unit | Species | Cost | Movement | Attack |
 |------|---------|------|----------|--------|
-| Stronghold | Human | 10 XP | 1 square orthogonally | Rook slide (unlimited range, blocked by pieces) |
-| Tomb | Undead | 10 XP | 1 square orthogonally | Rook slide (unlimited range, blocked by pieces) |
-| Iron Golem | Redskin | 15 XP | 1 square orthogonally | Cannon along rook lines (requires screen) |
-| Ogre | Greenskin | 15 XP | 1 square orthogonally | Cannon along rook lines (requires screen) |
+| Stronghold | Human | 10 XP | 1 square orthogonally | Adjacent (1 sq) + Rook slide (unlimited range) |
+| Tomb | Undead | 10 XP | 1 square orthogonally | Adjacent (1 sq) + Rook slide (unlimited range) |
+| Iron Golem | Redskin | 15 XP | 1 square ortho + rook slide (to screen) | Adjacent (1 sq) + Cannon along rook lines |
+| Ogre | Greenskin | 15 XP | 1 square ortho + rook slide (to screen) | Adjacent (1 sq) + Cannon along rook lines |
 
-All Castles cannot step on water. Castles move only 1 square but attack at range — they are artillery, not melee.
+All Castles cannot step on water. Stronghold/Tomb can capture at range via rook slide OR adjacent enemies directly. Iron Golem/Ogre can also slide along rook lines up to the first piece (the screen), and capture both adjacent enemies and distant enemies via cannon.
 
 ### Knights
 
@@ -96,12 +96,12 @@ Knights leap over all pieces and terrain. Cannot land on water.
 
 | Unit | Species | Cost | Movement | Attack | Special |
 |------|---------|------|----------|--------|---------|
-| Archer | Human | 15 XP | Diagonal slide | Diagonal slide | Can ATTACK across gaps; cannot MOVE across gaps |
-| Wraith | Undead | 15 XP | Diagonal slide | Diagonal slide | Can MOVE across gaps; cannot ATTACK across gaps |
-| Fire Elemental | Redskin | 15 XP | Diagonal slide | Diagonal slide | Water blocks slide entirely (move and attack) |
+| Archer | Human | 15 XP | Diagonal slide | Diagonal slide (through 1 piece) | Can attack through one intervening piece |
+| Wraith | Undead | 15 XP | Diagonal slide | Diagonal slide | Water transparent (slides through water) |
+| Fire Elem. | Redskin | 15 XP | Diagonal slide | Diagonal slide | Water blocks slide entirely (move and attack) |
 | Troll | Greenskin | 15 XP | Diagonal slide | Diagonal slide | Water blocks slide entirely (move and attack) |
 
-Bishops are where species diverge most. The Archer/Wraith pair are mirror images — one crosses gaps to attack, the other to reposition. Fire Elemental and Troll are stopped cold by water.
+The Archer can attack enemies even if one piece stands between them on the diagonal — like a diagonal cannon. The Wraith and Archer are both water-transparent (slides pass through water), while Fire Elem. and Troll are completely blocked by water.
 
 ### Queens
 
@@ -139,7 +139,7 @@ Kobolds, Goblins, Iron Golems, and Ogres have cannon attacks — a ranged captur
 - The screen can be friendly or enemy — it just needs to exist.
 - Without a screen piece in the line, the cannon cannot capture.
 - Water squares are skipped (not treated as blockers for cannon lines).
-- The attacking unit does NOT move to the target square — the target is simply removed.
+- The capturing unit moves to the target's square (standard capture).
 
 **Example:** A Kobold on a1 wants to capture an enemy on a5. There must be exactly one piece on a2, a3, or a4 (the screen). If the line is empty or has two pieces between them, the cannon cannot fire.
 
@@ -164,10 +164,7 @@ Standard passable squares. No restrictions.
 ### Void
 - Off-board squares. Cannot be entered by any unit.
 - Creates the dungeon's corridors and chokepoints.
-- "Gaps" in diagonal lines (where a void interrupts a slide) interact differently per species:
-  - **Archer:** Can attack ACROSS a gap (diagonal capture crosses one void) but cannot move across it.
-  - **Wraith:** Can MOVE across a gap but cannot attack across it.
-  - All other diagonal sliders are stopped by gaps.
+- All sliding pieces stop at void boundaries — voids block slides for every unit equally.
 
 </div>
 

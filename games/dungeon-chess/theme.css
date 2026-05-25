@@ -70,6 +70,10 @@
   background: var(--dungeon-torch);
 }
 
+.cover-stats {
+  width: 420px;
+}
+
 .cover-stats .cs-num {
   color: var(--dungeon-torch);
 }
