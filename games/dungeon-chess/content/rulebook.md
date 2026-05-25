@@ -139,7 +139,7 @@ Kobolds, Goblins, Iron Golems, and Ogres have cannon attacks — a ranged captur
 - The screen can be friendly or enemy — it just needs to exist.
 - Without a screen piece in the line, the cannon cannot capture.
 - Water squares are skipped (not treated as blockers for cannon lines).
-- The capturing unit moves to the target's square (standard capture).
+- The cannon jumps over the screen and lands on the target's square (same as XiangQi).
 
 **Example:** A Kobold on a1 wants to capture an enemy on a5. There must be exactly one piece on a2, a3, or a4 (the screen). If the line is empty or has two pieces between them, the cannon cannot fire.
 
@@ -225,9 +225,13 @@ Players may undo their last move (reverting both their move and the AI's respons
 
 ### Map 1: Compact Skirmish (2-player)
 
+{{svg:compact-skirmish.svg "Compact Skirmish — 10×10 arena"}}
+
 A 10×10 open arena with a 4×4 water block in the centre (rows 3–6, columns 3–6). Spawn zones are the top 2 rows (AI) and bottom 2 rows (Player). Fast, tactical games with water forcing units around the middle.
 
 ### Map 2: Two Player Dungeon (2-player)
+
+{{svg:two-player-dungeon.svg "Two Player Dungeon — 20×8 cross"}}
 
 A 20×8 cross-shaped dungeon. Three chambers connected by narrow 2-wide corridors:
 - **Top chamber:** 8×3 (AI spawn)
@@ -238,6 +242,8 @@ A 20×8 cross-shaped dungeon. Three chambers connected by narrow 2-wide corridor
 Chokepoints force careful army composition. Knights and units that leap are valuable for crossing constraints.
 
 ### Map 3: Four Player Dungeon (4-player)
+
+{{svg:four-player-dungeon.svg "Four Player Dungeon — 20×20 symmetric cross"}}
 
 A 20×20 symmetric cross. Four spawn chambers at the cardinal edges, connected by narrow corridors to a central 8×8 arena with 4×4 water. Each arm has its own connector passage.
 - **Centre:** rows 6–13, cols 6–13 (with water at rows 8–11, cols 8–11)

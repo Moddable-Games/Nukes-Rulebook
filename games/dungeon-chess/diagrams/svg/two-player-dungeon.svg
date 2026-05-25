@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187 484" width="187" height="484">
+  <defs>
+    <style>
+      .cell { stroke: #2a2a2a; stroke-width: 1; }
+      .floor { fill: #d4c4a8; }
+      .water { fill: #4a90c8; opacity: 0.5; }
+      .void { fill: #1a1a2e; }
+      .spawn-player { stroke: #e8a838; stroke-width: 2; }
+      .spawn-ai { stroke: #c03030; stroke-width: 2; }
+      .legend-text { font-family: sans-serif; font-size: 10px; fill: #333; }
+    </style>
+  </defs>
+  <title>Two-Player Dungeon (20x8)</title>
+  <rect x="10" y="10" width="167" height="419" rx="6" ry="6" fill="#1a1a2e"/>
+  <rect x="10" y="10" width="19" height="19" class="cell floor spawn-ai"/>
+  <rect x="31" y="10" width="19" height="19" class="cell floor spawn-ai"/>
+  <rect x="52" y="10" width="19" height="19" class="cell floor spawn-ai"/>
+  <rect x="73" y="10" width="19" height="19" class="cell floor spawn-ai"/>
+  <rect x="94" y="10" width="19" height="19" class="cell floor spawn-ai"/>
+  <rect x="115" y="10" width="19" height="19" class="cell floor spawn-ai"/>
+  <rect x="136" y="10" width="19" height="19" class="cell floor spawn-ai"/>
+  <rect x="157" y="10" width="19" height="19" class="cell floor spawn-ai"/>
+  <rect x="10" y="31" width="19" height="19" class="cell floor spawn-ai"/>
+  <rect x="31" y="31" width="19" height="19" class="cell floor spawn-ai"/>
+  <rect x="52" y="31" width="19" height="19" class="cell floor spawn-ai"/>
+  <rect x="73" y="31" width="19" height="19" class="cell floor spawn-ai"/>
+  <rect x="94" y="31" width="19" height="19" class="cell floor spawn-ai"/>
+  <rect x="115" y="31" width="19" height="19" class="cell floor spawn-ai"/>
+  <rect x="136" y="31" width="19" height="19" class="cell floor spawn-ai"/>
+  <rect x="157" y="31" width="19" height="19" class="cell floor spawn-ai"/>
+  <rect x="10" y="52" width="19" height="19" class="cell floor spawn-ai"/>
+  <rect x="31" y="52" width="19" height="19" class="cell floor spawn-ai"/>
+  <rect x="52" y="52" width="19" height="19" class="cell floor spawn-ai"/>
+  <rect x="73" y="52" width="19" height="19" class="cell floor spawn-ai"/>
+  <rect x="94" y="52" width="19" height="19" class="cell floor spawn-ai"/>
+  <rect x="115" y="52" width="19" height="19" class="cell floor spawn-ai"/>
+  <rect x="136" y="52" width="19" height="19" class="cell floor spawn-ai"/>
+  <rect x="157" y="52" width="19" height="19" class="cell floor spawn-ai"/>
+  <rect x="73" y="73" width="19" height="19" class="cell floor"/>
+  <rect x="94" y="73" width="19" height="19" class="cell floor"/>
+  <rect x="73" y="94" width="19" height="19" class="cell floor"/>
+  <rect x="94" y="94" width="19" height="19" class="cell floor"/>
+  <rect x="73" y="115" width="19" height="19" class="cell floor"/>
+  <rect x="94" y="115" width="19" height="19" class="cell floor"/>
+  <rect x="10" y="136" width="19" height="19" class="cell floor"/>
+  <rect x="31" y="136" width="19" height="19" class="cell floor"/>
+  <rect x="52" y="136" width="19" height="19" class="cell floor"/>
+  <rect x="73" y="136" width="19" height="19" class="cell floor"/>
+  <rect x="94" y="136" width="19" height="19" class="cell floor"/>
+  <rect x="115" y="136" width="19" height="19" class="cell floor"/>
+  <rect x="136" y="136" width="19" height="19" class="cell floor"/>
+  <rect x="157" y="136" width="19" height="19" class="cell floor"/>
+  <rect x="10" y="157" width="19" height="19" class="cell floor"/>
+  <rect x="31" y="157" width="19" height="19" class="cell floor"/>
+  <rect x="52" y="157" width="19" height="19" class="cell floor"/>
+  <rect x="73" y="157" width="19" height="19" class="cell floor"/>
+  <rect x="94" y="157" width="19" height="19" class="cell floor"/>
+  <rect x="115" y="157" width="19" height="19" class="cell floor"/>
+  <rect x="136" y="157" width="19" height="19" class="cell floor"/>
+  <rect x="157" y="157" width="19" height="19" class="cell floor"/>
+  <rect x="10" y="178" width="19" height="19" class="cell floor"/>
+  <rect x="31" y="178" width="19" height="19" class="cell floor"/>
+  <rect x="52" y="178" width="19" height="19" class="cell water"/>
+  <rect x="73" y="178" width="19" height="19" class="cell water"/>
+  <rect x="94" y="178" width="19" height="19" class="cell water"/>
+  <rect x="115" y="178" width="19" height="19" class="cell water"/>
+  <rect x="136" y="178" width="19" height="19" class="cell floor"/>
+  <rect x="157" y="178" width="19" height="19" class="cell floor"/>
+  <rect x="10" y="199" width="19" height="19" class="cell floor"/>
+  <rect x="31" y="199" width="19" height="19" class="cell floor"/>
+  <rect x="52" y="199" width="19" height="19" class="cell water"/>
+  <rect x="73" y="199" width="19" height="19" class="cell water"/>
+  <rect x="94" y="199" width="19" height="19" class="cell water"/>
+  <rect x="115" y="199" width="19" height="19" class="cell water"/>
+  <rect x="136" y="199" width="19" height="19" class="cell floor"/>
+  <rect x="157" y="199" width="19" height="19" class="cell floor"/>
+  <rect x="10" y="220" width="19" height="19" class="cell floor"/>
+  <rect x="31" y="220" width="19" height="19" class="cell floor"/>
+  <rect x="52" y="220" width="19" height="19" class="cell water"/>
+  <rect x="73" y="220" width="19" height="19" class="cell water"/>
+  <rect x="94" y="220" width="19" height="19" class="cell water"/>
+  <rect x="115" y="220" width="19" height="19" class="cell water"/>
+  <rect x="136" y="220" width="19" height="19" class="cell floor"/>
+  <rect x="157" y="220" width="19" height="19" class="cell floor"/>
+  <rect x="10" y="241" width="19" height="19" class="cell floor"/>
+  <rect x="31" y="241" width="19" height="19" class="cell floor"/>
+  <rect x="52" y="241" width="19" height="19" class="cell water"/>
+  <rect x="73" y="241" width="19" height="19" class="cell water"/>
+  <rect x="94" y="241" width="19" height="19" class="cell water"/>
+  <rect x="115" y="241" width="19" height="19" class="cell water"/>
+  <rect x="136" y="241" width="19" height="19" class="cell floor"/>
+  <rect x="157" y="241" width="19" height="19" class="cell floor"/>
+  <rect x="10" y="262" width="19" height="19" class="cell floor"/>
+  <rect x="31" y="262" width="19" height="19" class="cell floor"/>
+  <rect x="52" y="262" width="19" height="19" class="cell floor"/>
+  <rect x="73" y="262" width="19" height="19" class="cell floor"/>
+  <rect x="94" y="262" width="19" height="19" class="cell floor"/>
+  <rect x="115" y="262" width="19" height="19" class="cell floor"/>
+  <rect x="136" y="262" width="19" height="19" class="cell floor"/>
+  <rect x="157" y="262" width="19" height="19" class="cell floor"/>
+  <rect x="10" y="283" width="19" height="19" class="cell floor"/>
+  <rect x="31" y="283" width="19" height="19" class="cell floor"/>
+  <rect x="52" y="283" width="19" height="19" class="cell floor"/>
+  <rect x="73" y="283" width="19" height="19" class="cell floor"/>
+  <rect x="94" y="283" width="19" height="19" class="cell floor"/>
+  <rect x="115" y="283" width="19" height="19" class="cell floor"/>
+  <rect x="136" y="283" width="19" height="19" class="cell floor"/>
+  <rect x="157" y="283" width="19" height="19" class="cell floor"/>
+  <rect x="73" y="304" width="19" height="19" class="cell floor"/>
+  <rect x="94" y="304" width="19" height="19" class="cell floor"/>
+  <rect x="73" y="325" width="19" height="19" class="cell floor"/>
+  <rect x="94" y="325" width="19" height="19" class="cell floor"/>
+  <rect x="73" y="346" width="19" height="19" class="cell floor"/>
+  <rect x="94" y="346" width="19" height="19" class="cell floor"/>
+  <rect x="10" y="367" width="19" height="19" class="cell floor spawn-player"/>
+  <rect x="31" y="367" width="19" height="19" class="cell floor spawn-player"/>
+  <rect x="52" y="367" width="19" height="19" class="cell floor spawn-player"/>
+  <rect x="73" y="367" width="19" height="19" class="cell floor spawn-player"/>
+  <rect x="94" y="367" width="19" height="19" class="cell floor spawn-player"/>
+  <rect x="115" y="367" width="19" height="19" class="cell floor spawn-player"/>
+  <rect x="136" y="367" width="19" height="19" class="cell floor spawn-player"/>
+  <rect x="157" y="367" width="19" height="19" class="cell floor spawn-player"/>
+  <rect x="10" y="388" width="19" height="19" class="cell floor spawn-player"/>
+  <rect x="31" y="388" width="19" height="19" class="cell floor spawn-player"/>
+  <rect x="52" y="388" width="19" height="19" class="cell floor spawn-player"/>
+  <rect x="73" y="388" width="19" height="19" class="cell floor spawn-player"/>
+  <rect x="94" y="388" width="19" height="19" class="cell floor spawn-player"/>
+  <rect x="115" y="388" width="19" height="19" class="cell floor spawn-player"/>
+  <rect x="136" y="388" width="19" height="19" class="cell floor spawn-player"/>
+  <rect x="157" y="388" width="19" height="19" class="cell floor spawn-player"/>
+  <rect x="10" y="409" width="19" height="19" class="cell floor spawn-player"/>
+  <rect x="31" y="409" width="19" height="19" class="cell floor spawn-player"/>
+  <rect x="52" y="409" width="19" height="19" class="cell floor spawn-player"/>
+  <rect x="73" y="409" width="19" height="19" class="cell floor spawn-player"/>
+  <rect x="94" y="409" width="19" height="19" class="cell floor spawn-player"/>
+  <rect x="115" y="409" width="19" height="19" class="cell floor spawn-player"/>
+  <rect x="136" y="409" width="19" height="19" class="cell floor spawn-player"/>
+  <rect x="157" y="409" width="19" height="19" class="cell floor spawn-player"/>
+  <rect x="10" y="444" width="10" height="10" fill="#d4c4a8" stroke="#2a2a2a" stroke-width="0.5"/>
+  <text x="24" y="453" class="legend-text">Floor</text>
+  <rect x="60" y="444" width="10" height="10" fill="#4a90c8" opacity="0.5" stroke="#2a2a2a" stroke-width="0.5"/>
+  <text x="74" y="453" class="legend-text">Water</text>
+  <rect x="10" y="460" width="10" height="10" fill="#d4c4a8" stroke="#e8a838" stroke-width="2"/>
+  <text x="24" y="469" class="legend-text">Player Spawn</text>
+  <rect x="105" y="460" width="10" height="10" fill="#d4c4a8" stroke="#c03030" stroke-width="2"/>
+  <text x="119" y="469" class="legend-text">AI Spawn</text>
+</svg>

@@ -102,18 +102,15 @@ function buildGame(slug) {
     );
   }
 
-  // --- Post-process: inject SVGs ---
-  function processSvgIncludes(html) {
-    return html.replace(
+  // --- Pre-process: inject SVGs (before markdown render to avoid typographer mangling) ---
+  function processSvgIncludes(text) {
+    return text.replace(
       /\{\{svg:([^\s"]+)\s*"([^"]*)"\}\}/g,
       (_, file, caption) => {
         const svgPath = resolve(gameDir, 'diagrams/svg', file);
-        const svg = readFile(svgPath);
-        let out = svg;
-        if (caption) {
-          out += `\n<p class="diagram-caption">${caption}</p>`;
-        }
-        return out;
+        if (!existsSync(svgPath)) return `<!-- missing: ${file} -->`;
+        const svg = readFile(svgPath).replace(/\n\s*\n/g, '\n');
+        return caption ? `${svg}\n<p class="diagram-caption">${caption}</p>` : svg;
       }
     );
   }
@@ -131,8 +128,8 @@ function buildGame(slug) {
   // --- Render markdown ---
   const md = createMarkdownRenderer();
   const withIncludes = processIncludes(content);
-  let rendered = md.render(withIncludes);
-  rendered = processSvgIncludes(rendered);
+  const withSvgs = processSvgIncludes(withIncludes);
+  let rendered = md.render(withSvgs);
   rendered = addRulesClass(rendered);
   rendered = addTableClass(rendered);
 
