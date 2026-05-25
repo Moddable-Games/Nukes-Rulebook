@@ -132,7 +132,14 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 
 #### 2026-05-25
 - Added version.txt + bump.sh cache-busting system with footer version display
-- Moddable Chess: restructured as variant hub + 20 individual sub-pages
+- Moddable Chess: restructured as variant hub + 20 individual sub-pages with prev/next nav
+- Moddable Chess: synced with app (20 variants, removed 7 rejected), added cover headers
+- Moddable Chess: SVG board diagrams for Capablanca, Grand, Courier, Breakthrough
+- Dungeon Chess: complete rulebook rewrite from source code (was entirely inaccurate)
+- Dungeon Chess: balance pass — unique abilities and XP costs for all 24 units
+- Dungeon Chess: SVG map diagrams for all 3 maps
+- Build system: SVG injection moved pre-render, blank-line stripping, variant sub-page builder
+- Header logo links to homepage on all pages
 - Moddable Chess: synced with moddable-chess app (20 variants, removed 7 rejected variants)
 - Build system: added variant sub-page generation for games with `variants: true`
 
