@@ -1,0 +1,101 @@
+/* Variant Sub-Page Overrides
+   Spacing, prev/next pager, footer separation
+   ========================================================================== */
+
+.content .section {
+  padding: var(--space-xl) 0;
+}
+
+.content .section h2 {
+  margin-top: 0;
+}
+
+/* Variant pager — sits between content and footer as its own band */
+.variant-pager {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 24px var(--space-xl);
+  border-top: 1px solid var(--divider-color);
+  background: var(--bg-primary);
+}
+
+.variant-pager-prev,
+.variant-pager-next {
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--text-primary);
+  padding: 10px 18px;
+  border: 1.5px solid var(--divider-color);
+  border-radius: var(--radius-sm);
+  transition: border-color 0.2s, background 0.2s, color 0.2s;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 38%;
+}
+
+.variant-pager-prev:hover,
+.variant-pager-next:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.variant-pager-prev {
+  text-align: left;
+}
+
+.variant-pager-next {
+  text-align: right;
+  margin-left: auto;
+}
+
+.variant-pager-hub {
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--accent);
+  padding: 8px 16px;
+  border: 1px solid var(--accent-trans);
+  border-radius: var(--radius-sm);
+  flex-shrink: 0;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.variant-pager-hub:hover {
+  border-color: var(--accent);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.variant-pager-spacer {
+  width: 38%;
+}
+
+@media (max-width: 600px) {
+  .variant-pager {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 16px;
+  }
+
+  .variant-pager-prev,
+  .variant-pager-next {
+    max-width: 45%;
+    font-size: 12px;
+    padding: 8px 14px;
+  }
+
+  .variant-pager-hub {
+    order: -1;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+}

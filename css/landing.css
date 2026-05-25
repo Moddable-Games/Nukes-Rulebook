@@ -288,6 +288,14 @@ body {
   color: var(--text-muted);
 }
 
+.footer-version {
+  display: block;
+  margin-top: 8px;
+  font-size: 0.65rem;
+  color: var(--text-dim);
+  font-family: "SF Mono", "Fira Code", monospace;
+}
+
 /* Responsive */
 @media (max-width: 640px) {
   .landing {

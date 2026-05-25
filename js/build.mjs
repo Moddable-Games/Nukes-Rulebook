@@ -231,6 +231,63 @@ function buildGame(slug) {
   console.log(`  Built dist/${slug}/index.html`);
 }
 
+// --- Build variant sub-pages for games with variants: true ---
+function buildVariants(slug) {
+  const gameDir = resolve(GAMES_DIR, slug);
+  const variantsDir = resolve(gameDir, 'content/variants');
+  if (!existsSync(variantsDir)) return;
+
+  const parentSrc = readFileSync(resolve(gameDir, 'content/rulebook.md'), 'utf8');
+  const { data: parentMeta } = matter(parentSrc);
+  if (!parentMeta.variants) return;
+
+  const variantTemplatePath = resolve(gameDir, 'templates/variant-shell.html');
+  const fallbackTemplatePath = resolve(SHARED_DIR, 'templates/shell.html');
+  const templatePath = existsSync(variantTemplatePath) ? variantTemplatePath : fallbackTemplatePath;
+  const template = readFileSync(templatePath, 'utf8');
+
+  const md = createMarkdownRenderer();
+
+  const variantFiles = readdirSync(variantsDir).filter(f => f.endsWith('.md'));
+
+  const variants = variantFiles.map(file => {
+    const src = readFileSync(resolve(variantsDir, file), 'utf8');
+    const { data: meta, content } = matter(src);
+    return { file, meta, content, slug: meta.slug || file.replace('.md', '') };
+  });
+
+  variants.sort((a, b) => (a.meta.order || 999) - (b.meta.order || 999));
+
+  for (let i = 0; i < variants.length; i++) {
+    const { meta, content, slug: variantSlug } = variants[i];
+
+    let rendered = md.render(content);
+    rendered = rendered.replace(/<ul>\n/g, '<ul class="rules">\n');
+    rendered = rendered.replace(/<table>/g, '<table class="t">');
+
+    const prev = variants[i - 1];
+    const next = variants[i + 1];
+    const prevLink = prev
+      ? `<a href="../${prev.slug}/" class="variant-pager-prev">← ${prev.meta.title}</a>`
+      : '<span class="variant-pager-spacer"></span>';
+    const nextLink = next
+      ? `<a href="../${next.slug}/" class="variant-pager-next">${next.meta.title} →</a>`
+      : '<span class="variant-pager-spacer"></span>';
+
+    let output = template.replace('{{CONTENT}}', rendered);
+    output = output.replace(/\{\{variant_title\}\}/g, meta.title || variantSlug);
+    output = output.replace(/\{\{version\}\}/g, parentMeta.version || '');
+    output = output.replace('{{PREV_LINK}}', prevLink);
+    output = output.replace('{{NEXT_LINK}}', nextLink);
+
+    const outDir = resolve(DIST_DIR, slug, 'variants', variantSlug);
+    mkdirSync(outDir, { recursive: true });
+    writeFileSync(resolve(outDir, 'index.html'), output);
+  }
+
+  console.log(`  Built ${variants.length} variant pages for ${slug}`);
+}
+
 // --- Generate landing page from frontmatter ---
 function buildLanding() {
   const allSlugs = readdirSync(GAMES_DIR, { withFileTypes: true })
@@ -250,6 +307,8 @@ function buildLanding() {
 
   const statusLabels = { live: 'Live', alpha: 'Alpha', playtest: 'Playtest', dev: 'In Dev' };
   const statusClasses = { live: 'badge--live', alpha: 'badge--alpha', playtest: 'badge--playtest', dev: 'badge--dev' };
+
+  const version = readFileSync(resolve(ROOT, 'version.txt'), 'utf8').trim();
 
   function logoPath(slug) {
     const dir = resolve(GAMES_DIR, slug, 'logos');
@@ -290,7 +349,7 @@ function buildLanding() {
 <title>Moddable Rules — Game Rulebooks</title>
 <meta name="description" content="Official rulebooks for games published by Moddable Games.">
 <link rel="icon" type="image/svg+xml" href="shared/logos/favicon.svg">
-<link rel="stylesheet" href="css/landing.css">
+<link rel="stylesheet" href="css/landing.css?v=${version}">
 </head>
 <body>
 
@@ -316,11 +375,12 @@ ${cards}
 
   <footer class="landing-footer">
     <a href="https://moddable.games" target="_blank" rel="noopener" class="landing-footer-link">Moddable Games</a> &middot; &copy; 2012&ndash;2026 All Rights Reserved
+    <span class="footer-version">v${version}</span>
   </footer>
 
 </div>
 
-<script src="js/landing.js"></script>
+<script src="js/landing.js?v=${version}"></script>
 </body>
 </html>
 `;
@@ -334,6 +394,7 @@ console.log(`Building ${gameSlugs.length} game(s): ${gameSlugs.join(', ')}`);
 
 for (const slug of gameSlugs) {
   buildGame(slug);
+  buildVariants(slug);
 }
 
 buildLanding();

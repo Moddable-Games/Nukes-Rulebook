@@ -38,13 +38,15 @@ games/
   talisman-hexed/        Full rulebook (live) — mod of Talisman 4e
   hyper-imperium/        Full rulebook (live) — mod of TI4
   econopoly/             Full rulebook (live) — mod of Monopoly
+  moddable-chess/        Variant library hub + 20 sub-pages (alpha) — platform
 shared/
   css/                   Design tokens, base styles, components
   fonts/                 Self-hosted WOFF2 web fonts
   templates/             Shared fallback shell template
   logos/                 Moddable brand assets
 js/
-  build.mjs             Multi-game build system
+  build.mjs             Multi-game build system (+ variant sub-pages)
+  landing.js            Landing page filter pills
   pdf.mjs               PDF generation (Puppeteer)
   pdf-paginate.mjs      Manual pagination engine
   toc.js                Client-side TOC with scroll tracking
@@ -52,20 +54,26 @@ css/
   landing.css           Landing page styles
 dist/                   BUILD OUTPUT (all games)
 index.html             Landing page (game selector)
+version.txt            Single-source version number
+bump.sh                Version bump + query string propagation
 ```
 
 Each game directory contains:
 ```
 games/{slug}/
   content/rulebook.md    Canonical rules source
+  content/variants/*.md  Sub-pages (if variants: true in frontmatter)
   templates/
     shell.html           Game-specific HTML shell
+    variant-shell.html   Template for variant sub-pages
     partials/            Visual components (unit cards, etc.)
   diagrams/svg/          SVG illustrations
   theme.css              Game colour palette and overrides
   logos/                 Game-specific artwork
   pdf/                   Generated PDFs
 ```
+
+Games with `variants: true` in their frontmatter get individual sub-pages built to `dist/{slug}/variants/{variant-slug}/index.html`.
 
 ---
 
@@ -121,6 +129,12 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 ---
 
 ## Changelog
+
+#### 2026-05-25
+- Added version.txt + bump.sh cache-busting system with footer version display
+- Moddable Chess: restructured as variant hub + 20 individual sub-pages
+- Moddable Chess: synced with moddable-chess app (20 variants, removed 7 rejected variants)
+- Build system: added variant sub-page generation for games with `variants: true`
 
 #### 2026-05-23
 - Added Moddable Chess combined variant library (12 variants: Regular, XiangQi, Capablanca, Hexagonal, Alice, Fog of War, 4-Player, Courier, Omega, Grand, 3-Board, 4-Board)

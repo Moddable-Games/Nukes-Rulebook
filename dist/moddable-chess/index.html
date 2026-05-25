@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Moddable Chess — Complete Variant Library v0.1.0</title>
+<title>Moddable Chess — Complete Variant Library v0.2.0</title>
 <meta name="description" content="Rules for every chess variant supported by the Moddable Chess engine.">
-<meta property="og:title" content="Moddable Chess — Variant Library v0.1.0">
-<meta property="og:description" content="Every chess variant, one engine. Complete rules for 12+ variants.">
+<meta property="og:title" content="Moddable Chess — Variant Library v0.2.0">
+<meta property="og:description" content="Every chess variant, one engine. Complete rules for 20 variants.">
 <meta property="og:type" content="website">
 <link rel="stylesheet" href="../../shared/css/fonts.css">
 <link rel="stylesheet" href="../../shared/css/tokens.css">
@@ -19,9 +19,9 @@
 <div class="page">
 
 <header class="doc-header" role="banner">
-  <div class="hdr-brand"><img src="../../shared/logos/moddable-white.png" alt="Moddable Games"></div>
+  <div class="hdr-brand"><a href="../../index.html"><img src="../../shared/logos/moddable-white.png" alt="Moddable Games"></a></div>
   <div class="hdr-links"><a href="../../index.html" class="hdr-link">All Rules</a><a href="../content/rulebook.md" class="hdr-link">Markdown</a></div>
-  <span class="hdr-meta">Variant Library · v0.1.0</span>
+  <span class="hdr-meta">Variant Library · v0.2.0</span>
 </header>
 
 <div class="cover">
@@ -30,341 +30,61 @@
   <div class="cover-rule"></div>
   <p class="cover-tagline">Every chess variant, one engine</p>
   <div class="cover-stats">
-    <div class="cover-stat"><span class="cs-num">12+</span><span class="cs-lbl">Variants</span></div>
+    <div class="cover-stat"><span class="cs-num">20</span><span class="cs-lbl">Variants</span></div>
     <div class="cover-stat"><span class="cs-num">2–6</span><span class="cs-lbl">Players</span></div>
     <div class="cover-stat"><span class="cs-num">10+</span><span class="cs-lbl">Age</span></div>
   </div>
-  <p class="cover-pub">Published by Moddable Games · v0.1.0</p>
+  <p class="cover-pub">Published by Moddable Games · v0.2.0</p>
 </div>
 
 <nav class="toc" id="toc" aria-label="Table of contents"></nav>
 
 <main id="main-content" class="content">
 
-<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Variant 1</span><span class="eyebrow-line"></span></div>
-<h2>Regular Chess {#regular}</h2>
-<p>The baseline. Standard FIDE chess on an 8×8 board. Included as the foundation from which all variants diverge.</p>
-<p><strong>Board:</strong> 8×8, 64 squares alternating light/dark.</p>
-<p><strong>Pieces (per side):</strong> 1 King, 1 Queen, 2 Rooks, 2 Bishops, 2 Knights, 8 Pawns.</p>
-<p><strong>Setup:</strong> White on ranks 1–2, Black on ranks 7–8. Back rank (from a-file): Rook, Knight, Bishop, Queen, King, Bishop, Knight, Rook. Pawns fill the second rank.</p>
-<p><strong>Win condition:</strong> Checkmate the opponent’s King, or opponent resigns. Draws by stalemate, threefold repetition, fifty-move rule, or insufficient material.</p>
-<p><strong>Special rules:</strong> Castling (kingside/queenside), en passant capture, pawn promotion on the eighth rank.</p>
+<div class="section variant-hub">
+<h2>Variant Library</h2>
+<p>Moddable Chess includes 20 playable variants spanning classic rules, asymmetric battles, hidden information, and expanded boards. Each variant has its own complete rules page.</p>
+<h3>Standard Board (8×8)</h3>
+<div class="variant-grid">
+<ul class="rules">
+<li><a href="variants/standard/">Standard Chess</a> — Classic FIDE rules</li>
+<li><a href="variants/king-of-the-hill/">King of the Hill</a> — King reaches centre = instant win</li>
+<li><a href="variants/three-check/">Three-Check</a> — Deliver three checks to win</li>
+<li><a href="variants/antichess/">Antichess</a> — Forced captures, lose all pieces to win</li>
+<li><a href="variants/racing-kings/">Racing Kings</a> — No checks allowed, race King to rank 8</li>
+<li><a href="variants/fischer-random/">Fischer Random</a> — 960 randomised starting positions</li>
+<li><a href="variants/rifle/">Rifle Chess</a> — Capturing pieces stay on their square</li>
+<li><a href="variants/atomic/">Atomic</a> — Captures explode adjacent pieces</li>
+<li><a href="variants/marseillais/">Marseillais</a> — Two moves per turn</li>
+<li><a href="variants/duck-chess/">Duck Chess</a> — Place a blocker duck after each move</li>
+<li><a href="variants/fog-of-war/">Fog of War</a> — Only see squares your pieces attack</li>
+<li><a href="variants/no-castling/">No Castling</a> — Standard chess, castling disabled</li>
+<li><a href="variants/torpedo/">Torpedo Chess</a> — Pawns can always double-move</li>
+<li><a href="variants/horde/">Horde Chess</a> — 36 pawns vs a normal army</li>
+<li><a href="variants/extinction/">Extinction Chess</a> — Lose when any piece type is eliminated</li>
+<li><a href="variants/maharaja/">Maharaja &amp; Sepoys</a> — One super-piece vs a full army</li>
+</ul>
 </div>
-<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Variant 2</span><span class="eyebrow-line"></span></div>
-<h2>XiangQi — Chinese Chess {#xiangqi}</h2>
-<p>One of the oldest and most-played chess variants in the world. Over a billion players, primarily in China, Vietnam, and diaspora communities. The game predates Western chess and diverged from the same Indian ancestor (Chaturanga) around the 7th century.</p>
-<p><strong>Board:</strong> 9×10 grid of intersections (pieces sit on points, not squares). A horizontal “river” divides the board between ranks 5 and 6. Each side has a 3×3 “palace” in the centre of the back three ranks.</p>
-<p><strong>Pieces (per side):</strong></p>
-<table class="t">
-<thead>
-<tr>
-<th>Piece</th>
-<th>Qty</th>
-<th>Movement</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>General (將/帥)</td>
-<td>1</td>
-<td>One step orthogonally, confined to the palace</td>
-</tr>
-<tr>
-<td>Advisor (士/仕)</td>
-<td>2</td>
-<td>One step diagonally, confined to the palace</td>
-</tr>
-<tr>
-<td>Elephant (象/相)</td>
-<td>2</td>
-<td>Exactly two steps diagonally; cannot cross the river; blocked if the intermediate point is occupied</td>
-</tr>
-<tr>
-<td>Horse (馬/傌)</td>
-<td>2</td>
-<td>One step orthogonal + one step diagonal outward (like a knight but blockable at the first step)</td>
-</tr>
-<tr>
-<td>Chariot (車/俥)</td>
-<td>2</td>
-<td>Slides any distance orthogonally (identical to a rook)</td>
-</tr>
-<tr>
-<td>Cannon (砲/炮)</td>
-<td>2</td>
-<td>Moves like a chariot; captures by jumping over exactly one intervening piece (the “screen”)</td>
-</tr>
-<tr>
-<td>Soldier (兵/卒)</td>
-<td>5</td>
-<td>One step forward only; after crossing the river, may also move one step sideways</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Key differences from Western chess:</strong></p>
+<h3>Expanded Boards</h3>
+<div class="variant-grid">
 <ul class="rules">
-<li><strong>No diagonal sliding</strong> for any piece except within the palace (Advisors).</li>
-<li><strong>Generals cannot face each other</strong> on the same file with no intervening piece (the “flying general” rule).</li>
-<li><strong>Elephants cannot cross the river</strong> — they are defensive pieces only.</li>
-<li><strong>Horses can be blocked</strong> — if the orthogonal step is occupied, the horse cannot move in that direction.</li>
-<li><strong>Cannons</strong> are the most distinctive piece: they move freely but capture only by jumping over a screen.</li>
+<li><a href="variants/capablanca/">Capablanca Chess</a> — 10×8 with Archbishop + Chancellor</li>
+<li><a href="variants/grand/">Grand Chess</a> — 10×10, same new pieces, bigger stage</li>
+<li><a href="variants/courier/">Courier Chess</a> — 12×8, medieval variant from 1202</li>
 </ul>
-<p><strong>Win condition:</strong> Checkmate or stalemate the opponent’s General. (Unlike Western chess, stalemate is a LOSS for the stalemated player.)</p>
-<p><strong>Attribution:</strong> Traditional Chinese game. Formal rules standardized by the Chinese XiangQi Association. Public domain.</p>
 </div>
-<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Variant 3</span><span class="eyebrow-line"></span></div>
-<h2>Capablanca Chess {#capablanca}</h2>
-<p>Invented by World Champion José Raúl Capablanca in the 1920s to address what he saw as the “draw death” of standard chess. A larger board with two new compound pieces creates richer tactical possibilities.</p>
-<p><strong>Board:</strong> 10×8 (ten files, eight ranks).</p>
-<p><strong>Pieces (per side):</strong> Standard 16 pieces plus:</p>
+<h3>Reduced Board</h3>
+<div class="variant-grid">
 <ul class="rules">
-<li><strong>Archbishop</strong> (♗+♞) — combines Bishop and Knight movement. Placed between the Queen’s Knight and Queen’s Bishop.</li>
-<li><strong>Chancellor</strong> (♖+♞) — combines Rook and Knight movement. Placed between the King’s Knight and King’s Bishop.</li>
+<li><a href="variants/breakthrough/">Breakthrough</a> — 7×7, pawns only, first to far rank wins</li>
 </ul>
-<p><strong>Setup (from a-file):</strong> Rook, Knight, Archbishop, Bishop, Queen, King, Bishop, Chancellor, Knight, Rook. Pawns on the second rank (10 pawns per side).</p>
-<p><strong>Rules:</strong> Identical to standard chess with these additions:</p>
-<ul class="rules">
-<li>Castling moves the King three squares toward the Rook (to accommodate the wider board).</li>
-<li>Pawns may promote to Archbishop or Chancellor in addition to standard pieces.</li>
-<li>No en passant differences — same rules apply.</li>
-</ul>
-<p><strong>Win condition:</strong> Checkmate, same as standard chess.</p>
-<p><strong>Attribution:</strong> José Raúl Capablanca, c. 1920. Public domain.</p>
-</div>
-<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Variant 4</span><span class="eyebrow-line"></span></div>
-<h2>Hexagonal Chess — Glinski {#hexagonal}</h2>
-<p>The most popular hexagonal chess variant. Invented by Władysław Gliński in 1936, it adapts chess to a hexagonal grid where pieces have six primary directions instead of four orthogonal + four diagonal.</p>
-<p><strong>Board:</strong> 91 hexagonal cells arranged in a hexagonal shape (11 files of varying length). Three cell colours instead of two.</p>
-<p><strong>Pieces (per side):</strong> 1 King, 1 Queen, 3 Bishops, 2 Rooks, 2 Knights, 9 Pawns.</p>
-<p><strong>Movement adaptations:</strong></p>
-<ul class="rules">
-<li><strong>Orthogonal</strong> = along hex edges (6 directions). Rooks slide along these.</li>
-<li><strong>Diagonal</strong> = through hex vertices (6 directions). Bishops slide along these. Each bishop stays on one of three cell colours permanently.</li>
-<li><strong>King</strong> moves one step in any of the 12 directions.</li>
-<li><strong>Queen</strong> slides in all 12 directions.</li>
-<li><strong>Knight</strong> leaps to the nearest cell not reachable by a single King move — effectively two steps along one axis then one step at a 60° angle.</li>
-<li><strong>Pawns</strong> advance straight forward (toward opponent’s back rank) and capture one step diagonally forward. No double-step or en passant in the original rules.</li>
-</ul>
-<p><strong>Win condition:</strong> Checkmate, same as standard chess.</p>
-<p><strong>Key differences:</strong></p>
-<ul class="rules">
-<li>Three bishops per side (one per cell colour) instead of two.</li>
-<li>Nine pawns per side instead of eight.</li>
-<li>No castling.</li>
-<li>Promotion occurs on any cell of the opponent’s back edge.</li>
-</ul>
-<p><strong>Attribution:</strong> Władysław Gliński, 1936. Public domain.</p>
-</div>
-<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Variant 5</span><span class="eyebrow-line"></span></div>
-<h2>Alice Chess {#alice}</h2>
-<p>A mind-bending variant using two standard boards. After each move, the moved piece transfers to the corresponding square on the other board. Creates unique tactical puzzles where pieces phase between dimensions.</p>
-<p><strong>Boards:</strong> Two standard 8×8 boards, labelled A and B. Board A starts with the normal chess setup; Board B starts empty.</p>
-<p><strong>Rules:</strong></p>
-<ol>
-<li>A piece on Board A makes a legal move on Board A.</li>
-<li>After completing the move, the piece transfers to the same square on Board B.</li>
-<li>The destination square on Board B must be empty for the transfer to occur.</li>
-<li>On subsequent turns, a piece on Board B makes its move on Board B, then transfers back to Board A (same vacancy requirement).</li>
-<li>A piece may only move if the corresponding destination square on the other board is vacant.</li>
-</ol>
-<p><strong>Captures:</strong> A piece captures normally on its current board, then transfers to the other board.</p>
-<p><strong>Check:</strong> A King is in check if an enemy piece on either board could capture it (accounting for the transfer rule).</p>
-<p><strong>Win condition:</strong> Checkmate, accounting for the two-board geometry.</p>
-<p><strong>Key implications:</strong></p>
-<ul class="rules">
-<li>Pieces constantly phase between boards, making long-term planning exceptionally difficult.</li>
-<li>A piece that just moved is “safe” from most attacks because it’s now on the other board.</li>
-<li>Blocking a check is harder because the blocking piece will transfer away after moving.</li>
-</ul>
-<p><strong>Attribution:</strong> V.R. Parton, 1953. Public domain.</p>
-</div>
-<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Variant 6</span><span class="eyebrow-line"></span></div>
-<h2>Fog of War Chess {#fog-of-war}</h2>
-<p>A hidden-information variant where each player can only see squares that their pieces can legally move to or attack. All other squares are obscured. Transforms chess from a perfect-information game into one of reconnaissance and deduction.</p>
-<p><strong>Board:</strong> Standard 8×8, but each player’s view is limited.</p>
-<p><strong>Visibility rules:</strong></p>
-<ul class="rules">
-<li>You can see any square that at least one of your pieces could legally move to or capture on.</li>
-<li>You can always see squares occupied by your own pieces.</li>
-<li>Enemy pieces on squares you cannot see are invisible to you.</li>
-<li>Empty squares you cannot see appear as fog (undifferentiated).</li>
-</ul>
-<p><strong>Key rule changes:</strong></p>
-<ul class="rules">
-<li><strong>No check announcements.</strong> You are not told when your King is in check. If you fail to notice and don’t resolve it, the King can be captured.</li>
-<li><strong>King capture wins.</strong> The game ends immediately when a King is captured — there is no checkmate, only capture.</li>
-<li><strong>Illegal moves into check are legal</strong> — since you may not know you’re in check. You simply lose if the opponent captures your King.</li>
-<li><strong>Castling and en passant</strong> follow normal rules but are only possible when you have visibility of the relevant squares.</li>
-</ul>
-<p><strong>Win condition:</strong> Capture the opponent’s King.</p>
-<p><strong>Strategy implications:</strong></p>
-<ul class="rules">
-<li>Scouts (Knights, Bishops) become critical for revealing enemy positions.</li>
-<li>The centre becomes more important for maintaining broad visibility.</li>
-<li>Gambits to sacrifice material for information are viable.</li>
-<li>Endgames play very differently when you can’t see the opponent’s King position.</li>
-</ul>
-<p><strong>Attribution:</strong> Jens Bæk Nielsen and Torben Osted, 1989. Popularised on Chess.com. Public domain rules.</p>
-</div>
-<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Variant 7</span><span class="eyebrow-line"></span></div>
-<h2>4-Player Chess {#4-player}</h2>
-<p>The de facto standard for multiplayer chess. Four armies on a cross-shaped board. Played as free-for-all or 2v2 teams.</p>
-<p><strong>Board:</strong> Cross-shaped — a standard 8×8 centre with 3×8 extensions on each side (total 160 squares). Each extension is a player’s home territory.</p>
-<p><strong>Players:</strong> 4 (Red, Blue, Yellow, Green). Seated at the four extensions.</p>
-<p><strong>Pieces:</strong> Standard chess set per player (King, Queen, 2 Rooks, 2 Bishops, 2 Knights, 8 Pawns) deployed in the home extension.</p>
-<p><strong>Turn order:</strong> Clockwise. Red → Blue → Yellow → Green → Red…</p>
-<p><strong>Free-for-all rules:</strong></p>
-<ul class="rules">
-<li>When a player is checkmated, their pieces become “dead” (grey) — they remain on the board as obstacles but cannot move or capture.</li>
-<li>The last player with a living King wins.</li>
-<li>Points are awarded for captures: Pawn = 1, Knight/Bishop = 3, Rook = 5, Queen = 9, Checkmate = 20.</li>
-</ul>
-<p><strong>Team rules (2v2):</strong></p>
-<ul class="rules">
-<li>Opposite players are partners (Red+Yellow vs Blue+Green).</li>
-<li>When one partner is checkmated, the game continues with the remaining partner.</li>
-<li>Team wins when both opponents are checkmated.</li>
-<li>Partners may not capture each other’s pieces.</li>
-</ul>
-<p><strong>Key differences from standard chess:</strong></p>
-<ul class="rules">
-<li>No castling in most rulesets.</li>
-<li>Pawns promote on the far edge of the board (opposite side from start).</li>
-<li>Diplomacy and temporary alliances are part of free-for-all strategy.</li>
-</ul>
-<p><strong>Attribution:</strong> Popularised by Chess.com (2017). Historical multiplayer chess variants date to the 1700s. Public domain.</p>
-</div>
-<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Variant 8</span><span class="eyebrow-line"></span></div>
-<h2>Courier Chess {#courier}</h2>
-<p>A medieval large-board variant documented since 1202, predating the modern Queen and Bishop moves. One of the oldest recorded chess variants in Europe.</p>
-<p><strong>Board:</strong> 12×8 (96 squares).</p>
-<p><strong>Pieces (per side, from a-file):</strong> Rook, Knight, Elephant, Courier, Sage, King, General, Courier, Elephant, Knight, Rook, Rook. 12 Pawns on the second rank.</p>
-<table class="t">
-<thead>
-<tr>
-<th>Piece</th>
-<th>Movement</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>King</td>
-<td>One step any direction (as standard)</td>
-</tr>
-<tr>
-<td>General</td>
-<td>One step diagonally only (precursor to Queen — very weak)</td>
-</tr>
-<tr>
-<td>Courier</td>
-<td>Slides diagonally any distance (modern Bishop)</td>
-</tr>
-<tr>
-<td>Sage (Schleich)</td>
-<td>One step in any direction (same as King, but not royal)</td>
-</tr>
-<tr>
-<td>Elephant (Alfil)</td>
-<td>Exactly two steps diagonally, jumping over the intermediate square</td>
-</tr>
-<tr>
-<td>Rook</td>
-<td>Slides orthogonally (as standard)</td>
-</tr>
-<tr>
-<td>Knight</td>
-<td>L-shape jump (as standard)</td>
-</tr>
-<tr>
-<td>Pawn</td>
-<td>One step forward, captures diagonally. No double-step. Promotes to General only.</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Win condition:</strong> Checkmate or stalemate (stalemate = win for the side delivering it in medieval rules).</p>
-<p><strong>Historical note:</strong> The Courier was the first piece to move like a modern Bishop — this game introduced unlimited diagonal sliding to European chess centuries before it was adopted into the standard game.</p>
-<p><strong>Attribution:</strong> First documented 1202 (Wirnt von Gravenberg). Public domain.</p>
-</div>
-<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Variant 9</span><span class="eyebrow-line"></span></div>
-<h2>Omega Chess {#omega}</h2>
-<p>A modern 10×10 variant with four extra corner squares and two new pieces. Designed to be fully backwards-compatible with standard chess (the 8×8 centre plays identically).</p>
-<p><strong>Board:</strong> 10×10 grid plus four “wizard squares” — one at each corner outside the main grid (total 104 squares).</p>
-<p><strong>New pieces:</strong></p>
-<ul class="rules">
-<li><strong>Champion</strong> — Leaps exactly 1 or 2 squares orthogonally, or exactly 2 squares diagonally. Cannot be blocked. Combines aspects of King and Knight.</li>
-<li><strong>Wizard</strong> — Leaps to any square a camel would (3+1 L-shape) or a ferz would (one step diagonal). Starts on the corner wizard squares.</li>
-</ul>
-<p><strong>Setup:</strong> Standard pieces on ranks 1–2 of the 10×10 board with Champions flanking the Rooks and Wizards on the corner squares. 10 Pawns per side.</p>
-<p><strong>Rules:</strong> Same as standard chess with additions:</p>
-<ul class="rules">
-<li>Castling moves King three squares toward Rook.</li>
-<li>Pawns may double-step from rank 2 or rank 3.</li>
-<li>Wizards may re-enter the corner squares.</li>
-<li>Promotion: any piece including Champion or Wizard.</li>
-</ul>
-<p><strong>Win condition:</strong> Checkmate.</p>
-<p><strong>Attribution:</strong> Daniel MacDonald, 1992. Patented (expired). Rules are public domain.</p>
-</div>
-<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Variant 10</span><span class="eyebrow-line"></span></div>
-<h2>Grand Chess {#grand}</h2>
-<p>A 10×10 variant that adds the Archbishop and Chancellor without changing any existing piece rules. Considered one of the cleanest large-board variants — no special rules, just a bigger stage.</p>
-<p><strong>Board:</strong> 10×10 (100 squares).</p>
-<p><strong>Pieces (per side):</strong> 1 King, 1 Queen, 1 Archbishop, 1 Chancellor, 2 Rooks, 2 Bishops, 2 Knights, 10 Pawns.</p>
-<ul class="rules">
-<li><strong>Archbishop</strong> (♗+♞) — Bishop + Knight compound.</li>
-<li><strong>Chancellor</strong> (♖+♞) — Rook + Knight compound.</li>
-</ul>
-<p><strong>Setup:</strong> Pawns on rank 3. Back two ranks arranged: empty corners, pieces spread across ranks 1–2 with King and Queen central.</p>
-<p><strong>Key rules:</strong></p>
-<ul class="rules">
-<li><strong>No castling.</strong> The wider board makes it unnecessary.</li>
-<li><strong>Pawn promotion:</strong> Pawns reaching rank 8 or 9 MAY promote. Pawns reaching rank 10 MUST promote. Promotion to any captured piece only — you cannot promote if all pieces of that type are on the board.</li>
-<li><strong>En passant</strong> works normally.</li>
-</ul>
-<p><strong>Win condition:</strong> Checkmate.</p>
-<p><strong>Attribution:</strong> Christian Freeling, 1984. Public domain.</p>
-</div>
-<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Variant 11</span><span class="eyebrow-line"></span></div>
-<h2>3-Board Chess {#3-board}</h2>
-<p>Three standard chessboards placed side by side. Pieces can move across board boundaries along shared edges, creating a spatial challenge where threats come from unexpected directions.</p>
-<p><strong>Boards:</strong> Three 8×8 boards arranged in a row (left, centre, right). Edges where boards meet are “open” — pieces can cross freely.</p>
-<p><strong>Players:</strong> 3 (one per board, or free-for-all with each player starting on their board).</p>
-<p><strong>Setup:</strong> Each player sets up a standard chess army on their home board (ranks 1–2 from their perspective).</p>
-<p><strong>Movement across boards:</strong></p>
-<ul class="rules">
-<li>A piece moving off the right edge of Board 1 continues onto the left edge of Board 2 (same rank).</li>
-<li>Sliding pieces (Rook, Bishop, Queen) continue their slide across board boundaries without stopping.</li>
-<li>Knights can jump to squares on adjacent boards.</li>
-</ul>
-<p><strong>Win condition:</strong> Last player with a living King wins. A checkmated player’s pieces are removed.</p>
-<p><strong>Key strategy:</strong> Board-edge squares that seem safe in standard chess become vulnerable to cross-board attacks. The centre board is contested territory.</p>
-<p><strong>Attribution:</strong> Traditional multiplayer variant. Numerous implementations. Public domain.</p>
-</div>
-<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Variant 12</span><span class="eyebrow-line"></span></div>
-<h2>4-Board Chess {#4-board}</h2>
-<p>Four standard boards in a 2×2 grid. Pieces transfer between boards at shared edges. Team or free-for-all with spatial complexity that rewards coordination.</p>
-<p><strong>Boards:</strong> Four 8×8 boards in a 2×2 arrangement. Adjacent edges are open for piece movement.</p>
-<p><strong>Players:</strong> 4 (one per board corner). Teams: top-left + bottom-right vs top-right + bottom-left.</p>
-<p><strong>Setup:</strong> Standard chess setup per player on their nearest board corner.</p>
-<p><strong>Movement:</strong> Same as 3-Board Chess — pieces cross open edges freely. Diagonal sliding pieces can cross corner junctions where four boards meet.</p>
-<p><strong>Win condition (team):</strong> Checkmate both opponents. A checkmated player’s pieces remain as obstacles.</p>
-<p><strong>Win condition (free-for-all):</strong> Last King standing.</p>
-<p><strong>Attribution:</strong> Traditional variant. Public domain.</p>
-</div>
-<div class="section"><div class="eyebrow"><span class="eyebrow-badge">Reference</span><span class="eyebrow-line"></span></div>
-<h2>Dungeon Chess {#dungeon-chess}</h2>
-<p>Our original variant — a standalone game with its own complete rulebook.</p>
-<div class="highlight">
-<div class="box-title">Separate Rulebook</div>
-<p>Dungeon Chess has grown beyond a simple chess variant into a full asymmetric strategy game with XP drafting, four unique species, modular dungeon boards, and campaign play. It has its own dedicated rulebook with complete rules, unit cards, and map documentation.</p>
-<p><strong><a href="../dungeon-chess/">Read the Dungeon Chess Rulebook →</a></strong></p>
 </div>
 </div>
 
 </main>
 
 <footer class="doc-footer" role="contentinfo">
-  <span class="ftr-copy">v0.1.0 · Published by Moddable Games · © 2026 All Rights Reserved</span>
+  <span class="ftr-copy">v0.2.0 · Published by Moddable Games · © 2026 All Rights Reserved</span>
 </footer>
 
 </div>
