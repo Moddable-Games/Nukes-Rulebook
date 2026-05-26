@@ -138,6 +138,11 @@ function buildGame(slug) {
   output = processIncludes(output);
 
   // --- Replace template variables from frontmatter ---
+  const variantsDir = resolve(gameDir, 'content/variants');
+  const variantCount = existsSync(variantsDir)
+    ? readdirSync(variantsDir).filter(f => f.endsWith('.md')).length
+    : 0;
+
   const templateVars = {
     version: meta.version || '',
     game_slug: slug,
@@ -145,6 +150,7 @@ function buildGame(slug) {
     players: meta.players || '',
     duration: meta.duration || '',
     age: meta.age || '',
+    variant_count: String(variantCount),
   };
 
   for (const [key, value] of Object.entries(templateVars)) {
