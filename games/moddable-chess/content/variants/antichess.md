@@ -5,6 +5,8 @@ board: "8×8"
 players: "2"
 parent: "moddable-chess"
 order: 4
+win: "Lose all pieces or get stalemated"
+special: "Captures are mandatory. First to lose all pieces wins."
 ---
 
 ## Antichess

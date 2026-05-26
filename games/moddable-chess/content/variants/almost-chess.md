@@ -5,6 +5,8 @@ board: "8×8"
 players: "2"
 parent: "moddable-chess"
 order: 25
+win: "Checkmate"
+special: "White's Queen is replaced by a Chancellor (Rook + Knight compound)."
 ---
 
 ## Almost Chess

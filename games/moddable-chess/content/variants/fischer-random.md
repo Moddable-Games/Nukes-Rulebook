@@ -1,10 +1,13 @@
 ---
 title: "Fischer Random (Chess960)"
 slug: "fischer-random"
+key: "chess960"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
 order: 6
+win: "Checkmate"
+special: "Back rank pieces randomised (960 positions). Castling rules adapted."
 ---
 
 ## Fischer Random (Chess960)

@@ -5,6 +5,8 @@ board: "8×8"
 players: "2"
 parent: "moddable-chess"
 order: 10
+win: "Capture opponent king"
+special: "After each move, place the duck (blocker) on any empty square."
 ---
 
 ## Duck Chess

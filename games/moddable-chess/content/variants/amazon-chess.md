@@ -5,6 +5,8 @@ board: "8×8"
 players: "2"
 parent: "moddable-chess"
 order: 26
+win: "Checkmate"
+special: "Queens replaced by Amazons (Queen + Knight). The most powerful piece possible."
 ---
 
 ## Amazon Chess

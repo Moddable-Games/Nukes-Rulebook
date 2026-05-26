@@ -5,6 +5,8 @@ board: "8×8"
 players: "2"
 parent: "moddable-chess"
 order: 22
+win: "Checkmate"
+special: "White moves twice per turn but starts with only King, Rooks, and pawns."
 ---
 
 ## Monster Chess

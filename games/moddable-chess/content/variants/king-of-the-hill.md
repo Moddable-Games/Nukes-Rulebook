@@ -5,6 +5,8 @@ board: "8×8"
 players: "2"
 parent: "moddable-chess"
 order: 2
+win: "Checkmate or king reaches centre 4 squares"
+special: "Moving your king to d4/d5/e4/e5 is an instant win."
 ---
 
 ## King of the Hill

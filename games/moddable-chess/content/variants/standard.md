@@ -5,6 +5,8 @@ board: "8×8"
 players: "2"
 parent: "moddable-chess"
 order: 1
+win: "Checkmate"
+special: "Standard FIDE rules"
 ---
 
 ## Standard Chess

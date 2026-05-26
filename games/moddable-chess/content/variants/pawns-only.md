@@ -5,6 +5,8 @@ board: "8×8"
 players: "2"
 parent: "moddable-chess"
 order: 39
+win: "Promote a pawn"
+special: "Kings and pawns only. First to promote wins instantly."
 ---
 
 ## Pawns Only

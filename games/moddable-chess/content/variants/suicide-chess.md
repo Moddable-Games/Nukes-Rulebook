@@ -5,6 +5,8 @@ board: "8×8"
 players: "2"
 parent: "moddable-chess"
 order: 31
+win: "Lose all pieces"
+special: "Forced captures like Giveaway, but stalemate is a draw, not a loss."
 ---
 
 ## Suicide Chess

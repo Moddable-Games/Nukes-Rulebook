@@ -5,6 +5,8 @@ board: "8×8"
 players: "2"
 parent: "moddable-chess"
 order: 12
+win: "Checkmate"
+special: "Standard chess with castling removed. Kings must develop naturally."
 ---
 
 ## No Castling Chess

@@ -5,6 +5,8 @@ board: "8×8"
 players: "2"
 parent: "moddable-chess"
 order: 33
+win: "Lose your King"
+special: "No check exists. You win by getting your own King captured."
 ---
 
 ## Codrus

@@ -5,6 +5,8 @@ board: "8×8"
 players: "2"
 parent: "moddable-chess"
 order: 37
+win: "Checkmate"
+special: "Only Kings and pawns. Pure endgame technique from move one."
 ---
 
 ## Endgame Chess

@@ -5,6 +5,8 @@ board: "8×8"
 players: "2"
 parent: "moddable-chess"
 order: 13
+win: "Checkmate"
+special: "Pawns can move two squares forward from any rank, not just the starting rank."
 ---
 
 ## Torpedo Chess

@@ -5,6 +5,8 @@ board: "8×8"
 players: "2"
 parent: "moddable-chess"
 order: 8
+win: "Explode opponent king"
+special: "Captures cause explosions destroying all pieces on adjacent squares."
 ---
 
 ## Atomic Chess

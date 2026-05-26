@@ -5,6 +5,8 @@ board: "12×8"
 players: "2"
 parent: "moddable-chess"
 order: 19
+win: "Checkmate"
+special: "Medieval German variant from the 1200s. Extra bishops and sage pieces."
 ---
 
 ## Courier Chess

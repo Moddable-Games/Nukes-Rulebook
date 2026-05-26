@@ -5,6 +5,8 @@ board: "10×8"
 players: "2"
 parent: "moddable-chess"
 order: 17
+win: "Checkmate"
+special: "Two extra pieces: Archbishop (B+N) and Chancellor (R+N). Wider board."
 ---
 
 ## Capablanca Chess
