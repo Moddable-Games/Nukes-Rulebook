@@ -19,6 +19,7 @@ for f in "$VARIANTS_DIR"/*.md; do
   order=$(sed -n 's/^order: *\(.*\)/\1/p' "$f")
   win=$(sed -n 's/^win: *"\(.*\)"/\1/p' "$f")
   special=$(sed -n 's/^special: *"\(.*\)"/\1/p' "$f")
+  playable=$(sed -n 's/^playable: *\(.*\)/\1/p' "$f")
 
   if [ "$first" = true ]; then
     first=false
@@ -31,8 +32,13 @@ for f in "$VARIANTS_DIR"/*.md; do
     key_field="\"key\":\"$key\","
   fi
 
-  printf '  {%s"title":"%s","slug":"%s","board":"%s","players":"%s","order":%s,"win":"%s","special":"%s"}' \
-    "$key_field" "$title" "$slug" "$board" "$players" "$order" "$win" "$special" >> "$OUT"
+  playable_field=""
+  if [ "$playable" = "false" ]; then
+    playable_field=",\"playable\":false"
+  fi
+
+  printf '  {%s"title":"%s","slug":"%s","board":"%s","players":"%s","order":%s,"win":"%s","special":"%s"%s}' \
+    "$key_field" "$title" "$slug" "$board" "$players" "$order" "$win" "$special" "$playable_field" >> "$OUT"
 done
 
 echo "" >> "$OUT"

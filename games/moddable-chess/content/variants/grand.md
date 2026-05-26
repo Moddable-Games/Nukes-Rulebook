@@ -7,6 +7,7 @@ parent: "moddable-chess"
 order: 18
 win: "Checkmate"
 special: "Same new pieces as Capablanca, bigger board, pawns start on rank 3."
+playable: false
 ---
 
 ## Grand Chess

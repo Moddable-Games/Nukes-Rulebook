@@ -7,6 +7,7 @@ parent: "moddable-chess"
 order: 17
 win: "Checkmate"
 special: "Two extra pieces: Archbishop (B+N) and Chancellor (R+N). Wider board."
+playable: false
 ---
 
 ## Capablanca Chess
