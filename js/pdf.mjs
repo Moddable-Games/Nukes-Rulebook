@@ -242,38 +242,82 @@ for (const slug of slugs) {
 
     const variantPdfPath = resolve(variantPdfDir, `${v.slug}.pdf`);
 
-    const page = await browser.newPage();
-    await page.goto(`file://${htmlPath}`, { waitUntil: 'networkidle0' });
-    await page.emulateMediaType('print');
-    await page.setViewport({ width: 794, height: 1123 });
+    // --- Page 1: Cover ---
+    const coverPage = await browser.newPage();
+    await coverPage.goto(`file://${htmlPath}`, { waitUntil: 'networkidle0' });
+    await coverPage.emulateMediaType('print');
+    await coverPage.setViewport({ width: 794, height: 1123 });
 
-    // Strip nav header, pager, footer for print — keep cover + content
-    await page.evaluate(() => {
-      const header = document.querySelector('.doc-header');
-      const pager = document.querySelector('.variant-pager');
-      const footer = document.querySelector('.doc-footer');
-      const skip = document.querySelector('.skip-link');
-      if (header) header.remove();
-      if (pager) pager.remove();
-      if (footer) footer.remove();
-      if (skip) skip.remove();
+    await coverPage.evaluate(() => {
+      const cover = document.querySelector('.variant-cover');
+      if (!cover) return;
+      document.body.innerHTML = '';
+      document.body.appendChild(cover);
     });
 
-    await page.addStyleTag({ content: `
-      html, body { margin: 0; padding: 0; }
-      .page { max-width: none; box-shadow: none; }
-      .variant-cover { padding: 24px 20mm; }
-      .content { padding: 0 20mm 20mm; }
+    await coverPage.addStyleTag({ content: `
+      html, body { margin: 0; padding: 0; background: #0a1628; }
+      .variant-cover {
+        width: 210mm; height: 297mm; box-sizing: border-box;
+        display: flex; align-items: center; justify-content: center;
+        padding: 40mm 20mm;
+        background: linear-gradient(160deg, #0a1628 0%, #112240 100%);
+        border-bottom: none;
+      }
+      .variant-cover-inner { text-align: center; }
+      .variant-cover-title { font-size: 42px; }
+      .variant-cover-label { font-size: 11px; margin-bottom: 16px; }
     `});
 
-    await page.pdf({
-      path: variantPdfPath,
+    const coverPath = resolve(variantPdfDir, `_${v.slug}_cover.pdf`);
+    await coverPage.pdf({
+      path: coverPath,
       format: 'A4',
       printBackground: true,
-      margin: { top: '15mm', bottom: '15mm', left: 0, right: 0 }
+      margin: { top: 0, bottom: 0, left: 0, right: 0 }
+    });
+    await coverPage.close();
+
+    // --- Page 2+: Content (paginated) ---
+    const contentPage = await browser.newPage();
+    await contentPage.goto(`file://${htmlPath}`, { waitUntil: 'networkidle0' });
+    await contentPage.emulateMediaType('print');
+    await contentPage.setViewport({ width: 794, height: 1123 });
+
+    await contentPage.evaluate(() => {
+      const content = document.querySelector('.content');
+      if (!content) return;
+      document.body.innerHTML = '';
+      const wrapper = document.createElement('div');
+      wrapper.id = 'pdf-source';
+      for (const child of Array.from(content.querySelectorAll('.section > *'))) {
+        wrapper.appendChild(child);
+      }
+      document.body.appendChild(wrapper);
     });
 
-    await page.close();
+    await contentPage.addStyleTag({ content: `
+      html, body { margin: 0; padding: 0; background: #f8f4ef; }
+      #pdf-source { padding: ${PAD_MM}mm; box-sizing: border-box; }
+      h2 { margin-top: 0; }
+      svg { max-width: 100%; height: auto; margin: 16px 0; padding: 16px; background: #fff; border: 1px solid #ddd; border-radius: 4px; }
+    `});
+
+    await contentPage.evaluate(PAGINATE_JS);
+
+    const contentPath = resolve(variantPdfDir, `_${v.slug}_content.pdf`);
+    await contentPage.pdf({
+      path: contentPath,
+      format: 'A4',
+      printBackground: true,
+      margin: { top: 0, bottom: 0, left: 0, right: 0 }
+    });
+    await contentPage.close();
+
+    // Merge cover + content
+    execSync(`pdfunite "${coverPath}" "${contentPath}" "${variantPdfPath}"`);
+    execSync(`rm "${coverPath}" "${contentPath}"`);
+
     allVariantPdfs.push(variantPdfPath);
   }
 
