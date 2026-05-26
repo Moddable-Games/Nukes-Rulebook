@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const SVG_DIR = resolve(__dirname, 'svg');
 
-const LIGHT = '#e8d4a8';
+const LIGHT = '#f0d9b5';
 const DARK = '#b58863';
 const SQ = 40;
 const MARGIN = 20;
@@ -85,10 +85,10 @@ function pieceToUnicode(piece) {
   if (base === 'B') return isWhite ? '♗' : '♝';
   if (base === 'N') return isWhite ? '♘' : '♞';
   if (base === 'P') return isWhite ? '♙' : '♟';
-  if (base === 'M') return isWhite ? '♕' : '♛'; // Amazon/Maharaja shown as queen
-  if (base === 'A') return isWhite ? 'A' : 'a';  // Archbishop — letter
-  if (base === 'C') return isWhite ? 'C' : 'c';  // Chancellor — letter
-  if (base === 'S') return isWhite ? 'S' : 's';  // Schleich — letter
+  if (base === 'M') return 'M';  // Amazon/Maharaja — letter (no Unicode equivalent)
+  if (base === 'A') return 'A';  // Archbishop — letter
+  if (base === 'C') return 'C';  // Chancellor — letter
+  if (base === 'S') return 'S';  // Schleich — letter
   return piece;
 }
 

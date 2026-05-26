@@ -11,6 +11,8 @@ order: 19
 
 A medieval large-board variant documented since 1202, predating the modern Queen and Bishop moves. One of the oldest recorded chess variants in Europe.
 
+### Setup
+
 **Board:** 12×8 (96 squares).
 
 {{svg:courier-board.svg "Courier Chess — starting position (12×8)"}}
@@ -28,8 +30,20 @@ A medieval large-board variant documented since 1202, predating the modern Queen
 | Knight | L-shape jump (as standard) |
 | Pawn | One step forward, captures diagonally. No double-step. Promotes to General only. |
 
-**Win condition:** Checkmate or stalemate (stalemate = win for the side delivering it in medieval rules).
+### Rules
+
+Standard chess movement applies per the table above. No castling. No pawn double-step. No en passant. Stalemate counts as a win (medieval rules).
+
+### Win Condition
+
+Checkmate or stalemate (stalemate = win for the side delivering it in medieval rules).
 
 **Historical note:** The Courier was the first piece to move like a modern Bishop — this game introduced unlimited diagonal sliding to European chess centuries before it was adopted into the standard game.
 
-**Attribution:** First documented 1202 (Wirnt von Gravenberg). Public domain.
+### Strategy
+
+The General (proto-Queen) is extremely weak — one diagonal step. The Couriers (modern Bishops) are the strongest attacking pieces. The wide board makes Knight development slow. Alfils (Elephants) can leap but are limited to every-other-square diagonals, creating gaps in coverage. Rooks dominate open files as in standard chess.
+
+### Attribution
+
+First documented 1202 (Wirnt von Gravenberg). Public domain.

@@ -14,16 +14,26 @@ Standard chess with castling disabled. Endorsed by Vladimir Kramnik as a potenti
 
 {{svg:no-castling-board.svg "No Castling — starting position"}}
 
+### Setup
+
 **Board:** Standard 8×8.
 
 **Setup:** Standard chess setup.
 
-**Rules:** Identical to standard chess except:
+### Rules
+
+Identical to standard chess except:
 - Castling is not allowed for either player, ever.
 - All other rules (en passant, promotion, etc.) are unchanged.
 
-**Win condition:** Checkmate.
+### Win Condition
 
-**Key strategy:** Without castling, King safety requires more creative solutions. Players must decide early whether to keep the King in the centre (risky but saves tempi) or manually walk it to safety (safe but slow). Open files toward the King are more dangerous because there's no quick escape. Rook activation is delayed since Rooks can't be connected via castling.
+Checkmate.
 
-**Attribution:** Proposed by Vladimir Kramnik, 2019. Tested at Chess.com events. Public domain.
+### Strategy
+
+Without castling, King safety requires more creative solutions. Players must decide early whether to keep the King in the centre (risky but saves tempi) or manually walk it to safety (safe but slow). Open files toward the King are more dangerous because there's no quick escape. Rook activation is delayed since Rooks can't be connected via castling.
+
+### Attribution
+
+Proposed by Vladimir Kramnik, 2019. Tested at Chess.com events. Public domain.

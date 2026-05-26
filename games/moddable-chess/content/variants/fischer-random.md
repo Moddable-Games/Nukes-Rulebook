@@ -14,6 +14,8 @@ order: 6
 
 {{svg:fischer-random-board.svg "Fischer Random — one possible starting position"}}
 
+### Setup
+
 **Board:** Standard 8×8.
 
 **Setup:** Back-rank pieces are shuffled randomly for each game, with three constraints:
@@ -23,10 +25,18 @@ order: 6
 
 Pawns are placed normally on the second rank.
 
-**Rules:** Identical to standard chess, including castling. Castling follows a generalised rule: the King and Rook end up on the same squares they would in standard castling (King on c1/g1, Rook on d1/f1), regardless of where they started.
+### Rules
 
-**Win condition:** Checkmate (identical to standard chess).
+Identical to standard chess, including castling. Castling follows a generalised rule: the King and Rook end up on the same squares they would in standard castling (King on c1/g1, Rook on d1/f1), regardless of where they started.
 
-**Key strategy:** Opening book knowledge is neutralised. Every game requires original thinking from move one. Piece development principles (control the centre, develop knights before bishops, castle early) still apply but the specific moves change every game.
+### Win Condition
 
-**Attribution:** Bobby Fischer, 1996. Public domain.
+Checkmate (identical to standard chess).
+
+### Strategy
+
+Opening book knowledge is neutralised. Every game requires original thinking from move one. Piece development principles (control the centre, develop knights before bishops, castle early) still apply but the specific moves change every game.
+
+### Attribution
+
+Bobby Fischer, 1996. Public domain.

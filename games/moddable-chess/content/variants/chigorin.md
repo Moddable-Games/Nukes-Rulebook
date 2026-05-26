@@ -14,6 +14,8 @@ White replaces both Bishops with Knights. Four Knights vs two Knights and two Bi
 
 {{svg:chigorin-board.svg "Chigorin Chess — starting position"}}
 
+### Setup
+
 **Board:** Standard 8×8.
 
 **Setup (FEN):** `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNNQKNNR`
@@ -21,10 +23,18 @@ White replaces both Bishops with Knights. Four Knights vs two Knights and two Bi
 White: Rook, Knight, Knight, Queen, King, Knight, Knight, Rook (+ 8 pawns).
 Black: Standard setup.
 
-**Rules:** All standard chess rules apply. Castling is available for both sides.
+### Rules
 
-**Win condition:** Checkmate, same as standard chess.
+All standard chess rules apply. Castling is available for both sides.
 
-**Key strategy:** White has four Knights — superb in closed positions with lots of outposts, but weak on open boards where Bishops dominate. White should keep the position closed and create pawn chains that give Knights stable squares. Black should open the position and trade pawns to give their Bishops long diagonals. White's pawn promotion choices become interesting since they already have plenty of Knights.
+### Win Condition
 
-**Attribution:** Named after Mikhail Chigorin. Variant design is traditional. Public domain.
+Checkmate, same as standard chess.
+
+### Strategy
+
+White has four Knights — superb in closed positions with lots of outposts, but weak on open boards where Bishops dominate. White should keep the position closed and create pawn chains that give Knights stable squares. Black should open the position and trade pawns to give their Bishops long diagonals. White's pawn promotion choices become interesting since they already have plenty of Knights.
+
+### Attribution
+
+Named after Mikhail Chigorin. Variant design is traditional. Public domain.

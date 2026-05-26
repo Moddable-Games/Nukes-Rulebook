@@ -14,14 +14,25 @@ Deliver three checks to win. No checkmate needed. Completely changes the value o
 
 {{svg:three-check-board.svg "Three-Check — starting position"}}
 
+### Setup
+
 **Board:** Standard 8×8.
 
 **Setup:** Standard chess setup.
 
-**Win conditions:**
+### Rules
+
+All standard chess rules apply. Each player's check count is tracked throughout the game.
+
+### Win Condition
+
 - Checkmate (as normal), OR
 - Deliver check three times. Each check is counted regardless of whether it was blocked, evaded, or interposed.
 
-**Key strategy:** Pieces that give check frequently (Queen, Bishops on open diagonals) become much more valuable. Sacrificing material to deliver checks becomes a core tactic. Defensive play must prioritise minimising the number of times the King is checked, not just surviving.
+### Strategy
 
-**Attribution:** Traditional variant. Popularised on Lichess. Public domain.
+Pieces that give check frequently (Queen, Bishops on open diagonals) become much more valuable. Sacrificing material to deliver checks becomes a core tactic. Defensive play must prioritise minimising the number of times the King is checked, not just surviving.
+
+### Attribution
+
+Traditional variant. Popularised on Lichess. Public domain.

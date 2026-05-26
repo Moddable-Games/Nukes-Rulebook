@@ -14,6 +14,8 @@ One Queen+Knight super-piece (the Maharaja) vs a full standard army. The ultimat
 
 {{svg:maharaja-board.svg "Maharaja & Sepoys — starting position"}}
 
+### Setup
+
 **Board:** Standard 8×8.
 
 **Setup:**
@@ -24,16 +26,22 @@ One Queen+Knight super-piece (the Maharaja) vs a full standard army. The ultimat
 - Moves like a Queen AND a Knight combined (can slide any distance orthogonally/diagonally, or jump in an L-shape).
 - It is the only piece White has. It is royal — if captured or checkmated, White loses.
 
-**Rules:**
+### Rules
+
 - Standard chess rules apply to Black's army (including castling and pawn promotion).
 - White has only the Maharaja — every turn, White moves it.
 - The Maharaja cannot castle.
 - If the Maharaja is checkmated (surrounded with no legal escape), Black wins.
 
-**Win conditions:**
+### Win Condition
+
 - **Black wins:** Checkmate or capture the Maharaja.
 - **White wins:** Checkmate Black's King using the Maharaja alone.
 
-**Key strategy:** The Maharaja is incredibly powerful but alone. Black must coordinate pieces to trap it in a net. White must pick off Black's pieces one by one while avoiding getting cornered. In practice, a well-played Black army wins — but careless play lets the Maharaja dominate.
+### Strategy
 
-**Attribution:** Traditional Indian variant ("Maharaja and the Sepoys"), 19th century. Public domain.
+The Maharaja is incredibly powerful but alone. Black must coordinate pieces to trap it in a net. White must pick off Black's pieces one by one while avoiding getting cornered. In practice, a well-played Black army wins — but careless play lets the Maharaja dominate.
+
+### Attribution
+
+Traditional Indian variant ("Maharaja and the Sepoys"), 19th century. Public domain.

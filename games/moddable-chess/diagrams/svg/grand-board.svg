@@ -4,115 +4,115 @@
   <!-- Board squares -->
   <g id="board">
     <!-- Rank 10 (row 0 from top) -->
-    <rect x="40" y="20" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="40" y="20" width="40" height="40" fill="#f0d9b5"/>
     <rect x="80" y="20" width="40" height="40" fill="#b58863"/>
-    <rect x="120" y="20" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="120" y="20" width="40" height="40" fill="#f0d9b5"/>
     <rect x="160" y="20" width="40" height="40" fill="#b58863"/>
-    <rect x="200" y="20" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="200" y="20" width="40" height="40" fill="#f0d9b5"/>
     <rect x="240" y="20" width="40" height="40" fill="#b58863"/>
-    <rect x="280" y="20" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="280" y="20" width="40" height="40" fill="#f0d9b5"/>
     <rect x="320" y="20" width="40" height="40" fill="#b58863"/>
-    <rect x="360" y="20" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="360" y="20" width="40" height="40" fill="#f0d9b5"/>
     <rect x="400" y="20" width="40" height="40" fill="#b58863"/>
     <!-- Rank 9 -->
     <rect x="40" y="60" width="40" height="40" fill="#b58863"/>
-    <rect x="80" y="60" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="80" y="60" width="40" height="40" fill="#f0d9b5"/>
     <rect x="120" y="60" width="40" height="40" fill="#b58863"/>
-    <rect x="160" y="60" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="160" y="60" width="40" height="40" fill="#f0d9b5"/>
     <rect x="200" y="60" width="40" height="40" fill="#b58863"/>
-    <rect x="240" y="60" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="240" y="60" width="40" height="40" fill="#f0d9b5"/>
     <rect x="280" y="60" width="40" height="40" fill="#b58863"/>
-    <rect x="320" y="60" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="320" y="60" width="40" height="40" fill="#f0d9b5"/>
     <rect x="360" y="60" width="40" height="40" fill="#b58863"/>
-    <rect x="400" y="60" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="400" y="60" width="40" height="40" fill="#f0d9b5"/>
     <!-- Rank 8 -->
-    <rect x="40" y="100" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="40" y="100" width="40" height="40" fill="#f0d9b5"/>
     <rect x="80" y="100" width="40" height="40" fill="#b58863"/>
-    <rect x="120" y="100" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="120" y="100" width="40" height="40" fill="#f0d9b5"/>
     <rect x="160" y="100" width="40" height="40" fill="#b58863"/>
-    <rect x="200" y="100" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="200" y="100" width="40" height="40" fill="#f0d9b5"/>
     <rect x="240" y="100" width="40" height="40" fill="#b58863"/>
-    <rect x="280" y="100" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="280" y="100" width="40" height="40" fill="#f0d9b5"/>
     <rect x="320" y="100" width="40" height="40" fill="#b58863"/>
-    <rect x="360" y="100" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="360" y="100" width="40" height="40" fill="#f0d9b5"/>
     <rect x="400" y="100" width="40" height="40" fill="#b58863"/>
     <!-- Rank 7 -->
     <rect x="40" y="140" width="40" height="40" fill="#b58863"/>
-    <rect x="80" y="140" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="80" y="140" width="40" height="40" fill="#f0d9b5"/>
     <rect x="120" y="140" width="40" height="40" fill="#b58863"/>
-    <rect x="160" y="140" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="160" y="140" width="40" height="40" fill="#f0d9b5"/>
     <rect x="200" y="140" width="40" height="40" fill="#b58863"/>
-    <rect x="240" y="140" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="240" y="140" width="40" height="40" fill="#f0d9b5"/>
     <rect x="280" y="140" width="40" height="40" fill="#b58863"/>
-    <rect x="320" y="140" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="320" y="140" width="40" height="40" fill="#f0d9b5"/>
     <rect x="360" y="140" width="40" height="40" fill="#b58863"/>
-    <rect x="400" y="140" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="400" y="140" width="40" height="40" fill="#f0d9b5"/>
     <!-- Rank 6 -->
-    <rect x="40" y="180" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="40" y="180" width="40" height="40" fill="#f0d9b5"/>
     <rect x="80" y="180" width="40" height="40" fill="#b58863"/>
-    <rect x="120" y="180" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="120" y="180" width="40" height="40" fill="#f0d9b5"/>
     <rect x="160" y="180" width="40" height="40" fill="#b58863"/>
-    <rect x="200" y="180" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="200" y="180" width="40" height="40" fill="#f0d9b5"/>
     <rect x="240" y="180" width="40" height="40" fill="#b58863"/>
-    <rect x="280" y="180" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="280" y="180" width="40" height="40" fill="#f0d9b5"/>
     <rect x="320" y="180" width="40" height="40" fill="#b58863"/>
-    <rect x="360" y="180" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="360" y="180" width="40" height="40" fill="#f0d9b5"/>
     <rect x="400" y="180" width="40" height="40" fill="#b58863"/>
     <!-- Rank 5 -->
     <rect x="40" y="220" width="40" height="40" fill="#b58863"/>
-    <rect x="80" y="220" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="80" y="220" width="40" height="40" fill="#f0d9b5"/>
     <rect x="120" y="220" width="40" height="40" fill="#b58863"/>
-    <rect x="160" y="220" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="160" y="220" width="40" height="40" fill="#f0d9b5"/>
     <rect x="200" y="220" width="40" height="40" fill="#b58863"/>
-    <rect x="240" y="220" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="240" y="220" width="40" height="40" fill="#f0d9b5"/>
     <rect x="280" y="220" width="40" height="40" fill="#b58863"/>
-    <rect x="320" y="220" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="320" y="220" width="40" height="40" fill="#f0d9b5"/>
     <rect x="360" y="220" width="40" height="40" fill="#b58863"/>
-    <rect x="400" y="220" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="400" y="220" width="40" height="40" fill="#f0d9b5"/>
     <!-- Rank 4 -->
-    <rect x="40" y="260" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="40" y="260" width="40" height="40" fill="#f0d9b5"/>
     <rect x="80" y="260" width="40" height="40" fill="#b58863"/>
-    <rect x="120" y="260" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="120" y="260" width="40" height="40" fill="#f0d9b5"/>
     <rect x="160" y="260" width="40" height="40" fill="#b58863"/>
-    <rect x="200" y="260" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="200" y="260" width="40" height="40" fill="#f0d9b5"/>
     <rect x="240" y="260" width="40" height="40" fill="#b58863"/>
-    <rect x="280" y="260" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="280" y="260" width="40" height="40" fill="#f0d9b5"/>
     <rect x="320" y="260" width="40" height="40" fill="#b58863"/>
-    <rect x="360" y="260" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="360" y="260" width="40" height="40" fill="#f0d9b5"/>
     <rect x="400" y="260" width="40" height="40" fill="#b58863"/>
     <!-- Rank 3 -->
     <rect x="40" y="300" width="40" height="40" fill="#b58863"/>
-    <rect x="80" y="300" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="80" y="300" width="40" height="40" fill="#f0d9b5"/>
     <rect x="120" y="300" width="40" height="40" fill="#b58863"/>
-    <rect x="160" y="300" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="160" y="300" width="40" height="40" fill="#f0d9b5"/>
     <rect x="200" y="300" width="40" height="40" fill="#b58863"/>
-    <rect x="240" y="300" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="240" y="300" width="40" height="40" fill="#f0d9b5"/>
     <rect x="280" y="300" width="40" height="40" fill="#b58863"/>
-    <rect x="320" y="300" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="320" y="300" width="40" height="40" fill="#f0d9b5"/>
     <rect x="360" y="300" width="40" height="40" fill="#b58863"/>
-    <rect x="400" y="300" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="400" y="300" width="40" height="40" fill="#f0d9b5"/>
     <!-- Rank 2 -->
-    <rect x="40" y="340" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="40" y="340" width="40" height="40" fill="#f0d9b5"/>
     <rect x="80" y="340" width="40" height="40" fill="#b58863"/>
-    <rect x="120" y="340" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="120" y="340" width="40" height="40" fill="#f0d9b5"/>
     <rect x="160" y="340" width="40" height="40" fill="#b58863"/>
-    <rect x="200" y="340" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="200" y="340" width="40" height="40" fill="#f0d9b5"/>
     <rect x="240" y="340" width="40" height="40" fill="#b58863"/>
-    <rect x="280" y="340" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="280" y="340" width="40" height="40" fill="#f0d9b5"/>
     <rect x="320" y="340" width="40" height="40" fill="#b58863"/>
-    <rect x="360" y="340" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="360" y="340" width="40" height="40" fill="#f0d9b5"/>
     <rect x="400" y="340" width="40" height="40" fill="#b58863"/>
     <!-- Rank 1 -->
     <rect x="40" y="380" width="40" height="40" fill="#b58863"/>
-    <rect x="80" y="380" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="80" y="380" width="40" height="40" fill="#f0d9b5"/>
     <rect x="120" y="380" width="40" height="40" fill="#b58863"/>
-    <rect x="160" y="380" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="160" y="380" width="40" height="40" fill="#f0d9b5"/>
     <rect x="200" y="380" width="40" height="40" fill="#b58863"/>
-    <rect x="240" y="380" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="240" y="380" width="40" height="40" fill="#f0d9b5"/>
     <rect x="280" y="380" width="40" height="40" fill="#b58863"/>
-    <rect x="320" y="380" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="320" y="380" width="40" height="40" fill="#f0d9b5"/>
     <rect x="360" y="380" width="40" height="40" fill="#b58863"/>
-    <rect x="400" y="380" width="40" height="40" fill="#e8d4a8"/>
+    <rect x="400" y="380" width="40" height="40" fill="#f0d9b5"/>
   </g>
 
   <!-- Pieces -->
