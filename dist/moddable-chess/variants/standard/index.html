@@ -177,15 +177,41 @@
 </svg>
 <p class="diagram-caption">Standard Chess — starting position</p>
 <h3>Setup</h3>
-<p><strong>Board:</strong> 8×8, 64 squares alternating light/dark.</p>
+<p><strong>Board:</strong> 8×8, 64 squares alternating light and dark. The board is oriented so each player has a light square in their near-right corner.</p>
+<p><strong>FEN:</strong> <code>rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1</code></p>
 <h3>Pieces</h3>
 <p><strong>Pieces (per side):</strong> 1 King, 1 Queen, 2 Rooks, 2 Bishops, 2 Knights, 8 Pawns.</p>
-<p><strong>Setup:</strong> White on ranks 1–2, Black on ranks 7–8. Back rank (from a-file): Rook, Knight, Bishop, Queen, King, Bishop, Knight, Rook. Pawns fill the second rank.</p>
-<p><strong>FEN:</strong> <code>rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1</code></p>
+<p><strong>Starting position (from a-file):</strong> Rook, Knight, Bishop, Queen, King, Bishop, Knight, Rook on the back rank. Eight Pawns fill the second rank. White occupies ranks 1–2, Black occupies ranks 7–8. The Queen starts on her own colour (White Queen on d1, Black Queen on d8).</p>
 <h3>Rules</h3>
-<p>All standard FIDE rules: pieces move as defined, turns alternate, captures remove the opponent’s piece. Special moves: castling (kingside/queenside), en passant capture, and pawn promotion on the eighth rank.</p>
+<p><strong>Turns:</strong> White moves first. Players alternate one move per turn.</p>
+<p><strong>Piece movement:</strong></p>
+<ul class="rules">
+<li><strong>King</strong> — moves one square in any direction (horizontally, vertically, or diagonally). Cannot move into a square attacked by an opponent’s piece.</li>
+<li><strong>Queen</strong> — moves any number of squares in any straight line (horizontal, vertical, or diagonal). Cannot jump over pieces.</li>
+<li><strong>Rook</strong> — moves any number of squares horizontally or vertically. Cannot jump over pieces.</li>
+<li><strong>Bishop</strong> — moves any number of squares diagonally. Cannot jump over pieces. Each Bishop is confined to one square colour for the entire game.</li>
+<li><strong>Knight</strong> — moves in an L-shape: two squares in one direction plus one square perpendicular (or vice versa). The only piece that can jump over other pieces.</li>
+<li><strong>Pawn</strong> — moves one square forward (toward the opponent’s back rank). On its first move, a Pawn may advance two squares forward. Pawns capture one square diagonally forward. Pawns cannot move backward.</li>
+</ul>
+<p><strong>Captures:</strong> A piece is captured by moving your piece to the square it occupies. The captured piece is removed from the board. All pieces capture the same way they move, except Pawns (which move forward but capture diagonally).</p>
+<p><strong>Check:</strong> When a King is under direct attack by an opponent’s piece, it is in check. A player in check must immediately resolve it by: moving the King to a safe square, capturing the attacking piece, or blocking the attack by interposing a piece. A player may never make a move that leaves their own King in check.</p>
+<p><strong>Special moves:</strong></p>
+<ul class="rules">
+<li><strong>Castling</strong> — the King moves two squares toward a Rook, and that Rook jumps to the square the King crossed. Requirements: neither the King nor that Rook has previously moved; no pieces between them; the King is not in check; the King does not pass through or land on an attacked square. Each player may castle kingside (short) or queenside (long) once per game.</li>
+<li><strong>En passant</strong> — if a Pawn advances two squares from its starting rank and lands beside an opponent’s Pawn, the opponent may capture it as if it had only moved one square. This capture must be made immediately on the very next move or the right is lost.</li>
+<li><strong>Pawn promotion</strong> — when a Pawn reaches the opponent’s back rank (rank 8 for White, rank 1 for Black), it must immediately be promoted to a Queen, Rook, Bishop, or Knight of the same colour. The player chooses the piece. There is no limit to the number of promoted pieces.</li>
+</ul>
 <h3>Win Condition</h3>
-<p>Checkmate the opponent’s King, or opponent resigns. Draws by stalemate, threefold repetition, fifty-move rule, or insufficient material.</p>
+<p><strong>Checkmate:</strong> The game is won when a player’s King is in check and there is no legal move to escape. The player delivering checkmate wins.</p>
+<p><strong>Other ways a game ends:</strong></p>
+<ul class="rules">
+<li><strong>Resignation</strong> — a player concedes defeat.</li>
+<li><strong>Stalemate</strong> — the player to move has no legal moves and is NOT in check. The game is a draw.</li>
+<li><strong>Threefold repetition</strong> — the same board position occurs three times (with the same player to move and same castling/en passant rights). Either player may claim a draw.</li>
+<li><strong>Fifty-move rule</strong> — if 50 consecutive moves pass with no Pawn move and no capture, either player may claim a draw.</li>
+<li><strong>Insufficient material</strong> — if neither side has enough pieces to deliver checkmate (e.g. King vs King, King+Bishop vs King), the game is a draw.</li>
+<li><strong>Agreement</strong> — both players agree to a draw.</li>
+</ul>
 <h3>Strategy</h3>
 <p>Control the centre, develop pieces early, castle for King safety, and coordinate piece activity. The opening, middlegame, and endgame each demand different skills — billions of games have been played and the game remains unsolved.</p>
 <h3>Attribution</h3>
