@@ -20,6 +20,7 @@ The official rulebook system for all games published by [Moddable Games](https:/
 
 | Mod | Base Game | Version | Players | Status |
 |-----|-----------|---------|---------|--------|
+| **Moddable Chess** | Chess | 0.2.0 | 2–6 | Alpha |
 | **Dungeon Chess** | Chess | 0.1.0 | 2–4 | Alpha |
 | **Talisman: Hexed** | Talisman 4e | 1.0.0 | 2–6 | Live |
 | **Hyper Imperium** | Twilight Imperium 4e | 2.0.1 | 3–6 | Live |
