@@ -20,6 +20,8 @@ Sacrifice your King to win. There is no concept of check — the King can walk i
 
 **Setup:** Standard chess starting position.
 
+**FEN:** `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1`
+
 ### Rules
 
 - There is NO check, NO checkmate. The King is not protected by check rules.

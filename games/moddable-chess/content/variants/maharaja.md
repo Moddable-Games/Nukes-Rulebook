@@ -19,6 +19,8 @@ One Queen+Knight super-piece (the Maharaja) vs a full standard army. The ultimat
 **Board:** Standard 8×8.
 
 **Setup:**
+
+**FEN:** `rnbqkbnr/pppppppp/8/8/8/8/8/4M3 w kq - 0 1`
 - **Black (Sepoys):** Full standard chess army on ranks 7–8. Pawns on rank 7.
 - **White (Maharaja):** A single piece — the Maharaja — placed on any square of rank 1. No other pieces.
 

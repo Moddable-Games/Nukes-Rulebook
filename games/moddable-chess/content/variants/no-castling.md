@@ -20,6 +20,8 @@ Standard chess with castling disabled. Endorsed by Vladimir Kramnik as a potenti
 
 **Setup:** Standard chess setup.
 
+**FEN:** `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1`
+
 ### Rules
 
 Identical to standard chess except:

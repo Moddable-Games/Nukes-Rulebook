@@ -20,6 +20,7 @@ Each turn, the number of moves you make escalates: 1, 2, 3, 4, 5... Delivering c
 
 **Setup:** Standard chess starting position.
 
+**FEN:** `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1`
 ### Rules
 
 - White's first turn: 1 move. Black's first turn: 2 moves. White's second turn: 3 moves. And so on.

@@ -15,6 +15,8 @@ Pawns only. First to reach the far rank wins. A minimalist abstract strategy gam
 
 **Board:** 7×7 grid (49 squares).
 
+**FEN:** `ppppppp/ppppppp/7/7/7/PPPPPPP/PPPPPPP w - - 0 1`
+
 {{svg:breakthrough-board.svg "Breakthrough — starting position (7×7)"}}
 
 ### Pieces

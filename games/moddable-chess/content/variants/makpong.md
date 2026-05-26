@@ -20,6 +20,7 @@ A Thai chess (Makruk) variant where the King cannot move out of check. When in c
 
 **Setup:** Standard chess starting position.
 
+**FEN:** `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1`
 ### Rules
 
 All standard chess rules apply, except:

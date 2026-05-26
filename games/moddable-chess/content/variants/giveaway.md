@@ -20,6 +20,8 @@ Forced captures. Lose all your pieces to win. Stalemate counts as a loss for the
 
 **Setup:** Standard chess starting position.
 
+**FEN:** `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1`
+
 ### Rules
 
 - If you can capture, you MUST capture. If multiple captures are available, you choose which one.

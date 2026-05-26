@@ -20,6 +20,8 @@ Pawns can always double-move, not just from their starting rank. Dramatically ac
 
 **Setup:** Standard chess setup.
 
+**FEN:** `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1`
+
 ### Rules
 
 Identical to standard chess except:

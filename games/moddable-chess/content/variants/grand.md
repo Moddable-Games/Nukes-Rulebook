@@ -25,6 +25,8 @@ A 10×10 variant that adds the Archbishop and Chancellor without changing any ex
 
 **Setup:** Pawns on rank 3. Back two ranks arranged: empty corners, pieces spread across ranks 1–2 with King and Queen central.
 
+**FEN:** `r8r/1nbqkcbn1/pppppppppp/10/10/10/10/PPPPPPPPPP/1NBQKCBN1/R8R w - - 0 1`
+
 ### Rules
 
 - **No castling.** The wider board makes it unnecessary.

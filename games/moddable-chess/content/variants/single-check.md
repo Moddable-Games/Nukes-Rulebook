@@ -20,6 +20,8 @@ One check wins. No checkmate needed — just deliver a single check and the game
 
 **Setup:** Standard chess starting position.
 
+**FEN:** `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1`
+
 ### Rules
 
 All standard chess rules apply, except:

@@ -18,6 +18,8 @@ A hidden-information variant where each player can only see squares that their p
 
 **Board:** Standard 8×8, but each player's view is limited.
 
+**FEN:** `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1`
+
 ### Rules
 
 **Visibility:**

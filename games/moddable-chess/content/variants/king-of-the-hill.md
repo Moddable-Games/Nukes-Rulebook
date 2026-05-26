@@ -20,6 +20,8 @@ Move your King to the centre four squares for an instant win. Transforms the Kin
 
 **Setup:** Standard chess setup.
 
+**FEN:** `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1`
+
 ### Rules
 
 All standard chess rules apply. No modifications to piece movement, captures, or special moves.

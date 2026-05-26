@@ -20,6 +20,8 @@ Captures explode, destroying all non-pawn pieces in a one-square radius around t
 
 **Setup:** Standard chess setup.
 
+**FEN:** `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1`
+
 ### Rules
 
 - When a piece captures, an "explosion" occurs on the capture square.

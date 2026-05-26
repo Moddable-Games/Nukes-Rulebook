@@ -19,6 +19,8 @@ order: 14
 **Board:** Standard 8×8.
 
 **Setup:**
+
+**FEN:** `rnbqkbnr/pppppppp/8/1PP2PP1/PPPPPPPP/PPPPPPPP/PPPPPPPP/PPPPPPPP w kq - 0 1`
 - **Black:** Standard chess setup (full army on ranks 7–8).
 - **White (Horde):** 36 pawns filling ranks 1–4 completely, plus 4 additional pawns on b5, c5, f5, g5. No King, no officers.
 

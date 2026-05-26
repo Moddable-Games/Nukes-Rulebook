@@ -20,6 +20,8 @@ Capturing pieces stay on their original square — they "shoot" the target from 
 
 **Setup:** Standard chess setup.
 
+**FEN:** `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1`
+
 ### Rules
 
 All standard chess rules apply except:

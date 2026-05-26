@@ -20,6 +20,7 @@ Standard chess with one rule change: stalemating your opponent wins the game ins
 
 **Setup:** Standard chess starting position.
 
+**FEN:** `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1`
 ### Rules
 
 All standard chess rules apply, except:

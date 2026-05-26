@@ -15,6 +15,8 @@ A medieval large-board variant documented since 1202, predating the modern Queen
 
 **Board:** 12×8 (96 squares).
 
+**FEN:** `rnbbqsksbbnr/pppppppppppp/12/12/12/12/PPPPPPPPPPPP/RNBBQSKSBBNR w - - 0 1`
+
 {{svg:courier-board.svg "Courier Chess — starting position (12×8)"}}
 
 **Pieces (per side, from a-file):** Rook, Knight, Elephant, Courier, Sage, King, General, Courier, Elephant, Knight, Rook, Rook. 12 Pawns on the second rank.

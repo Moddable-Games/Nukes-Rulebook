@@ -24,6 +24,8 @@ Classic FIDE rules. The foundation from which all variants diverge.
 
 **Setup:** White on ranks 1–2, Black on ranks 7–8. Back rank (from a-file): Rook, Knight, Bishop, Queen, King, Bishop, Knight, Rook. Pawns fill the second rank.
 
+**FEN:** `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1`
+
 ### Rules
 
 All standard FIDE rules: pieces move as defined, turns alternate, captures remove the opponent's piece. Special moves: castling (kingside/queenside), en passant capture, and pawn promotion on the eighth rank.

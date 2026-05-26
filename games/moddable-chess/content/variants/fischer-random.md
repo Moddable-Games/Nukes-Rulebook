@@ -25,6 +25,8 @@ order: 6
 
 Pawns are placed normally on the second rank.
 
+**FEN:** Randomised each game. One of 960 possible positions. Example: `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1` (this happens to be the standard position — one of the 960).
+
 ### Rules
 
 Identical to standard chess, including castling. Castling follows a generalised rule: the King and Rook end up on the same squares they would in standard castling (King on c1/g1, Rook on d1/f1), regardless of where they started.

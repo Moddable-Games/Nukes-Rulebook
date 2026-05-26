@@ -20,6 +20,8 @@ After each move, place a shared rubber duck on any empty square. The duck blocks
 
 **Setup:** Standard chess setup. No duck on the board initially.
 
+**FEN:** `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1`
+
 ### Rules
 
 - Each turn has two parts: (1) make a normal chess move, then (2) place the duck on any empty square.

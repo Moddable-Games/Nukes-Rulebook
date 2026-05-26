@@ -20,6 +20,8 @@ Deliver three checks to win. No checkmate needed. Completely changes the value o
 
 **Setup:** Standard chess setup.
 
+**FEN:** `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1`
+
 ### Rules
 
 All standard chess rules apply. Each player's check count is tracked throughout the game.

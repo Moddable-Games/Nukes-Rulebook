@@ -20,6 +20,8 @@ Lose when any piece type is fully eliminated. Every piece type becomes a critica
 
 **Setup:** Standard chess setup.
 
+**FEN:** `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1`
+
 ### Rules
 
 Standard chess rules apply with one additional loss condition:

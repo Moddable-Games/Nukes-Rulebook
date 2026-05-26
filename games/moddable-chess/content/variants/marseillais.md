@@ -20,6 +20,8 @@ Two moves per turn. If your first move gives check, your turn ends immediately.
 
 **Setup:** Standard chess setup.
 
+**FEN:** `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1`
+
 ### Rules
 
 - Each player makes TWO moves per turn instead of one.

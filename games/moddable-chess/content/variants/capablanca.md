@@ -15,6 +15,8 @@ Invented by World Champion José Raúl Capablanca in the 1920s to address what h
 
 **Board:** 10×8 (ten files, eight ranks).
 
+**FEN:** `rnabqkbcnr/pppppppppp/10/10/10/10/PPPPPPPPPP/RNABQKBCNR w KQkq - 0 1`
+
 {{svg:capablanca-board.svg "Capablanca Chess — starting position (10×8)"}}
 
 ### Pieces

@@ -20,6 +20,8 @@ Captures are mandatory. Lose all your pieces to win. Inverts the entire logic of
 
 **Setup:** Standard chess setup.
 
+**FEN:** `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1`
+
 ### Rules
 
 - If a capture is available, you MUST capture. If multiple captures are available, you may choose which one.

@@ -20,6 +20,8 @@ An extended version of Three-Check. Deliver five checks to win. More room for st
 
 **Setup:** Standard chess starting position.
 
+**FEN:** `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1`
+
 ### Rules
 
 All standard chess rules apply, plus:

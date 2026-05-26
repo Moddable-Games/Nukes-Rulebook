@@ -20,6 +20,8 @@ No checks allowed. Race your King to rank 8. A pure positional race with no viol
 
 **Setup:** All pieces start on ranks 1–2 in a specific non-standard arrangement. No pawns.
 
+**FEN:** `8/8/8/8/8/8/krbnNBRK/qrbnNBRQ w - - 0 1`
+
 ### Rules
 
 - No move may give check (to either King). Any move that would place either King in check is illegal.
