@@ -132,6 +132,15 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 
 #### 2026-05-26
 - Moddable Chess: added 19 new variant rulebook pages (39 total), organised into categories
+- All 39 variants: uniform section structure (Setup, Rules, Win Condition, Strategy, Attribution)
+- All 39 variants: Staunton SVG board diagrams (matching app piece set), full-width with card frame
+- All 39 variants: FEN strings for implementers
+- Standard Chess: expanded with complete FIDE rules reference (piece movement, special moves, draw conditions)
+- PDF generation: refactored to multi-game system, generates individual + combined variant library (118 pages)
+- Dungeon Chess PDF generated (13 pages), broken PDF links removed from unpublished games
+- Variant page headers: Markdown + PDF download links
+- Table header contrast fix (accent-light on dark background)
+- Variant count now dynamic in hub template (no hardcoded numbers)
 - bump.sh now propagates version to game shell template OG image URLs
 
 #### 2026-05-25
