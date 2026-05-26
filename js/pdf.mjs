@@ -209,5 +209,86 @@ for (const slug of slugs) {
   console.log(`  Generated ${slug}/pdf/${slug}-rulebook-v${version}.pdf (${finalPages} pages)`);
 }
 
+// --- Variant PDF generation (for games with variants: true) ---
+for (const slug of slugs) {
+  const gameDir = resolve(GAMES_DIR, slug);
+  const src = readFileSync(resolve(gameDir, 'content/rulebook.md'), 'utf8');
+  const { data: meta } = matter(src);
+  if (!meta.variants) continue;
+
+  const version = meta.version || '0.0.0';
+  const variantsDir = resolve(gameDir, 'content/variants');
+  if (!existsSync(variantsDir)) continue;
+
+  const variantFiles = readdirSync(variantsDir).filter(f => f.endsWith('.md'));
+  const variants = variantFiles.map(f => {
+    const vsrc = readFileSync(resolve(variantsDir, f), 'utf8');
+    const { data: vmeta } = matter(vsrc);
+    return { file: f, slug: vmeta.slug || f.replace('.md', ''), meta: vmeta };
+  }).sort((a, b) => (a.meta.order || 999) - (b.meta.order || 999));
+
+  const variantPdfDir = resolve(gameDir, 'pdf/variants');
+  mkdirSync(variantPdfDir, { recursive: true });
+
+  const allVariantPdfs = [];
+  console.log(`  Generating ${variants.length} variant PDFs for ${slug}...`);
+
+  for (const v of variants) {
+    const htmlPath = resolve(DIST_DIR, slug, 'variants', v.slug, 'index.html');
+    if (!existsSync(htmlPath)) {
+      console.warn(`    Skipping variant ${v.slug} — no built HTML`);
+      continue;
+    }
+
+    const variantPdfPath = resolve(variantPdfDir, `${v.slug}.pdf`);
+
+    const page = await browser.newPage();
+    await page.goto(`file://${htmlPath}`, { waitUntil: 'networkidle0' });
+    await page.emulateMediaType('print');
+    await page.setViewport({ width: 794, height: 1123 });
+
+    // Strip nav header, pager, footer for print — keep cover + content
+    await page.evaluate(() => {
+      const header = document.querySelector('.doc-header');
+      const pager = document.querySelector('.variant-pager');
+      const footer = document.querySelector('.doc-footer');
+      const skip = document.querySelector('.skip-link');
+      if (header) header.remove();
+      if (pager) pager.remove();
+      if (footer) footer.remove();
+      if (skip) skip.remove();
+    });
+
+    await page.addStyleTag({ content: `
+      html, body { margin: 0; padding: 0; }
+      .page { max-width: none; box-shadow: none; }
+      .variant-cover { padding: 24px 20mm; }
+      .content { padding: 0 20mm 20mm; }
+    `});
+
+    await page.pdf({
+      path: variantPdfPath,
+      format: 'A4',
+      printBackground: true,
+      margin: { top: '15mm', bottom: '15mm', left: 0, right: 0 }
+    });
+
+    await page.close();
+    allVariantPdfs.push(variantPdfPath);
+  }
+
+  console.log(`  Generated ${allVariantPdfs.length} individual variant PDFs`);
+
+  // Combined library PDF
+  if (allVariantPdfs.length > 0) {
+    const combinedPath = resolve(gameDir, 'pdf', `${slug}-variant-library-v${version}.pdf`);
+    execSync(`pdfunite ${allVariantPdfs.map(p => `"${p}"`).join(' ')} "${combinedPath}"`);
+    const totalPages = parseInt(
+      execSync(`pdfinfo "${combinedPath}" | grep Pages | awk '{print $2}'`).toString().trim()
+    );
+    console.log(`  Generated ${slug}/pdf/${slug}-variant-library-v${version}.pdf (${totalPages} pages)`);
+  }
+}
+
 await browser.close();
 console.log('PDF generation complete.');
