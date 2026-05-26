@@ -17,7 +17,7 @@ variants: true
 
 ## Variant Library
 
-Moddable Chess includes 20 playable variants spanning classic rules, asymmetric battles, hidden information, and expanded boards. Each variant has its own complete rules page.
+Moddable Chess includes 39 playable variants spanning classic rules, asymmetric battles, hidden information, expanded boards, and alternative win conditions. Each variant has its own complete rules page.
 
 ### Standard Board (8×8)
 
@@ -42,6 +42,58 @@ Moddable Chess includes 20 playable variants spanning classic rules, asymmetric 
 
 </div>
 
+### Multi-Move Variants
+
+<div class="variant-grid">
+
+- [Progressive](variants/progressive/) — Escalating moves per turn (1, 2, 3, 4...)
+- [Monster Chess](variants/monster-chess/) — White gets 2 moves, Black gets 1
+
+</div>
+
+### Alternative Win Conditions
+
+<div class="variant-grid">
+
+- [Single-Check](variants/single-check/) — One check wins instantly
+- [Five-Check](variants/five-check/) — Five checks to win
+- [Giveaway](variants/giveaway/) — Forced captures, lose all pieces to win (stalemate = loss)
+- [Suicide Chess](variants/suicide-chess/) — Forced captures, lose all pieces to win (stalemate = draw)
+- [Stalemate Wins](variants/stalemate-wins/) — Stalemating your opponent wins
+- [Codrus](variants/codrus/) — Lose your King to win, no check concept
+
+</div>
+
+### Piece Replacement Variants
+
+<div class="variant-grid">
+
+- [Knightmate](variants/knightmate/) — Knight is royal, King moves like a knight
+- [Chigorin](variants/chigorin/) — White has 4 knights instead of bishops
+- [Almost Chess](variants/almost-chess/) — One queen replaced by Chancellor (R+N)
+- [Amazon Chess](variants/amazon-chess/) — Queens replaced by Amazons (Q+N)
+
+</div>
+
+### Starting Position Variants
+
+<div class="variant-grid">
+
+- [Upside-Down](variants/upside-down/) — Pieces start on opponent's rank
+- [Endgame Chess](variants/endgame-chess/) — Only pawns and Kings from the start
+- [Peasants' Revolt](variants/peasants-revolt/) — King + pawns vs King + knights
+- [Pawns Only](variants/pawns-only/) — Only pawns, first promotion wins
+
+</div>
+
+### Regional Variant
+
+<div class="variant-grid">
+
+- [Makpong](variants/makpong/) — Thai variant, King cannot move out of check
+
+</div>
+
 ### Expanded Boards
 
 <div class="variant-grid">
@@ -52,11 +104,13 @@ Moddable Chess includes 20 playable variants spanning classic rules, asymmetric 
 
 </div>
 
-### Reduced Board
+### Small Boards
 
 <div class="variant-grid">
 
 - [Breakthrough](variants/breakthrough/) — 7×7, pawns only, first to far rank wins
+- [Los Alamos](variants/los-alamos/) — 6×6, no bishops, first computer chess (1956)
+- [Minichess](variants/minichess/) — 5×5, full piece types on tiny board
 
 </div>
 

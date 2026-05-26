@@ -25,4 +25,7 @@ sed -i '' "s/\?v=[0-9]*\.[0-9]*\.[0-9]*/\?v=${NEW}/g" index.html
 # Update footer version display
 sed -i '' "s/v[0-9]*\.[0-9]*\.[0-9]*<\/span>/v${NEW}<\/span>/g" index.html
 
+# Update query strings in game shell templates
+find games -name "shell.html" -exec sed -i '' "s/\?v=[0-9]*\.[0-9]*\.[0-9]*/\?v=${NEW}/g" {} +
+
 echo "Bumped: ${CURRENT} → ${NEW}"

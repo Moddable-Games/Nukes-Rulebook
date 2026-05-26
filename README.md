@@ -38,7 +38,7 @@ games/
   talisman-hexed/        Full rulebook (live) — mod of Talisman 4e
   hyper-imperium/        Full rulebook (live) — mod of TI4
   econopoly/             Full rulebook (live) — mod of Monopoly
-  moddable-chess/        Variant library hub + 20 sub-pages (alpha) — platform
+  moddable-chess/        Variant library hub + 39 sub-pages (alpha) — platform
 shared/
   css/                   Design tokens, base styles, components
   fonts/                 Self-hosted WOFF2 web fonts
@@ -129,6 +129,10 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 ---
 
 ## Changelog
+
+#### 2026-05-26
+- Moddable Chess: added 19 new variant rulebook pages (39 total), organised into categories
+- bump.sh now propagates version to game shell template OG image URLs
 
 #### 2026-05-25
 - Added version.txt + bump.sh cache-busting system with footer version display
