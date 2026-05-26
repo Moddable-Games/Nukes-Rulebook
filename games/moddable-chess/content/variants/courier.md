@@ -7,7 +7,6 @@ parent: "moddable-chess"
 order: 19
 win: "Checkmate"
 special: "Medieval German variant from the 1200s. Extra bishops and sage pieces."
-playable: false
 ---
 
 ## Courier Chess
