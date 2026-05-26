@@ -9,7 +9,7 @@ tagline: "Every chess variant, one engine"
 type: "platform"
 status: "alpha"
 updated: "2026-05-25"
-published: false
+published: true
 variants: true
 ---
 
