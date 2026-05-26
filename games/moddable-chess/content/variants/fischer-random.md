@@ -11,6 +11,9 @@ order: 6
 
 960 possible starting positions. The back-rank pieces are shuffled randomly with one constraint: the King must be between the two Rooks.
 
+
+{{svg:fischer-random-board.svg "Fischer Random — one possible starting position"}}
+
 **Board:** Standard 8×8.
 
 **Setup:** Back-rank pieces are shuffled randomly for each game, with three constraints:

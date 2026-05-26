@@ -11,6 +11,9 @@ order: 16
 
 One Queen+Knight super-piece (the Maharaja) vs a full standard army. The ultimate asymmetric challenge.
 
+
+{{svg:maharaja-board.svg "Maharaja & Sepoys — starting position"}}
+
 **Board:** Standard 8×8.
 
 **Setup:**

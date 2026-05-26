@@ -11,6 +11,9 @@ order: 25
 
 One Queen is replaced by a Chancellor (Rook + Knight compound). "Almost" standard chess — one piece different, but the implications ripple through the entire game.
 
+
+{{svg:almost-chess-board.svg "Almost Chess — starting position"}}
+
 **Board:** Standard 8×8.
 
 **Setup (FEN):** `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBCKBNR`

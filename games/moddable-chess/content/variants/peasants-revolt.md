@@ -11,6 +11,9 @@ order: 38
 
 An asymmetric battle: White has a King and eight pawns against Black's King and two Knights. Can the peasant army overwhelm the mounted warriors?
 
+
+{{svg:peasants-revolt-board.svg "Peasants' Revolt — starting position"}}
+
 **Board:** Standard 8×8.
 
 **Setup (FEN):** `2n1k1n1/pppppppp/8/8/8/8/PPPPPPPP/4K3`

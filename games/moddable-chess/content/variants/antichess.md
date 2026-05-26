@@ -11,6 +11,9 @@ order: 4
 
 Captures are mandatory. Lose all your pieces to win. Inverts the entire logic of chess.
 
+
+{{svg:antichess-board.svg "Antichess — starting position"}}
+
 **Board:** Standard 8×8.
 
 **Setup:** Standard chess setup.

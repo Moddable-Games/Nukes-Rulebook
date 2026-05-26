@@ -11,6 +11,9 @@ order: 31
 
 Nearly identical to Giveaway — forced captures, lose all pieces to win — but with one critical difference: stalemate is a draw, not a loss.
 
+
+{{svg:suicide-chess-board.svg "Suicide Chess — starting position"}}
+
 **Board:** Standard 8×8.
 
 **Setup:** Standard chess starting position.

@@ -11,6 +11,9 @@ order: 33
 
 Sacrifice your King to win. There is no concept of check — the King can walk into danger and must be deliberately captured. Named after King Codrus of Athens, who sacrificed himself to save his city.
 
+
+{{svg:codrus-board.svg "Codrus — starting position"}}
+
 **Board:** Standard 8×8.
 
 **Setup:** Standard chess starting position.

@@ -11,6 +11,9 @@ order: 10
 
 After each move, place a shared rubber duck on any empty square. The duck blocks all pieces. Capture the King to win (no check/checkmate).
 
+
+{{svg:duck-chess-board.svg "Duck Chess — starting position"}}
+
 **Board:** Standard 8×8 plus one shared "duck" piece (a blocker).
 
 **Setup:** Standard chess setup. No duck on the board initially.

@@ -11,6 +11,9 @@ order: 30
 
 Forced captures. Lose all your pieces to win. Stalemate counts as a loss for the stalemated player. The ultimate inversion of chess logic.
 
+
+{{svg:giveaway-board.svg "Giveaway — starting position"}}
+
 **Board:** Standard 8×8.
 
 **Setup:** Standard chess starting position.

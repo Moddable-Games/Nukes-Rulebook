@@ -11,6 +11,9 @@ order: 8
 
 Captures explode, destroying all non-pawn pieces in a one-square radius around the capture square. Including the capturing piece.
 
+
+{{svg:atomic-board.svg "Atomic Chess — starting position"}}
+
 **Board:** Standard 8×8.
 
 **Setup:** Standard chess setup.

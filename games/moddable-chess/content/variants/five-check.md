@@ -11,6 +11,9 @@ order: 29
 
 An extended version of Three-Check. Deliver five checks to win. More room for strategic play while still rewarding aggressive checking sequences.
 
+
+{{svg:five-check-board.svg "Five-Check — starting position"}}
+
 **Board:** Standard 8×8.
 
 **Setup:** Standard chess starting position.

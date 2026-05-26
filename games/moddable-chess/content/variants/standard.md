@@ -11,6 +11,9 @@ order: 1
 
 Classic FIDE rules. The foundation from which all variants diverge.
 
+
+{{svg:standard-board.svg "Standard Chess — starting position"}}
+
 **Board:** 8×8, 64 squares alternating light/dark.
 
 **Pieces (per side):** 1 King, 1 Queen, 2 Rooks, 2 Bishops, 2 Knights, 8 Pawns.

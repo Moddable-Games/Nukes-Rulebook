@@ -11,6 +11,9 @@ order: 24
 
 White replaces both Bishops with Knights. Four Knights vs two Knights and two Bishops — a fundamental asymmetry that changes positional evaluation.
 
+
+{{svg:chigorin-board.svg "Chigorin Chess — starting position"}}
+
 **Board:** Standard 8×8.
 
 **Setup (FEN):** `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNNQKNNR`

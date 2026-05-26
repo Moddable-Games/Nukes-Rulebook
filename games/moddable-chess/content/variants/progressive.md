@@ -11,6 +11,9 @@ order: 23
 
 Each turn, the number of moves you make escalates: 1, 2, 3, 4, 5... Delivering check ends your turn early regardless of how many moves remain.
 
+
+{{svg:progressive-board.svg "Progressive Chess — starting position"}}
+
 **Board:** Standard 8×8.
 
 **Setup:** Standard chess starting position.

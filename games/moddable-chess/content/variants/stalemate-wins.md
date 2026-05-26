@@ -11,6 +11,9 @@ order: 32
 
 Standard chess with one rule change: stalemating your opponent wins the game instead of drawing. This eliminates all stalemate-based drawing resources.
 
+
+{{svg:stalemate-wins-board.svg "Stalemate Wins — starting position"}}
+
 **Board:** Standard 8×8.
 
 **Setup:** Standard chess starting position.

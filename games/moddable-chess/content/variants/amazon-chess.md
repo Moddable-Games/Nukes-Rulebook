@@ -11,6 +11,9 @@ order: 26
 
 Both Queens are replaced by Amazons — the most powerful piece possible, combining Queen and Knight movement.
 
+
+{{svg:amazon-chess-board.svg "Amazon Chess — starting position"}}
+
 **Board:** Standard 8×8.
 
 **Setup (FEN):** `rnbmkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBMKBNR`

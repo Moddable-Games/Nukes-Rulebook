@@ -85,6 +85,68 @@
   margin-top: 0;
 }
 
+/* Variant content — definition-style paragraphs */
+.content .section > p {
+  margin: 0 0 16px;
+  line-height: 1.7;
+}
+
+.content .section > p > strong:first-child {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-right: 6px;
+  padding: 2px 8px;
+  background: rgba(var(--accent-rgb, 180, 130, 60), 0.08);
+  border-radius: 3px;
+  vertical-align: baseline;
+}
+
+/* Board diagram container */
+.content .section > .diagram-wrap,
+.content .section > svg {
+  display: block;
+  margin: 24px auto;
+  max-width: 360px;
+}
+
+.content .section .diagram-caption {
+  text-align: center;
+  font-family: var(--sans);
+  font-size: 12px;
+  color: var(--text-secondary, #777);
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+/* Rule lists within variant pages */
+.content .section > ul.rules {
+  margin: 0 0 20px;
+  padding-left: 20px;
+}
+
+.content .section > ul.rules li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.content .section > ul.rules li strong {
+  color: var(--heading-color, var(--text-primary));
+}
+
+/* FEN code blocks */
+.content .section code {
+  font-size: 13px;
+  padding: 2px 6px;
+  background: rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 3px;
+}
+
 /* Variant pager — sits between content and footer as its own band */
 .variant-pager {
   display: flex;

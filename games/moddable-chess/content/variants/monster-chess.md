@@ -11,6 +11,9 @@ order: 22
 
 White gets two moves per turn. Black gets one. To compensate, White starts with only a King and Rooks — no minor pieces, no Queen, no pawns.
 
+
+{{svg:monster-chess-board.svg "Monster Chess — starting position"}}
+
 **Board:** Standard 8×8.
 
 **Setup (FEN):** `rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R3K2R`

@@ -11,6 +11,9 @@ order: 36
 
 Gardner's 5×5 chess. All standard piece types on a tiny board. Fast, tactical, and surprisingly deep for its size.
 
+
+{{svg:minichess-board.svg "Minichess — starting position (5×5)"}}
+
 **Board:** 5×5 (five files, five ranks).
 
 **Setup (FEN):** `kqbnr/ppppp/5/PPPPP/RNBQK`

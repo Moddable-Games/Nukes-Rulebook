@@ -11,6 +11,9 @@ order: 28
 
 One check wins. No checkmate needed — just deliver a single check and the game is over. Every move is life or death.
 
+
+{{svg:single-check-board.svg "Single-Check — starting position"}}
+
 **Board:** Standard 8×8.
 
 **Setup:** Standard chess starting position.

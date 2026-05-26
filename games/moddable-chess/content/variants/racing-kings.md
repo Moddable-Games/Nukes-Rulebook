@@ -11,6 +11,9 @@ order: 5
 
 No checks allowed. Race your King to rank 8. A pure positional race with no violence.
 
+
+{{svg:racing-kings-board.svg "Racing Kings — starting position"}}
+
 **Board:** Standard 8×8.
 
 **Setup:** All pieces start on ranks 1–2 in a specific non-standard arrangement. No pawns.

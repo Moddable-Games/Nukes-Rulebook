@@ -11,6 +11,9 @@ order: 13
 
 Pawns can always double-move, not just from their starting rank. Dramatically accelerates pawn play in the middlegame and endgame.
 
+
+{{svg:torpedo-board.svg "Torpedo Chess — starting position"}}
+
 **Board:** Standard 8×8.
 
 **Setup:** Standard chess setup.

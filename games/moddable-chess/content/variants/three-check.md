@@ -11,6 +11,9 @@ order: 3
 
 Deliver three checks to win. No checkmate needed. Completely changes the value of forcing moves.
 
+
+{{svg:three-check-board.svg "Three-Check — starting position"}}
+
 **Board:** Standard 8×8.
 
 **Setup:** Standard chess setup.

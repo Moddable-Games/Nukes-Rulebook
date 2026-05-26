@@ -11,6 +11,9 @@ order: 27
 
 Pieces start on the opponent's back rank. Pawns move "backward" toward their own side. A disorienting mirror of standard chess.
 
+
+{{svg:upside-down-board.svg "Upside-Down Chess — starting position"}}
+
 **Board:** Standard 8×8.
 
 **Setup (FEN):** `RNBQKBNR/PPPPPPPP/8/8/8/8/pppppppp/rnbqkbnr`

@@ -11,6 +11,9 @@ order: 9
 
 Two moves per turn. If your first move gives check, your turn ends immediately.
 
+
+{{svg:marseillais-board.svg "Marseillais Chess — starting position"}}
+
 **Board:** Standard 8×8.
 
 **Setup:** Standard chess setup.

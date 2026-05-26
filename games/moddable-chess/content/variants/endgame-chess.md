@@ -11,6 +11,9 @@ order: 37
 
 Only pawns and Kings. No back-rank pieces at all. Pure endgame technique from move one — pawn structure, King activity, and promotion races.
 
+
+{{svg:endgame-chess-board.svg "Endgame Chess — starting position"}}
+
 **Board:** Standard 8×8.
 
 **Setup (FEN):** `4k3/pppppppp/8/8/8/8/PPPPPPPP/4K3`

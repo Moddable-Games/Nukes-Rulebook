@@ -11,6 +11,9 @@ order: 14
 
 36 pawns versus a normal army. A radically asymmetric battle of overwhelming numbers against organised forces.
 
+
+{{svg:horde-board.svg "Horde Chess — starting position"}}
+
 **Board:** Standard 8×8.
 
 **Setup:**

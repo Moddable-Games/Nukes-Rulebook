@@ -11,6 +11,9 @@ order: 2
 
 Move your King to the centre four squares for an instant win. Transforms the King from a liability into an offensive weapon.
 
+
+{{svg:king-of-the-hill-board.svg "King of the Hill — starting position"}}
+
 **Board:** Standard 8×8.
 
 **Setup:** Standard chess setup.

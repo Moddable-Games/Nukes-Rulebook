@@ -11,6 +11,9 @@ order: 21
 
 The Knight becomes the royal piece. The King becomes a commoner that moves like a knight. A complete role reversal that transforms strategy.
 
+
+{{svg:knightmate-board.svg "Knightmate — starting position"}}
+
 **Board:** Standard 8×8.
 
 **Setup (FEN):** `rkbqnbkr/pppppppp/8/8/8/8/PPPPPPPP/RKBQNBKR`

@@ -11,6 +11,9 @@ order: 12
 
 Standard chess with castling disabled. Endorsed by Vladimir Kramnik as a potential improvement to competitive chess, reducing the dominance of memorised opening theory.
 
+
+{{svg:no-castling-board.svg "No Castling — starting position"}}
+
 **Board:** Standard 8×8.
 
 **Setup:** Standard chess setup.

@@ -11,6 +11,9 @@ order: 35
 
 The first chess variant ever played by a computer (1956, MANIAC I at Los Alamos National Laboratory). A 6×6 board with no Bishops and no castling.
 
+
+{{svg:los-alamos-board.svg "Los Alamos Chess — starting position (6×6)"}}
+
 **Board:** 6×6 (six files, six ranks).
 
 **Setup (FEN):** `rnqknr/pppppp/6/6/PPPPPP/RNQKNR`

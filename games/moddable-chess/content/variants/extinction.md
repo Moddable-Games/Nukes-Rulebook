@@ -11,6 +11,9 @@ order: 15
 
 Lose when any piece type is fully eliminated. Every piece type becomes a critical resource.
 
+
+{{svg:extinction-board.svg "Extinction Chess — starting position"}}
+
 **Board:** Standard 8×8.
 
 **Setup:** Standard chess setup.

@@ -11,6 +11,9 @@ order: 39
 
 Only pawns and Kings. First to promote wins. A deceptively deep race that tests pure pawn endgame technique.
 
+
+{{svg:pawns-only-board.svg "Pawns Only — starting position"}}
+
 **Board:** Standard 8×8.
 
 **Setup (FEN):** `4k3/pppppppp/8/8/8/8/PPPPPPPP/4K3`

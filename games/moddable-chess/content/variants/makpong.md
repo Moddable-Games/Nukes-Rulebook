@@ -11,6 +11,9 @@ order: 34
 
 A Thai chess (Makruk) variant where the King cannot move out of check. When in check, you must block or capture the checking piece — the King stays put.
 
+
+{{svg:makpong-board.svg "Makpong — starting position"}}
+
 **Board:** Standard 8×8.
 
 **Setup:** Standard chess starting position.

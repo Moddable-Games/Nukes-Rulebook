@@ -11,6 +11,9 @@ order: 11
 
 A hidden-information variant where each player can only see squares that their pieces can legally move to or attack. Transforms chess from a perfect-information game into one of reconnaissance and deduction.
 
+
+{{svg:fog-of-war-board.svg "Fog of War — starting position"}}
+
 **Board:** Standard 8×8, but each player's view is limited.
 
 **Visibility rules:**

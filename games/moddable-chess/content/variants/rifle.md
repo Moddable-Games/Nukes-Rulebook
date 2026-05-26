@@ -11,6 +11,9 @@ order: 7
 
 Capturing pieces stay on their original square — they "shoot" the target from a distance.
 
+
+{{svg:rifle-board.svg "Rifle Chess — starting position"}}
+
 **Board:** Standard 8×8.
 
 **Setup:** Standard chess setup.
