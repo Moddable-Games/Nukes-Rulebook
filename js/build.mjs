@@ -289,6 +289,7 @@ function buildVariants(slug) {
 
     let output = template.replace('{{CONTENT}}', rendered);
     output = output.replace(/\{\{variant_title\}\}/g, meta.title || variantSlug);
+    output = output.replace(/\{\{variant_slug\}\}/g, variantSlug);
     output = output.replace(/\{\{variant_board\}\}/g, meta.board || '8×8');
     output = output.replace(/\{\{variant_players\}\}/g, meta.players || '2');
     output = output.replace(/\{\{variant_order\}\}/g, String(meta.order || i + 1));
