@@ -358,6 +358,18 @@ function buildLanding() {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Moddable Rules — Game Rulebooks</title>
 <meta name="description" content="Official rulebooks for games published by Moddable Games.">
+<meta property="og:title" content="Moddable Rules — Game Rulebooks">
+<meta property="og:description" content="Official rulebooks for games published by Moddable Games.">
+<meta property="og:image" content="https://rules.moddable.games/shared/og-image.png?v=${version}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://rules.moddable.games/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Moddable Rules">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Moddable Rules — Game Rulebooks">
+<meta name="twitter:description" content="Official rulebooks for games published by Moddable Games.">
+<meta name="twitter:image" content="https://rules.moddable.games/shared/og-image.png?v=${version}">
 <link rel="icon" type="image/svg+xml" href="shared/logos/favicon.svg">
 <link rel="stylesheet" href="css/landing.css?v=${version}">
 </head>
