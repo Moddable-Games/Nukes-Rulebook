@@ -46,7 +46,8 @@ shared/
   templates/             Shared fallback shell template
   logos/                 Moddable brand assets
 js/
-  build.mjs             Multi-game build system (+ variant sub-pages)
+  build.mjs             Multi-game build system (+ variant sub-pages + search index)
+  build-index.mjs       Standalone search index generator
   landing.js            Landing page filter pills
   pdf.mjs               PDF generation (Puppeteer)
   pdf-paginate.mjs      Manual pagination engine
@@ -84,13 +85,36 @@ Requires Node.js 18+.
 
 ```bash
 npm install --ignore-scripts
-npm run build              # Build all games → dist/
+npm run build              # Build all games → dist/ (includes search index)
 npm run build:game nukes   # Build one game
+npm run index              # Rebuild search index only
 npm run pdf                # Generate all PDFs
 npm run pdf:game nukes     # Generate PDF for one game
 ```
 
-The build reads each game's `content/rulebook.md`, resolves includes and SVGs, renders markdown to HTML, applies the game's theme, and outputs to `dist/{slug}/index.html`.
+The build reads each game's `content/rulebook.md`, resolves includes and SVGs, renders markdown to HTML, applies the game's theme, and outputs to `dist/{slug}/index.html`. It also generates `dist/rules-index.json` — a structured search index consumed by the Rules Referee widget on moddable.games.
+
+### Search Index API
+
+The build outputs `dist/rules-index.json` (also available via `npm run index`), served at:
+
+```
+https://rules.moddable.games/dist/rules-index.json
+```
+
+Each entry contains:
+```json
+{
+  "game": "nukes",
+  "gameTitle": "Nukes",
+  "section": "Combat",
+  "heading": "Calculating Strength",
+  "content": "First ~200 chars of the section body...",
+  "anchor": "calculating-strength"
+}
+```
+
+Links to full rules: `https://rules.moddable.games/dist/{game}/#anchor`
 
 ---
 
@@ -130,6 +154,11 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 ---
 
 ## Changelog
+
+#### 2026-05-27
+- Added `dist/rules-index.json` search index API (63 entries across published games)
+- Index built as part of `npm run build` and available standalone via `npm run index`
+- Serves as data source for moddable-website Rules Referee widget
 
 #### 2026-05-26
 - Moddable Chess: added 19 new variant rulebook pages (39 total), organised into categories

@@ -6,6 +6,7 @@
   "scripts": {
     "build": "node js/build.mjs --all",
     "build:game": "node js/build.mjs --game",
+    "index": "node js/build-index.mjs",
     "pdf": "node js/pdf.mjs",
     "pdf:game": "node js/pdf.mjs --game",
     "sync": "node js/sync.mjs"

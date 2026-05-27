@@ -1,0 +1,506 @@
+[
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "What Is Dungeon Chess?",
+    "heading": "What Is Dungeon Chess?",
+    "content": "Dungeon Chess is an asymmetric strategy game built on a chess engine. Four fantasy factions — each with unique abilities — battle on modular dungeon maps with terrain hazards. Players draft armies fro",
+    "anchor": "what-is-dungeon-chess"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "The Four Factions",
+    "heading": "The Four Factions",
+    "content": "Each faction has 6 unit types corresponding to chess roles Pawn, Castle, Knight, Bishop, Queen, King. Every faction plays differently.",
+    "anchor": "the-four-factions"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "The Four Factions",
+    "heading": "Human — Balanced & Reliable",
+    "content": "Heroes, knights and archers. No gimmicks, no weaknesses. Cheap Knight 12 XP, premium Archer that pierces through pieces, and a Wizard with asymmetric threat zones. The Princess is the most mobile King",
+    "anchor": "human-balanced-reliable"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "The Four Factions",
+    "heading": "Undead — Phase & Swarm",
+    "content": "1 XP Skeletons let you field massive armies up to 35 Pawns + King, but each dies to any adjacent touch. The Wraith phases through allies, the Reaper walks on water, the Tomb fires through friendly scr",
+    "anchor": "undead-phase-swarm"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "The Four Factions",
+    "heading": "Redskin — Explosive Firepower",
+    "content": "Every unit hits hard but costs dearly. Cannon-equipped Pawns and Castles, a hit-and-run Salamander, and the Demonics — which explodes on death, taking adjacent enemies with it. Iron Golem is immune to",
+    "anchor": "redskin-explosive-firepower"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "The Four Factions",
+    "heading": "Greenskin — Attrition & Disruption",
+    "content": "Goblins and Orcs backed by disruptive abilities. The Ogre freezes adjacent enemy Pawns. The Troll survives its first death. The Shaman can immobilise a key target. The Orc has flexible movement. Desig",
+    "anchor": "greenskin-attrition-disruption"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Unit Roster",
+    "heading": "Unit Roster",
+    "content": "All units, organised by chess role. XP cost shown in brackets.",
+    "anchor": "unit-roster"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Unit Roster",
+    "heading": "Pawns",
+    "content": "Faction Movement Special ------ ------ -------- Human 1 square, any direction 8-way — Skeleton 1 XP Diagonal only 1 square Redskin 1 square 8-way + rook slide to screen — Goblin 5 XP Diagonal 1 sq + C",
+    "anchor": "pawns"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Unit Roster",
+    "heading": "Castles",
+    "content": "Faction Movement Special ------ ------ -------- Human 1 square orthogonally — Tomb 12 XP Adjacent + Rook slide Redskin 1 sq ortho + rook slide to screen Cannon-proof: cannot be targeted by cannon atta",
+    "anchor": "castles"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Unit Roster",
+    "heading": "Knights",
+    "content": "Faction Movement Special ------ ------ -------- Human L-shaped jump 2+1 — Reaper 15 XP Same as movement Redskin L-shaped jump 2+1 Hit-and-run: after capturing, may move 1 additional square in any dire",
+    "anchor": "knights"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Unit Roster",
+    "heading": "Bishops",
+    "content": "Faction Movement Special ------ ------ -------- Human Diagonal slide Piercing: can attack through one intervening piece Wraith 15 XP Diagonal slide Redskin Diagonal slide Water weakness: water blocks ",
+    "anchor": "bishops"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Unit Roster",
+    "heading": "Queens",
+    "content": "Faction Movement Special ------ ------ -------- Human Rook lines orthogonal slide Split: moves as Rook, attacks in all directions Vampire 20 XP Rook + Diagonal lines Redskin Full queen all 8 direction",
+    "anchor": "queens"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Unit Roster",
+    "heading": "Kings",
+    "content": "Faction Movement Bonus ------ ------ -------- Human King step 1 sq, 8-way + Bishop slide Mobile: slides diagonally for repositioning no capture via slide Warlock 20 XP King step + Bishop slide attack ",
+    "anchor": "kings"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "The Cannon Mechanic",
+    "heading": "The Cannon Mechanic",
+    "content": "Kobolds, Goblins, Iron Golems, and Ogres have cannon attacks — a ranged capture mechanic borrowed from XiangQi Chinese Chess. How it works: - The cannon attacks along rook lines straight orthogonal. -",
+    "anchor": "the-cannon-mechanic"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Terrain",
+    "heading": "Terrain",
+    "content": "Dungeon maps use three terrain types:",
+    "anchor": "terrain"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Terrain",
+    "heading": "Floor (Normal)",
+    "content": "Standard passable squares. No restrictions.",
+    "anchor": "floor-normal"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Terrain",
+    "heading": "Water",
+    "content": "- Most units CANNOT step onto water squares. - Knights cannot land on water but can leap over it. - Water blocks diagonal slides for Fire Elemental, Troll, Demonics, and Shaman. - Cannon lines skip ov",
+    "anchor": "water"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Terrain",
+    "heading": "Void",
+    "content": "- Off-board squares. Cannot be entered by any unit. - Creates the dungeon's corridors and chokepoints. - All sliding pieces stop at void boundaries — voids block slides for every unit equally. Draftin",
+    "anchor": "void"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Army Drafting",
+    "heading": "Army Drafting",
+    "content": "Before each battle, players build their army from an XP budget. Budget: 75 XP Constraints: - Must include exactly 1 King - Must include at least 1 Pawn - No maximum team size — as many units as budget",
+    "anchor": "army-drafting"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Battle Rules",
+    "heading": "Setup",
+    "content": "1. Choose your faction 2. Draft your army 75 XP 3. Choose turn order: You First, AI First, or Random 4. Deploy units in your spawn zone bottom rows of the map",
+    "anchor": "setup"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Battle Rules",
+    "heading": "Turn Order",
+    "content": "- 2-player: alternating turns - 4-player: cyclic Player → AI 1 → AI 2 → AI 3 - Each turn: move one unit OR attack with one unit",
+    "anchor": "turn-order"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Battle Rules",
+    "heading": "Check",
+    "content": "- A King is in check if an enemy unit could capture it on the next move. - You CANNOT make a move that leaves your own King in check. - You MUST resolve check on your turn move King, block, or capture",
+    "anchor": "check"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Battle Rules",
+    "heading": "Win Condition",
+    "content": "Capture the enemy King. The game ends immediately when a King is taken. In 4-player games, eliminated players' remaining pieces are removed; the last King standing wins.",
+    "anchor": "win-condition"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Battle Rules",
+    "heading": "Undo",
+    "content": "Players may undo their last move reverting both their move and the AI's response. Maps",
+    "anchor": "undo"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Maps",
+    "heading": "Map 1: Compact Skirmish (2-player)",
+    "content": "A 10×10 open arena with a 4×4 water block in the centre rows 3–6, columns 3–6. Spawn zones are the top 2 rows AI and bottom 2 rows Player. Fast, tactical games with water forcing units around the midd",
+    "anchor": "map-1-compact-skirmish-2-player"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Maps",
+    "heading": "Map 2: Two Player Dungeon (2-player)",
+    "content": "A 20×8 cross-shaped dungeon. Three chambers connected by narrow 2-wide corridors: - Top chamber: 8×3 AI spawn - Centre chamber: 8×8 with 4×4 water in the middle - Bottom chamber: 8×3 Player spawn - Co",
+    "anchor": "map-2-two-player-dungeon-2-player"
+  },
+  {
+    "game": "dungeon-chess",
+    "gameTitle": "Dungeon Chess",
+    "section": "Maps",
+    "heading": "Map 3: Four Player Dungeon (4-player)",
+    "content": "A 20×20 symmetric cross. Four spawn chambers at the cardinal edges, connected by narrow corridors to a central 8×8 arena with 4×4 water. Each arm has its own connector passage. - Centre: rows 6–13, co",
+    "anchor": "map-3-four-player-dungeon-4-player"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Variant Library",
+    "heading": "Variant Library",
+    "content": "Moddable Chess includes 39 playable variants spanning classic rules, asymmetric battles, hidden information, expanded boards, and alternative win conditions. Each variant has its own complete rules pa",
+    "anchor": "variant-library"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Variant Library",
+    "heading": "Standard Board (8×8)",
+    "content": "- Standard Chessvariants/standard/ — Classic FIDE rules - King of the Hillvariants/king-of-the-hill/ — King reaches centre = instant win - Three-Checkvariants/three-check/ — Deliver three checks to wi",
+    "anchor": "standard-board-88"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Variant Library",
+    "heading": "Multi-Move Variants",
+    "content": "- Progressivevariants/progressive/ — Escalating moves per turn 1, 2, 3, 4... - Monster Chessvariants/monster-chess/ — White gets 2 moves, Black gets 1",
+    "anchor": "multi-move-variants"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Variant Library",
+    "heading": "Alternative Win Conditions",
+    "content": "- Single-Checkvariants/single-check/ — One check wins instantly - Five-Checkvariants/five-check/ — Five checks to win - Giveawayvariants/giveaway/ — Forced captures, lose all pieces to win stalemate =",
+    "anchor": "alternative-win-conditions"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Variant Library",
+    "heading": "Piece Replacement Variants",
+    "content": "- Knightmatevariants/knightmate/ — Knight is royal, King moves like a knight - Chigorinvariants/chigorin/ — White has 4 knights instead of bishops - Almost Chessvariants/almost-chess/ — One queen repl",
+    "anchor": "piece-replacement-variants"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Variant Library",
+    "heading": "Starting Position Variants",
+    "content": "- Upside-Downvariants/upside-down/ — Pieces start on opponent's rank - Endgame Chessvariants/endgame-chess/ — Only pawns and Kings from the start - Peasants' Revoltvariants/peasants-revolt/ — King + p",
+    "anchor": "starting-position-variants"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Variant Library",
+    "heading": "Regional Variant",
+    "content": "- Makpongvariants/makpong/ — Thai variant, King cannot move out of check",
+    "anchor": "regional-variant"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Variant Library",
+    "heading": "Expanded Boards",
+    "content": "- Capablanca Chessvariants/capablanca/ — 10×8 with Archbishop + Chancellor - Grand Chessvariants/grand/ — 10×10, same new pieces, bigger stage - Courier Chessvariants/courier/ — 12×8, medieval variant",
+    "anchor": "expanded-boards"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Variant Library",
+    "heading": "Small Boards",
+    "content": "- Breakthroughvariants/breakthrough/ — 7×7, pawns only, first to far rank wins - Los Alamosvariants/los-alamos/ — 6×6, no bishops, first computer chess 1956 - Minichessvariants/minichess/ — 5×5, full ",
+    "anchor": "small-boards"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "How to Play in 5 Minutes",
+    "heading": "How to Play in 5 Minutes",
+    "content": "Nukes is a 2–3 player strategy game played on a board of hexagonal regions. You command armies across varied terrain, build fortified bases, and threaten opponents with nuclear strikes — all while man",
+    "anchor": "how-to-play-in-5-minutes"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "How to Play in 5 Minutes",
+    "heading": "The Core Loop",
+    "content": "- Return 1–3 hostages to regions where their owner already has units — earning one move per token returned. - Move your platoons. Infantry chains through same-biome terrain. Artillery fires in straigh",
+    "anchor": "the-core-loop"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Components",
+    "heading": "Components",
+    "content": "Qty ----- 44 75 3 1",
+    "anchor": "components"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Components",
+    "heading": "Tokens — What They Represent",
+    "content": "There are no separate pieces for different unit types. Token count and location {nowrap Token State ----------- On the board — 1 token Artillery On the board — 3 tokens Base does not move Off the boar",
+    "anchor": "tokens-what-they-represent"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Components",
+    "heading": "Hex Tiles by Biome",
+    "content": "Count ------- 13 9 7 7 5 3 Before the First Turn",
+    "anchor": "hex-tiles-by-biome"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Setting Up the Board",
+    "heading": "Building the Board",
+    "content": "The board uses 37 of the 44 tiles and can be built three ways: - Symmetrical: A pre-agreed mirrored layout. Visit moddable.games/tool/nukes {nowrap already-placed tile.}",
+    "anchor": "building-the-board"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Setting Up the Board",
+    "heading": "2-Player Tile Counts",
+    "content": "Per Side ---------- 5 4 3 3 2 1",
+    "anchor": "2-player-tile-counts"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Setting Up the Board",
+    "heading": "3-Player Tile Counts",
+    "content": "Per Side ---------- 4 2 2 2 1 1 ★ In 3-player games the central region must not be a City.",
+    "anchor": "3-player-tile-counts"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Setting Up the Board",
+    "heading": "Starting Positions",
+    "content": "- Place your City tile at the edge of the board, equally spaced from all other cities and the central region. - Place 4 of your tokens in your city as starting units. - Place 1 token beside the board ",
+    "anchor": "starting-positions"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Victory Conditions",
+    "heading": "Victory Conditions",
+    "content": "The game ends immediately the moment any condition below is met. No further {nowrap city tile.} - Outlast all opponents — be the last player with hostages to return and units on {nowrap|the board.}",
+    "anchor": "victory-conditions"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Victory Conditions",
+    "heading": "Elimination",
+    "content": "A player is eliminated when either of the following {nowrap Hostage Attrition:} You have no hostages to return at the start of your turn. Your city is immediately destroyed and all your units removed ",
+    "anchor": "elimination"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Turn Structure",
+    "heading": "Turn Structure",
+    "content": "Turns proceed clockwise. Each turn has three phases, always in this order.",
+    "anchor": "turn-structure"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Turn Structure",
+    "heading": "Phase 1 — Return Hostages",
+    "content": "✦ Understanding the Hostage Mechanic You hold tokens belonging to your opponents. Like hostages in the real world, they are under your control until returned home. When you return them, each token goe",
+    "anchor": "phase-1-return-hostages"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Turn Structure",
+    "heading": "Phase 2 — Move Units",
+    "content": "- You earn one move per hostage returned — between 1 and 3 moves total. - Moves are optional. You may use fewer than you earned. Only return as many hostages as moves you actually need — every returne",
+    "anchor": "phase-2-move-units"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Turn Structure",
+    "heading": "Phase 3 — End-of-Turn Resolution",
+    "content": "After all moves and combat are resolved, any units resting in restricted terrain they cannot safely occupy are destroyed. Only a unit's final resting position matters — a token may transit through a r",
+    "anchor": "phase-3-end-of-turn-resolution"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Units & Platoons",
+    "heading": "Units & Platoons",
+    "content": "Platoon type is determined solely by the current token count in a region. This fluidity is fundamental — tokens become different unit types as they {nowrap what does that make them?}",
+    "anchor": "units-platoons"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Units & Platoons",
+    "heading": "Infantry — Movement & Rules",
+    "content": "Same-Biome Flood Fill Can Enter, Cannot Pass Through - Same-biome chaining: Infantry may travel through any number of connected regions sharing their starting biome in a single move — no distance limi",
+    "anchor": "infantry-movement-rules"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Units & Platoons",
+    "heading": "Artillery — Movement & Rules",
+    "content": "Jump Mechanics Pivot at a Friendly Base - Straight-line jumps: Artillery moves by jumping to the directly opposing region across a hex axis. Intermediate regions must contain units at the moment of th",
+    "anchor": "artillery-movement-rules"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Units & Platoons",
+    "heading": "Airborne — Movement & Rules",
+    "content": "Exactly 2 Steps, Not Adjacent Slingshot Chain - Exactly two regions: Airborne moves in two steps, each to an adjacent region. The two steps can go in any direction — there is no requirement to move in",
+    "anchor": "airborne-movement-rules"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Units & Platoons",
+    "heading": "Nukes — Movement & Rules",
+    "content": "Valid Targets After the Strike - Requires a Base: A nuke can only be launched from a region containing one of your Bases. The Base remains after launch. - Must jump at least once: A nuke must cross ov",
+    "anchor": "nukes-movement-rules"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Units & Platoons",
+    "heading": "Bases — Full Rules",
+    "content": "- A Base forms immediately when a 4th token joins a region — mid-turn during Phase 2. - Maximum 9 units. Voluntarily moving your own platoon into a full Base is illegal. If an opponent returns a hosta",
+    "anchor": "bases-full-rules"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Units & Platoons",
+    "heading": "Cities — Full Rules",
+    "content": "- Cities act as Bases for movement purposes only regardless of unit count — Infantry can pass through freely, Artillery and Nukes can change direction when passing over, and Airborne can slingshot fro",
+    "anchor": "cities-full-rules"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Units & Platoons",
+    "heading": "Meltdown",
+    "content": "A Meltdown occurs when a hostage token is returned to a region already at its maximum capacity of 9 units. This is a legal and intentional offensive tactic. ☢ Meltdown Effect — Immediate Target hex: C",
+    "anchor": "meltdown"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Combat",
+    "heading": "Combat",
+    "content": "A platoon may only move into an enemy-occupied region if it can win. You must have strictly greater strength than the defender — a tie is not sufficient to attack.",
+    "anchor": "combat"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Combat",
+    "heading": "Calculating Strength",
+    "content": "- The surrounding bonus for the attacker is calculated relative to the target region's 6 adjacent hexes. - If the attacker wins, all defending units in the target region are destroyed and removed from",
+    "anchor": "calculating-strength"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Combat",
+    "heading": "Capturing Hostages",
+    "content": "Instead of destroying enemy units, you may capture them as hostages — adding to your supply and extending your opponent's time in the game while {nowrap support strength.} - The attacker chooses which",
+    "anchor": "capturing-hostages"
+  },
+  {
+    "game": "nukes",
+    "gameTitle": "Nukes",
+    "section": "Biomes",
+    "heading": "Biomes",
+    "content": "Each region belongs to one of seven biome types. Terrain restrictions apply based on the {nowrap token count.} ✦ \"Needs Support to Pass\" — What This Means A platoon can transit through a restricted te",
+    "anchor": "biomes"
+  }
+]
