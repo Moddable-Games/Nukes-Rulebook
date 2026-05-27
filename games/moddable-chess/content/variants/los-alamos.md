@@ -4,7 +4,7 @@ slug: "los-alamos"
 board: "6×6"
 players: "2"
 parent: "moddable-chess"
-order: 35
+order: 31
 win: "Checkmate"
 special: "First computer chess (1956). 6x6 board, no Bishops, no castling."
 ---

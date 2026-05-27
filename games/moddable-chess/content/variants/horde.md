@@ -4,7 +4,7 @@ slug: "horde"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 14
+order: 28
 win: "White checkmates or Black destroys horde"
 special: "White has a full army. Black has 36 pawns. Asymmetric survival."
 ---

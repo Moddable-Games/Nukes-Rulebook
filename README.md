@@ -39,7 +39,7 @@ games/
   talisman-hexed/        Full rulebook (live) — mod of Talisman 4e
   hyper-imperium/        Full rulebook (live) — mod of TI4
   econopoly/             Full rulebook (live) — mod of Monopoly
-  moddable-chess/        Variant library hub + 39 sub-pages (alpha) — platform
+  moddable-chess/        Variant library hub + 54 sub-pages (alpha) — platform
 shared/
   css/                   Design tokens, base styles, components
   fonts/                 Self-hosted WOFF2 web fonts
@@ -156,6 +156,11 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 ## Changelog
 
 #### 2026-05-27
+- Moddable Chess: added 15 new variant rulebook pages (54 total)
+- New variants: Andernach, Benedict, Berserk, Checkless, Dark Chess, Dice Chess, Diana, Grid Chess, Half Chess, Madrasi, No Retreat, Omnicide, Patrol, Petty, Weak!
+- All variants reordered alphabetically (Standard first, then A–Z)
+- SVG board diagrams generated for all new variants including non-standard boards (Diana 6×6, Half 8×4, Petty 5×6)
+- Variant PDFs regenerated for full 54-variant library
 - Added `dist/rules-index.json` search index API (63 entries across published games)
 - Index built as part of `npm run build` and available standalone via `npm run index`
 - Serves as data source for moddable-website Rules Referee widget

@@ -4,7 +4,7 @@ slug: "marseillais"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 9
+order: 35
 win: "Checkmate"
 special: "Each player makes TWO moves per turn (except White's first turn)."
 ---

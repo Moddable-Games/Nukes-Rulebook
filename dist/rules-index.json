@@ -220,7 +220,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Variant Library",
     "heading": "Variant Library",
-    "content": "Moddable Chess includes 39 playable variants spanning classic rules, asymmetric battles, hidden information, expanded boards, and alternative win conditions. Each variant has its own complete rules pa",
+    "content": "Moddable Chess includes playable variants spanning classic rules, asymmetric battles, hidden information, expanded boards, and alternative win conditions. Each variant has its own complete rules page.",
     "anchor": "variant-library"
   },
   {
@@ -228,7 +228,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Variant Library",
     "heading": "Standard Board (8×8)",
-    "content": "- Standard Chessvariants/standard/ — Classic FIDE rules - King of the Hillvariants/king-of-the-hill/ — King reaches centre = instant win - Three-Checkvariants/three-check/ — Deliver three checks to wi",
+    "content": "- Standard Chessvariants/standard/ — Classic FIDE rules - Andernach Chessvariants/andernach/ — Capturing piece changes colour - Atomicvariants/atomic/ — Captures explode adjacent pieces - Benedict Che",
     "anchor": "standard-board-88"
   },
   {
@@ -236,7 +236,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Variant Library",
     "heading": "Multi-Move Variants",
-    "content": "- Progressivevariants/progressive/ — Escalating moves per turn 1, 2, 3, 4... - Monster Chessvariants/monster-chess/ — White gets 2 moves, Black gets 1",
+    "content": "- Monster Chessvariants/monster-chess/ — White gets 2 moves, Black gets 1 - Progressivevariants/progressive/ — Escalating moves per turn 1, 2, 3, 4...",
     "anchor": "multi-move-variants"
   },
   {
@@ -244,7 +244,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Variant Library",
     "heading": "Alternative Win Conditions",
-    "content": "- Single-Checkvariants/single-check/ — One check wins instantly - Five-Checkvariants/five-check/ — Five checks to win - Giveawayvariants/giveaway/ — Forced captures, lose all pieces to win stalemate =",
+    "content": "- Antichessvariants/antichess/ — Forced captures, lose all pieces to win - Codrusvariants/codrus/ — Lose your King to win, no check concept - Five-Checkvariants/five-check/ — Five checks to win - Give",
     "anchor": "alternative-win-conditions"
   },
   {
@@ -252,7 +252,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Variant Library",
     "heading": "Piece Replacement Variants",
-    "content": "- Knightmatevariants/knightmate/ — Knight is royal, King moves like a knight - Chigorinvariants/chigorin/ — White has 4 knights instead of bishops - Almost Chessvariants/almost-chess/ — One queen repl",
+    "content": "- Almost Chessvariants/almost-chess/ — One queen replaced by Chancellor R+N - Amazon Chessvariants/amazon-chess/ — Queens replaced by Amazons Q+N - Chigorinvariants/chigorin/ — White has 4 knights ins",
     "anchor": "piece-replacement-variants"
   },
   {
@@ -260,7 +260,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Variant Library",
     "heading": "Starting Position Variants",
-    "content": "- Upside-Downvariants/upside-down/ — Pieces start on opponent's rank - Endgame Chessvariants/endgame-chess/ — Only pawns and Kings from the start - Peasants' Revoltvariants/peasants-revolt/ — King + p",
+    "content": "- Endgame Chessvariants/endgame-chess/ — Only pawns and Kings from the start - Pawns Onlyvariants/pawns-only/ — Only pawns, first promotion wins - Peasants' Revoltvariants/peasants-revolt/ — King + pa",
     "anchor": "starting-position-variants"
   },
   {
@@ -276,7 +276,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Variant Library",
     "heading": "Expanded Boards",
-    "content": "- Capablanca Chessvariants/capablanca/ — 10×8 with Archbishop + Chancellor - Grand Chessvariants/grand/ — 10×10, same new pieces, bigger stage - Courier Chessvariants/courier/ — 12×8, medieval variant",
+    "content": "- Capablanca Chessvariants/capablanca/ — 10×8 with Archbishop + Chancellor - Courier Chessvariants/courier/ — 12×8, medieval variant from 1202 - Grand Chessvariants/grand/ — 10×10, same new pieces, bi",
     "anchor": "expanded-boards"
   },
   {
@@ -284,7 +284,7 @@
     "gameTitle": "Moddable Chess",
     "section": "Variant Library",
     "heading": "Small Boards",
-    "content": "- Breakthroughvariants/breakthrough/ — 7×7, pawns only, first to far rank wins - Los Alamosvariants/los-alamos/ — 6×6, no bishops, first computer chess 1956 - Minichessvariants/minichess/ — 5×5, full ",
+    "content": "- Breakthroughvariants/breakthrough/ — 7×7, pawns only, first to far rank wins - Diana Chessvariants/diana/ — 6×6, no queens or knights - Half Chessvariants/half-chess/ — 8×4, armies start adjacent - ",
     "anchor": "small-boards"
   },
   {

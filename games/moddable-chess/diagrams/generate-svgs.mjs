@@ -176,6 +176,21 @@ const variants = [
   { slug: 'endgame-chess', title: 'Endgame Chess — starting position', fen: '4k3/pppppppp/8/8/8/8/PPPPPPPP/4K3 w - - 0 1', rows: 8, cols: 8 },
   { slug: 'peasants-revolt', title: "Peasants' Revolt — starting position", fen: '2n1k1n1/pppppppp/8/8/8/8/PPPPPPPP/4K3 w - - 0 1', rows: 8, cols: 8 },
   { slug: 'pawns-only', title: 'Pawns Only — starting position', fen: '4k3/pppppppp/8/8/8/8/PPPPPPPP/4K3 w - - 0 1', rows: 8, cols: 8 },
+  { slug: 'andernach', title: 'Andernach Chess — starting position', fen: STANDARD_FEN, rows: 8, cols: 8 },
+  { slug: 'benedict', title: 'Benedict Chess — starting position', fen: STANDARD_FEN, rows: 8, cols: 8 },
+  { slug: 'berserk', title: 'Berserk Chess — starting position', fen: STANDARD_FEN, rows: 8, cols: 8 },
+  { slug: 'checkless', title: 'Checkless Chess — starting position', fen: STANDARD_FEN, rows: 8, cols: 8 },
+  { slug: 'dark-chess', title: 'Dark Chess — starting position', fen: STANDARD_FEN, rows: 8, cols: 8 },
+  { slug: 'dice-chess', title: 'Dice Chess — starting position', fen: STANDARD_FEN, rows: 8, cols: 8 },
+  { slug: 'diana', title: 'Diana Chess — starting position (6×6)', fen: 'rbbkr1/pppppp/6/6/PPPPPP/RBBKR1', rows: 6, cols: 6 },
+  { slug: 'grid-chess', title: 'Grid Chess — starting position', fen: STANDARD_FEN, rows: 8, cols: 8 },
+  { slug: 'half-chess', title: 'Half Chess — starting position (8×4)', fen: 'rnbqkbnr/pppppppp/PPPPPPPP/RNBQKBNR', rows: 4, cols: 8 },
+  { slug: 'madrasi', title: 'Madrasi Chess — starting position', fen: STANDARD_FEN, rows: 8, cols: 8 },
+  { slug: 'no-retreat', title: 'No Retreat — starting position', fen: STANDARD_FEN, rows: 8, cols: 8 },
+  { slug: 'omnicide', title: 'Omnicide — starting position', fen: STANDARD_FEN, rows: 8, cols: 8 },
+  { slug: 'patrol', title: 'Patrol Chess — starting position', fen: STANDARD_FEN, rows: 8, cols: 8 },
+  { slug: 'petty', title: 'Petty Chess — starting position (5×6)', fen: 'rnbqk/ppppp/5/5/PPPPP/RNBQK', rows: 6, cols: 5 },
+  { slug: 'weak', title: 'Weak! — starting position', fen: STANDARD_FEN, rows: 8, cols: 8 },
 ];
 
 let generated = 0;

@@ -6,7 +6,7 @@
 <title>Moddable Chess — Complete Variant Library v0.2.0</title>
 <meta name="description" content="Rules for every chess variant supported by the Moddable Chess engine.">
 <meta property="og:title" content="Moddable Chess — Variant Library v0.2.0">
-<meta property="og:description" content="Every chess variant, one engine. Complete rules for 39 variants.">
+<meta property="og:description" content="Every chess variant, one engine. Complete rules for 54 variants.">
 <meta property="og:type" content="website">
 <link rel="stylesheet" href="../../shared/css/fonts.css">
 <link rel="stylesheet" href="../../shared/css/tokens.css">
@@ -30,7 +30,7 @@
   <div class="cover-rule"></div>
   <p class="cover-tagline">Every chess variant, one engine</p>
   <div class="cover-stats">
-    <div class="cover-stat"><span class="cs-num">39</span><span class="cs-lbl">Variants</span></div>
+    <div class="cover-stat"><span class="cs-num">54</span><span class="cs-lbl">Variants</span></div>
     <div class="cover-stat"><span class="cs-num">2–6</span><span class="cs-lbl">Players</span></div>
     <div class="cover-stat"><span class="cs-num">10+</span><span class="cs-lbl">Age</span></div>
   </div>
@@ -43,62 +43,74 @@
 
 <div class="section variant-hub">
 <h2>Variant Library</h2>
-<p>Moddable Chess includes 39 playable variants spanning classic rules, asymmetric battles, hidden information, expanded boards, and alternative win conditions. Each variant has its own complete rules page.</p>
+<p>Moddable Chess includes 54 playable variants spanning classic rules, asymmetric battles, hidden information, expanded boards, and alternative win conditions. Each variant has its own complete rules page.</p>
 <h3>Standard Board (8×8)</h3>
 <div class="variant-grid">
 <ul class="rules">
 <li><a href="variants/standard/">Standard Chess</a> — Classic FIDE rules</li>
-<li><a href="variants/king-of-the-hill/">King of the Hill</a> — King reaches centre = instant win</li>
-<li><a href="variants/three-check/">Three-Check</a> — Deliver three checks to win</li>
-<li><a href="variants/antichess/">Antichess</a> — Forced captures, lose all pieces to win</li>
-<li><a href="variants/racing-kings/">Racing Kings</a> — No checks allowed, race King to rank 8</li>
-<li><a href="variants/fischer-random/">Fischer Random</a> — 960 randomised starting positions</li>
-<li><a href="variants/rifle/">Rifle Chess</a> — Capturing pieces stay on their square</li>
+<li><a href="variants/andernach/">Andernach Chess</a> — Capturing piece changes colour</li>
 <li><a href="variants/atomic/">Atomic</a> — Captures explode adjacent pieces</li>
-<li><a href="variants/marseillais/">Marseillais</a> — Two moves per turn</li>
+<li><a href="variants/benedict/">Benedict Chess</a> — Attacked enemies convert colour</li>
+<li><a href="variants/berserk/">Berserk Chess</a> — Check grants a bonus move</li>
+<li><a href="variants/checkless/">Checkless Chess</a> — No check unless it is checkmate</li>
+<li><a href="variants/dark-chess/">Dark Chess</a> — Only see squares your pieces occupy</li>
+<li><a href="variants/dice-chess/">Dice Chess</a> — Die roll constrains piece type</li>
 <li><a href="variants/duck-chess/">Duck Chess</a> — Place a blocker duck after each move</li>
-<li><a href="variants/fog-of-war/">Fog of War</a> — Only see squares your pieces attack</li>
-<li><a href="variants/no-castling/">No Castling</a> — Standard chess, castling disabled</li>
-<li><a href="variants/torpedo/">Torpedo Chess</a> — Pawns can always double-move</li>
-<li><a href="variants/horde/">Horde Chess</a> — 36 pawns vs a normal army</li>
 <li><a href="variants/extinction/">Extinction Chess</a> — Lose when any piece type is eliminated</li>
+<li><a href="variants/fischer-random/">Fischer Random</a> — 960 randomised starting positions</li>
+<li><a href="variants/fog-of-war/">Fog of War</a> — Only see squares your pieces attack</li>
+<li><a href="variants/grid-chess/">Grid Chess</a> — Moves must cross a 2×2 grid line</li>
+<li><a href="variants/horde/">Horde Chess</a> — 36 pawns vs a normal army</li>
+<li><a href="variants/king-of-the-hill/">King of the Hill</a> — King reaches centre = instant win</li>
+<li><a href="variants/madrasi/">Madrasi Chess</a> — Same-type opposing pieces paralyse each other</li>
 <li><a href="variants/maharaja/">Maharaja &amp; Sepoys</a> — One super-piece vs a full army</li>
+<li><a href="variants/marseillais/">Marseillais</a> — Two moves per turn</li>
+<li><a href="variants/no-castling/">No Castling</a> — Standard chess, castling disabled</li>
+<li><a href="variants/no-retreat/">No Retreat</a> — Pieces cannot move backward</li>
+<li><a href="variants/patrol/">Patrol Chess</a> — Capture only when defended by a friendly piece</li>
+<li><a href="variants/racing-kings/">Racing Kings</a> — No checks allowed, race King to rank 8</li>
+<li><a href="variants/rifle/">Rifle Chess</a> — Capturing pieces stay on their square</li>
+<li><a href="variants/torpedo/">Torpedo Chess</a> — Pawns can always double-move</li>
+<li><a href="variants/weak/">Weak!</a> — Weakest piece type must move first</li>
 </ul>
 </div>
 <h3>Multi-Move Variants</h3>
 <div class="variant-grid">
 <ul class="rules">
-<li><a href="variants/progressive/">Progressive</a> — Escalating moves per turn (1, 2, 3, 4…)</li>
 <li><a href="variants/monster-chess/">Monster Chess</a> — White gets 2 moves, Black gets 1</li>
+<li><a href="variants/progressive/">Progressive</a> — Escalating moves per turn (1, 2, 3, 4…)</li>
 </ul>
 </div>
 <h3>Alternative Win Conditions</h3>
 <div class="variant-grid">
 <ul class="rules">
-<li><a href="variants/single-check/">Single-Check</a> — One check wins instantly</li>
+<li><a href="variants/antichess/">Antichess</a> — Forced captures, lose all pieces to win</li>
+<li><a href="variants/codrus/">Codrus</a> — Lose your King to win, no check concept</li>
 <li><a href="variants/five-check/">Five-Check</a> — Five checks to win</li>
 <li><a href="variants/giveaway/">Giveaway</a> — Forced captures, lose all pieces to win (stalemate = loss)</li>
-<li><a href="variants/suicide-chess/">Suicide Chess</a> — Forced captures, lose all pieces to win (stalemate = draw)</li>
+<li><a href="variants/omnicide/">Omnicide</a> — Lose all pieces to win, captures NOT forced</li>
+<li><a href="variants/single-check/">Single-Check</a> — One check wins instantly</li>
 <li><a href="variants/stalemate-wins/">Stalemate Wins</a> — Stalemating your opponent wins</li>
-<li><a href="variants/codrus/">Codrus</a> — Lose your King to win, no check concept</li>
+<li><a href="variants/suicide-chess/">Suicide Chess</a> — Forced captures, lose all pieces to win (stalemate = draw)</li>
+<li><a href="variants/three-check/">Three-Check</a> — Deliver three checks to win</li>
 </ul>
 </div>
 <h3>Piece Replacement Variants</h3>
 <div class="variant-grid">
 <ul class="rules">
-<li><a href="variants/knightmate/">Knightmate</a> — Knight is royal, King moves like a knight</li>
-<li><a href="variants/chigorin/">Chigorin</a> — White has 4 knights instead of bishops</li>
 <li><a href="variants/almost-chess/">Almost Chess</a> — One queen replaced by Chancellor (R+N)</li>
 <li><a href="variants/amazon-chess/">Amazon Chess</a> — Queens replaced by Amazons (Q+N)</li>
+<li><a href="variants/chigorin/">Chigorin</a> — White has 4 knights instead of bishops</li>
+<li><a href="variants/knightmate/">Knightmate</a> — Knight is royal, King moves like a knight</li>
 </ul>
 </div>
 <h3>Starting Position Variants</h3>
 <div class="variant-grid">
 <ul class="rules">
-<li><a href="variants/upside-down/">Upside-Down</a> — Pieces start on opponent’s rank</li>
 <li><a href="variants/endgame-chess/">Endgame Chess</a> — Only pawns and Kings from the start</li>
-<li><a href="variants/peasants-revolt/">Peasants’ Revolt</a> — King + pawns vs King + knights</li>
 <li><a href="variants/pawns-only/">Pawns Only</a> — Only pawns, first promotion wins</li>
+<li><a href="variants/peasants-revolt/">Peasants’ Revolt</a> — King + pawns vs King + knights</li>
+<li><a href="variants/upside-down/">Upside-Down</a> — Pieces start on opponent’s rank</li>
 </ul>
 </div>
 <h3>Regional Variant</h3>
@@ -111,16 +123,19 @@
 <div class="variant-grid">
 <ul class="rules">
 <li><a href="variants/capablanca/">Capablanca Chess</a> — 10×8 with Archbishop + Chancellor</li>
-<li><a href="variants/grand/">Grand Chess</a> — 10×10, same new pieces, bigger stage</li>
 <li><a href="variants/courier/">Courier Chess</a> — 12×8, medieval variant from 1202</li>
+<li><a href="variants/grand/">Grand Chess</a> — 10×10, same new pieces, bigger stage</li>
 </ul>
 </div>
 <h3>Small Boards</h3>
 <div class="variant-grid">
 <ul class="rules">
 <li><a href="variants/breakthrough/">Breakthrough</a> — 7×7, pawns only, first to far rank wins</li>
+<li><a href="variants/diana/">Diana Chess</a> — 6×6, no queens or knights</li>
+<li><a href="variants/half-chess/">Half Chess</a> — 8×4, armies start adjacent</li>
 <li><a href="variants/los-alamos/">Los Alamos</a> — 6×6, no bishops, first computer chess (1956)</li>
 <li><a href="variants/minichess/">Minichess</a> — 5×5, full piece types on tiny board</li>
+<li><a href="variants/petty/">Petty Chess</a> — 5×6, all piece types, single copies</li>
 </ul>
 </div>
 </div>

@@ -4,7 +4,7 @@ slug: "five-check"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 29
+order: 22
 win: "Checkmate or deliver 5 checks"
 special: "Extended Three-Check — five checks wins instead of three."
 ---
