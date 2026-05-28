@@ -4,7 +4,7 @@ slug: "petty"
 board: "5×6"
 players: "2"
 parent: "moddable-chess"
-order: 44
+order: 52
 win: "Checkmate"
 special: "All piece types on a compact 5×6 board. Single copies of each."
 ---

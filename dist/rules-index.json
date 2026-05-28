@@ -502,5 +502,3935 @@
     "heading": "Biomes",
     "content": "Each region belongs to one of seven biome types. Terrain restrictions apply based on the {nowrap token count.} ✦ \"Needs Support to Pass\" — What This Means A platoon can transit through a restricted te",
     "anchor": "biomes"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Almost Chess",
+    "heading": "Almost Chess",
+    "content": "One Queen is replaced by a Chancellor Rook + Knight compound. \"Almost\" standard chess — one piece different, but the implications ripple through the entire game.",
+    "anchor": "almost-chess",
+    "variant": "almost-chess",
+    "variantUrl": "dist/moddable-chess/variants/almost-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Almost Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBCKBNR White: Rook, Knight, Bishop, Chancellor, King, Bishop, Knight, Rook + 8 pawns. Black: Standard setup with Queen.",
+    "anchor": "setup",
+    "variant": "almost-chess",
+    "variantUrl": "dist/moddable-chess/variants/almost-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Almost Chess",
+    "heading": "Pieces",
+    "content": "Pieces: - Chancellor C — combines Rook and Knight movement. Can slide along ranks/files like a Rook OR jump in L-shapes like a Knight. Placed on d1 where White's Queen normally sits.",
+    "anchor": "pieces",
+    "variant": "almost-chess",
+    "variantUrl": "dist/moddable-chess/variants/almost-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Almost Chess",
+    "heading": "Rules",
+    "content": "All standard chess rules apply. The Chancellor replaces White's Queen only. Black retains their standard Queen.",
+    "anchor": "rules",
+    "variant": "almost-chess",
+    "variantUrl": "dist/moddable-chess/variants/almost-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Almost Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate, same as standard chess.",
+    "anchor": "win-condition",
+    "variant": "almost-chess",
+    "variantUrl": "dist/moddable-chess/variants/almost-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Almost Chess",
+    "heading": "Strategy",
+    "content": "The Chancellor is slightly weaker than a Queen no diagonal sliding but has the Knight's forking ability combined with Rook-length reach. White lacks diagonal firepower from d1 and must rely more on Bi",
+    "anchor": "strategy",
+    "variant": "almost-chess",
+    "variantUrl": "dist/moddable-chess/variants/almost-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Almost Chess",
+    "heading": "Attribution",
+    "content": "Ralph Betza, 1977. Public domain.",
+    "anchor": "attribution",
+    "variant": "almost-chess",
+    "variantUrl": "dist/moddable-chess/variants/almost-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Amazon Chess",
+    "heading": "Amazon Chess",
+    "content": "Both Queens are replaced by Amazons — the most powerful piece possible, combining Queen and Knight movement.",
+    "anchor": "amazon-chess",
+    "variant": "amazon-chess",
+    "variantUrl": "dist/moddable-chess/variants/amazon-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Amazon Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup FEN: rnbmkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBMKBNR Both sides: Rook, Knight, Bishop, Amazon, King, Bishop, Knight, Rook + 8 pawns.",
+    "anchor": "setup",
+    "variant": "amazon-chess",
+    "variantUrl": "dist/moddable-chess/variants/amazon-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Amazon Chess",
+    "heading": "Pieces",
+    "content": "Pieces: - Amazon M — combines Queen and Knight movement. Can slide along ranks, files, and diagonals like a Queen OR jump in L-shapes like a Knight. The most powerful piece in any chess variant.",
+    "anchor": "pieces",
+    "variant": "amazon-chess",
+    "variantUrl": "dist/moddable-chess/variants/amazon-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Amazon Chess",
+    "heading": "Rules",
+    "content": "All standard chess rules apply. Amazons replace Queens for both sides symmetrically.",
+    "anchor": "rules",
+    "variant": "amazon-chess",
+    "variantUrl": "dist/moddable-chess/variants/amazon-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Amazon Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate, same as standard chess.",
+    "anchor": "win-condition",
+    "variant": "amazon-chess",
+    "variantUrl": "dist/moddable-chess/variants/amazon-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Amazon Chess",
+    "heading": "Strategy",
+    "content": "The Amazon is devastatingly powerful — it controls more squares than any other piece and cannot be blocked by interposing. Games tend to be shorter and more tactical because the Amazon's range makes d",
+    "anchor": "strategy",
+    "variant": "amazon-chess",
+    "variantUrl": "dist/moddable-chess/variants/amazon-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Amazon Chess",
+    "heading": "Attribution",
+    "content": "Traditional fairy chess piece. Variant is public domain.",
+    "anchor": "attribution",
+    "variant": "amazon-chess",
+    "variantUrl": "dist/moddable-chess/variants/amazon-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Andernach Chess",
+    "heading": "Andernach Chess",
+    "content": "When a piece captures, it switches sides — the capturing piece becomes the opponent's piece on the captured square. Kings are exempt from colour change.",
+    "anchor": "andernach-chess",
+    "variant": "andernach",
+    "variantUrl": "dist/moddable-chess/variants/andernach/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Andernach Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess starting position. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "andernach",
+    "variantUrl": "dist/moddable-chess/variants/andernach/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Andernach Chess",
+    "heading": "Rules",
+    "content": "- All pieces move as in standard chess. - When a piece captures an enemy piece, the captured piece is removed and the capturing piece changes colour becomes the opponent's piece. - Kings are exempt — ",
+    "anchor": "rules",
+    "variant": "andernach",
+    "variantUrl": "dist/moddable-chess/variants/andernach/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Andernach Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate standard.",
+    "anchor": "win-condition",
+    "variant": "andernach",
+    "variantUrl": "dist/moddable-chess/variants/andernach/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Andernach Chess",
+    "heading": "Strategy",
+    "content": "Every capture is double-edged — you remove an enemy piece but hand them the capturer. Material advantages are nearly impossible to build through captures alone. Non-capturing moves pawn advances, posi",
+    "anchor": "strategy",
+    "variant": "andernach",
+    "variantUrl": "dist/moddable-chess/variants/andernach/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Andernach Chess",
+    "heading": "Attribution",
+    "content": "Created for a chess composition event in Andernach, Germany, 1993. Public domain rules.",
+    "anchor": "attribution",
+    "variant": "andernach",
+    "variantUrl": "dist/moddable-chess/variants/andernach/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Antichess",
+    "heading": "Antichess",
+    "content": "Captures are mandatory. Lose all your pieces to win. Inverts the entire logic of chess.",
+    "anchor": "antichess",
+    "variant": "antichess",
+    "variantUrl": "dist/moddable-chess/variants/antichess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Antichess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess setup. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "antichess",
+    "variantUrl": "dist/moddable-chess/variants/antichess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Antichess",
+    "heading": "Rules",
+    "content": "- If a capture is available, you MUST capture. If multiple captures are available, you may choose which one. - The King has no royal status — it can be captured like any other piece and there is no ch",
+    "anchor": "rules",
+    "variant": "antichess",
+    "variantUrl": "dist/moddable-chess/variants/antichess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Antichess",
+    "heading": "Win Condition",
+    "content": "Lose all your pieces, or be stalemated.",
+    "anchor": "win-condition",
+    "variant": "antichess",
+    "variantUrl": "dist/moddable-chess/variants/antichess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Antichess",
+    "heading": "Strategy",
+    "content": "You want to force your opponent to capture your pieces while avoiding being forced to keep yours. Opening theory is highly developed — certain openings force wins within a few moves.",
+    "anchor": "strategy",
+    "variant": "antichess",
+    "variantUrl": "dist/moddable-chess/variants/antichess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Antichess",
+    "heading": "Attribution",
+    "content": "Also known as \"Losing Chess,\" \"Giveaway Chess,\" or \"Suicide Chess.\" Traditional variant, 19th century. Public domain.",
+    "anchor": "attribution",
+    "variant": "antichess",
+    "variantUrl": "dist/moddable-chess/variants/antichess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Atomic Chess",
+    "heading": "Atomic Chess",
+    "content": "Captures explode, destroying all non-pawn pieces in a one-square radius around the capture square. Including the capturing piece.",
+    "anchor": "atomic-chess",
+    "variant": "atomic",
+    "variantUrl": "dist/moddable-chess/variants/atomic/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Atomic Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess setup. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "atomic",
+    "variantUrl": "dist/moddable-chess/variants/atomic/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Atomic Chess",
+    "heading": "Rules",
+    "content": "- When a piece captures, an \"explosion\" occurs on the capture square. - The explosion destroys: the capturing piece, the captured piece, and ALL non-pawn pieces on squares adjacent horizontally, verti",
+    "anchor": "rules",
+    "variant": "atomic",
+    "variantUrl": "dist/moddable-chess/variants/atomic/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Atomic Chess",
+    "heading": "Win Condition",
+    "content": "Destroy the opponent's King by exploding it or, rarely, checkmate.",
+    "anchor": "win-condition",
+    "variant": "atomic",
+    "variantUrl": "dist/moddable-chess/variants/atomic/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Atomic Chess",
+    "heading": "Strategy",
+    "content": "Material sacrifices that trigger chain explosions near the enemy King are the primary tactic. Early Queen sacrifices are common if they explode near the King. Pawn structure matters because pawns are ",
+    "anchor": "strategy",
+    "variant": "atomic",
+    "variantUrl": "dist/moddable-chess/variants/atomic/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Atomic Chess",
+    "heading": "Attribution",
+    "content": "Traditional variant. Popularised on Lichess and Chess.com. Public domain.",
+    "anchor": "attribution",
+    "variant": "atomic",
+    "variantUrl": "dist/moddable-chess/variants/atomic/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Benedict Chess",
+    "heading": "Benedict Chess",
+    "content": "There are no captures. When a piece moves to a square from which it attacks enemy pieces, those pieces convert to the mover's colour. Win by converting the opponent's King.",
+    "anchor": "benedict-chess",
+    "variant": "benedict",
+    "variantUrl": "dist/moddable-chess/variants/benedict/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Benedict Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess starting position. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "benedict",
+    "variantUrl": "dist/moddable-chess/variants/benedict/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Benedict Chess",
+    "heading": "Rules",
+    "content": "- Pieces move as in standard chess but there are NO captures. - When a piece moves to a new square, every enemy piece it now attacks could move to, if it were a capture immediately converts to the mov",
+    "anchor": "rules",
+    "variant": "benedict",
+    "variantUrl": "dist/moddable-chess/variants/benedict/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Benedict Chess",
+    "heading": "Win Condition",
+    "content": "Convert the opponent's King to your colour by moving a piece that attacks the King's square.",
+    "anchor": "win-condition",
+    "variant": "benedict",
+    "variantUrl": "dist/moddable-chess/variants/benedict/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Benedict Chess",
+    "heading": "Strategy",
+    "content": "Long-range pieces Queen, Bishops, Rooks are enormously powerful because they can convert many pieces at once. The game snowballs — converting pieces gives you more attackers. Protecting your King from",
+    "anchor": "strategy",
+    "variant": "benedict",
+    "variantUrl": "dist/moddable-chess/variants/benedict/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Benedict Chess",
+    "heading": "Attribution",
+    "content": "C. S. Elliott, 1971. Named after Benedict Arnold. Public domain rules.",
+    "anchor": "attribution",
+    "variant": "benedict",
+    "variantUrl": "dist/moddable-chess/variants/benedict/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Berolina Chess",
+    "heading": "Berolina Chess",
+    "content": "Pawns are inverted: they advance diagonally and capture straight ahead. Named after Berlin, where it was invented in 1926.",
+    "anchor": "berolina-chess",
+    "variant": "berolina",
+    "variantUrl": "dist/moddable-chess/variants/berolina/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Berolina Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess setup pawns use Berolina movement rules. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "berolina",
+    "variantUrl": "dist/moddable-chess/variants/berolina/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Berolina Chess",
+    "heading": "Rules",
+    "content": "- Pawns move one or two squares diagonally forward instead of straight forward. - Pawns capture one square straight forward instead of diagonally. - En passant applies to Berolina pawn double-moves. -",
+    "anchor": "rules",
+    "variant": "berolina",
+    "variantUrl": "dist/moddable-chess/variants/berolina/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Berolina Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate the opponent's King.",
+    "anchor": "win-condition",
+    "variant": "berolina",
+    "variantUrl": "dist/moddable-chess/variants/berolina/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Berolina Chess",
+    "heading": "Strategy",
+    "content": "Berolina pawns control different squares than normal pawns. A pawn on e2 can advance to d3 or f3 and double-move to c4 or g4, but captures on e3. This makes pawn chains behave very differently — adjac",
+    "anchor": "strategy",
+    "variant": "berolina",
+    "variantUrl": "dist/moddable-chess/variants/berolina/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Berolina Chess",
+    "heading": "Attribution",
+    "content": "Invented by Edmund Hebermann in Berlin, 1926. Public domain.",
+    "anchor": "attribution",
+    "variant": "berolina",
+    "variantUrl": "dist/moddable-chess/variants/berolina/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Berserk Chess",
+    "heading": "Berserk Chess",
+    "content": "When you deliver check, you immediately get a bonus move with a different piece. Aggressive play is rewarded with extra tempo.",
+    "anchor": "berserk-chess",
+    "variant": "berserk",
+    "variantUrl": "dist/moddable-chess/variants/berserk/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Berserk Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess starting position. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "berserk",
+    "variantUrl": "dist/moddable-chess/variants/berserk/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Berserk Chess",
+    "heading": "Rules",
+    "content": "- Standard chess movement applies. - When a player delivers check, they immediately get one bonus move. - The bonus move must be made by a DIFFERENT piece than the one that gave check. - The bonus mov",
+    "anchor": "rules",
+    "variant": "berserk",
+    "variantUrl": "dist/moddable-chess/variants/berserk/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Berserk Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate standard.",
+    "anchor": "win-condition",
+    "variant": "berserk",
+    "variantUrl": "dist/moddable-chess/variants/berserk/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Berserk Chess",
+    "heading": "Strategy",
+    "content": "Discovered checks are extremely powerful — the discovering piece delivers check, and the bonus move can develop or reposition another piece. Queen and Bishop batteries that create check threats domina",
+    "anchor": "strategy",
+    "variant": "berserk",
+    "variantUrl": "dist/moddable-chess/variants/berserk/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Berserk Chess",
+    "heading": "Attribution",
+    "content": "Modern variant, popularised on online chess platforms 2000s. Public domain rules.",
+    "anchor": "attribution",
+    "variant": "berserk",
+    "variantUrl": "dist/moddable-chess/variants/berserk/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Breakthrough",
+    "heading": "Breakthrough",
+    "content": "Pawns only. First to reach the far rank wins. A minimalist abstract strategy game.",
+    "anchor": "breakthrough",
+    "variant": "breakthrough",
+    "variantUrl": "dist/moddable-chess/variants/breakthrough/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Breakthrough",
+    "heading": "Setup",
+    "content": "Board: 7×7 grid 49 squares. FEN: ppppppp/ppppppp/7/7/7/PPPPPPP/PPPPPPP w - - 0 1",
+    "anchor": "setup",
+    "variant": "breakthrough",
+    "variantUrl": "dist/moddable-chess/variants/breakthrough/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Breakthrough",
+    "heading": "Pieces",
+    "content": "Pieces: Each player starts with 14 pawns filling their first two ranks.",
+    "anchor": "pieces",
+    "variant": "breakthrough",
+    "variantUrl": "dist/moddable-chess/variants/breakthrough/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Breakthrough",
+    "heading": "Movement",
+    "content": "- Pawns move one square forward straight ahead. - Pawns capture one square diagonally forward same as standard chess pawns. - Pawns may also MOVE not just capture one square diagonally forward. This i",
+    "anchor": "movement",
+    "variant": "breakthrough",
+    "variantUrl": "dist/moddable-chess/variants/breakthrough/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Breakthrough",
+    "heading": "Win Condition",
+    "content": "First player to reach the opponent's back rank rank 7 for White, rank 1 for Black wins. If a player has no legal moves, they lose.",
+    "anchor": "win-condition",
+    "variant": "breakthrough",
+    "variantUrl": "dist/moddable-chess/variants/breakthrough/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Breakthrough",
+    "heading": "Strategy",
+    "content": "Breakthrough is deceptively deep despite its simple rules. Connected groups of pawns protect each other as they advance. Sacrificing pawns to create breakthroughs gaps in the enemy line is the primary",
+    "anchor": "strategy",
+    "variant": "breakthrough",
+    "variantUrl": "dist/moddable-chess/variants/breakthrough/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Breakthrough",
+    "heading": "Attribution",
+    "content": "Dan Troyka, 2000. Public domain.",
+    "anchor": "attribution",
+    "variant": "breakthrough",
+    "variantUrl": "dist/moddable-chess/variants/breakthrough/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Capablanca Chess",
+    "heading": "Capablanca Chess",
+    "content": "Invented by World Champion José Raúl Capablanca in the 1920s to address what he saw as the \"draw death\" of standard chess. A larger board with two new compound pieces creates richer tactical possibili",
+    "anchor": "capablanca-chess",
+    "variant": "capablanca",
+    "variantUrl": "dist/moddable-chess/variants/capablanca/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Capablanca Chess",
+    "heading": "Setup",
+    "content": "Board: 10×8 ten files, eight ranks. FEN: rnabqkbcnr/pppppppppp/10/10/10/10/PPPPPPPPPP/RNABQKBCNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "capablanca",
+    "variantUrl": "dist/moddable-chess/variants/capablanca/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Capablanca Chess",
+    "heading": "Pieces",
+    "content": "Pieces per side: Standard 16 pieces plus: - Archbishop ♗+♞ — combines Bishop and Knight movement. Placed between the Queen's Knight and Queen's Bishop. - Chancellor ♖+♞ — combines Rook and Knight move",
+    "anchor": "pieces",
+    "variant": "capablanca",
+    "variantUrl": "dist/moddable-chess/variants/capablanca/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Capablanca Chess",
+    "heading": "Rules",
+    "content": "Identical to standard chess with these additions: - Castling moves the King three squares toward the Rook to accommodate the wider board. - Pawns may promote to Archbishop or Chancellor in addition to",
+    "anchor": "rules",
+    "variant": "capablanca",
+    "variantUrl": "dist/moddable-chess/variants/capablanca/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Capablanca Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate, same as standard chess.",
+    "anchor": "win-condition",
+    "variant": "capablanca",
+    "variantUrl": "dist/moddable-chess/variants/capablanca/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Capablanca Chess",
+    "heading": "Strategy",
+    "content": "The wider board and compound pieces create more open positions. The Archbishop dominates closed diagonals while the Chancellor controls open files with knight-fork threats. Pawn structure is more flex",
+    "anchor": "strategy",
+    "variant": "capablanca",
+    "variantUrl": "dist/moddable-chess/variants/capablanca/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Capablanca Chess",
+    "heading": "Attribution",
+    "content": "José Raúl Capablanca, c. 1920. Public domain.",
+    "anchor": "attribution",
+    "variant": "capablanca",
+    "variantUrl": "dist/moddable-chess/variants/capablanca/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Checkless Chess",
+    "heading": "Checkless Chess",
+    "content": "You may not give check unless that check is also checkmate. The King becomes a bold attacker since it cannot be casually harassed.",
+    "anchor": "checkless-chess",
+    "variant": "checkless",
+    "variantUrl": "dist/moddable-chess/variants/checkless/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Checkless Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess starting position. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "checkless",
+    "variantUrl": "dist/moddable-chess/variants/checkless/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Checkless Chess",
+    "heading": "Rules",
+    "content": "- Standard chess movement applies. - A player may NOT give check unless that check is simultaneously checkmate. - Any move that would deliver check but not checkmate is illegal. - The King can advance",
+    "anchor": "rules",
+    "variant": "checkless",
+    "variantUrl": "dist/moddable-chess/variants/checkless/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Checkless Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate — the only legal form of check.",
+    "anchor": "win-condition",
+    "variant": "checkless",
+    "variantUrl": "dist/moddable-chess/variants/checkless/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Checkless Chess",
+    "heading": "Strategy",
+    "content": "The King becomes a powerful attacking piece — use it actively in the middlegame since it cannot be harassed. Focus on restricting the opponent's King mobility so that when you finally deliver check, i",
+    "anchor": "strategy",
+    "variant": "checkless",
+    "variantUrl": "dist/moddable-chess/variants/checkless/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Checkless Chess",
+    "heading": "Attribution",
+    "content": "Traditional variant. Earliest documented reference in Max Lange, 1857. Public domain.",
+    "anchor": "attribution",
+    "variant": "checkless",
+    "variantUrl": "dist/moddable-chess/variants/checkless/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chigorin",
+    "heading": "Chigorin",
+    "content": "White replaces both Bishops with Knights. Four Knights vs two Knights and two Bishops — a fundamental asymmetry that changes positional evaluation.",
+    "anchor": "chigorin",
+    "variant": "chigorin",
+    "variantUrl": "dist/moddable-chess/variants/chigorin/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chigorin",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNNQKNNR White: Rook, Knight, Knight, Queen, King, Knight, Knight, Rook + 8 pawns. Black: Standard setup.",
+    "anchor": "setup",
+    "variant": "chigorin",
+    "variantUrl": "dist/moddable-chess/variants/chigorin/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chigorin",
+    "heading": "Rules",
+    "content": "All standard chess rules apply. Castling is available for both sides.",
+    "anchor": "rules",
+    "variant": "chigorin",
+    "variantUrl": "dist/moddable-chess/variants/chigorin/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chigorin",
+    "heading": "Win Condition",
+    "content": "Checkmate, same as standard chess.",
+    "anchor": "win-condition",
+    "variant": "chigorin",
+    "variantUrl": "dist/moddable-chess/variants/chigorin/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chigorin",
+    "heading": "Strategy",
+    "content": "White has four Knights — superb in closed positions with lots of outposts, but weak on open boards where Bishops dominate. White should keep the position closed and create pawn chains that give Knight",
+    "anchor": "strategy",
+    "variant": "chigorin",
+    "variantUrl": "dist/moddable-chess/variants/chigorin/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Chigorin",
+    "heading": "Attribution",
+    "content": "Named after Mikhail Chigorin. Variant design is traditional. Public domain.",
+    "anchor": "attribution",
+    "variant": "chigorin",
+    "variantUrl": "dist/moddable-chess/variants/chigorin/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Codrus",
+    "heading": "Codrus",
+    "content": "Sacrifice your King to win. There is no concept of check — the King can walk into danger and must be deliberately captured. Named after King Codrus of Athens, who sacrificed himself to save his city.",
+    "anchor": "codrus",
+    "variant": "codrus",
+    "variantUrl": "dist/moddable-chess/variants/codrus/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Codrus",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess starting position. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "codrus",
+    "variantUrl": "dist/moddable-chess/variants/codrus/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Codrus",
+    "heading": "Rules",
+    "content": "- There is NO check, NO checkmate. The King is not protected by check rules. - The King can move into attacked squares freely. - The King can be captured like any other piece. - Forced captures do NOT",
+    "anchor": "rules",
+    "variant": "codrus",
+    "variantUrl": "dist/moddable-chess/variants/codrus/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Codrus",
+    "heading": "Win Condition",
+    "content": "Lose your King have it captured by the opponent. You WANT your King captured.",
+    "anchor": "win-condition",
+    "variant": "codrus",
+    "variantUrl": "dist/moddable-chess/variants/codrus/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Codrus",
+    "heading": "Strategy",
+    "content": "A mind-bending inversion. You want to get your King captured, but your opponent doesn't want to capture it. The game becomes about forcing your King into positions where your opponent has no choice bu",
+    "anchor": "strategy",
+    "variant": "codrus",
+    "variantUrl": "dist/moddable-chess/variants/codrus/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Codrus",
+    "heading": "Attribution",
+    "content": "Named after King Codrus of Athens. Traditional variant. Public domain.",
+    "anchor": "attribution",
+    "variant": "codrus",
+    "variantUrl": "dist/moddable-chess/variants/codrus/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Courier Chess",
+    "heading": "Courier Chess",
+    "content": "A medieval large-board variant documented since 1202, predating the modern Queen and Bishop moves. One of the oldest recorded chess variants in Europe.",
+    "anchor": "courier-chess",
+    "variant": "courier",
+    "variantUrl": "dist/moddable-chess/variants/courier/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Courier Chess",
+    "heading": "Setup",
+    "content": "Board: 12×8 96 squares. FEN: rnbbqsksbbnr/pppppppppppp/12/12/12/12/PPPPPPPPPPPP/RNBBQSKSBBNR w - - 0 1 Pieces per side, from a-file: Rook, Knight, Elephant, Courier, Sage, King, General, Courier, Elep",
+    "anchor": "setup",
+    "variant": "courier",
+    "variantUrl": "dist/moddable-chess/variants/courier/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Courier Chess",
+    "heading": "Rules",
+    "content": "Standard chess movement applies per the table above. No castling. No pawn double-step. No en passant. Stalemate counts as a win medieval rules.",
+    "anchor": "rules",
+    "variant": "courier",
+    "variantUrl": "dist/moddable-chess/variants/courier/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Courier Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate or stalemate stalemate = win for the side delivering it in medieval rules. Historical note: The Courier was the first piece to move like a modern Bishop — this game introduced unlimited diag",
+    "anchor": "win-condition",
+    "variant": "courier",
+    "variantUrl": "dist/moddable-chess/variants/courier/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Courier Chess",
+    "heading": "Strategy",
+    "content": "The General proto-Queen is extremely weak — one diagonal step. The Couriers modern Bishops are the strongest attacking pieces. The wide board makes Knight development slow. Alfils Elephants can leap b",
+    "anchor": "strategy",
+    "variant": "courier",
+    "variantUrl": "dist/moddable-chess/variants/courier/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Courier Chess",
+    "heading": "Attribution",
+    "content": "First documented 1202 Wirnt von Gravenberg. Public domain.",
+    "anchor": "attribution",
+    "variant": "courier",
+    "variantUrl": "dist/moddable-chess/variants/courier/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Cylinder Chess",
+    "heading": "Cylinder Chess",
+    "content": "The board wraps horizontally, forming a cylinder. The a-file is adjacent to the h-file.",
+    "anchor": "cylinder-chess",
+    "variant": "cylinder",
+    "variantUrl": "dist/moddable-chess/variants/cylinder/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Cylinder Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8 files wrap. Setup: Standard chess setup. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "cylinder",
+    "variantUrl": "dist/moddable-chess/variants/cylinder/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Cylinder Chess",
+    "heading": "Rules",
+    "content": "- The a-file connects to the h-file. Moving left from a1 reaches h1; moving right from h1 reaches a1. - Rooks can slide across the wrap e.g. Ra1 can move to h1 via the wrap, or slide all the way aroun",
+    "anchor": "rules",
+    "variant": "cylinder",
+    "variantUrl": "dist/moddable-chess/variants/cylinder/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Cylinder Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate the opponent's King.",
+    "anchor": "win-condition",
+    "variant": "cylinder",
+    "variantUrl": "dist/moddable-chess/variants/cylinder/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Cylinder Chess",
+    "heading": "Strategy",
+    "content": "Bishops become much more powerful on a cylinder — they can reach every square of their colour. Rook files are no longer safe flanks since attacks can come from behind via the wrap. Flank pawns gain ad",
+    "anchor": "strategy",
+    "variant": "cylinder",
+    "variantUrl": "dist/moddable-chess/variants/cylinder/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Cylinder Chess",
+    "heading": "Attribution",
+    "content": "Traditional variant with roots in 19th-century chess composition. Public domain.",
+    "anchor": "attribution",
+    "variant": "cylinder",
+    "variantUrl": "dist/moddable-chess/variants/cylinder/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Dark Chess",
+    "heading": "Dark Chess",
+    "content": "The most restrictive fog variant. Each player can ONLY see squares occupied by their own pieces — not squares they attack. Chess becomes a game of memory, deduction, and blind aggression.",
+    "anchor": "dark-chess",
+    "variant": "dark-chess",
+    "variantUrl": "dist/moddable-chess/variants/dark-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Dark Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8, but each player's view is severely limited. Setup: Standard chess starting position. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "dark-chess",
+    "variantUrl": "dist/moddable-chess/variants/dark-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Dark Chess",
+    "heading": "Rules",
+    "content": "Visibility: - You can ONLY see squares occupied by your own pieces. - All other squares are invisible — you cannot see enemy pieces or empty squares. - When you move a piece, you discover what is on t",
+    "anchor": "rules",
+    "variant": "dark-chess",
+    "variantUrl": "dist/moddable-chess/variants/dark-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Dark Chess",
+    "heading": "Win Condition",
+    "content": "Capture the opponent's King.",
+    "anchor": "win-condition",
+    "variant": "dark-chess",
+    "variantUrl": "dist/moddable-chess/variants/dark-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Dark Chess",
+    "heading": "Strategy",
+    "content": "Information is almost nonexistent. You must remember where enemy pieces were last seen when you occupied adjacent squares. Spreading pieces out provides more visibility but weakens coordination. Knigh",
+    "anchor": "strategy",
+    "variant": "dark-chess",
+    "variantUrl": "dist/moddable-chess/variants/dark-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Dark Chess",
+    "heading": "Attribution",
+    "content": "Modern variant. Distinguished from Fog of War by its stricter visibility rules. Public domain.",
+    "anchor": "attribution",
+    "variant": "dark-chess",
+    "variantUrl": "dist/moddable-chess/variants/dark-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Diana Chess",
+    "heading": "Diana Chess",
+    "content": "A 6×6 variant with no Queens and no Knights. Only Rooks, Bishops, King, and Pawns. Clean, positional play on a compact board.",
+    "anchor": "diana-chess",
+    "variant": "diana",
+    "variantUrl": "dist/moddable-chess/variants/diana/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Diana Chess",
+    "heading": "Setup",
+    "content": "Board: 6×6 six files, six ranks. Setup FEN: rbbkr1/pppppp/6/6/PPPPPP/RBBKR1 Black rank 6: Rook, Bishop, Bishop, King, Rook, empty. White rank 1: Rook, Bishop, Bishop, King, Rook, empty. Each side has:",
+    "anchor": "setup",
+    "variant": "diana",
+    "variantUrl": "dist/moddable-chess/variants/diana/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Diana Chess",
+    "heading": "Rules",
+    "content": "- Rooks, Bishops, King, and Pawns move as in standard chess. - No Queens and no Knights exist in this variant. - Pawns move one square forward only no double-step. - No en passant. - No castling. - Pa",
+    "anchor": "rules",
+    "variant": "diana",
+    "variantUrl": "dist/moddable-chess/variants/diana/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Diana Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate.",
+    "anchor": "win-condition",
+    "variant": "diana",
+    "variantUrl": "dist/moddable-chess/variants/diana/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Diana Chess",
+    "heading": "Strategy",
+    "content": "Without Queens, the game is slower and more positional. Bishops are limited to one colour each, making the pair complementary — losing one cripples your coverage of half the squares. Rooks need open f",
+    "anchor": "strategy",
+    "variant": "diana",
+    "variantUrl": "dist/moddable-chess/variants/diana/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Diana Chess",
+    "heading": "Attribution",
+    "content": "Traditional variant, 19th century. Public domain.",
+    "anchor": "attribution",
+    "variant": "diana",
+    "variantUrl": "dist/moddable-chess/variants/diana/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Dice Chess",
+    "heading": "Dice Chess",
+    "content": "Before each move, roll two dice. The numbers determine which piece types you may move. Randomness meets strategy.",
+    "anchor": "dice-chess",
+    "variant": "dice-chess",
+    "variantUrl": "dist/moddable-chess/variants/dice-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Dice Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess starting position. Two standard dice required. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "dice-chess",
+    "variantUrl": "dist/moddable-chess/variants/dice-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Dice Chess",
+    "heading": "Rules",
+    "content": "- Before each move, the player rolls two dice. Numbers correspond to piece types: 1 = Pawn, 2 = Knight, 3 = Bishop, 4 = Rook, 5 = Queen, 6 = King. - The player may move either piece type indicated by ",
+    "anchor": "rules",
+    "variant": "dice-chess",
+    "variantUrl": "dist/moddable-chess/variants/dice-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Dice Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate, or capture of the opponent's King if check cannot be answered due to dice.",
+    "anchor": "win-condition",
+    "variant": "dice-chess",
+    "variantUrl": "dist/moddable-chess/variants/dice-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Dice Chess",
+    "heading": "Strategy",
+    "content": "Develop all piece types early so you have legal moves regardless of the roll. Knights 2 and Bishops 3 cover the most frequent useful results. Keep your King safe — the random element means surprise at",
+    "anchor": "strategy",
+    "variant": "dice-chess",
+    "variantUrl": "dist/moddable-chess/variants/dice-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Dice Chess",
+    "heading": "Attribution",
+    "content": "Ancient origins 11th–14th century Europe, earlier roots in India/Burma. Modern codification by Anne Sunnucks, The Encyclopaedia of Chess, 1970. Public domain.",
+    "anchor": "attribution",
+    "variant": "dice-chess",
+    "variantUrl": "dist/moddable-chess/variants/dice-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Displacement Chess",
+    "heading": "Displacement Chess",
+    "content": "Any piece can swap positions with an adjacent friendly piece instead of making a normal move.",
+    "anchor": "displacement-chess",
+    "variant": "displacement",
+    "variantUrl": "dist/moddable-chess/variants/displacement/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Displacement Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess setup. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "displacement",
+    "variantUrl": "dist/moddable-chess/variants/displacement/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Displacement Chess",
+    "heading": "Rules",
+    "content": "- On your turn, instead of a normal move, you may swap any of your pieces with an adjacent friendly piece horizontally, vertically, or diagonally adjacent. - The King may not swap into a square where ",
+    "anchor": "rules",
+    "variant": "displacement",
+    "variantUrl": "dist/moddable-chess/variants/displacement/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Displacement Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate the opponent's King.",
+    "anchor": "win-condition",
+    "variant": "displacement",
+    "variantUrl": "dist/moddable-chess/variants/displacement/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Displacement Chess",
+    "heading": "Strategy",
+    "content": "Swaps enable rapid piece coordination — a trapped rook can swap with an adjacent pawn to escape. The King can dodge threats by swapping with a defender. Development becomes faster since pieces can be ",
+    "anchor": "strategy",
+    "variant": "displacement",
+    "variantUrl": "dist/moddable-chess/variants/displacement/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Displacement Chess",
+    "heading": "Attribution",
+    "content": "Modern variant. Public domain.",
+    "anchor": "attribution",
+    "variant": "displacement",
+    "variantUrl": "dist/moddable-chess/variants/displacement/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Duck Chess",
+    "heading": "Duck Chess",
+    "content": "After each move, place a shared rubber duck on any empty square. The duck blocks all pieces. Capture the King to win no check/checkmate.",
+    "anchor": "duck-chess",
+    "variant": "duck-chess",
+    "variantUrl": "dist/moddable-chess/variants/duck-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Duck Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8 plus one shared \"duck\" piece a blocker. Setup: Standard chess setup. No duck on the board initially. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "duck-chess",
+    "variantUrl": "dist/moddable-chess/variants/duck-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Duck Chess",
+    "heading": "Rules",
+    "content": "- Each turn has two parts: 1 make a normal chess move, then 2 place the duck on any empty square. - The duck blocks all movement — no piece can move through or onto the duck's square. - There is no ch",
+    "anchor": "rules",
+    "variant": "duck-chess",
+    "variantUrl": "dist/moddable-chess/variants/duck-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Duck Chess",
+    "heading": "Win Condition",
+    "content": "Capture the opponent's King.",
+    "anchor": "win-condition",
+    "variant": "duck-chess",
+    "variantUrl": "dist/moddable-chess/variants/duck-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Duck Chess",
+    "heading": "Strategy",
+    "content": "The duck adds a blocking/defensive dimension to every turn. You can use your duck placement to block enemy attacks on your King, or to cut off the enemy King's escape routes before threatening capture",
+    "anchor": "strategy",
+    "variant": "duck-chess",
+    "variantUrl": "dist/moddable-chess/variants/duck-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Duck Chess",
+    "heading": "Attribution",
+    "content": "Dr Tim Paulden, 2016. Public domain.",
+    "anchor": "attribution",
+    "variant": "duck-chess",
+    "variantUrl": "dist/moddable-chess/variants/duck-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Einstein Chess",
+    "heading": "Einstein Chess",
+    "content": "Pieces transform after every move. Captures promote, non-captures demote — cycling through the piece hierarchy.",
+    "anchor": "einstein-chess",
+    "variant": "einstein",
+    "variantUrl": "dist/moddable-chess/variants/einstein/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Einstein Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess setup. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "einstein",
+    "variantUrl": "dist/moddable-chess/variants/einstein/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Einstein Chess",
+    "heading": "Rules",
+    "content": "- After a piece makes a non-capturing move, it demotes one step: Q→R→B→N→P. - After a piece makes a capture, it promotes one step: P→N→B→R→Q. - Kings are exempt — they never transform. - Pawns that de",
+    "anchor": "rules",
+    "variant": "einstein",
+    "variantUrl": "dist/moddable-chess/variants/einstein/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Einstein Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate the opponent's King.",
+    "anchor": "win-condition",
+    "variant": "einstein",
+    "variantUrl": "dist/moddable-chess/variants/einstein/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Einstein Chess",
+    "heading": "Strategy",
+    "content": "Every move changes your piece composition. Aggressive play captures builds stronger pieces, but quiet manoeuvring weakens them. Knights and Bishops are unstable — one capture turns them into Rooks, bu",
+    "anchor": "strategy",
+    "variant": "einstein",
+    "variantUrl": "dist/moddable-chess/variants/einstein/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Einstein Chess",
+    "heading": "Attribution",
+    "content": "Invented by B. Iqbal, 2005. Public domain.",
+    "anchor": "attribution",
+    "variant": "einstein",
+    "variantUrl": "dist/moddable-chess/variants/einstein/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Endgame Chess",
+    "heading": "Endgame Chess",
+    "content": "Only pawns and Kings. No back-rank pieces at all. Pure endgame technique from move one — pawn structure, King activity, and promotion races.",
+    "anchor": "endgame-chess",
+    "variant": "endgame-chess",
+    "variantUrl": "dist/moddable-chess/variants/endgame-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Endgame Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup FEN: 4k3/pppppppp/8/8/8/8/PPPPPPPP/4K3 Each side: King on e-file + 8 pawns on second/seventh rank. No Rooks, Knights, Bishops, or Queens.",
+    "anchor": "setup",
+    "variant": "endgame-chess",
+    "variantUrl": "dist/moddable-chess/variants/endgame-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Endgame Chess",
+    "heading": "Rules",
+    "content": "All standard chess rules apply, including: - Pawns can double-step from their starting rank. - En passant is available. - Pawns promote normally to Queen, Rook, Bishop, or Knight. - No castling no Roo",
+    "anchor": "rules",
+    "variant": "endgame-chess",
+    "variantUrl": "dist/moddable-chess/variants/endgame-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Endgame Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate typically achieved after promoting a pawn to Queen.",
+    "anchor": "win-condition",
+    "variant": "endgame-chess",
+    "variantUrl": "dist/moddable-chess/variants/endgame-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Endgame Chess",
+    "heading": "Strategy",
+    "content": "This is pure King and Pawn endgame theory from the first move. Key concepts: opposition Kings facing each other across odd squares, passed pawns, pawn breakthroughs, and the race to promote. The King ",
+    "anchor": "strategy",
+    "variant": "endgame-chess",
+    "variantUrl": "dist/moddable-chess/variants/endgame-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Endgame Chess",
+    "heading": "Attribution",
+    "content": "Traditional variant. Public domain.",
+    "anchor": "attribution",
+    "variant": "endgame-chess",
+    "variantUrl": "dist/moddable-chess/variants/endgame-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Extinction Chess",
+    "heading": "Extinction Chess",
+    "content": "Lose when any piece type is fully eliminated. Every piece type becomes a critical resource.",
+    "anchor": "extinction-chess",
+    "variant": "extinction",
+    "variantUrl": "dist/moddable-chess/variants/extinction/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Extinction Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess setup. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "extinction",
+    "variantUrl": "dist/moddable-chess/variants/extinction/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Extinction Chess",
+    "heading": "Rules",
+    "content": "Standard chess rules apply with one additional loss condition: - If all pieces of any ONE type are eliminated, that player loses immediately. - Piece types tracked: Kings 1, Queens 1, Rooks 2, Bishops",
+    "anchor": "rules",
+    "variant": "extinction",
+    "variantUrl": "dist/moddable-chess/variants/extinction/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Extinction Chess",
+    "heading": "Win Condition",
+    "content": "Eliminate any one type of your opponent's pieces entirely.",
+    "anchor": "win-condition",
+    "variant": "extinction",
+    "variantUrl": "dist/moddable-chess/variants/extinction/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Extinction Chess",
+    "heading": "Strategy",
+    "content": "Pieces with only one copy King, Queen are high-value targets — losing either one ends the game. Trading your last Knight for their last Knight is fine, but trading your last Bishop for their Knight wh",
+    "anchor": "strategy",
+    "variant": "extinction",
+    "variantUrl": "dist/moddable-chess/variants/extinction/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Extinction Chess",
+    "heading": "Attribution",
+    "content": "R. Wayne Schmittberger, 1985. Public domain.",
+    "anchor": "attribution",
+    "variant": "extinction",
+    "variantUrl": "dist/moddable-chess/variants/extinction/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Fischer Random (Chess960)",
+    "heading": "Fischer Random (Chess960)",
+    "content": "960 possible starting positions. The back-rank pieces are shuffled randomly with one constraint: the King must be between the two Rooks.",
+    "anchor": "fischer-random-chess960",
+    "variant": "fischer-random",
+    "variantUrl": "dist/moddable-chess/variants/fischer-random/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Fischer Random (Chess960)",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Back-rank pieces are shuffled randomly for each game, with three constraints: 1. The King must be somewhere between the two Rooks to preserve castling rights. 2. Bishops mu",
+    "anchor": "setup",
+    "variant": "fischer-random",
+    "variantUrl": "dist/moddable-chess/variants/fischer-random/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Fischer Random (Chess960)",
+    "heading": "Rules",
+    "content": "Identical to standard chess, including castling. Castling follows a generalised rule: the King and Rook end up on the same squares they would in standard castling King on c1/g1, Rook on d1/f1, regardl",
+    "anchor": "rules",
+    "variant": "fischer-random",
+    "variantUrl": "dist/moddable-chess/variants/fischer-random/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Fischer Random (Chess960)",
+    "heading": "Win Condition",
+    "content": "Checkmate identical to standard chess.",
+    "anchor": "win-condition",
+    "variant": "fischer-random",
+    "variantUrl": "dist/moddable-chess/variants/fischer-random/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Fischer Random (Chess960)",
+    "heading": "Strategy",
+    "content": "Opening book knowledge is neutralised. Every game requires original thinking from move one. Piece development principles control the centre, develop knights before bishops, castle early still apply bu",
+    "anchor": "strategy",
+    "variant": "fischer-random",
+    "variantUrl": "dist/moddable-chess/variants/fischer-random/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Fischer Random (Chess960)",
+    "heading": "Attribution",
+    "content": "Bobby Fischer, 1996. Public domain.",
+    "anchor": "attribution",
+    "variant": "fischer-random",
+    "variantUrl": "dist/moddable-chess/variants/fischer-random/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Five-Check",
+    "heading": "Five-Check",
+    "content": "An extended version of Three-Check. Deliver five checks to win. More room for strategic play while still rewarding aggressive checking sequences.",
+    "anchor": "five-check",
+    "variant": "five-check",
+    "variantUrl": "dist/moddable-chess/variants/five-check/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Five-Check",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess starting position. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "five-check",
+    "variantUrl": "dist/moddable-chess/variants/five-check/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Five-Check",
+    "heading": "Rules",
+    "content": "All standard chess rules apply, plus: - Each player's checks are counted regardless of how the opponent responds — block, evade, or capture the checking piece. - Reaching five checks wins the game imm",
+    "anchor": "rules",
+    "variant": "five-check",
+    "variantUrl": "dist/moddable-chess/variants/five-check/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Five-Check",
+    "heading": "Win Condition",
+    "content": "Deliver checkmate OR deliver five checks total.",
+    "anchor": "win-condition",
+    "variant": "five-check",
+    "variantUrl": "dist/moddable-chess/variants/five-check/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Five-Check",
+    "heading": "Strategy",
+    "content": "Similar to Three-Check but with more breathing room. The higher threshold means you can't win by brute-force sacrificing into checks — you need sustained pressure. Pieces that deliver repeated checks ",
+    "anchor": "strategy",
+    "variant": "five-check",
+    "variantUrl": "dist/moddable-chess/variants/five-check/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Five-Check",
+    "heading": "Attribution",
+    "content": "Traditional variant extension of Three-Check. Public domain.",
+    "anchor": "attribution",
+    "variant": "five-check",
+    "variantUrl": "dist/moddable-chess/variants/five-check/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Fog of War Chess",
+    "heading": "Fog of War Chess",
+    "content": "A hidden-information variant where each player can only see squares that their pieces can legally move to or attack. Transforms chess from a perfect-information game into one of reconnaissance and ded",
+    "anchor": "fog-of-war-chess",
+    "variant": "fog-of-war",
+    "variantUrl": "dist/moddable-chess/variants/fog-of-war/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Fog of War Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8, but each player's view is limited. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "fog-of-war",
+    "variantUrl": "dist/moddable-chess/variants/fog-of-war/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Fog of War Chess",
+    "heading": "Rules",
+    "content": "Visibility: - You can see any square that at least one of your pieces could legally move to or capture on. - You can always see squares occupied by your own pieces. - Enemy pieces on squares you canno",
+    "anchor": "rules",
+    "variant": "fog-of-war",
+    "variantUrl": "dist/moddable-chess/variants/fog-of-war/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Fog of War Chess",
+    "heading": "Win Condition",
+    "content": "Capture the opponent's King.",
+    "anchor": "win-condition",
+    "variant": "fog-of-war",
+    "variantUrl": "dist/moddable-chess/variants/fog-of-war/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Fog of War Chess",
+    "heading": "Strategy",
+    "content": "Scouts Knights, Bishops become critical for revealing enemy positions. The centre is more important for maintaining broad visibility. Gambits to sacrifice material for information are viable. Endgames",
+    "anchor": "strategy",
+    "variant": "fog-of-war",
+    "variantUrl": "dist/moddable-chess/variants/fog-of-war/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Fog of War Chess",
+    "heading": "Attribution",
+    "content": "Jens Bæk Nielsen and Torben Osted, 1989. Popularised on Chess.com. Public domain rules.",
+    "anchor": "attribution",
+    "variant": "fog-of-war",
+    "variantUrl": "dist/moddable-chess/variants/fog-of-war/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Giveaway",
+    "heading": "Giveaway",
+    "content": "Forced captures. Lose all your pieces to win. Stalemate counts as a loss for the stalemated player. The ultimate inversion of chess logic.",
+    "anchor": "giveaway",
+    "variant": "giveaway",
+    "variantUrl": "dist/moddable-chess/variants/giveaway/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Giveaway",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess starting position. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "giveaway",
+    "variantUrl": "dist/moddable-chess/variants/giveaway/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Giveaway",
+    "heading": "Rules",
+    "content": "- If you can capture, you MUST capture. If multiple captures are available, you choose which one. - The King is not royal — there is no check or checkmate. The King can be captured like any other piec",
+    "anchor": "rules",
+    "variant": "giveaway",
+    "variantUrl": "dist/moddable-chess/variants/giveaway/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Giveaway",
+    "heading": "Win Condition",
+    "content": "Lose all of your pieces including the King.",
+    "anchor": "win-condition",
+    "variant": "giveaway",
+    "variantUrl": "dist/moddable-chess/variants/giveaway/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Giveaway",
+    "heading": "Strategy",
+    "content": "You want to GIVE pieces away, not protect them. But forced captures mean your opponent can force you to capture their pieces too — creating bizarre tactical lines. The ideal position has your pieces o",
+    "anchor": "strategy",
+    "variant": "giveaway",
+    "variantUrl": "dist/moddable-chess/variants/giveaway/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Giveaway",
+    "heading": "Attribution",
+    "content": "Traditional variant. Also known as \"Giveaway Chess.\" Public domain.",
+    "anchor": "attribution",
+    "variant": "giveaway",
+    "variantUrl": "dist/moddable-chess/variants/giveaway/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Grand Chess",
+    "heading": "Grand Chess",
+    "content": "A 10×10 variant that adds the Archbishop and Chancellor without changing any existing piece rules. Considered one of the cleanest large-board variants — no special rules, just a bigger stage.",
+    "anchor": "grand-chess",
+    "variant": "grand",
+    "variantUrl": "dist/moddable-chess/variants/grand/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Grand Chess",
+    "heading": "Setup",
+    "content": "Board: 10×10 100 squares.",
+    "anchor": "setup",
+    "variant": "grand",
+    "variantUrl": "dist/moddable-chess/variants/grand/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Grand Chess",
+    "heading": "Pieces",
+    "content": "Pieces per side: 1 King, 1 Queen, 1 Archbishop, 1 Chancellor, 2 Rooks, 2 Bishops, 2 Knights, 10 Pawns. - Archbishop ♗+♞ — Bishop + Knight compound. - Chancellor ♖+♞ — Rook + Knight compound. Setup: Pa",
+    "anchor": "pieces",
+    "variant": "grand",
+    "variantUrl": "dist/moddable-chess/variants/grand/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Grand Chess",
+    "heading": "Rules",
+    "content": "- No castling. The wider board makes it unnecessary. - Pawn promotion: Pawns reaching rank 8 or 9 MAY promote. Pawns reaching rank 10 MUST promote. Promotion to any captured piece only — you cannot pr",
+    "anchor": "rules",
+    "variant": "grand",
+    "variantUrl": "dist/moddable-chess/variants/grand/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Grand Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate.",
+    "anchor": "win-condition",
+    "variant": "grand",
+    "variantUrl": "dist/moddable-chess/variants/grand/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Grand Chess",
+    "heading": "Strategy",
+    "content": "With no castling, King safety comes from piece coordination rather than a pawn shelter. The Archbishop excels in closed positions, the Chancellor on open files. The promotion restriction captured piec",
+    "anchor": "strategy",
+    "variant": "grand",
+    "variantUrl": "dist/moddable-chess/variants/grand/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Grand Chess",
+    "heading": "Attribution",
+    "content": "Christian Freeling, 1984. Public domain.",
+    "anchor": "attribution",
+    "variant": "grand",
+    "variantUrl": "dist/moddable-chess/variants/grand/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Grid Chess",
+    "heading": "Grid Chess",
+    "content": "The board is overlaid with a grid dividing it into sixteen 2×2 sections. A move is only legal if the piece crosses at least one grid line.",
+    "anchor": "grid-chess",
+    "variant": "grid-chess",
+    "variantUrl": "dist/moddable-chess/variants/grid-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Grid Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8, overlaid with grid lines between files b–c, d–e, f–g and between ranks 2–3, 4–5, 6–7. This creates 16 sections of 2×2 squares each. Setup: Standard chess starting position. FEN: r",
+    "anchor": "setup",
+    "variant": "grid-chess",
+    "variantUrl": "dist/moddable-chess/variants/grid-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Grid Chess",
+    "heading": "Rules",
+    "content": "- Standard chess movement applies, with one restriction: - A move is only legal if the piece crosses at least one grid line moves from one 2×2 section to a different one, or crosses a grid line within",
+    "anchor": "rules",
+    "variant": "grid-chess",
+    "variantUrl": "dist/moddable-chess/variants/grid-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Grid Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate only moves crossing grid lines count as attacks.",
+    "anchor": "win-condition",
+    "variant": "grid-chess",
+    "variantUrl": "dist/moddable-chess/variants/grid-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Grid Chess",
+    "heading": "Strategy",
+    "content": "Mobility is dramatically reduced. Knights are relatively stronger — they always cross at least one grid line regardless of position. Pieces on the edge of a 2×2 section have more options than those in",
+    "anchor": "strategy",
+    "variant": "grid-chess",
+    "variantUrl": "dist/moddable-chess/variants/grid-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Grid Chess",
+    "heading": "Attribution",
+    "content": "Walter Stead, 1953. Published in fairy chess circles. Public domain.",
+    "anchor": "attribution",
+    "variant": "grid-chess",
+    "variantUrl": "dist/moddable-chess/variants/grid-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Half Chess",
+    "heading": "Half Chess",
+    "content": "Standard pieces on a 4-rank board. Armies start adjacent with no gap — contact is immediate and violent.",
+    "anchor": "half-chess",
+    "variant": "half-chess",
+    "variantUrl": "dist/moddable-chess/variants/half-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Half Chess",
+    "heading": "Setup",
+    "content": "Board: 8 files × 4 ranks. Setup FEN: rnbqkbnr/pppppppp/PPPPPPPP/RNBQKBNR - Rank 4 Black back rank: r n b q k b n r - Rank 3 Black pawns: p p p p p p p p - Rank 2 White pawns: P P P P P P P P - Rank 1 ",
+    "anchor": "setup",
+    "variant": "half-chess",
+    "variantUrl": "dist/moddable-chess/variants/half-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Half Chess",
+    "heading": "Rules",
+    "content": "- Standard piece movement applies, constrained by the 4-rank board. - Pawns move one square forward only no double-step — there is no room. - No en passant. - Castling is allowed King and Rook are in ",
+    "anchor": "rules",
+    "variant": "half-chess",
+    "variantUrl": "dist/moddable-chess/variants/half-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Half Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate.",
+    "anchor": "win-condition",
+    "variant": "half-chess",
+    "variantUrl": "dist/moddable-chess/variants/half-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Half Chess",
+    "heading": "Strategy",
+    "content": "There is no development phase — the game is tactical from move 1. Every pawn trade immediately opens lines to the back rank. The King is extremely vulnerable with only 4 ranks of space. Knights are li",
+    "anchor": "strategy",
+    "variant": "half-chess",
+    "variantUrl": "dist/moddable-chess/variants/half-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Half Chess",
+    "heading": "Attribution",
+    "content": "Traditional mini-chess variant. Public domain.",
+    "anchor": "attribution",
+    "variant": "half-chess",
+    "variantUrl": "dist/moddable-chess/variants/half-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Hoppel-Poppel",
+    "heading": "Hoppel-Poppel",
+    "content": "Knights and Bishops swap their capture methods while retaining their normal movement.",
+    "anchor": "hoppel-poppel",
+    "variant": "hoppel-poppel",
+    "variantUrl": "dist/moddable-chess/variants/hoppel-poppel/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Hoppel-Poppel",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess setup. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "hoppel-poppel",
+    "variantUrl": "dist/moddable-chess/variants/hoppel-poppel/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Hoppel-Poppel",
+    "heading": "Rules",
+    "content": "- Knights move in their standard L-shape but capture by sliding diagonally like a bishop. - Bishops slide diagonally as normal but capture by jumping in an L-shape like a knight. - Only captures are s",
+    "anchor": "rules",
+    "variant": "hoppel-poppel",
+    "variantUrl": "dist/moddable-chess/variants/hoppel-poppel/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Hoppel-Poppel",
+    "heading": "Win Condition",
+    "content": "Checkmate the opponent's King.",
+    "anchor": "win-condition",
+    "variant": "hoppel-poppel",
+    "variantUrl": "dist/moddable-chess/variants/hoppel-poppel/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Hoppel-Poppel",
+    "heading": "Strategy",
+    "content": "Knights become long-range capture threats they can capture anything on their diagonal but remain short-range for positioning. Bishops gain the ability to capture past blocking pieces jumping like knig",
+    "anchor": "strategy",
+    "variant": "hoppel-poppel",
+    "variantUrl": "dist/moddable-chess/variants/hoppel-poppel/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Hoppel-Poppel",
+    "heading": "Attribution",
+    "content": "Traditional German variant. The name means \"Hippety-Hop\" in German. Public domain.",
+    "anchor": "attribution",
+    "variant": "hoppel-poppel",
+    "variantUrl": "dist/moddable-chess/variants/hoppel-poppel/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Horde Chess",
+    "heading": "Horde Chess",
+    "content": "36 pawns versus a normal army. A radically asymmetric battle of overwhelming numbers against organised forces.",
+    "anchor": "horde-chess",
+    "variant": "horde",
+    "variantUrl": "dist/moddable-chess/variants/horde/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Horde Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: FEN: rnbqkbnr/pppppppp/8/1PP2PP1/PPPPPPPP/PPPPPPPP/PPPPPPPP/PPPPPPPP w kq - 0 1 - Black: Standard chess setup full army on ranks 7–8. - White Horde: 36 pawns filling ranks ",
+    "anchor": "setup",
+    "variant": "horde",
+    "variantUrl": "dist/moddable-chess/variants/horde/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Horde Chess",
+    "heading": "Rules",
+    "content": "- Standard chess rules apply to both sides with these exceptions: - The Horde has no King — it cannot be checkmated. - Horde pawns on rank 1 may double-step as if on rank 2. - Horde pawns promote norm",
+    "anchor": "rules",
+    "variant": "horde",
+    "variantUrl": "dist/moddable-chess/variants/horde/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Horde Chess",
+    "heading": "Win Condition",
+    "content": "- Horde wins: Checkmate Black's King promoted pieces are usually required. - Black wins: Capture every single Horde piece.",
+    "anchor": "win-condition",
+    "variant": "horde",
+    "variantUrl": "dist/moddable-chess/variants/horde/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Horde Chess",
+    "heading": "Strategy",
+    "content": "Black must efficiently destroy pawns without allowing promotion. The Horde must protect key pawns and push toward promotion. Bishops and Knights are most effective for Black cutting through pawn masse",
+    "anchor": "strategy",
+    "variant": "horde",
+    "variantUrl": "dist/moddable-chess/variants/horde/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Horde Chess",
+    "heading": "Attribution",
+    "content": "Popularised on Lichess. Public domain.",
+    "anchor": "attribution",
+    "variant": "horde",
+    "variantUrl": "dist/moddable-chess/variants/horde/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "King of the Hill",
+    "heading": "King of the Hill",
+    "content": "Move your King to the centre four squares for an instant win. Transforms the King from a liability into an offensive weapon.",
+    "anchor": "king-of-the-hill",
+    "variant": "king-of-the-hill",
+    "variantUrl": "dist/moddable-chess/variants/king-of-the-hill/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "King of the Hill",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess setup. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "king-of-the-hill",
+    "variantUrl": "dist/moddable-chess/variants/king-of-the-hill/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "King of the Hill",
+    "heading": "Rules",
+    "content": "All standard chess rules apply. No modifications to piece movement, captures, or special moves.",
+    "anchor": "rules",
+    "variant": "king-of-the-hill",
+    "variantUrl": "dist/moddable-chess/variants/king-of-the-hill/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "King of the Hill",
+    "heading": "Win Condition",
+    "content": "- Checkmate as normal, OR - Move your King to any of the four centre squares d4, e4, d5, e5.",
+    "anchor": "win-condition",
+    "variant": "king-of-the-hill",
+    "variantUrl": "dist/moddable-chess/variants/king-of-the-hill/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "King of the Hill",
+    "heading": "Strategy",
+    "content": "The King becomes an attacking piece. You must balance aggression advancing the King with safety not exposing it to check. Games are shorter and more tactical — passive play is punished because the opp",
+    "anchor": "strategy",
+    "variant": "king-of-the-hill",
+    "variantUrl": "dist/moddable-chess/variants/king-of-the-hill/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "King of the Hill",
+    "heading": "Attribution",
+    "content": "Popularised on Lichess and Chess.com. Public domain.",
+    "anchor": "attribution",
+    "variant": "king-of-the-hill",
+    "variantUrl": "dist/moddable-chess/variants/king-of-the-hill/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Knightmate",
+    "heading": "Knightmate",
+    "content": "The Knight becomes the royal piece. The King becomes a commoner that moves like a knight. A complete role reversal that transforms strategy.",
+    "anchor": "knightmate",
+    "variant": "knightmate",
+    "variantUrl": "dist/moddable-chess/variants/knightmate/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Knightmate",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup FEN: rkbqnbkr/pppppppp/8/8/8/8/PPPPPPPP/RKBQNBKR",
+    "anchor": "setup",
+    "variant": "knightmate",
+    "variantUrl": "dist/moddable-chess/variants/knightmate/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Knightmate",
+    "heading": "Pieces",
+    "content": "Pieces: Standard chess pieces, but with swapped roles: - Knight — the royal piece. Must be protected from checkmate. Sits on e1/e8 where the King normally starts. - King — moves like a knight L-shape.",
+    "anchor": "pieces",
+    "variant": "knightmate",
+    "variantUrl": "dist/moddable-chess/variants/knightmate/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Knightmate",
+    "heading": "Rules",
+    "content": "All standard chess rules apply, except: - The Knight is subject to check and checkmate it is royal. - The King is an ordinary piece that moves in knight-jumps. - Castling works with the royal Knight a",
+    "anchor": "rules",
+    "variant": "knightmate",
+    "variantUrl": "dist/moddable-chess/variants/knightmate/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Knightmate",
+    "heading": "Win Condition",
+    "content": "Checkmate the opponent's royal Knight.",
+    "anchor": "win-condition",
+    "variant": "knightmate",
+    "variantUrl": "dist/moddable-chess/variants/knightmate/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Knightmate",
+    "heading": "Strategy",
+    "content": "The royal Knight is far more mobile than a standard King, which makes it harder to trap but also means it can overextend. Kings moving as knights are powerful attacking pieces. Queen + King combinatio",
+    "anchor": "strategy",
+    "variant": "knightmate",
+    "variantUrl": "dist/moddable-chess/variants/knightmate/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Knightmate",
+    "heading": "Attribution",
+    "content": "Bruce Zimov, 1972. Public domain.",
+    "anchor": "attribution",
+    "variant": "knightmate",
+    "variantUrl": "dist/moddable-chess/variants/knightmate/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Legan Chess",
+    "heading": "Legan Chess",
+    "content": "Combines Berolina pawn movement with swapped King/Queen positions. No castling or en passant.",
+    "anchor": "legan-chess",
+    "variant": "legan",
+    "variantUrl": "dist/moddable-chess/variants/legan/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Legan Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Like standard chess but the King starts on d1/d8 and the Queen on e1/e8 swapped positions. FEN: rnbkqbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBKQBNR w - - 0 1",
+    "anchor": "setup",
+    "variant": "legan",
+    "variantUrl": "dist/moddable-chess/variants/legan/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Legan Chess",
+    "heading": "Rules",
+    "content": "- Pawns move diagonally forward one or two squares from their starting rank and capture straight forward — Berolina movement. - No castling. - No en passant. - All other pieces move and capture as sta",
+    "anchor": "rules",
+    "variant": "legan",
+    "variantUrl": "dist/moddable-chess/variants/legan/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Legan Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate the opponent's King.",
+    "anchor": "win-condition",
+    "variant": "legan",
+    "variantUrl": "dist/moddable-chess/variants/legan/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Legan Chess",
+    "heading": "Strategy",
+    "content": "The King on d-file is more exposed than in standard chess since the Queen is no longer shielding it. Berolina pawns create unusual pawn structures — they cannot protect each other the way normal pawns",
+    "anchor": "strategy",
+    "variant": "legan",
+    "variantUrl": "dist/moddable-chess/variants/legan/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Legan Chess",
+    "heading": "Attribution",
+    "content": "Named after Vladimír Legan. Public domain.",
+    "anchor": "attribution",
+    "variant": "legan",
+    "variantUrl": "dist/moddable-chess/variants/legan/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Los Alamos",
+    "heading": "Los Alamos",
+    "content": "The first chess variant ever played by a computer 1956, MANIAC I at Los Alamos National Laboratory. A 6×6 board with no Bishops and no castling.",
+    "anchor": "los-alamos",
+    "variant": "los-alamos",
+    "variantUrl": "dist/moddable-chess/variants/los-alamos/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Los Alamos",
+    "heading": "Setup",
+    "content": "Board: 6×6 six files, six ranks. Setup FEN: rnqknr/pppppp/6/6/PPPPPP/RNQKNR Each side: Rook, Knight, Queen, King, Knight, Rook + 6 pawns. No Bishops.",
+    "anchor": "setup",
+    "variant": "los-alamos",
+    "variantUrl": "dist/moddable-chess/variants/los-alamos/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Los Alamos",
+    "heading": "Rules",
+    "content": "- Standard chess movement for all pieces Rooks, Knights, Queen, King, Pawns. - No Bishops exist in this variant. - No castling. - Pawns move one square forward only no double-step from starting rank. ",
+    "anchor": "rules",
+    "variant": "los-alamos",
+    "variantUrl": "dist/moddable-chess/variants/los-alamos/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Los Alamos",
+    "heading": "Win Condition",
+    "content": "Checkmate or stalemate the opponent stalemate is a loss in Los Alamos rules.",
+    "anchor": "win-condition",
+    "variant": "los-alamos",
+    "variantUrl": "dist/moddable-chess/variants/los-alamos/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Los Alamos",
+    "heading": "Strategy",
+    "content": "Without Bishops, there are no long-range diagonal attackers. Knights become relatively more powerful since the board is smaller fewer moves to cross. The Queen is overwhelmingly strong on a 6×6 board ",
+    "anchor": "strategy",
+    "variant": "los-alamos",
+    "variantUrl": "dist/moddable-chess/variants/los-alamos/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Los Alamos",
+    "heading": "Attribution",
+    "content": "Paul Stein and Mark Wells, Los Alamos National Laboratory, 1956. Public domain.",
+    "anchor": "attribution",
+    "variant": "los-alamos",
+    "variantUrl": "dist/moddable-chess/variants/los-alamos/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Madrasi Chess",
+    "heading": "Madrasi Chess",
+    "content": "When a piece is attacked by an opposing piece of the same type, both pieces are paralysed — they cannot move, capture, or give check until the paralysis is broken.",
+    "anchor": "madrasi-chess",
+    "variant": "madrasi",
+    "variantUrl": "dist/moddable-chess/variants/madrasi/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Madrasi Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess starting position. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "madrasi",
+    "variantUrl": "dist/moddable-chess/variants/madrasi/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Madrasi Chess",
+    "heading": "Rules",
+    "content": "- Standard chess movement applies, with the following addition: - When a piece is attacked by an opposing piece of the same type e.g., White Knight attacked by Black Knight, BOTH pieces are paralysed.",
+    "anchor": "rules",
+    "variant": "madrasi",
+    "variantUrl": "dist/moddable-chess/variants/madrasi/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Madrasi Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate paralysed pieces cannot contribute to check or defence.",
+    "anchor": "win-condition",
+    "variant": "madrasi",
+    "variantUrl": "dist/moddable-chess/variants/madrasi/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Madrasi Chess",
+    "heading": "Strategy",
+    "content": "Use paralysis offensively — freeze your opponent's key pieces by opposing them with your same-type pieces. A single Bishop can neutralise the opponent's Bishop while your other pieces attack freely. A",
+    "anchor": "strategy",
+    "variant": "madrasi",
+    "variantUrl": "dist/moddable-chess/variants/madrasi/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Madrasi Chess",
+    "heading": "Attribution",
+    "content": "Abdul Jabbar Karwatkar, 1979. Named after his home city of Madras now Chennai, India. Public domain rules.",
+    "anchor": "attribution",
+    "variant": "madrasi",
+    "variantUrl": "dist/moddable-chess/variants/madrasi/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Maharaja & Sepoys",
+    "heading": "Maharaja & Sepoys",
+    "content": "One Queen+Knight super-piece the Maharaja vs a full standard army. The ultimate asymmetric challenge.",
+    "anchor": "maharaja-sepoys",
+    "variant": "maharaja",
+    "variantUrl": "dist/moddable-chess/variants/maharaja/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Maharaja & Sepoys",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: FEN: rnbqkbnr/pppppppp/8/8/8/8/8/4M3 w kq - 0 1 - Black Sepoys: Full standard chess army on ranks 7–8. Pawns on rank 7. - White Maharaja: A single piece — the Maharaja — pl",
+    "anchor": "setup",
+    "variant": "maharaja",
+    "variantUrl": "dist/moddable-chess/variants/maharaja/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Maharaja & Sepoys",
+    "heading": "Rules",
+    "content": "- Standard chess rules apply to Black's army including castling and pawn promotion. - White has only the Maharaja — every turn, White moves it. - The Maharaja cannot castle. - If the Maharaja is check",
+    "anchor": "rules",
+    "variant": "maharaja",
+    "variantUrl": "dist/moddable-chess/variants/maharaja/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Maharaja & Sepoys",
+    "heading": "Win Condition",
+    "content": "- Black wins: Checkmate or capture the Maharaja. - White wins: Checkmate Black's King using the Maharaja alone.",
+    "anchor": "win-condition",
+    "variant": "maharaja",
+    "variantUrl": "dist/moddable-chess/variants/maharaja/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Maharaja & Sepoys",
+    "heading": "Strategy",
+    "content": "The Maharaja is incredibly powerful but alone. Black must coordinate pieces to trap it in a net. White must pick off Black's pieces one by one while avoiding getting cornered. In practice, a well-play",
+    "anchor": "strategy",
+    "variant": "maharaja",
+    "variantUrl": "dist/moddable-chess/variants/maharaja/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Maharaja & Sepoys",
+    "heading": "Attribution",
+    "content": "Traditional Indian variant \"Maharaja and the Sepoys\", 19th century. Public domain.",
+    "anchor": "attribution",
+    "variant": "maharaja",
+    "variantUrl": "dist/moddable-chess/variants/maharaja/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Makpong",
+    "heading": "Makpong",
+    "content": "A Thai chess Makruk variant where the King cannot move out of check. When in check, you must block or capture the checking piece — the King stays put.",
+    "anchor": "makpong",
+    "variant": "makpong",
+    "variantUrl": "dist/moddable-chess/variants/makpong/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Makpong",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess starting position. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "makpong",
+    "variantUrl": "dist/moddable-chess/variants/makpong/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Makpong",
+    "heading": "Rules",
+    "content": "All standard chess rules apply, except: - When in check, the King CANNOT move. You must resolve the check by: - Capturing the checking piece with any piece other than the King, OR - Blocking the check",
+    "anchor": "rules",
+    "variant": "makpong",
+    "variantUrl": "dist/moddable-chess/variants/makpong/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Makpong",
+    "heading": "Win Condition",
+    "content": "Checkmate which is much easier to achieve due to the King's inability to flee.",
+    "anchor": "win-condition",
+    "variant": "makpong",
+    "variantUrl": "dist/moddable-chess/variants/makpong/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Makpong",
+    "heading": "Strategy",
+    "content": "Double check is instantly lethal — any discovered check where the moving piece also gives check is mate. This makes batteries aligned pieces that can deliver discovered check extremely dangerous. Knig",
+    "anchor": "strategy",
+    "variant": "makpong",
+    "variantUrl": "dist/moddable-chess/variants/makpong/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Makpong",
+    "heading": "Attribution",
+    "content": "Traditional Thai variant of Makruk. Public domain.",
+    "anchor": "attribution",
+    "variant": "makpong",
+    "variantUrl": "dist/moddable-chess/variants/makpong/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Makruk",
+    "heading": "Makruk (Thai Chess)",
+    "content": "The traditional chess of Thailand, played since the 16th century. Features a weaker promoted piece and no castling.",
+    "anchor": "makruk-thai-chess",
+    "variant": "makruk",
+    "variantUrl": "dist/moddable-chess/variants/makruk/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Makruk",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Pawns start on the 3rd rank not 2nd. Back rank: Rook, Knight, Silver General Met, King, Queen Met equivalent, Silver General, Knight, Rook. FEN: rnsmksnr/8/pppppppp/8/8/PPP",
+    "anchor": "setup",
+    "variant": "makruk",
+    "variantUrl": "dist/moddable-chess/variants/makruk/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Makruk",
+    "heading": "Rules",
+    "content": "- The Met Silver General moves one square diagonally in any direction. It cannot move orthogonally. - The Queen equivalent also moves as a Met one step diagonal — it is a weak piece. - Pawns promote o",
+    "anchor": "rules",
+    "variant": "makruk",
+    "variantUrl": "dist/moddable-chess/variants/makruk/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Makruk",
+    "heading": "Win Condition",
+    "content": "Checkmate the opponent's King.",
+    "anchor": "win-condition",
+    "variant": "makruk",
+    "variantUrl": "dist/moddable-chess/variants/makruk/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Makruk",
+    "heading": "Strategy",
+    "content": "With no Queen and only weak diagonal movers Met, Makruk is a slower, more positional game than standard chess. Rooks are by far the most powerful pieces. Pawn promotion comes earlier rank 6 but the pr",
+    "anchor": "strategy",
+    "variant": "makruk",
+    "variantUrl": "dist/moddable-chess/variants/makruk/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Makruk",
+    "heading": "Attribution",
+    "content": "Traditional Thai chess. Played for over 500 years in Thailand. Public domain.",
+    "anchor": "attribution",
+    "variant": "makruk",
+    "variantUrl": "dist/moddable-chess/variants/makruk/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Marseillais Chess",
+    "heading": "Marseillais Chess",
+    "content": "Two moves per turn. If your first move gives check, your turn ends immediately.",
+    "anchor": "marseillais-chess",
+    "variant": "marseillais",
+    "variantUrl": "dist/moddable-chess/variants/marseillais/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Marseillais Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess setup. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "marseillais",
+    "variantUrl": "dist/moddable-chess/variants/marseillais/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Marseillais Chess",
+    "heading": "Rules",
+    "content": "- Each player makes TWO moves per turn instead of one. - If your first move delivers check, your turn ends — you do not get a second move. - If your first move does not give check, you must make a sec",
+    "anchor": "rules",
+    "variant": "marseillais",
+    "variantUrl": "dist/moddable-chess/variants/marseillais/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Marseillais Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate accounting for the double-move.",
+    "anchor": "win-condition",
+    "variant": "marseillais",
+    "variantUrl": "dist/moddable-chess/variants/marseillais/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Marseillais Chess",
+    "heading": "Strategy",
+    "content": "The double-move creates devastating tactical combinations. A Knight can reach any square in a single turn. Pins and skewers work differently because the pinned player might be able to move the pinned ",
+    "anchor": "strategy",
+    "variant": "marseillais",
+    "variantUrl": "dist/moddable-chess/variants/marseillais/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Marseillais Chess",
+    "heading": "Attribution",
+    "content": "Originated in Marseille, France, early 20th century. Public domain.",
+    "anchor": "attribution",
+    "variant": "marseillais",
+    "variantUrl": "dist/moddable-chess/variants/marseillais/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Minichess",
+    "heading": "Minichess",
+    "content": "Gardner's 5×5 chess. All standard piece types on a tiny board. Fast, tactical, and surprisingly deep for its size.",
+    "anchor": "minichess",
+    "variant": "minichess",
+    "variantUrl": "dist/moddable-chess/variants/minichess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Minichess",
+    "heading": "Setup",
+    "content": "Board: 5×5 five files, five ranks. Setup FEN: kqbnr/ppppp/5/PPPPP/RNBQK Black rank 5: King, Queen, Bishop, Knight, Rook + 5 pawns on rank 4. White rank 1: Rook, Knight, Bishop, Queen, King + 5 pawns o",
+    "anchor": "setup",
+    "variant": "minichess",
+    "variantUrl": "dist/moddable-chess/variants/minichess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Minichess",
+    "heading": "Rules",
+    "content": "- Standard chess movement for all pieces. - Pawns move one square forward only no double-step. - No en passant. - No castling King and Rook are adjacent — no room to castle. - Pawns promote on the far",
+    "anchor": "rules",
+    "variant": "minichess",
+    "variantUrl": "dist/moddable-chess/variants/minichess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Minichess",
+    "heading": "Win Condition",
+    "content": "Checkmate, same as standard chess.",
+    "anchor": "win-condition",
+    "variant": "minichess",
+    "variantUrl": "dist/moddable-chess/variants/minichess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Minichess",
+    "heading": "Strategy",
+    "content": "The tiny board means pieces are immediately in contact. Rooks are less powerful short files while Knights are relatively stronger they can reach most of the board in 1-2 moves. Games are decided quick",
+    "anchor": "strategy",
+    "variant": "minichess",
+    "variantUrl": "dist/moddable-chess/variants/minichess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Minichess",
+    "heading": "Attribution",
+    "content": "Martin Gardner, 1969 Scientific American. Public domain.",
+    "anchor": "attribution",
+    "variant": "minichess",
+    "variantUrl": "dist/moddable-chess/variants/minichess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Monster Chess",
+    "heading": "Monster Chess",
+    "content": "White gets two moves per turn. Black gets one. To compensate, White starts with only a King and Rooks — no minor pieces, no Queen, no pawns.",
+    "anchor": "monster-chess",
+    "variant": "monster-chess",
+    "variantUrl": "dist/moddable-chess/variants/monster-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Monster Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/R3K2R White starts with: King e1 + two Rooks a1, h1 + eight Pawns. Black starts with: Full standard army.",
+    "anchor": "setup",
+    "variant": "monster-chess",
+    "variantUrl": "dist/moddable-chess/variants/monster-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Monster Chess",
+    "heading": "Rules",
+    "content": "- White makes two moves per turn. Black makes one. - If White delivers check on the first move of their turn, the turn ends immediately no second move. - White can castle on either of their two moves ",
+    "anchor": "rules",
+    "variant": "monster-chess",
+    "variantUrl": "dist/moddable-chess/variants/monster-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Monster Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate, same as standard chess.",
+    "anchor": "win-condition",
+    "variant": "monster-chess",
+    "variantUrl": "dist/moddable-chess/variants/monster-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Monster Chess",
+    "heading": "Strategy",
+    "content": "White's double-move creates devastating tactical threats but the material deficit is severe. White must use tempo advantage aggressively before Black's army coordinates. Black should trade pieces and ",
+    "anchor": "strategy",
+    "variant": "monster-chess",
+    "variantUrl": "dist/moddable-chess/variants/monster-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Monster Chess",
+    "heading": "Attribution",
+    "content": "Traditional variant. Public domain.",
+    "anchor": "attribution",
+    "variant": "monster-chess",
+    "variantUrl": "dist/moddable-chess/variants/monster-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "No Castling Chess",
+    "heading": "No Castling Chess",
+    "content": "Standard chess with castling disabled. Endorsed by Vladimir Kramnik as a potential improvement to competitive chess, reducing the dominance of memorised opening theory.",
+    "anchor": "no-castling-chess",
+    "variant": "no-castling",
+    "variantUrl": "dist/moddable-chess/variants/no-castling/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "No Castling Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess setup. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "no-castling",
+    "variantUrl": "dist/moddable-chess/variants/no-castling/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "No Castling Chess",
+    "heading": "Rules",
+    "content": "Identical to standard chess except: - Castling is not allowed for either player, ever. - All other rules en passant, promotion, etc. are unchanged.",
+    "anchor": "rules",
+    "variant": "no-castling",
+    "variantUrl": "dist/moddable-chess/variants/no-castling/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "No Castling Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate.",
+    "anchor": "win-condition",
+    "variant": "no-castling",
+    "variantUrl": "dist/moddable-chess/variants/no-castling/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "No Castling Chess",
+    "heading": "Strategy",
+    "content": "Without castling, King safety requires more creative solutions. Players must decide early whether to keep the King in the centre risky but saves tempi or manually walk it to safety safe but slow. Open",
+    "anchor": "strategy",
+    "variant": "no-castling",
+    "variantUrl": "dist/moddable-chess/variants/no-castling/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "No Castling Chess",
+    "heading": "Attribution",
+    "content": "Proposed by Vladimir Kramnik, 2019. Tested at Chess.com events. Public domain.",
+    "anchor": "attribution",
+    "variant": "no-castling",
+    "variantUrl": "dist/moddable-chess/variants/no-castling/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "No Retreat",
+    "heading": "No Retreat",
+    "content": "No piece may move backward. Every advance is permanent, every overextension punished.",
+    "anchor": "no-retreat",
+    "variant": "no-retreat",
+    "variantUrl": "dist/moddable-chess/variants/no-retreat/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "No Retreat",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess starting position. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "no-retreat",
+    "variantUrl": "dist/moddable-chess/variants/no-retreat/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "No Retreat",
+    "heading": "Rules",
+    "content": "- Standard chess movement applies, with one restriction: - No piece may move to a rank closer to its own starting position. For White, no piece may move to a lower-numbered rank than it currently occu",
+    "anchor": "rules",
+    "variant": "no-retreat",
+    "variantUrl": "dist/moddable-chess/variants/no-retreat/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "No Retreat",
+    "heading": "Win Condition",
+    "content": "Checkmate.",
+    "anchor": "win-condition",
+    "variant": "no-retreat",
+    "variantUrl": "dist/moddable-chess/variants/no-retreat/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "No Retreat",
+    "heading": "Strategy",
+    "content": "Every piece advance is permanent — commit carefully. Knights lose half their mobility since they cannot retreat from advanced posts. Rooks on open files dominate since they can still move sideways fre",
+    "anchor": "strategy",
+    "variant": "no-retreat",
+    "variantUrl": "dist/moddable-chess/variants/no-retreat/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "No Retreat",
+    "heading": "Attribution",
+    "content": "Traditional variant, 20th century. Public domain.",
+    "anchor": "attribution",
+    "variant": "no-retreat",
+    "variantUrl": "dist/moddable-chess/variants/no-retreat/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Omnicide",
+    "heading": "Omnicide",
+    "content": "Lose all your pieces to win — but unlike Antichess, captures are completely optional. You must engineer positions where your opponent WANTS to take your pieces.",
+    "anchor": "omnicide",
+    "variant": "omnicide",
+    "variantUrl": "dist/moddable-chess/variants/omnicide/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Omnicide",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess starting position. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "omnicide",
+    "variantUrl": "dist/moddable-chess/variants/omnicide/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Omnicide",
+    "heading": "Rules",
+    "content": "- All pieces move as in standard chess. - Captures are NOT forced — this is the key difference from Antichess/Giveaway. - The King has no royal status — it can be captured like any other piece. - No c",
+    "anchor": "rules",
+    "variant": "omnicide",
+    "variantUrl": "dist/moddable-chess/variants/omnicide/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Omnicide",
+    "heading": "Win Condition",
+    "content": "Lose all your pieces including King. First player with zero pieces remaining wins.",
+    "anchor": "win-condition",
+    "variant": "omnicide",
+    "variantUrl": "dist/moddable-chess/variants/omnicide/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Omnicide",
+    "heading": "Strategy",
+    "content": "Since captures are not forced, you cannot simply \"feed\" pieces to your opponent as in Antichess. You must create positions where capturing your pieces benefits the opponent or where leaving them alive",
+    "anchor": "strategy",
+    "variant": "omnicide",
+    "variantUrl": "dist/moddable-chess/variants/omnicide/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Omnicide",
+    "heading": "Attribution",
+    "content": "Modern variant. Distinct from Antichess by the absence of forced captures. Public domain.",
+    "anchor": "attribution",
+    "variant": "omnicide",
+    "variantUrl": "dist/moddable-chess/variants/omnicide/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Orda Chess",
+    "heading": "Orda Chess",
+    "content": "An asymmetric variant where White plays standard chess and Black commands the Mongol Horde — pieces that move differently from how they capture.",
+    "anchor": "orda-chess",
+    "variant": "orda",
+    "variantUrl": "dist/moddable-chess/variants/orda/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Orda Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. White standard: Standard chess setup. Black Horde: Pawns on rank 7. Back rank: Lancer, Archer, Kheshig, Khan, Yurt, Kheshig, Archer, Lancer. FEN: lhaykahl/8/pppppppp/8/8/PPPPPPPP/",
+    "anchor": "setup",
+    "variant": "orda",
+    "variantUrl": "dist/moddable-chess/variants/orda/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Orda Chess",
+    "heading": "Rules",
+    "content": "Yurt y — Moves one square diagonally. Captures one square orthogonally. Replaces the Queen. Lancer l — Moves like a Rook slides orthogonally. Captures like a Knight L-shaped jump. Cannot slide to capt",
+    "anchor": "rules",
+    "variant": "orda",
+    "variantUrl": "dist/moddable-chess/variants/orda/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Orda Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate the opponent's King/Khan.",
+    "anchor": "win-condition",
+    "variant": "orda",
+    "variantUrl": "dist/moddable-chess/variants/orda/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Orda Chess",
+    "heading": "Strategy",
+    "content": "Black's Lancers and Archers are powerful positional pieces full rook/bishop mobility but limited attackers knight-range capture only. White must exploit the Horde's short capture range while avoiding ",
+    "anchor": "strategy",
+    "variant": "orda",
+    "variantUrl": "dist/moddable-chess/variants/orda/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Orda Chess",
+    "heading": "Attribution",
+    "content": "Designed by Couch Tomato 2020. Popularised on Pychess. Public domain.",
+    "anchor": "attribution",
+    "variant": "orda",
+    "variantUrl": "dist/moddable-chess/variants/orda/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Patrol Chess",
+    "heading": "Patrol Chess",
+    "content": "A piece may only capture or give check if it is \"patrolled\" — defended by at least one friendly piece. Isolated pieces are toothless.",
+    "anchor": "patrol-chess",
+    "variant": "patrol",
+    "variantUrl": "dist/moddable-chess/variants/patrol/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Patrol Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess starting position. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "patrol",
+    "variantUrl": "dist/moddable-chess/variants/patrol/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Patrol Chess",
+    "heading": "Rules",
+    "content": "- Standard chess movement applies, with the following additions: - A piece may only CAPTURE if it is patrolled defended by at least one friendly piece. - A piece may only give CHECK if it is patrolled",
+    "anchor": "rules",
+    "variant": "patrol",
+    "variantUrl": "dist/moddable-chess/variants/patrol/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Patrol Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate the checking piece must be patrolled.",
+    "anchor": "win-condition",
+    "variant": "patrol",
+    "variantUrl": "dist/moddable-chess/variants/patrol/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Patrol Chess",
+    "heading": "Strategy",
+    "content": "Piece coordination is everything. Isolated pieces cannot capture or deliver check — they are purely positional. Keep pieces connected and defending each other. Knights near friendly pieces become dead",
+    "anchor": "strategy",
+    "variant": "patrol",
+    "variantUrl": "dist/moddable-chess/variants/patrol/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Patrol Chess",
+    "heading": "Attribution",
+    "content": "Frederik Hendrik von Meyenfeldt, 1975. Public domain rules.",
+    "anchor": "attribution",
+    "variant": "patrol",
+    "variantUrl": "dist/moddable-chess/variants/patrol/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Pawns Only",
+    "heading": "Pawns Only",
+    "content": "Only pawns and Kings. First to promote wins. A deceptively deep race that tests pure pawn endgame technique.",
+    "anchor": "pawns-only",
+    "variant": "pawns-only",
+    "variantUrl": "dist/moddable-chess/variants/pawns-only/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Pawns Only",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup FEN: 4k3/pppppppp/8/8/8/8/PPPPPPPP/4K3 Each side: King on e-file + 8 pawns on second/seventh rank. Identical to Endgame Chess setup.",
+    "anchor": "setup",
+    "variant": "pawns-only",
+    "variantUrl": "dist/moddable-chess/variants/pawns-only/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Pawns Only",
+    "heading": "Rules",
+    "content": "All standard chess rules apply, including: - Pawns can double-step from starting rank. - En passant is available. - Pawns promote normally. - No castling no Rooks exist.",
+    "anchor": "rules",
+    "variant": "pawns-only",
+    "variantUrl": "dist/moddable-chess/variants/pawns-only/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Pawns Only",
+    "heading": "Win Condition",
+    "content": "First player to promote a pawn wins immediately. If checkmate occurs before any promotion, the checkmating player wins.",
+    "anchor": "win-condition",
+    "variant": "pawns-only",
+    "variantUrl": "dist/moddable-chess/variants/pawns-only/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Pawns Only",
+    "heading": "Difference from Endgame Chess In Endgame Chess, the win condition is checkmate (so you promote and then use the promoted piece to deliver mate). In Pawns Only, promotion itself is the win — the game ends the instant a pawn reaches the back",
+    "content": "rank.",
+    "anchor": "difference-from-endgame-chess-in-endgame-chess-the-win-condition-is-checkmate-so-you-promote-and-then-use-the-promoted-piece-to-deliver-mate-in-pawns-only-promotion-itself-is-the-win-the-game-ends-the-instant-a-pawn-reaches-the-back",
+    "variant": "pawns-only",
+    "variantUrl": "dist/moddable-chess/variants/pawns-only/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Pawns Only",
+    "heading": "Strategy",
+    "content": "The race to promote is everything. Creating passed pawns, using the King to clear a path, and timing pawn breaks to outrun the opponent are the core skills. Blocking the opponent's most advanced pawn ",
+    "anchor": "strategy",
+    "variant": "pawns-only",
+    "variantUrl": "dist/moddable-chess/variants/pawns-only/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Pawns Only",
+    "heading": "Attribution",
+    "content": "Traditional variant. Public domain.",
+    "anchor": "attribution",
+    "variant": "pawns-only",
+    "variantUrl": "dist/moddable-chess/variants/pawns-only/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Peasants' Revolt",
+    "heading": "Peasants' Revolt",
+    "content": "An asymmetric battle: White has a King and eight pawns against Black's King and two Knights. Can the peasant army overwhelm the mounted warriors?",
+    "anchor": "peasants-revolt",
+    "variant": "peasants-revolt",
+    "variantUrl": "dist/moddable-chess/variants/peasants-revolt/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Peasants' Revolt",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup FEN: 2n1k1n1/pppppppp/8/8/8/8/PPPPPPPP/4K3 White: King e1 + 8 pawns rank 2. Black: King e8 + 2 Knights c8, g8 + 8 pawns rank 7.",
+    "anchor": "setup",
+    "variant": "peasants-revolt",
+    "variantUrl": "dist/moddable-chess/variants/peasants-revolt/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Peasants' Revolt",
+    "heading": "Rules",
+    "content": "All standard chess rules apply, including: - Pawns can double-step from starting rank. - En passant is available. - Pawns promote normally. - No castling for White no Rooks. Black cannot castle either",
+    "anchor": "rules",
+    "variant": "peasants-revolt",
+    "variantUrl": "dist/moddable-chess/variants/peasants-revolt/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Peasants' Revolt",
+    "heading": "Win Condition",
+    "content": "Checkmate, same as standard chess.",
+    "anchor": "win-condition",
+    "variant": "peasants-revolt",
+    "variantUrl": "dist/moddable-chess/variants/peasants-revolt/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Peasants' Revolt",
+    "heading": "Strategy",
+    "content": "White must advance pawns toward promotion while using the King to support. Black's Knights are mobile and can blockade pawns or pick them off. Black's strategy is to use Knights to permanently block W",
+    "anchor": "strategy",
+    "variant": "peasants-revolt",
+    "variantUrl": "dist/moddable-chess/variants/peasants-revolt/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Peasants' Revolt",
+    "heading": "Attribution",
+    "content": "Traditional asymmetric variant. Public domain.",
+    "anchor": "attribution",
+    "variant": "peasants-revolt",
+    "variantUrl": "dist/moddable-chess/variants/peasants-revolt/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Petty Chess",
+    "heading": "Petty Chess",
+    "content": "All standard piece types on a 5-file, 6-rank board. Single copies of each piece make every loss devastating.",
+    "anchor": "petty-chess",
+    "variant": "petty",
+    "variantUrl": "dist/moddable-chess/variants/petty/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Petty Chess",
+    "heading": "Setup",
+    "content": "Board: 5 files × 6 ranks. Setup FEN: rnbqk/ppppp/5/5/PPPPP/RNBQK - Rank 6 Black: r n b q k - Rank 5 Black pawns: p p p p p - Ranks 4–3: empty - Rank 2 White pawns: P P P P P - Rank 1 White: R N B Q K ",
+    "anchor": "setup",
+    "variant": "petty",
+    "variantUrl": "dist/moddable-chess/variants/petty/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Petty Chess",
+    "heading": "Rules",
+    "content": "- Standard chess movement for all pieces. - Pawns move one square forward only no double-step. - No en passant. - No castling King is on the edge — no room to castle meaningfully. - Pawns promote on t",
+    "anchor": "rules",
+    "variant": "petty",
+    "variantUrl": "dist/moddable-chess/variants/petty/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Petty Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate.",
+    "anchor": "win-condition",
+    "variant": "petty",
+    "variantUrl": "dist/moddable-chess/variants/petty/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Petty Chess",
+    "heading": "Strategy",
+    "content": "Every piece is a single copy — losing any piece is devastating. The Queen is overwhelmingly powerful relative to the board size. The single Bishop is colour-bound, making half the board permanently in",
+    "anchor": "strategy",
+    "variant": "petty",
+    "variantUrl": "dist/moddable-chess/variants/petty/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Petty Chess",
+    "heading": "Attribution",
+    "content": "Traditional small chess variant. Public domain.",
+    "anchor": "attribution",
+    "variant": "petty",
+    "variantUrl": "dist/moddable-chess/variants/petty/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Progressive",
+    "heading": "Progressive",
+    "content": "Each turn, the number of moves you make escalates: 1, 2, 3, 4, 5... Delivering check ends your turn early regardless of how many moves remain.",
+    "anchor": "progressive",
+    "variant": "progressive",
+    "variantUrl": "dist/moddable-chess/variants/progressive/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Progressive",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess starting position. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "progressive",
+    "variantUrl": "dist/moddable-chess/variants/progressive/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Progressive",
+    "heading": "Rules",
+    "content": "- White's first turn: 1 move. Black's first turn: 2 moves. White's second turn: 3 moves. And so on. - If you deliver check at any point during your turn, your turn ends immediately. You cannot continu",
+    "anchor": "rules",
+    "variant": "progressive",
+    "variantUrl": "dist/moddable-chess/variants/progressive/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Progressive",
+    "heading": "Win Condition",
+    "content": "Checkmate delivered as part of giving check, which ends your turn.",
+    "anchor": "win-condition",
+    "variant": "progressive",
+    "variantUrl": "dist/moddable-chess/variants/progressive/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Progressive",
+    "heading": "Strategy",
+    "content": "Early turns play like normal chess, but the game explodes around turn 4-5. Planning multi-move sequences that culminate in check is the core skill. Leaving pieces undefended is catastrophic because yo",
+    "anchor": "strategy",
+    "variant": "progressive",
+    "variantUrl": "dist/moddable-chess/variants/progressive/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Progressive",
+    "heading": "Attribution",
+    "content": "Traditional variant Italian Progressive rules. Public domain.",
+    "anchor": "attribution",
+    "variant": "progressive",
+    "variantUrl": "dist/moddable-chess/variants/progressive/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Racing Kings",
+    "heading": "Racing Kings",
+    "content": "No checks allowed. Race your King to rank 8. A pure positional race with no violence.",
+    "anchor": "racing-kings",
+    "variant": "racing-kings",
+    "variantUrl": "dist/moddable-chess/variants/racing-kings/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Racing Kings",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: All pieces start on ranks 1–2 in a specific non-standard arrangement. No pawns. FEN: 8/8/8/8/8/8/krbnNBRK/qrbnNBRQ w - - 0 1",
+    "anchor": "setup",
+    "variant": "racing-kings",
+    "variantUrl": "dist/moddable-chess/variants/racing-kings/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Racing Kings",
+    "heading": "Rules",
+    "content": "- No move may give check to either King. Any move that would place either King in check is illegal. - No castling. No pawns. No pawn promotion.",
+    "anchor": "rules",
+    "variant": "racing-kings",
+    "variantUrl": "dist/moddable-chess/variants/racing-kings/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Racing Kings",
+    "heading": "Win Condition",
+    "content": "First player to move their King to rank 8 wins. If White reaches rank 8, Black gets one more move — if Black also reaches rank 8, the game is a draw.",
+    "anchor": "win-condition",
+    "variant": "racing-kings",
+    "variantUrl": "dist/moddable-chess/variants/racing-kings/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Racing Kings",
+    "heading": "Strategy",
+    "content": "Block your opponent's King path while clearing your own. Rooks and Queens control files; Bishops control diagonals. The constraint against giving check makes many \"obvious\" blocking moves illegal.",
+    "anchor": "strategy",
+    "variant": "racing-kings",
+    "variantUrl": "dist/moddable-chess/variants/racing-kings/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Racing Kings",
+    "heading": "Attribution",
+    "content": "Vernon R. Parton, 1961. Public domain.",
+    "anchor": "attribution",
+    "variant": "racing-kings",
+    "variantUrl": "dist/moddable-chess/variants/racing-kings/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Rifle Chess",
+    "heading": "Rifle Chess",
+    "content": "Capturing pieces stay on their original square — they \"shoot\" the target from a distance.",
+    "anchor": "rifle-chess",
+    "variant": "rifle",
+    "variantUrl": "dist/moddable-chess/variants/rifle/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Rifle Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess setup. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "rifle",
+    "variantUrl": "dist/moddable-chess/variants/rifle/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Rifle Chess",
+    "heading": "Rules",
+    "content": "All standard chess rules apply except: - When a piece captures, it does NOT move to the captured piece's square. Instead, the captured piece is removed and the capturing piece stays where it is. - En ",
+    "anchor": "rules",
+    "variant": "rifle",
+    "variantUrl": "dist/moddable-chess/variants/rifle/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Rifle Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate adjusted for rifle mechanics — a piece threatens the King from its current position without needing to occupy the King's square.",
+    "anchor": "win-condition",
+    "variant": "rifle",
+    "variantUrl": "dist/moddable-chess/variants/rifle/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Rifle Chess",
+    "heading": "Strategy",
+    "content": "Pieces become much harder to dislodge since capturing doesn't occupy their square. Batteries multiple pieces lined up are devastating because a front piece can \"shoot\" without opening the line. The va",
+    "anchor": "strategy",
+    "variant": "rifle",
+    "variantUrl": "dist/moddable-chess/variants/rifle/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Rifle Chess",
+    "heading": "Attribution",
+    "content": "Traditional variant. Also known as \"Stationary Capture Chess.\" Public domain.",
+    "anchor": "attribution",
+    "variant": "rifle",
+    "variantUrl": "dist/moddable-chess/variants/rifle/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shatar",
+    "heading": "Shatar (Mongolian Chess)",
+    "content": "The traditional chess of Mongolia. There is no concept of check — you win by stripping the opponent of all pieces except their King.",
+    "anchor": "shatar-mongolian-chess",
+    "variant": "shatar",
+    "variantUrl": "dist/moddable-chess/variants/shatar/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shatar",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess setup. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "shatar",
+    "variantUrl": "dist/moddable-chess/variants/shatar/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shatar",
+    "heading": "Rules",
+    "content": "- There is no check or checkmate. The King is never in \"check\" and can move into attacked squares. - You may capture the opponent's King it is treated as a normal piece for capture purposes. - The gam",
+    "anchor": "rules",
+    "variant": "shatar",
+    "variantUrl": "dist/moddable-chess/variants/shatar/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shatar",
+    "heading": "Win Condition",
+    "content": "Leave the opponent with a bare King all other pieces captured, or capture their King directly.",
+    "anchor": "win-condition",
+    "variant": "shatar",
+    "variantUrl": "dist/moddable-chess/variants/shatar/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shatar",
+    "heading": "Strategy",
+    "content": "Since there's no check, the King can be used aggressively as a fighting piece. You don't need to protect your King from attack — only from having all supporting pieces captured. Material advantage is ",
+    "anchor": "strategy",
+    "variant": "shatar",
+    "variantUrl": "dist/moddable-chess/variants/shatar/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Shatar",
+    "heading": "Attribution",
+    "content": "Traditional Mongolian chess. Played for centuries in Mongolia. Public domain.",
+    "anchor": "attribution",
+    "variant": "shatar",
+    "variantUrl": "dist/moddable-chess/variants/shatar/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Single-Check",
+    "heading": "Single-Check",
+    "content": "One check wins. No checkmate needed — just deliver a single check and the game is over. Every move is life or death.",
+    "anchor": "single-check",
+    "variant": "single-check",
+    "variantUrl": "dist/moddable-chess/variants/single-check/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Single-Check",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess starting position. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "single-check",
+    "variantUrl": "dist/moddable-chess/variants/single-check/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Single-Check",
+    "heading": "Rules",
+    "content": "All standard chess rules apply, except: - The game ends immediately when a player delivers check. - Checkmate is not required — any check wins, even if it could be blocked or evaded. - Stalemate is st",
+    "anchor": "rules",
+    "variant": "single-check",
+    "variantUrl": "dist/moddable-chess/variants/single-check/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Single-Check",
+    "heading": "Win Condition",
+    "content": "Deliver check to the opponent's King.",
+    "anchor": "win-condition",
+    "variant": "single-check",
+    "variantUrl": "dist/moddable-chess/variants/single-check/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Single-Check",
+    "heading": "Strategy",
+    "content": "The game becomes about pure King safety. Pieces that can give check from a distance Queen, Bishops, Rooks are incredibly dangerous. Any discovered check possibility must be neutralised immediately. De",
+    "anchor": "strategy",
+    "variant": "single-check",
+    "variantUrl": "dist/moddable-chess/variants/single-check/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Single-Check",
+    "heading": "Attribution",
+    "content": "Traditional variant. Public domain.",
+    "anchor": "attribution",
+    "variant": "single-check",
+    "variantUrl": "dist/moddable-chess/variants/single-check/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Stalemate Wins",
+    "heading": "Stalemate Wins",
+    "content": "Standard chess with one rule change: stalemating your opponent wins the game instead of drawing. This eliminates all stalemate-based drawing resources.",
+    "anchor": "stalemate-wins",
+    "variant": "stalemate-wins",
+    "variantUrl": "dist/moddable-chess/variants/stalemate-wins/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Stalemate Wins",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess starting position. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "stalemate-wins",
+    "variantUrl": "dist/moddable-chess/variants/stalemate-wins/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Stalemate Wins",
+    "heading": "Rules",
+    "content": "All standard chess rules apply, except: - Stalemate is a win for the player who delivered it not a draw. - Check and checkmate work normally. - All other draw conditions threefold repetition, 50-move ",
+    "anchor": "rules",
+    "variant": "stalemate-wins",
+    "variantUrl": "dist/moddable-chess/variants/stalemate-wins/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Stalemate Wins",
+    "heading": "Win Condition",
+    "content": "Checkmate OR stalemate your opponent.",
+    "anchor": "win-condition",
+    "variant": "stalemate-wins",
+    "variantUrl": "dist/moddable-chess/variants/stalemate-wins/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Stalemate Wins",
+    "heading": "Strategy",
+    "content": "This variant makes King and Pawn endgames far more decisive. In standard chess, many K+P vs K positions are drawn because the defending King reaches a stalemate square. Here, those are all wins. The Q",
+    "anchor": "strategy",
+    "variant": "stalemate-wins",
+    "variantUrl": "dist/moddable-chess/variants/stalemate-wins/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Stalemate Wins",
+    "heading": "Attribution",
+    "content": "Traditional rule modification. Public domain.",
+    "anchor": "attribution",
+    "variant": "stalemate-wins",
+    "variantUrl": "dist/moddable-chess/variants/stalemate-wins/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Standard Chess",
+    "heading": "Standard Chess",
+    "content": "Classic FIDE rules. The foundation from which all variants diverge.",
+    "anchor": "standard-chess",
+    "variant": "standard",
+    "variantUrl": "dist/moddable-chess/variants/standard/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Standard Chess",
+    "heading": "Setup",
+    "content": "Board: 8×8, 64 squares alternating light and dark. The board is oriented so each player has a light square in their near-right corner. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "standard",
+    "variantUrl": "dist/moddable-chess/variants/standard/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Standard Chess",
+    "heading": "Pieces",
+    "content": "Pieces per side: 1 King, 1 Queen, 2 Rooks, 2 Bishops, 2 Knights, 8 Pawns. Starting position from a-file: Rook, Knight, Bishop, Queen, King, Bishop, Knight, Rook on the back rank. Eight Pawns fill the ",
+    "anchor": "pieces",
+    "variant": "standard",
+    "variantUrl": "dist/moddable-chess/variants/standard/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Standard Chess",
+    "heading": "Rules",
+    "content": "Turns: White moves first. Players alternate one move per turn. Piece movement: - King — moves one square in any direction horizontally, vertically, or diagonally. Cannot move into a square attacked by",
+    "anchor": "rules",
+    "variant": "standard",
+    "variantUrl": "dist/moddable-chess/variants/standard/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Standard Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate: The game is won when a player's King is in check and there is no legal move to escape. The player delivering checkmate wins. Other ways a game ends: - Resignation — a player concedes defeat",
+    "anchor": "win-condition",
+    "variant": "standard",
+    "variantUrl": "dist/moddable-chess/variants/standard/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Standard Chess",
+    "heading": "Strategy",
+    "content": "Control the centre, develop pieces early, castle for King safety, and coordinate piece activity. The opening, middlegame, and endgame each demand different skills — billions of games have been played ",
+    "anchor": "strategy",
+    "variant": "standard",
+    "variantUrl": "dist/moddable-chess/variants/standard/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Standard Chess",
+    "heading": "Attribution",
+    "content": "Origins in 6th-century India Chaturanga. Modern rules standardised by FIDE. Public domain.",
+    "anchor": "attribution",
+    "variant": "standard",
+    "variantUrl": "dist/moddable-chess/variants/standard/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Suicide Chess",
+    "heading": "Suicide Chess",
+    "content": "Nearly identical to Giveaway — forced captures, lose all pieces to win — but with one critical difference: stalemate is a draw, not a loss.",
+    "anchor": "suicide-chess",
+    "variant": "suicide-chess",
+    "variantUrl": "dist/moddable-chess/variants/suicide-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Suicide Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess starting position. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "suicide-chess",
+    "variantUrl": "dist/moddable-chess/variants/suicide-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Suicide Chess",
+    "heading": "Rules",
+    "content": "- If you can capture, you MUST capture. If multiple captures are available, you choose which one. - The King is not royal — there is no check or checkmate. The King can be captured like any other piec",
+    "anchor": "rules",
+    "variant": "suicide-chess",
+    "variantUrl": "dist/moddable-chess/variants/suicide-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Suicide Chess",
+    "heading": "Win Condition",
+    "content": "Lose all of your pieces including the King.",
+    "anchor": "win-condition",
+    "variant": "suicide-chess",
+    "variantUrl": "dist/moddable-chess/variants/suicide-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Suicide Chess",
+    "heading": "Difference from Giveaway The only rule difference is the stalemate condition. In Giveaway, being stalemated means you lose. In Suicide Chess, stalemate is a draw. This seemingly small change has significant strategic implications — reaching a position where neither side can force their remaining pieces to be captured is a valid defensive",
+    "content": "resource.",
+    "anchor": "difference-from-giveaway-the-only-rule-difference-is-the-stalemate-condition-in-giveaway-being-stalemated-means-you-lose-in-suicide-chess-stalemate-is-a-draw-this-seemingly-small-change-has-significant-strategic-implications-reaching-a-position-where-neither-side-can-force-their-remaining-pieces-to-be-captured-is-a-valid-defensive",
+    "variant": "suicide-chess",
+    "variantUrl": "dist/moddable-chess/variants/suicide-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Suicide Chess",
+    "heading": "Strategy",
+    "content": "Similar to Giveaway, but the draw-by-stalemate option adds a defensive layer. If you're losing i.e., your opponent is losing pieces faster than you, you can aim for a stalemate position. This makes th",
+    "anchor": "strategy",
+    "variant": "suicide-chess",
+    "variantUrl": "dist/moddable-chess/variants/suicide-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Suicide Chess",
+    "heading": "Attribution",
+    "content": "Traditional variant. Public domain.",
+    "anchor": "attribution",
+    "variant": "suicide-chess",
+    "variantUrl": "dist/moddable-chess/variants/suicide-chess/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Three-Check",
+    "heading": "Three-Check",
+    "content": "Deliver three checks to win. No checkmate needed. Completely changes the value of forcing moves.",
+    "anchor": "three-check",
+    "variant": "three-check",
+    "variantUrl": "dist/moddable-chess/variants/three-check/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Three-Check",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess setup. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "three-check",
+    "variantUrl": "dist/moddable-chess/variants/three-check/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Three-Check",
+    "heading": "Rules",
+    "content": "All standard chess rules apply. Each player's check count is tracked throughout the game.",
+    "anchor": "rules",
+    "variant": "three-check",
+    "variantUrl": "dist/moddable-chess/variants/three-check/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Three-Check",
+    "heading": "Win Condition",
+    "content": "- Checkmate as normal, OR - Deliver check three times. Each check is counted regardless of whether it was blocked, evaded, or interposed.",
+    "anchor": "win-condition",
+    "variant": "three-check",
+    "variantUrl": "dist/moddable-chess/variants/three-check/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Three-Check",
+    "heading": "Strategy",
+    "content": "Pieces that give check frequently Queen, Bishops on open diagonals become much more valuable. Sacrificing material to deliver checks becomes a core tactic. Defensive play must prioritise minimising th",
+    "anchor": "strategy",
+    "variant": "three-check",
+    "variantUrl": "dist/moddable-chess/variants/three-check/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Three-Check",
+    "heading": "Attribution",
+    "content": "Traditional variant. Popularised on Lichess. Public domain.",
+    "anchor": "attribution",
+    "variant": "three-check",
+    "variantUrl": "dist/moddable-chess/variants/three-check/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Toroidal Chess",
+    "heading": "Toroidal Chess",
+    "content": "The board wraps in both directions — files connect left-to-right AND ranks connect top-to-bottom, forming a torus. There are no edges.",
+    "anchor": "toroidal-chess",
+    "variant": "toroidal",
+    "variantUrl": "dist/moddable-chess/variants/toroidal/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Toroidal Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8 wraps both axes. Setup: Standard chess setup. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w - - 0 1",
+    "anchor": "setup",
+    "variant": "toroidal",
+    "variantUrl": "dist/moddable-chess/variants/toroidal/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Toroidal Chess",
+    "heading": "Rules",
+    "content": "- The a-file connects to the h-file horizontal wrap. - Rank 1 connects to rank 8 vertical wrap. - Rooks can slide in any direction and wrap around indefinitely until blocked. - Bishops slide diagonall",
+    "anchor": "rules",
+    "variant": "toroidal",
+    "variantUrl": "dist/moddable-chess/variants/toroidal/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Toroidal Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate the opponent's King.",
+    "anchor": "win-condition",
+    "variant": "toroidal",
+    "variantUrl": "dist/moddable-chess/variants/toroidal/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Toroidal Chess",
+    "heading": "Strategy",
+    "content": "On a torus, there are no safe corners or edges — every square is equally central. Bishops can reach every square of their colour not just 7 diagonals but infinitely wrapping ones. Rooks threaten ranks",
+    "anchor": "strategy",
+    "variant": "toroidal",
+    "variantUrl": "dist/moddable-chess/variants/toroidal/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Toroidal Chess",
+    "heading": "Attribution",
+    "content": "Mathematical chess variant based on toroidal geometry. Public domain.",
+    "anchor": "attribution",
+    "variant": "toroidal",
+    "variantUrl": "dist/moddable-chess/variants/toroidal/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Torpedo Chess",
+    "heading": "Torpedo Chess",
+    "content": "Pawns can always double-move, not just from their starting rank. Dramatically accelerates pawn play in the middlegame and endgame.",
+    "anchor": "torpedo-chess",
+    "variant": "torpedo",
+    "variantUrl": "dist/moddable-chess/variants/torpedo/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Torpedo Chess",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess setup. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "torpedo",
+    "variantUrl": "dist/moddable-chess/variants/torpedo/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Torpedo Chess",
+    "heading": "Rules",
+    "content": "Identical to standard chess except: - Pawns may advance two squares from ANY rank not just their starting rank, provided both squares are empty. - En passant applies whenever a pawn double-moves past ",
+    "anchor": "rules",
+    "variant": "torpedo",
+    "variantUrl": "dist/moddable-chess/variants/torpedo/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Torpedo Chess",
+    "heading": "Win Condition",
+    "content": "Checkmate.",
+    "anchor": "win-condition",
+    "variant": "torpedo",
+    "variantUrl": "dist/moddable-chess/variants/torpedo/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Torpedo Chess",
+    "heading": "Strategy",
+    "content": "Passed pawns become much more dangerous because they can sprint two squares at a time. Pawn endgames are sharply different — a pawn on the 5th rank can reach promotion in two moves instead of three. B",
+    "anchor": "strategy",
+    "variant": "torpedo",
+    "variantUrl": "dist/moddable-chess/variants/torpedo/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Torpedo Chess",
+    "heading": "Attribution",
+    "content": "Variant popularised on Lichess. Public domain.",
+    "anchor": "attribution",
+    "variant": "torpedo",
+    "variantUrl": "dist/moddable-chess/variants/torpedo/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Upside-Down",
+    "heading": "Upside-Down",
+    "content": "Pieces start on the opponent's back rank. Pawns move \"backward\" toward their own side. A disorienting mirror of standard chess.",
+    "anchor": "upside-down",
+    "variant": "upside-down",
+    "variantUrl": "dist/moddable-chess/variants/upside-down/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Upside-Down",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup FEN: RNBQKBNR/PPPPPPPP/8/8/8/8/pppppppp/rnbqkbnr White's pieces start on rank 8 Black's usual side. Black's pieces start on rank 1 White's usual side. Pawns still move in th",
+    "anchor": "setup",
+    "variant": "upside-down",
+    "variantUrl": "dist/moddable-chess/variants/upside-down/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Upside-Down",
+    "heading": "Rules",
+    "content": "All standard chess rules apply, including: - Pawns move in their standard direction White toward rank 8, Black toward rank 1. - Pawns promote on the far rank from their perspective rank 8 for White, r",
+    "anchor": "rules",
+    "variant": "upside-down",
+    "variantUrl": "dist/moddable-chess/variants/upside-down/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Upside-Down",
+    "heading": "Win Condition",
+    "content": "Checkmate, same as standard chess.",
+    "anchor": "win-condition",
+    "variant": "upside-down",
+    "variantUrl": "dist/moddable-chess/variants/upside-down/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Upside-Down",
+    "heading": "Strategy",
+    "content": "Pieces are already developed — there's no opening phase of moving pieces out. Pawns are immediately adjacent to enemy pieces, creating instant tactical tension. The game is sharp from move 1. Pawn str",
+    "anchor": "strategy",
+    "variant": "upside-down",
+    "variantUrl": "dist/moddable-chess/variants/upside-down/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Upside-Down",
+    "heading": "Attribution",
+    "content": "Traditional variant. Public domain.",
+    "anchor": "attribution",
+    "variant": "upside-down",
+    "variantUrl": "dist/moddable-chess/variants/upside-down/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Weak!",
+    "heading": "Weak!",
+    "content": "On each turn, you MUST move the weakest piece type that has a legal move. Pawns first, then Knights, Bishops, Rooks, Queen, King — in order of weakness.",
+    "anchor": "weak",
+    "variant": "weak",
+    "variantUrl": "dist/moddable-chess/variants/weak/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Weak!",
+    "heading": "Setup",
+    "content": "Board: Standard 8×8. Setup: Standard chess starting position. FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+    "anchor": "setup",
+    "variant": "weak",
+    "variantUrl": "dist/moddable-chess/variants/weak/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Weak!",
+    "heading": "Rules",
+    "content": "- Standard chess movement applies, with a move obligation: - On each turn, a player MUST move the weakest piece type that has at least one legal move. - Piece strength hierarchy weakest to strongest: ",
+    "anchor": "rules",
+    "variant": "weak",
+    "variantUrl": "dist/moddable-chess/variants/weak/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Weak!",
+    "heading": "Win Condition",
+    "content": "Checkmate.",
+    "anchor": "win-condition",
+    "variant": "weak",
+    "variantUrl": "dist/moddable-chess/variants/weak/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Weak!",
+    "heading": "Strategy",
+    "content": "The opening is entirely pawn play since pawns must move first. Once pawns are blocked or captured, knights activate, then bishops, and so on. Lock your opponent's pawns to force them into using pieces",
+    "anchor": "strategy",
+    "variant": "weak",
+    "variantUrl": "dist/moddable-chess/variants/weak/"
+  },
+  {
+    "game": "moddable-chess",
+    "gameTitle": "Moddable Chess",
+    "section": "Weak!",
+    "heading": "Attribution",
+    "content": "Ralph Betza, 1970s–80s. Published in NOST-algia newsletter. Public domain.",
+    "anchor": "attribution",
+    "variant": "weak",
+    "variantUrl": "dist/moddable-chess/variants/weak/"
   }
 ]

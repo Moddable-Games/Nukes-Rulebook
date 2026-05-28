@@ -4,7 +4,7 @@ slug: "dark-chess"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 15
+order: 17
 win: "Capture opponent king"
 special: "Total fog — only see squares occupied by your own pieces."
 ---

@@ -4,7 +4,7 @@ slug: "fog-of-war"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 23
+order: 27
 win: "Capture opponent king"
 special: "You only see squares your pieces can move to. No check warnings."
 ---

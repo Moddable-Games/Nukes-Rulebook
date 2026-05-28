@@ -4,7 +4,7 @@ slug: "minichess"
 board: "5×5"
 players: "2"
 parent: "moddable-chess"
-order: 36
+order: 43
 win: "Checkmate"
 special: "Gardner's 5x5 board. All piece types, fast tactical games."
 ---

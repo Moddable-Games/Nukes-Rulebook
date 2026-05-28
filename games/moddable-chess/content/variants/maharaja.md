@@ -4,7 +4,7 @@ slug: "maharaja"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 33
+order: 39
 win: "Checkmate"
 special: "One player has a full army. The other has one piece that moves as queen + knight."
 ---

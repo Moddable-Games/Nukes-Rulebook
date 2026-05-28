@@ -4,7 +4,7 @@ slug: "patrol"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 41
+order: 49
 win: "Checkmate"
 special: "Pieces can only capture or give check when defended by a friendly piece."
 ---

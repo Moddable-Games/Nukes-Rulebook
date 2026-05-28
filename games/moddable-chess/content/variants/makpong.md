@@ -4,7 +4,7 @@ slug: "makpong"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 34
+order: 40
 win: "Checkmate"
 special: "King cannot move out of check. You must block or capture instead."
 ---

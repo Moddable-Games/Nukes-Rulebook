@@ -4,7 +4,7 @@ slug: "single-check"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 48
+order: 57
 win: "Deliver check"
 special: "One check wins. No checkmate needed — any single check ends the game."
 ---

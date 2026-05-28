@@ -4,7 +4,7 @@ slug: "duck-chess"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 18
+order: 21
 win: "Capture opponent king"
 special: "After each move, place the duck (blocker) on any empty square."
 ---

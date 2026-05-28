@@ -4,7 +4,7 @@ slug: "grid-chess"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 26
+order: 30
 win: "Checkmate"
 special: "Moves must cross at least one 2×2 grid line."
 ---

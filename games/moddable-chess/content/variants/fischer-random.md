@@ -5,7 +5,7 @@ key: "chess960"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 21
+order: 25
 win: "Checkmate"
 special: "Back rank pieces randomised (960 positions). Castling rules adapted."
 ---

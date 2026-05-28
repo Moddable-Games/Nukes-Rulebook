@@ -1,6 +1,6 @@
 ---
 title: "Moddable Chess — Official Rulebook"
-version: "0.2.0"
+version: "0.3.0"
 slug: "moddable-chess"
 players: "2–6"
 duration: "10–120 min"

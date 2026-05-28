@@ -4,7 +4,7 @@ slug: "giveaway"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 24
+order: 28
 win: "Lose all pieces"
 special: "Forced captures. King is not royal. Stalemate is a loss."
 ---

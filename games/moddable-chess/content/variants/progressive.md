@@ -4,7 +4,7 @@ slug: "progressive"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 45
+order: 53
 win: "Checkmate"
 special: "Moves per turn escalate: 1, 2, 3, 4... Check ends your turn early."
 ---

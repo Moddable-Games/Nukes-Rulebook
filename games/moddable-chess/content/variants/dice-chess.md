@@ -4,7 +4,7 @@ slug: "dice-chess"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 17
+order: 19
 win: "Checkmate"
 special: "Die roll constrains which piece type must move."
 ---

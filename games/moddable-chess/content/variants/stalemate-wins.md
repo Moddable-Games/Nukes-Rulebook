@@ -4,7 +4,7 @@ slug: "stalemate-wins"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 49
+order: 58
 win: "Checkmate or stalemate"
 special: "Standard chess but stalemate is a win, not a draw."
 ---

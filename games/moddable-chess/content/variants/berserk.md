@@ -4,7 +4,7 @@ slug: "berserk"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 8
+order: 9
 win: "Checkmate"
 special: "Delivering check grants one bonus move with a different piece."
 ---

@@ -4,7 +4,7 @@ slug: "capablanca"
 board: "10×8"
 players: "2"
 parent: "moddable-chess"
-order: 10
+order: 11
 win: "Checkmate"
 special: "Two extra pieces: Archbishop (B+N) and Chancellor (R+N). Wider board."
 ---

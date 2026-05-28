@@ -20,7 +20,7 @@ The official rulebook system for all games published by [Moddable Games](https:/
 
 | Mod | Base Game | Version | Players | Status |
 |-----|-----------|---------|---------|--------|
-| **Moddable Chess** | Chess | 0.2.0 | 2–6 | Alpha |
+| **Moddable Chess** | Chess | 0.3.0 | 2–6 | Alpha |
 | **Dungeon Chess** | Chess | 0.1.0 | 2–4 | Alpha |
 | **Talisman: Hexed** | Talisman 4e | 1.0.0 | 2–6 | Live |
 | **Hyper Imperium** | Twilight Imperium 4e | 2.0.1 | 3–6 | Live |
@@ -39,7 +39,7 @@ games/
   talisman-hexed/        Full rulebook (live) — mod of Talisman 4e
   hyper-imperium/        Full rulebook (live) — mod of TI4
   econopoly/             Full rulebook (live) — mod of Monopoly
-  moddable-chess/        Variant library hub + 54 sub-pages (alpha) — platform
+  moddable-chess/        Variant library hub + 64 sub-pages (alpha) — platform
 shared/
   css/                   Design tokens, base styles, components
   fonts/                 Self-hosted WOFF2 web fonts
@@ -154,6 +154,18 @@ The shared CSS uses semantic custom properties that each game's theme overrides:
 ---
 
 ## Changelog
+
+#### 2026-05-28
+- Moddable Chess: synced with app v0.6.8 — added 10 new variant pages (64 total)
+- New variants: Berolina, Cylinder, Displacement, Einstein, Hoppel-Poppel, Legan, Makruk, Orda, Shatar, Toroidal
+- All 64 variants renumbered alphabetically, SVG board diagrams generated for new variants
+- Moddable Chess rulebook version bumped to 0.3.0
+- Complete OG and Twitter Card meta tags on all 8 game shell templates + variant shell
+- OG/Twitter image URLs now absolute with `?v={{version}}` cache-busting
+- CSS/JS `<link>` and `<script>` tags in all templates now include `?v={{version}}`
+- Simplified bump.sh (game templates use build-time {{version}} placeholders, not literal strings)
+- Closed #1 (orphan words — resolved via CSS `text-wrap: pretty`)
+- Created #37 (dedicated 1200×630 OG images per game)
 
 #### 2026-05-27
 - Moddable Chess: added 15 new variant rulebook pages (54 total)

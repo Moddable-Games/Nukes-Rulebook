@@ -191,6 +191,16 @@ const variants = [
   { slug: 'patrol', title: 'Patrol Chess — starting position', fen: STANDARD_FEN, rows: 8, cols: 8 },
   { slug: 'petty', title: 'Petty Chess — starting position (5×6)', fen: 'rnbqk/ppppp/5/5/PPPPP/RNBQK', rows: 6, cols: 5 },
   { slug: 'weak', title: 'Weak! — starting position', fen: STANDARD_FEN, rows: 8, cols: 8 },
+  { slug: 'berolina', title: 'Berolina Chess — starting position', fen: STANDARD_FEN, rows: 8, cols: 8 },
+  { slug: 'cylinder', title: 'Cylinder Chess — starting position', fen: STANDARD_FEN, rows: 8, cols: 8 },
+  { slug: 'displacement', title: 'Displacement Chess — starting position', fen: STANDARD_FEN, rows: 8, cols: 8 },
+  { slug: 'einstein', title: 'Einstein Chess — starting position', fen: STANDARD_FEN, rows: 8, cols: 8 },
+  { slug: 'hoppel-poppel', title: 'Hoppel-Poppel — starting position', fen: STANDARD_FEN, rows: 8, cols: 8 },
+  { slug: 'legan', title: 'Legan Chess — starting position', fen: 'rnbkqbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBKQBNR w - - 0 1', rows: 8, cols: 8 },
+  { slug: 'makruk', title: 'Makruk — starting position', fen: 'rnsmksnr/8/pppppppp/8/8/PPPPPPPP/8/RNSMKSNR w - - 0 1', rows: 8, cols: 8 },
+  { slug: 'orda', title: 'Orda Chess — starting position', fen: 'lhaykahl/8/pppppppp/8/8/PPPPPPPP/8/RNBQKBNR w KQ - 0 1', rows: 8, cols: 8 },
+  { slug: 'shatar', title: 'Shatar — starting position', fen: STANDARD_FEN, rows: 8, cols: 8 },
+  { slug: 'toroidal', title: 'Toroidal Chess — starting position', fen: STANDARD_FEN, rows: 8, cols: 8 },
 ];
 
 let generated = 0;

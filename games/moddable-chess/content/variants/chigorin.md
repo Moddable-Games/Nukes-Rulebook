@@ -4,7 +4,7 @@ slug: "chigorin"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 12
+order: 13
 win: "Checkmate"
 special: "White's Bishops replaced by Knights. Four Knights vs standard army."
 ---

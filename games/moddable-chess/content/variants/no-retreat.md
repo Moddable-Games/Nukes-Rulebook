@@ -4,7 +4,7 @@ slug: "no-retreat"
 board: "8×8"
 players: "2"
 parent: "moddable-chess"
-order: 39
+order: 46
 win: "Checkmate"
 special: "Pieces cannot move backward toward their own starting rank."
 ---

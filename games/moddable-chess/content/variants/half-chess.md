@@ -4,7 +4,7 @@ slug: "half-chess"
 board: "8×4"
 players: "2"
 parent: "moddable-chess"
-order: 27
+order: 31
 win: "Checkmate"
 special: "4-rank board, armies start adjacent. Immediate contact."
 ---

@@ -497,6 +497,84 @@ function buildSearchIndex() {
     flush();
   }
 
+  // --- Index variant sub-pages ---
+  for (const slug of allSlugs) {
+    const variantsDir = resolve(GAMES_DIR, slug, 'content/variants');
+    if (!existsSync(variantsDir)) continue;
+
+    const vsrc = readFileSync(resolve(GAMES_DIR, slug, 'content/rulebook.md'), 'utf8');
+    const { data: vmeta } = matter(vsrc);
+    if (vmeta.published === false) continue;
+
+    const vGameTitle = (vmeta.title || slug).replace(/\s*[—–-]\s*Official Rulebook$/i, '');
+
+    const variantFiles = readdirSync(variantsDir).filter(f => f.endsWith('.md'));
+    for (const vf of variantFiles) {
+      const vfsrc = readFileSync(resolve(variantsDir, vf), 'utf8');
+      const { data: vfmeta, content: vfcontent } = matter(vfsrc);
+      const vslug = vfmeta.slug || vf.replace('.md', '');
+      const vtitle = vfmeta.title || vslug;
+
+      const vlines = vfcontent.split('\n');
+      let vSection = vtitle;
+      let vHeading = '';
+      let vBody = [];
+
+      function flushV() {
+        if (!vHeading) return;
+        const raw = vBody.join(' ')
+          .replace(/<[^>]+>/g, '')
+          .replace(/\{\{[^}]+\}\}/g, '')
+          .replace(/[*_`~\[\]()#]/g, '')
+          .replace(/\|[^|]*\|/g, ' ')
+          .replace(/\s+/g, ' ')
+          .trim();
+        const snippet = raw.slice(0, 200);
+        if (!snippet) return;
+
+        const anchor = vHeading
+          .toLowerCase()
+          .replace(/[^\w\s-]/g, '')
+          .replace(/\s+/g, '-');
+
+        index.push({
+          game: slug,
+          gameTitle: vGameTitle,
+          section: vtitle,
+          heading: vHeading,
+          content: snippet,
+          anchor,
+          variant: vslug,
+          variantUrl: `dist/${slug}/variants/${vslug}/`
+        });
+      }
+
+      for (const line of vlines) {
+        const h2Match = line.match(/^## (.+)$/);
+        const h3Match = line.match(/^### (.+)$/);
+        const h4Match = line.match(/^#### (.+)$/);
+
+        if (h2Match) {
+          flushV();
+          vSection = h2Match[1].trim();
+          vHeading = h2Match[1].trim();
+          vBody = [];
+        } else if (h3Match) {
+          flushV();
+          vHeading = h3Match[1].trim();
+          vBody = [];
+        } else if (h4Match) {
+          flushV();
+          vHeading = h4Match[1].trim();
+          vBody = [];
+        } else if (vHeading) {
+          vBody.push(line);
+        }
+      }
+      flushV();
+    }
+  }
+
   mkdirSync(DIST_DIR, { recursive: true });
   writeFileSync(resolve(DIST_DIR, 'rules-index.json'), JSON.stringify(index, null, 2));
   console.log(`  Built dist/rules-index.json (${index.length} entries)`);
